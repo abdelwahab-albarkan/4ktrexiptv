@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+import { T, fillLegal } from '../i18n';
+const page = T.legal.about;
+const pageDesc = SITE.locale === 'de'
+  ? `Erfahren Sie mehr über ${SITE.name}, unsere 10-Gbit/s-Serverinfrastruktur, Anti-Freeze-Technologie und unser Engagement für modernes 4K-Streaming.`
+  : `Learn more about ${SITE.name}, our high-capacity Tier-1 streaming infrastructure, Anti-Freeze routing, and our commitment to dependable 4K IPTV services.`;
+---
+<Base title={`${page.title} | ${SITE.name}`} description={pageDesc} noindex={false}>
+  <div class="wrap"><article><h1>{page.title}</h1><Fragment set:html={fillLegal(page.html)} /></article></div>
+</Base>

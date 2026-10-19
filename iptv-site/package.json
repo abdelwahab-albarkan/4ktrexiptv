@@ -1,0 +1,17 @@
+{
+  "name": "iptv-site",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "keywords": "node pipeline/build-keywords.mjs",
+    "indexnow": "node pipeline/fast-indexing.mjs",
+    "audit": "node pipeline/anti-spam-audit.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^4.16.0"
+  }
+}

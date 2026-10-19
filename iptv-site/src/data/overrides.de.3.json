@@ -1,0 +1,313 @@
+{
+  "addons-fuer-kodi": {
+    "h1": "Addons für Kodi: Offizielle Quellen und Sicherheit",
+    "lead": [
+      { "h2": "Sicher erweitern", "paras": [
+        "Kodi ist ein Media-Center. Addons erweitern es, etwa um Mediatheken oder Live-TV-Quellen. Installieren Sie Addons nur aus dem offiziellen Repository oder von Quellen, die Sie vertrauenswürdig prüfen können."
+      ], "list": [
+        "Offizielles Kodi-Repository bevorzugen.",
+        "Keine Addons nutzen, die urheberrechtlich geschützte Inhalte ohne Lizenz anbieten.",
+        "Kodi und Addons aktuell halten."
+      ] }
+    ]
+  },
+  "ip-tv-anbieter": {
+    "h1": "IP-TV-Anbieter: Auswahl und Test",
+    "lead": [
+      { "h2": "So wählen Sie", "steps": [
+        "Wichtige Sender und Sport notieren.",
+        "Zwei bis drei Tests anfordern.",
+        "Abends testen.",
+        "Preis pro Verbindung vergleichen."
+      ] }
+    ]
+  },
+  "apple-tv-app": {
+    "h1": "Apple TV App: Was sie ist und was nicht",
+    "lead": [
+      { "h2": "Zwei Dinge, ein Name", "paras": [
+        "Die Apple-TV-App von Apple bündelt Filme, Serien und Abos auf Apple-Geräten. Sie ist nicht dasselbe wie ein IPTV-Player. Für eigene Playlists brauchen Sie einen Player aus dem App Store."
+      ] }
+    ]
+  },
+  "iptv-line-kaufen": {
+    "h1": "IPTV-Line kaufen: Worauf Sie achten sollten",
+    "lead": [
+      { "h2": "Was eine Line ist", "paras": [
+        "Mit Line ist meist ein einzelner Zugang gemeint, also eine Verbindung mit eigenen Zugangsdaten. Prüfen Sie vor dem Kauf, wie viele gleichzeitige Streams die Line erlaubt, welche Laufzeit gilt und ob ein Test möglich ist."
+      ] }
+    ]
+  },
+  "netiptv": {
+    "h1": "NetIPTV: Player für Smart-TVs",
+    "lead": [
+      { "h2": "Einordnung", "paras": [
+        "NetIPTV ist ein Player für unterstützte Smart-TV-Plattformen. Er spielt Playlists ab und liefert selbst keine Sender. Prüfen Sie Verfügbarkeit für Ihr Modell."
+      ] }
+    ]
+  },
+  "live-bundesliga-stream": {
+    "h1": "Bundesliga live streamen: Legale Möglichkeiten",
+    "lead": [
+      { "h2": "Wie Sie Spiele legal sehen", "paras": [
+        "Die Bundesliga-Rechte liegen bei mehreren Anbietern, die Aufteilung ändert sich mit den Rechteperioden. Prüfen Sie auf der Seite der Liga und der Rechteinhaber, wo welche Spiele laufen. Zusammenfassungen laufen häufig im frei empfangbaren Fernsehen und in Mediatheken."
+      ], "list": [
+        "Rechteinhaber der aktuellen Saison prüfen.",
+        "Auf Offizielles setzen: Bezahldienste und freie Zusammenfassungen.",
+        "Auf stabilen Stream und LAN achten."
+      ] }
+    ]
+  },
+  "magenta-tv-megastream": {
+    "h1": "MagentaTV MegaStream: Was Sie prüfen sollten",
+    "lead": [
+      { "h2": "Angebote ändern sich", "paras": [
+        "Die Telekom ändert Paketnamen und Inhalte immer wieder. Prüfen Sie auf der aktuellen Seite, welche Inhalte, Streaming-Dienste und Laufzeiten ein Paket enthält, bevor Sie buchen."
+      ] }
+    ]
+  },
+  "iptv-extreme": {
+    "h1": "IPTV Extreme: Player für Android",
+    "lead": [
+      { "h2": "Einordnung", "paras": [
+        "IPTV Extreme ist ein Player für Android-Geräte mit vielen Einstellungen, der Playlists und EPG verarbeitet. Er liefert keine Sender."
+      ] }
+    ]
+  },
+  "was-ist-iptv": {
+    "h1": "Was ist IPTV? Einfach erklärt",
+    "lead": [
+      { "h2": "In drei Sätzen", "paras": [
+        "IPTV ist Fernsehen, das über das Internet-Protokoll geliefert wird. Statt Kabel, Satellit oder Antenne nutzt es Ihre Internetleitung. Sie sehen es in einer App oder auf einer Box.",
+        "Der Begriff umfasst lizenzierte Dienste, Angebote Ihres Internetanbieters und unabhängige Anbieter. Welche Variante Sie wählen, bestimmt Kosten, Auswahl und Risiko."
+      ] },
+      { "h2": "Wann sich IPTV lohnt", "list": [
+        "Sie haben schnelles Internet.",
+        "Sie möchten flexibel auf mehreren Geräten schauen.",
+        "Sie wollen nicht an eine Schüssel gebunden sein."
+      ] }
+    ]
+  },
+  "magenta-tv-smart-stream": {
+    "h1": "MagentaTV Smart Stream: Streaming ohne Box",
+    "lead": [
+      { "h2": "Prüfen Sie die Details", "paras": [
+        "Smart-Stream-Angebote richten sich an Nutzer, die TV per App nutzen möchten. Prüfen Sie, welche Geräte unterstützt werden, welche Sender enthalten sind und wie lange der Vertrag läuft."
+      ] }
+    ]
+  },
+  "iptv-player-android": {
+    "h1": "IPTV-Player für Android: Handy, Tablet und TV",
+    "lead": [
+      { "h2": "Nach Gerät wählen", "list": [
+        "Smartphone: leichter Player mit Chromecast.",
+        "Tablet: Player mit übersichtlicher Senderliste.",
+        "Android TV: Player mit Fernbedienungs-Bedienung."
+      ] }
+    ]
+  },
+  "tivimate-iptv-player": {
+    "h1": "TiviMate IPTV Player: Funktionen und Einrichtung",
+    "lead": [
+      { "h2": "Wofür TiviMate steht", "paras": [
+        "TiviMate gilt wegen seines aufgeräumten Programmführers als einer der beliebtesten Player auf Android TV und Fire TV. Kostenlos gibt es eine Grundversion; zusätzliche Funktionen wie mehrere Playlists sind kostenpflichtig."
+      ], "steps": [
+        "TiviMate installieren.",
+        "Playlist per M3U oder Xtream hinzufügen.",
+        "Favoriten und Gruppen anlegen.",
+        "EPG-Quelle prüfen."
+      ] }
+    ]
+  },
+  "iptv-stick": {
+    "h1": "IPTV-Stick: Welcher Stick eignet sich?",
+    "lead": [
+      { "h2": "Auswahl", "list": [
+        "Aktuelle Fire-TV- oder Google-TV-Sticks mit 4K.",
+        "Ethernet-Adapter für stabile Verbindung.",
+        "Ausreichend Speicher für Apps.",
+        "Regelmäßige Updates."
+      ] }
+    ]
+  },
+  "iptv-receiver": {
+    "h1": "IPTV-Receiver: Box, Stick oder Smart-TV?",
+    "lead": [
+      { "h2": "Worin sich Geräte unterscheiden", "list": [
+        "Spezialisierte Boxen (z. B. MAG, Formuler) sind auf IPTV ausgelegt.",
+        "Android-Boxen sind flexibel und vielseitig.",
+        "Sticks sind günstig und platzsparend.",
+        "Smart-TVs benötigen eine passende App."
+      ] }
+    ]
+  },
+  "iptvkaufen": {
+    "h1": "IPTV kaufen: Sicher einkaufen",
+    "lead": [
+      { "h2": "Reihenfolge", "steps": [
+        "Test anfordern.",
+        "Kurzen Tarif buchen.",
+        "Zugangsdaten und Belege speichern.",
+        "Erst später verlängern."
+      ] }
+    ]
+  },
+  "bundesliga-live-streaming": {
+    "h1": "Bundesliga Live-Streaming: Technik und Rechte",
+    "lead": [
+      { "h2": "Technische Tipps", "list": [
+        "Stabile Leitung mit mindestens 25 Mbit/s.",
+        "LAN-Kabel oder 5-GHz-WLAN.",
+        "Stream vor Spielbeginn testen.",
+        "Offizielle Apps der Rechteinhaber nutzen."
+      ] }
+    ]
+  },
+  "iptv-box": {
+    "h1": "IPTV-Box: Was sie kann",
+    "lead": [
+      { "h2": "Eine Box für alles", "paras": [
+        "Eine IPTV-Box ist ein Gerät, das Streams von Playlists oder Portalen abspielt. Moderne Boxen laufen mit Android TV und können zusätzlich Streaming-Apps ausführen."
+      ] }
+    ]
+  },
+  "net-iptv": {
+    "h1": "Net IPTV: Was Sie wissen sollten",
+    "lead": [
+      { "h2": "Kurz erklärt", "paras": [
+        "Net IPTV ist ein Player-Name. Wie bei allen Playern liefert die App keine Sender, sondern spielt Ihre Playlist ab."
+      ] }
+    ]
+  },
+  "iptv-line": {
+    "h1": "IPTV-Line: Zugang erklärt",
+    "lead": [
+      { "h2": "Was gemeint ist", "paras": [
+        "Eine Line ist ein einzelner Zugang mit Benutzername und Passwort. Pro Line ist meist eine bestimmte Zahl gleichzeitiger Streams erlaubt."
+      ] }
+    ]
+  },
+  "iptv-abo": {
+    "h1": "IPTV-Abo: Laufzeit, Kosten und Kündigung",
+    "lead": [
+      { "h2": "Wichtige Vertragspunkte", "list": [
+        "Mindestlaufzeit und Verlängerung.",
+        "Kündigungsfrist und Form der Kündigung.",
+        "Zahl der gleichzeitigen Verbindungen.",
+        "Widerrufsrecht und Erstattungsregeln."
+      ] }
+    ]
+  },
+  "iptv-player-windows": {
+    "h1": "IPTV-Player für Windows: Optionen",
+    "lead": [
+      { "h2": "Optionen", "list": [
+        "VLC für schnelle Tests.",
+        "Spezielle IPTV-Player für EPG und Favoriten.",
+        "Apps aus dem Microsoft Store für einfache Bedienung."
+      ] }
+    ]
+  },
+  "ss-iptv": {
+    "h1": "SS IPTV: App für Samsung und LG",
+    "lead": [
+      { "h2": "Einordnung", "paras": [
+        "SS IPTV ist eine Player-App für Smart-TV-Plattformen, die Playlists abspielt. Prüfen Sie, ob sie für Ihr Fernseher-Modell und Land verfügbar ist."
+      ] }
+    ]
+  },
+  "internetfernsehen": {
+    "h1": "Internetfernsehen: So starten Sie",
+    "lead": [
+      { "h2": "In drei Schritten", "steps": [
+        "Dienst und Gerät wählen.",
+        "App installieren.",
+        "Mit LAN-Kabel testen."
+      ] }
+    ]
+  },
+  "iptv-smarters-player": {
+    "h1": "IPTV Smarters Player: Funktionsüberblick",
+    "lead": [
+      { "h2": "Was der Player bietet", "list": [
+        "Live-TV, Filme und Serien aus einer Oberfläche.",
+        "Mehrere Profile.",
+        "EPG-Anzeige.",
+        "Je nach Plattform unterschiedliche Funktionen."
+      ] }
+    ]
+  },
+  "iptv-stream-player": {
+    "h1": "IPTV-Stream-Player: Auswahl",
+    "lead": [
+      { "h2": "Wichtige Punkte", "list": [
+        "Stabilität bei langen Streams.",
+        "Unterstützung für Ihre Formate.",
+        "Einfache Bedienung."
+      ] }
+    ]
+  },
+  "iptv-premium-4k": {
+    "h1": "IPTV Premium 4K: Was hinter dem Label steckt",
+    "lead": [
+      { "h2": "Prüfen statt glauben", "paras": [
+        "4K-Label sind nicht immer echt. Prüfen Sie die tatsächliche Auflösung im Player, achten Sie auf Bitrate, und vergleichen Sie bewegte Sportszenen. Für 4K brauchen Sie einen 4K-Fernseher, passendes Gerät und rund 25 Mbit/s pro Stream."
+      ] }
+    ]
+  },
+  "internet-fernsehen-kostenlos": {
+    "h1": "Internet-Fernsehen kostenlos: Was legal ist",
+    "lead": [
+      { "h2": "Legale Gratis-Angebote", "list": [
+        "Live-Streams und Mediatheken der Sender.",
+        "Werbefinanzierte Streaming-Kanäle.",
+        "Zeitlich begrenzte Testangebote."
+      ], "paras": ["Seiten, die Bezahlsender gratis anbieten, sind riskant und oft rechtswidrig."] }
+    ]
+  },
+  "xstream-kodi": {
+    "h1": "Xstream für Kodi: Hinweise",
+    "lead": [
+      { "h2": "Vorsicht bei Addons", "paras": [
+        "Addons aus inoffiziellen Quellen können Inhalte ohne Lizenz verbreiten und Schadsoftware enthalten. Nutzen Sie Kodi mit offiziellen Addons und legalen Quellen."
+      ] }
+    ]
+  },
+  "iptv-smart-player-pro": {
+    "h1": "IPTV Smart Player Pro: Funktionen und Bedienung",
+    "lead": [
+      { "h2": "Prüfpunkte", "list": [
+        "Welche Formate unterstützt der Player?",
+        "Wie schnell lädt er große Listen?",
+        "Wie wird der EPG dargestellt?"
+      ] }
+    ]
+  },
+  "strong-iptv": {
+    "h1": "Strong IPTV: Geräte und Einordnung",
+    "lead": [
+      { "h2": "Einordnung", "paras": [
+        "Strong ist ein Hersteller von Receivern und Boxen. Prüfen Sie vor dem Kauf, ob das Modell IPTV-Apps und Updates unterstützt."
+      ] }
+    ]
+  },
+  "iptv-stream": {
+    "h1": "IPTV-Stream: Wie ein Stream zu Ihnen kommt",
+    "lead": [
+      { "h2": "Vom Server zum Bild", "paras": [
+        "Ein IPTV-Stream ist ein Datenstrom vom Server zu Ihrem Player. Der Player puffert einige Sekunden, um Schwankungen auszugleichen. Kommt zu wenig an, stockt das Bild."
+      ] }
+    ]
+  },
+  "box-android-iptv": {
+    "h1": "Android-Box für IPTV: Auswahl und Einrichtung",
+    "lead": [
+      { "h2": "Einrichtung", "steps": [
+        "Firmware aktualisieren.",
+        "Player installieren.",
+        "Zugangsdaten eintragen.",
+        "LAN nutzen."
+      ] }
+    ]
+  }
+}

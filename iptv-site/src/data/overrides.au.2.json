@@ -1,0 +1,534 @@
+{
+  "streaming-services-australia": {
+    "h1": "Streaming Services in Australia: Choosing and Budgeting",
+    "lead": [
+      { "h2": "Pick by what you watch", "list": [
+        "Free-to-air catch-up apps for local shows and news, free with ads.",
+        "Subscription platforms for series and films.",
+        "Sport platforms for AFL, NRL, cricket, football and rugby, where rights are split across several services.",
+        "Live TV bundles for people who want channels in one place."
+      ], "paras": ["Because sport rights change, check the current rights holder before you subscribe, and consider month-to-month plans so you can switch when the season ends."] }
+    ]
+  },
+  "cricket-live-tv-streaming": {
+    "h1": "Cricket Live TV Streaming in Australia: Where to Look",
+    "lead": [
+      { "h2": "How cricket is shown", "paras": [
+        "Cricket coverage in Australia is split between free-to-air TV, pay-TV and streaming services, and the arrangement changes between summers and between formats. International, domestic and overseas leagues are often on different platforms.",
+        "Check the current broadcast partners on the Cricket Australia website for the series you want."
+      ], "list": [
+        "Test your streaming app before the first ball.",
+        "Use Ethernet or strong Wi-Fi for long matches.",
+        "Have a plan for ads and rain delays: pick a service with replay."
+      ] }
+    ]
+  },
+  "foxtel-now-streaming-service": {
+    "h1": "Foxtel Now Streaming Service: Where It Stands",
+    "lead": [
+      { "h2": "Check the current product", "paras": [
+        "Foxtel has restructured its streaming products several times, and names such as Foxtel Now have changed. Check the Foxtel site for current packages, devices supported and contract terms before you search for a plan under an old name."
+      ], "list": [
+        "Compare monthly price and contract length.",
+        "Confirm which devices have the app.",
+        "Check which sports channels are in the package."
+      ] }
+    ]
+  },
+  "apple-tv-4k-streaming-device": {
+    "h1": "Apple TV 4K: Is It the Right Streaming Device?",
+    "lead": [
+      { "h2": "Strengths", "list": [
+        "Smooth interface and strong app support.",
+        "AirPlay and integration with iPhone and iPad.",
+        "4K HDR and Dolby Vision support.",
+        "Long software support."
+      ], "paras": ["It costs more than a basic stick, so it makes most sense if you already use Apple devices or want a long-lived box."] }
+    ]
+  },
+  "best-iptv": {
+    "h1": "Best IPTV in Australia: A Practical Test",
+    "lead": [
+      { "h2": "Test it the Australian way", "steps": [
+        "Test local free-to-air channels for your city.",
+        "Watch one live sport event, ideally on a weekend.",
+        "Check guide times for your state.",
+        "Test at evening peak.",
+        "Message support."
+      ] }
+    ]
+  },
+  "tv-streaming-devices": {
+    "h1": "TV Streaming Devices: What to Compare",
+    "lead": [
+      { "h2": "Comparison points", "list": [
+        "Price and platform: Fire TV, Google TV, Apple TV, Roku.",
+        "4K, HDR and Dolby support.",
+        "Ethernet port.",
+        "Apps you need, such as Australian catch-up services."
+      ] }
+    ]
+  },
+  "live-cricket-ipl-live-streaming": {
+    "h1": "IPL in Australia: How to Watch Legally",
+    "lead": [
+      { "h2": "Check the rights holder", "paras": [
+        "Rights to the Indian Premier League in Australia have sat with pay-TV and streaming platforms, and arrangements change. Check the IPL’s official broadcast list or the platforms’ announcements for the current season.",
+        "Time differences mean many matches start overnight or in the early evening, so look at the schedule in your local time."
+      ] }
+    ]
+  },
+  "iptv-service": {
+    "h1": "IPTV Service in Australia: Quick Checklist",
+    "lead": [
+      { "h2": "Quick checklist", "list": [
+        "Trial available.",
+        "Australian channels and guide.",
+        "Support in Australian hours.",
+        "Plain terms for connections and renewal."
+      ] }
+    ]
+  },
+  "media-streaming-devices": {
+    "h1": "Media Streaming Devices: Types Explained",
+    "lead": [
+      { "h2": "Types", "list": [
+        "Stick: cheap, plugs into HDMI.",
+        "Box: more memory, Ethernet, more ports.",
+        "Console or smart TV: built-in apps."
+      ] }
+    ]
+  },
+  "best-iptv-provider": {
+    "h1": "Best IPTV Provider in Australia: What Matters",
+    "lead": [
+      { "h2": "What matters", "paras": [
+        "Reliability and honesty matter more than channel counts. Test peak-time stability and support response, and ask how the provider handles rights."
+      ] }
+    ]
+  },
+  "top-rated-iptv": {
+    "h1": "Top Rated IPTV: How to Read Ratings",
+    "lead": [
+      { "h2": "Read ratings critically", "paras": [
+        "Look for specifics and dates, and remember that ratings can be faked. Your own trial is the best rating."
+      ] }
+    ]
+  },
+  "media-streaming-device-for-tv": {
+    "h1": "Media Streaming Device for TV: How to Choose",
+    "lead": [
+      { "h2": "Check your TV first", "paras": [
+        "If your TV is a recent smart TV with the apps you need, you may not need a device. If it is slow or missing apps, a stick or box is an inexpensive fix."
+      ] }
+    ]
+  },
+  "sport-streaming-services": {
+    "h1": "Sport Streaming Services in Australia",
+    "lead": [
+      { "h2": "How rights split", "paras": [
+        "Australian sport is split across free-to-air, pay-TV and streaming platforms by code and competition. Some services cover AFL and NRL, others football, rugby or cricket.",
+        "List the competitions you follow, then check which service carries each before you subscribe."
+      ] }
+    ]
+  },
+  "optus-sport-subscription": {
+    "h1": "Optus Sport Subscription: What to Check",
+    "lead": [
+      { "h2": "Before you subscribe", "list": [
+        "Which competitions are included this season.",
+        "Current price and whether you need an Optus plan.",
+        "Supported devices.",
+        "Streaming quality and number of simultaneous streams."
+      ] }
+    ]
+  },
+  "4k-streaming-device": {
+    "h1": "4K Streaming Device: What You Need",
+    "lead": [
+      { "h2": "Requirements", "list": [
+        "A 4K TV with HDMI 2.0.",
+        "A device with a 4K decoder and HDR.",
+        "A connection of 25 Mbps or more.",
+        "Content that is actually in 4K."
+      ] }
+    ]
+  },
+  "iptv-free-trial": {
+    "h1": "IPTV Free Trial in Australia: How to Use It",
+    "lead": [
+      { "h2": "Use the trial well", "steps": [
+        "Test on your normal device.",
+        "Check local channels and guide.",
+        "Watch live sport.",
+        "Test at peak time.",
+        "Test support."
+      ] }
+    ]
+  },
+  "australia-iptv": {
+    "h1": "Australia IPTV: Getting Started",
+    "lead": [
+      { "h2": "Start simply", "steps": [
+        "Choose a device and player app.",
+        "Request a trial.",
+        "Check local channels and the guide.",
+        "Pick a short plan."
+      ] }
+    ]
+  },
+  "boxes-for-tv-streaming": {
+    "h1": "Boxes for TV Streaming: Quick Guide",
+    "lead": [
+      { "h2": "Quick guide", "list": [
+        "Ethernet for stable streaming.",
+        "4K and HDR if your TV supports them.",
+        "Enough memory and storage.",
+        "Software support."
+      ] }
+    ]
+  },
+  "iptv-box-australia": {
+    "h1": "IPTV Box in Australia: Choosing One",
+    "lead": [
+      { "h2": "What to pick", "paras": [
+        "Choose a certified Android TV or Google TV box from a seller with local support and a clear warranty. Cheap uncertified boxes can lack updates and proper app access."
+      ] }
+    ]
+  },
+  "iptv-providers": {
+    "h1": "IPTV Providers in Australia: Compare Safely",
+    "lead": [
+      { "h2": "Compare safely", "list": [
+        "Trial first.",
+        "Short plan next.",
+        "Keep receipts.",
+        "Ask how rights are handled."
+      ] }
+    ]
+  },
+  "australian-iptv": {
+    "h1": "Australian IPTV: What to Expect",
+    "lead": [
+      { "h2": "What to expect", "paras": [
+        "Australian IPTV usually means Australian free-to-air channels, news and sport with a guide in Australian time. Rights for sport are tightly controlled, so test the competitions you care about."
+      ] }
+    ]
+  },
+  "iptv-aus": {
+    "h1": "IPTV Aus: Quick Start",
+    "lead": [
+      { "h2": "Quick start", "steps": [
+        "Install a player.",
+        "Request a trial.",
+        "Check local channels.",
+        "Test on a weekend."
+      ] }
+    ]
+  },
+  "best-streaming-device-australia": {
+    "h1": "Best Streaming Device in Australia: By Need",
+    "lead": [
+      { "h2": "By need", "list": [
+        "Budget: a basic Fire TV or Google TV stick.",
+        "Best experience: Apple TV 4K or a certified Android TV box.",
+        "Gaming plus streaming: a console.",
+        "Older TV: any stick with HDMI."
+      ] }
+    ]
+  },
+  "streaming-box-for-tv": {
+    "h1": "Streaming Box for TV: What to Know",
+    "lead": [
+      { "h2": "Why a box", "paras": [
+        "A box offers more memory and an Ethernet port than most sticks, which helps with live TV and sport."
+      ] }
+    ]
+  },
+  "iptv-au": {
+    "h1": "IPTV AU: Australian Viewers’ Checklist",
+    "lead": [
+      { "h2": "Checklist", "list": [
+        "Local channels for your region.",
+        "Guide in your time zone.",
+        "Peak-time stability.",
+        "Support hours."
+      ] }
+    ]
+  },
+  "nrl-live-tonight": {
+    "h1": "NRL Live Tonight: How to Find the Game",
+    "lead": [
+      { "h2": "Find tonight’s game", "paras": [
+        "NRL matches are shown across free-to-air TV, pay-TV and streaming platforms depending on the round and the time slot. Check the NRL’s official broadcast guide for tonight’s fixture and channel."
+      ] }
+    ]
+  },
+  "ip-tv": {
+    "h1": "IP TV: Quick Explainer",
+    "lead": [
+      { "h2": "Quick explainer", "paras": [
+        "IP TV is television delivered over the internet. In Australia that covers catch-up apps, live-TV streaming bundles and independent IPTV providers."
+      ] }
+    ]
+  },
+  "streaming-box": {
+    "h1": "Streaming Box: A Short Buyer’s Guide",
+    "lead": [
+      { "h2": "Short guide", "list": [
+        "2 GB RAM or more.",
+        "Ethernet.",
+        "4K HDR.",
+        "Updates."
+      ] }
+    ]
+  },
+  "appletv-3rd-gen-apple-tv": {
+    "h1": "Apple TV 3rd Generation: Can You Still Use It?",
+    "lead": [
+      { "h2": "Limits of the old model", "paras": [
+        "The third-generation Apple TV is an old model with a limited app list and no modern app store. Many current services no longer support it, so for most uses a newer Apple TV or another current device is the better choice."
+      ] }
+    ]
+  },
+  "roku-stream-device": {
+    "h1": "Roku Streaming Device: Strengths and Limits",
+    "lead": [
+      { "h2": "Strengths and limits", "list": [
+        "Simple interface and a wide app list.",
+        "Good value on cheaper models.",
+        "Limited support for some IPTV players compared with Android-based devices."
+      ] }
+    ]
+  },
+  "best-tv-streaming-device": {
+    "h1": "Best TV Streaming Device: Pick by Ecosystem",
+    "lead": [
+      { "h2": "Pick by ecosystem", "list": [
+        "Apple household: Apple TV.",
+        "Google household: Google TV.",
+        "Amazon household: Fire TV.",
+        "Simplicity: Roku."
+      ] }
+    ]
+  },
+  "watch-live-streaming-cricket": {
+    "h1": "Watch Live Cricket Streaming: Legal Options",
+    "lead": [
+      { "h2": "Use official sources", "paras": [
+        "Cricket is shown by licensed free-to-air, pay-TV and streaming broadcasters. Check the Cricket Australia or the tournament’s official page for the current partners. Unofficial streams are risky and often unreliable."
+      ] }
+    ]
+  },
+  "watch-australian-open-golf": {
+    "h1": "Watch the Australian Open Golf: Where to Look",
+    "lead": [
+      { "h2": "Where to look", "paras": [
+        "Check Golf Australia’s website for the current broadcast partners. Coverage typically combines free-to-air and streaming, and may vary by round."
+      ] }
+    ]
+  },
+  "live-sanfl": {
+    "h1": "Live SANFL: How to Watch",
+    "lead": [
+      { "h2": "How to watch", "paras": [
+        "SANFL coverage is typically a mix of local broadcasting and club or league streaming. Check the SANFL website for the current schedule and broadcast options."
+      ] }
+    ]
+  },
+  "tv-streaming-devices-australia": {
+    "h1": "TV Streaming Devices in Australia: Local Considerations",
+    "lead": [
+      { "h2": "Local considerations", "list": [
+        "Local catch-up apps are available on your chosen platform.",
+        "Warranty and support from an Australian retailer.",
+        "Compatibility with your NBN speed."
+      ] }
+    ]
+  },
+  "iptv-tv": {
+    "h1": "IPTV TV: Short Guide",
+    "lead": [
+      { "h2": "Short guide", "paras": [
+        "IPTV TV simply means TV over the internet. Choose a provider, a device and a player, and test before paying."
+      ] }
+    ]
+  },
+  "afl-live-stats-match-centre-today": {
+    "h1": "AFL Live Match Centre: Following Games Today",
+    "lead": [
+      { "h2": "Following a game", "paras": [
+        "The AFL’s official site and app have live scores, stats and match centres. For vision, check the current broadcast partners for the round."
+      ] }
+    ]
+  },
+  "media-streaming-box": {
+    "h1": "Media Streaming Box: Buying Tips",
+    "lead": [
+      { "h2": "Buying tips", "list": [
+        "Choose certified devices.",
+        "Check update history.",
+        "Prefer Ethernet."
+      ] }
+    ]
+  },
+  "apple-tv-3rd-generation-apple": {
+    "h1": "Apple TV 3rd Generation: Upgrade Guide",
+    "lead": [
+      { "h2": "Upgrade", "paras": [
+        "If you still use the third-generation model, consider a current Apple TV or another streaming device to regain app support and 4K."
+      ] }
+    ]
+  },
+  "watch-live-cricket-match-ipl": {
+    "h1": "Watch a Live IPL Match: Where and When",
+    "lead": [
+      { "h2": "Plan the night", "paras": [
+        "Check the official schedule in your local time and the broadcaster for this season. Test your stream before the first ball."
+      ] }
+    ]
+  },
+  "ibo-player-pro": {
+    "h1": "IBO Player Pro: What It Is",
+    "lead": [
+      { "h2": "A player", "paras": [
+        "IBO Player Pro is a player app that plays playlists. It does not supply channels. Treat any offer that bundles playlists with the app with care and check the provider’s terms."
+      ] }
+    ]
+  },
+  "television-streaming-devices": {
+    "h1": "Television Streaming Devices: Overview",
+    "lead": [
+      { "h2": "Overview", "paras": [
+        "Streaming devices add apps and internet video to your TV. Choose the platform that fits your household and the apps you use."
+      ] }
+    ]
+  },
+  "multimedia-streaming-device": {
+    "h1": "Multimedia Streaming Device: What to Look For",
+    "lead": [
+      { "h2": "What to look for", "list": [
+        "Supported formats.",
+        "Ethernet.",
+        "Storage and USB."
+      ] }
+    ]
+  },
+  "ip-tv-australia": {
+    "h1": "IP TV Australia: Overview",
+    "lead": [
+      { "h2": "Overview", "paras": [
+        "IP TV in Australia covers licensed live-TV bundles, catch-up apps and independent providers. Choose the option that fits your channels and budget, and test before paying."
+      ] }
+    ]
+  },
+  "iptv-subscribe": {
+    "h1": "IPTV Subscribe in Australia: Before You Sign Up",
+    "lead": [
+      { "h2": "Before you sign up", "steps": [
+        "Trial.",
+        "Short plan.",
+        "Read the terms.",
+        "Keep receipts."
+      ] }
+    ]
+  },
+  "live-cricket-ipl-watch": {
+    "h1": "Watch IPL Live in Australia",
+    "lead": [
+      { "h2": "Watch IPL", "paras": [
+        "Check the current IPL broadcast partners in Australia and watch via their app or site."
+      ] }
+    ]
+  },
+  "super-rugby-live": {
+    "h1": "Super Rugby Live: Where to Watch",
+    "lead": [
+      { "h2": "Where to watch", "paras": [
+        "Super Rugby Pacific has been shown on streaming and pay-TV in Australia. Check the competition’s official broadcast page for the current partner."
+      ] }
+    ]
+  },
+  "live-cricket-live-tv": {
+    "h1": "Live Cricket on TV: Planning to Watch",
+    "lead": [
+      { "h2": "Planning", "paras": [
+        "Check the broadcaster for your series and whether the match is on free-to-air TV, pay-TV or streaming."
+      ] }
+    ]
+  },
+  "best-streaming-device": {
+    "h1": "Best Streaming Device: A Short Answer",
+    "lead": [
+      { "h2": "A short answer", "paras": [
+        "The best device is the one in your ecosystem with the apps you use and an Ethernet port if possible."
+      ] }
+    ]
+  },
+  "television-streaming-box": {
+    "h1": "Television Streaming Box: Basics",
+    "lead": [
+      { "h2": "Basics", "list": [
+        "HDMI.",
+        "Wi-Fi or Ethernet.",
+        "Remote."
+      ] }
+    ]
+  },
+  "best-media-streaming-device": {
+    "h1": "Best Media Streaming Device: How to Choose",
+    "lead": [
+      { "h2": "How to choose", "paras": [
+        "Match the device to your TV, apps and network, then check update support."
+      ] }
+    ]
+  },
+  "live-rugby-wallabies": {
+    "h1": "Watch the Wallabies Live: Where to Look",
+    "lead": [
+      { "h2": "Where to look", "paras": [
+        "Check Rugby Australia’s site for the current broadcast partners for Wallabies Tests."
+      ] }
+    ]
+  },
+  "best-firestick-apps": {
+    "h1": "Best Firestick Apps: Legal Picks",
+    "lead": [
+      { "h2": "Legal picks", "list": [
+        "Free-to-air catch-up apps.",
+        "Subscription streaming apps.",
+        "Sports apps.",
+        "Music and utility apps."
+      ] }
+    ]
+  },
+  "iptv-trial": {
+    "h1": "IPTV Trial in Australia: Quick Guide",
+    "lead": [
+      { "h2": "Quick guide", "steps": [
+        "Load the trial.",
+        "Check local channels.",
+        "Test a live event.",
+        "Test support."
+      ] }
+    ]
+  },
+  "best-iptv-service": {
+    "h1": "Best IPTV Service in Australia: Method",
+    "lead": [
+      { "h2": "Method", "paras": [
+        "Run the same test on two or three services and pick the one that holds up at peak time."
+      ] }
+    ]
+  },
+  "best-media-streaming-device-australia": {
+    "h1": "Best Media Streaming Device in Australia",
+    "lead": [
+      { "h2": "Local picks", "list": [
+        "Check for local retailer support.",
+        "Confirm Australian apps.",
+        "Choose Ethernet."
+      ] }
+    ]
+  }
+}

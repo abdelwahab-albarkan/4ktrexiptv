@@ -1,0 +1,943 @@
+---
+// src/components/ServersMasterHub.astro
+// Master showcase and directory for all 47 IPTV Servers & Subscriptions
+import { ALL_47_SERVERS, CATEGORY_FILTERS } from '../data/iptvServers';
+import { SITE } from '../config';
+
+interface Props {
+  id?: string;
+  title?: string;
+  subtitle?: string;
+}
+
+const {
+  id = 'servers-directory',
+  title = `All 47 IPTV Servers & Satellite Subscriptions Directory (${SITE.year})`,
+  subtitle = 'Compare, review, and activate all 47 top-tier IPTV servers, private OTT clusters, and satellite IKS decryptions across Morocco, France, Europe, and the Middle East.',
+} = Astro.props;
+
+const whatsappBase = 'https://wa.me/212625218443';
+---
+
+<section class="servers-master-section" id={id}>
+  <div class="container" style="max-width: 1360px; margin: 0 auto; padding: 0 24px;">
+    <!-- Section Header -->
+    <div class="section-header text-center" style="max-width: 900px; margin: 0 auto 40px;">
+      <span class="section-badge" style="background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); padding: 6px 16px; border-radius: 9999px; font-weight: 700; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px;">
+        <i class="fa-solid fa-server"></i> Master Directory — 47 Verified Servers
+      </span>
+      <h2 class="section-title" style="font-size: clamp(2rem, 3.5vw, 2.75rem); font-weight: 800; color: #fff; margin: 16px 0 12px; letter-spacing: -0.02em;">
+        {title}
+      </h2>
+      <p class="section-description" style="font-size: 1.05rem; color: #94a3b8; line-height: 1.6;">
+        {subtitle}
+      </p>
+
+      <!-- Key Value Badges -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 20px;">
+        <span class="hub-pill"><i class="fa-solid fa-bolt" style="color: #38bdf8;"></i> Anti-Freeze 9.8</span>
+        <span class="hub-pill"><i class="fa-solid fa-film" style="color: #a855f7;"></i> 200K+ VOD Inclusions</span>
+        <span class="hub-pill"><i class="fa-solid fa-satellite-dish" style="color: #10b981;"></i> Satellite IKS (Forever & Funcam)</span>
+        <span class="hub-pill"><i class="fa-solid fa-key" style="color: #f59e0b;"></i> Instant Code Activation</span>
+        <span class="hub-pill"><i class="fa-brands fa-whatsapp" style="color: #22c55e;"></i> WhatsApp Delivery in 3 Min</span>
+      </div>
+    </div>
+
+    <!-- Live Search & Category Filter Controls -->
+    <div class="servers-controls-wrapper">
+      <div class="search-input-box">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input
+          type="text"
+          id="serverCatalogSearch"
+          placeholder="Search by server name, bouquets, devices or keywords (e.g., Trex, Forever, Zen 4K, Iron, Atlas, King 365, Orca)..."
+          aria-label="Search IPTV Servers"
+        />
+        <button id="clearServerSearch" class="clear-search-btn" style="display: none;" title="Clear search">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="category-filters-row">
+        {CATEGORY_FILTERS.map((cat, idx) => (
+          <button
+            class={`cat-filter-btn ${idx === 0 ? 'active' : ''}`}
+            data-cat={cat.id}
+          >
+            <i class={`fa-solid ${cat.icon}`}></i>
+            <span>{cat.label}</span>
+            <span class="cat-count">{cat.count}</span>
+          </button>
+        ))}
+      </div>
+
+      <!-- Results Counter Status -->
+      <div class="servers-status-bar">
+        <span id="serversResultsCount">Showing <strong>47</strong> of 47 IPTV Servers</span>
+        <span class="status-indicator"><span class="dot-live"></span> All Server Clusters Online (100% Operational)</span>
+      </div>
+    </div>
+
+    <!-- All 47 Servers Cards Grid -->
+    <div class="servers-grid" id="serversCardsGrid">
+      {ALL_47_SERVERS.map((s, index) => (
+        <article
+          class="server-card"
+          data-category={s.category}
+          data-keywords={s.keywords.join(' ').toLowerCase()}
+          data-name={s.name.toLowerCase()}
+          data-alt={(s.altNames || []).join(' ').toLowerCase()}
+          data-index={index + 1}
+        >
+          <!-- Card Header -->
+          <div class="server-card-top">
+            <div class="server-rank-badge">
+              <span class="server-number">#{index + 1}</span>
+              <span class="server-category-tag">{s.categoryLabel}</span>
+            </div>
+            <span class="server-badge-highlight"><i class="fa-solid fa-certificate"></i> {s.badge}</span>
+          </div>
+
+          <div class="server-header-info">
+            <h3 class="server-title">{s.name}</h3>
+            {s.altNames && s.altNames.length > 0 && (
+              <span class="server-alt-names">Alias: {s.altNames.join(' • ')}</span>
+            )}
+            <div class="server-rating-row">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <strong class="rating-num">{s.rating}</strong>
+              <span class="reviews-count">({s.reviewsCount} reviews)</span>
+            </div>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="server-metrics-grid">
+            <div class="metric-item">
+              <span class="metric-label"><i class="fa-solid fa-shield-halved"></i> Stability</span>
+              <span class="metric-val">{s.stability}</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label"><i class="fa-solid fa-tv"></i> Live Channels</span>
+              <span class="metric-val">{s.channelsCount}</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label"><i class="fa-solid fa-film"></i> VOD Library</span>
+              <span class="metric-val">{s.vodCount}</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label"><i class="fa-solid fa-display"></i> Quality</span>
+              <span class="metric-val">{s.codecs}</span>
+            </div>
+          </div>
+
+          <!-- In-depth Server Description & Review -->
+          <div class="server-body-content">
+            <p class="server-desc">{s.description}</p>
+            <div class="server-recommended-box">
+              <i class="fa-solid fa-bullseye"></i>
+              <span><strong>Ideal For:</strong> {s.recommendedFor}</span>
+            </div>
+
+            <!-- Key Features Checklist -->
+            <ul class="server-features-list">
+              {s.keyFeatures.map(f => (
+                <li><i class="fa-solid fa-circle-check"></i> {f}</li>
+              ))}
+            </ul>
+
+            <!-- Supported Protocols & Devices -->
+            <div class="server-meta-tags">
+              <div class="meta-tag-group">
+                <span class="group-title"><i class="fa-solid fa-network-wired"></i> Protocols:</span>
+                <div class="tags-wrap">
+                  {s.protocols.map(p => (
+                    <span class="tag-protocol">{p}</span>
+                  ))}
+                </div>
+              </div>
+              <div class="meta-tag-group">
+                <span class="group-title"><i class="fa-solid fa-laptop-code"></i> Hardware:</span>
+                <div class="tags-wrap">
+                  {s.compatibility.map(d => (
+                    <span class="tag-device">{d}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <!-- SEO Target Keywords Box -->
+            <div class="server-keywords-box">
+              <span class="kw-label"><i class="fa-solid fa-tags"></i> Top SEO Keywords:</span>
+              <div class="kw-tags-cloud">
+                {s.keywords.map(kw => (
+                  <span class="kw-badge">{kw}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Footer & WhatsApp Actions -->
+          <div class="server-card-footer">
+            <div class="server-pricing-preview">
+              <span class="starting-text">Plans From</span>
+              <span class="price-value">{s.priceStarting}</span>
+              <span class="price-sub">/ 3 Months</span>
+            </div>
+            <div class="server-actions-btns">
+              <a
+                href={`${whatsappBase}?text=${encodeURIComponent(s.whatsappMessage)}`}
+                class="btn-server-order"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Order Subscription</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <!-- Empty State if Search yields 0 results -->
+    <div id="noServersFound" class="no-results-box" style="display: none;">
+      <i class="fa-solid fa-satellite-dish fa-3x" style="color: #64748b; margin-bottom: 16px;"></i>
+      <h3>No IPTV server matches your query</h3>
+      <p>Try searching for a different keyword like "Trex", "Forever", "Zen", "Iron", "Atlas" or click "All 47 Servers".</p>
+      <button id="resetServersFilter" class="btn-reset-filter">Reset Filters</button>
+    </div>
+
+    <!-- Satellite Decryption vs Pure OTT Explanatory Banner -->
+    <div class="server-architecture-banner">
+      <div class="banner-grid">
+        <div class="banner-card">
+          <div class="banner-icon-wrap"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+          <div class="banner-info">
+            <h4>Pure OTT & 4K Streaming Clusters (Trex, Zen 4K, Crystal, Mega OTT, Dino)</h4>
+            <p>Stream directly over high-speed internet without satellite dishes. Supports 4K 60FPS video, 200,000+ VOD movies, instant zapping, and full compatibility across Firestick, Android TV, Smart TV (Samsung/LG), Apple TV, and PC.</p>
+          </div>
+        </div>
+        <div class="banner-card">
+          <div class="banner-icon-wrap"><i class="fa-solid fa-satellite"></i></div>
+          <div class="banner-info">
+            <h4>Satellite IKS Decryption & Hybrid Apollo (Forever, Funcam, Vanilla, Sup TV, Supcam)</h4>
+            <p>Designed for satellite dishes and digital receivers (Starsat, Geant, Tiger, Vu+, Dreambox). Decrypts European satellite channels with zero internet bandwidth requirements, and provides backup Apollo IPTV streaming.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .servers-master-section {
+    padding: 90px 0;
+    background: radial-gradient(circle at 50% 0%, rgba(30, 27, 75, 0.45) 0%, rgba(10, 15, 29, 0.98) 70%, #060913 100%);
+    border-top: 1px solid rgba(139, 92, 246, 0.15);
+    border-bottom: 1px solid rgba(139, 92, 246, 0.15);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hub-pill {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .servers-controls-wrapper {
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  }
+
+  .search-input-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .search-input-box .search-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 1.1rem;
+    pointer-events: none;
+  }
+
+  .search-input-box input {
+    width: 100%;
+    padding: 16px 48px 16px 50px;
+    background: rgba(2, 6, 23, 0.85);
+    border: 1.5px solid rgba(148, 163, 184, 0.2);
+    border-radius: 14px;
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.25s ease;
+    outline: none;
+  }
+
+  .search-input-box input:focus {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.2);
+    background: rgba(2, 6, 23, 0.95);
+  }
+
+  .clear-search-btn {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #cbd5e1;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .clear-search-btn:hover {
+    background: rgba(239, 68, 68, 0.4);
+    color: #fff;
+  }
+
+  .category-filters-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .cat-filter-btn {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    color: #cbd5e1;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+  }
+
+  .cat-filter-btn:hover {
+    background: rgba(51, 65, 85, 0.8);
+    color: #fff;
+    border-color: rgba(148, 163, 184, 0.35);
+  }
+
+  .cat-filter-btn.active {
+    background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+    border-color: #a78bfa;
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(124, 58, 237, 0.4);
+  }
+
+  .cat-filter-btn .cat-count {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 7px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .servers-status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    border-top: 1px solid rgba(148, 163, 184, 0.1);
+    font-size: 0.86rem;
+    color: #94a3b8;
+  }
+
+  .servers-status-bar strong {
+    color: #38bdf8;
+  }
+
+  .status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #10b981;
+    font-weight: 600;
+  }
+
+  .dot-live {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 8px #10b981;
+    animation: livePulse 2s infinite;
+  }
+
+  @keyframes livePulse {
+    0% { transform: scale(0.95); opacity: 0.8; }
+    50% { transform: scale(1.3); opacity: 1; }
+    100% { transform: scale(0.95); opacity: 0.8; }
+  }
+
+  /* Server Cards Grid */
+  .servers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 390px), 1fr));
+    gap: 26px;
+  }
+
+  .server-card {
+    background: linear-gradient(165deg, rgba(20, 27, 45, 0.85) 0%, rgba(10, 15, 29, 0.95) 100%);
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    border-radius: 20px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  }
+
+  .server-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(168, 85, 247, 0.4);
+    box-shadow: 0 20px 40px -10px rgba(124, 58, 237, 0.25);
+  }
+
+  .server-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+
+  .server-rank-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .server-number {
+    background: #3b82f6;
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 6px;
+  }
+
+  .server-category-tag {
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: #a78bfa;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .server-badge-highlight {
+    background: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .server-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 0 4px;
+    line-height: 1.25;
+  }
+
+  .server-alt-names {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .server-rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    margin-bottom: 16px;
+  }
+
+  .server-rating-row .stars {
+    color: #f59e0b;
+    display: flex;
+    gap: 2px;
+  }
+
+  .rating-num {
+    color: #fff;
+  }
+
+  .reviews-count {
+    color: #64748b;
+  }
+
+  .server-metrics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background: rgba(2, 6, 23, 0.6);
+    border: 1px solid rgba(148, 163, 184, 0.08);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 16px;
+  }
+
+  .metric-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .metric-label {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .metric-val {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #f1f5f9;
+  }
+
+  .server-body-content {
+    margin-bottom: 20px;
+  }
+
+  .server-desc {
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    line-height: 1.55;
+    margin-bottom: 14px;
+  }
+
+  .server-recommended-box {
+    background: rgba(14, 165, 233, 0.1);
+    border-left: 3px solid #0ea5e9;
+    padding: 8px 12px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.82rem;
+    color: #bae6fd;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .server-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .server-features-list li {
+    font-size: 0.82rem;
+    color: #e2e8f0;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.4;
+  }
+
+  .server-features-list li i {
+    color: #10b981;
+    margin-top: 3px;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .server-meta-tags {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+    padding-top: 12px;
+    border-top: 1px dashed rgba(148, 163, 184, 0.15);
+  }
+
+  .meta-tag-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .group-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #94a3b8;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .tag-protocol, .tag-device {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 6px;
+  }
+
+  .tag-protocol {
+    background: rgba(139, 92, 246, 0.15);
+    color: #d8b4fe;
+    border: 1px solid rgba(139, 92, 246, 0.25);
+  }
+
+  .tag-device {
+    background: rgba(15, 23, 42, 0.7);
+    color: #94a3b8;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+  }
+
+  /* SEO Keywords Cloud */
+  .server-keywords-box {
+    background: rgba(2, 6, 23, 0.45);
+    border: 1px solid rgba(148, 163, 184, 0.08);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin-top: 10px;
+  }
+
+  .kw-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #cbd5e1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .kw-tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .kw-badge {
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    color: #7dd3fc;
+    font-size: 0.68rem;
+    font-family: monospace;
+    padding: 2px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  /* Card Footer */
+  .server-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid rgba(148, 163, 184, 0.12);
+    margin-top: auto;
+    gap: 12px;
+  }
+
+  .server-pricing-preview {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .starting-text {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+  }
+
+  .price-value {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #22c55e;
+    line-height: 1;
+  }
+
+  .price-sub {
+    font-size: 0.7rem;
+    color: #64748b;
+  }
+
+  .btn-server-order {
+    background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.35);
+    transition: all 0.2s ease;
+  }
+
+  .btn-server-order:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(22, 163, 74, 0.5);
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    color: #fff;
+  }
+
+  /* No results box */
+  .no-results-box {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px dashed rgba(148, 163, 184, 0.2);
+    border-radius: 16px;
+  }
+
+  .no-results-box h3 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+
+  .no-results-box p {
+    color: #94a3b8;
+    margin-bottom: 20px;
+  }
+
+  .btn-reset-filter {
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  /* Architecture Banner */
+  .server-architecture-banner {
+    margin-top: 50px;
+  }
+
+  .banner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    gap: 20px;
+  }
+
+  .banner-card {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+  }
+
+  .banner-icon-wrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(124, 58, 237, 0.18);
+    color: #c084fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+
+  .banner-info h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 6px;
+  }
+
+  .banner-info p {
+    font-size: 0.86rem;
+    color: #94a3b8;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .servers-grid {
+      grid-template-columns: 1fr;
+    }
+    .server-card {
+      padding: 20px;
+      border-radius: 16px;
+    }
+    .servers-controls-wrapper {
+      padding: 16px;
+      border-radius: 16px;
+    }
+    .banner-grid {
+      grid-template-columns: 1fr;
+    }
+    .servers-status-bar {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .server-metrics-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .server-card-footer {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+    }
+    .btn-server-order {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
+
+<script is:inline>
+  (function initServersDirectory() {
+    const searchInput = document.getElementById('serverCatalogSearch');
+    const clearBtn = document.getElementById('clearServerSearch');
+    const filterBtns = document.querySelectorAll('.cat-filter-btn');
+    const cardsGrid = document.getElementById('serversCardsGrid');
+    const cards = Array.from(cardsGrid ? cardsGrid.querySelectorAll('.server-card') : []);
+    const countDisplay = document.getElementById('serversResultsCount');
+    const noResults = document.getElementById('noServersFound');
+    const resetBtn = document.getElementById('resetServersFilter');
+
+    let currentCategory = 'all';
+    let searchQuery = '';
+
+    function applyFilter() {
+      let visibleCount = 0;
+      const q = searchQuery.trim().toLowerCase();
+
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        const name = card.getAttribute('data-name') || '';
+        const alt = card.getAttribute('data-alt') || '';
+        const kw = card.getAttribute('data-keywords') || '';
+        const text = card.textContent.toLowerCase();
+
+        const matchCat = (currentCategory === 'all' || cat === currentCategory);
+        const matchSearch = (!q || name.includes(q) || alt.includes(q) || kw.includes(q) || text.includes(q));
+
+        if (matchCat && matchSearch) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (countDisplay) {
+        countDisplay.innerHTML = `Showing <strong>${visibleCount}</strong> of ${cards.length} IPTV Servers`;
+      }
+
+      if (noResults) {
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+
+      if (clearBtn) {
+        clearBtn.style.display = q ? 'flex' : 'none';
+      }
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value;
+        applyFilter();
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (searchInput) {
+          searchInput.value = '';
+          searchQuery = '';
+          applyFilter();
+          searchInput.focus();
+        }
+      });
+    }
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCategory = btn.getAttribute('data-cat') || 'all';
+        applyFilter();
+      });
+    });
+
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        searchQuery = '';
+        currentCategory = 'all';
+        filterBtns.forEach(b => {
+          if (b.getAttribute('data-cat') === 'all') b.classList.add('active');
+          else b.classList.remove('active');
+        });
+        applyFilter();
+      });
+    }
+  })();
+</script>

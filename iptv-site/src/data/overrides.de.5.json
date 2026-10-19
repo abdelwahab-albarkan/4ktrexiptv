@@ -1,0 +1,226 @@
+{
+  "iptv-kostenlos-testen": {
+    "h1": "IPTV kostenlos testen: So prüfen Sie einen Dienst vor dem Kauf",
+    "lead": [
+      { "h2": "Warum der Test wichtiger ist als jede Bewertung", "paras": [
+        "Wie gut ein IPTV-Dienst für Sie funktioniert, hängt von drei Dingen ab, die Sie auf einer Verkaufsseite nicht sehen: wie sich die Server bei hoher Last verhalten, wie der Stream auf Ihrem Gerät und in Ihrem Netzwerk läuft und wie der Anbieter bei Problemen reagiert. Ein Test zeigt alle drei.",
+        "Behandeln Sie den Test wie ein kleines Projekt. Eine geplante Stunde sagt mehr als eine Woche beiläufigen Schauens."
+      ] },
+      { "h2": "Vorbereitung", "list": [
+        "Das Gerät, das Sie wirklich nutzen werden, aktualisiert und so angeschlossen wie im Alltag.",
+        "Eine Liste mit zehn Sendern, die Sie schauen, und einem Live-Sportereignis.",
+        "Eine Notiz für Startzeiten und Aussetzer.",
+        "Ein Speedtest Ihrer Leitung, um Netzwerkprobleme von Dienstproblemen zu trennen."
+      ] },
+      { "h2": "Der Drei-Punkte-Test", "steps": [
+        "Tempo: Messen Sie, wie lange ein Sender zum Starten braucht. Unter drei Sekunden ist gut, über acht schlecht.",
+        "Stabilität: Lassen Sie abends 30 Minuten einen Live-Sender laufen und zählen Sie Aussetzer und Auflösungseinbrüche.",
+        "Support: Stellen Sie eine echte Frage und prüfen Sie, ob und wie schnell Sie eine brauchbare Antwort erhalten."
+      ] },
+      { "h2": "Warnzeichen im Test", "list": [
+        "Der Test sieht anders aus als das, was zahlende Kunden bekommen.",
+        "Es gibt nur wenige Sender.",
+        "Zum Start des Tests werden Zahlungsdaten verlangt.",
+        "Der Anbieter drängt Sie zu einem langen Tarif, bevor Sie fertig getestet haben."
+      ], "paras": ["Wenn der Test besteht, starten Sie mit einem Monat und nicht mit einem Jahr."] }
+    ]
+  },
+  "iptv-smarters": {
+    "h1": "IPTV Smarters: Einrichtung, Funktionen und typische Fehler",
+    "lead": [
+      { "h2": "Was die App ist", "paras": [
+        "IPTV Smarters ist ein Player, der Live-TV, Filme und Serien aus einer einzigen Oberfläche zeigt, sobald Sie ein Login oder eine Playlist hinzugefügt haben. Er enthält keine Inhalte und liefert auch keine Zugangsdaten. Die bekommen Sie von Ihrem Anbieter."
+      ] },
+      { "h2": "Einrichtung", "steps": [
+        "App aus dem Store Ihres Geräts installieren.",
+        "Einen neuen Nutzer anlegen.",
+        "Zwischen Xtream-Codes-Login und Playlist-URL wählen.",
+        "Server-URL, Benutzername und Passwort exakt wie erhalten eintragen.",
+        "Warten, bis Live-TV, Filme und Serien geladen sind."
+      ] },
+      { "h2": "Typische Fehler", "list": [
+        "Login schlägt fehl: Tippfehler, falscher Port oder abgelaufenes Abo.",
+        "Leere Senderliste: Abo prüfen, Daten neu laden.",
+        "Programmführer fehlt: EPG im Menü aktualisieren.",
+        "Ruckeln: LAN statt WLAN testen, Cache leeren."
+      ] },
+      { "h2": "Alternativen", "paras": [
+        "Wenn Ihnen die Bedienung nicht gefällt, probieren Sie TiviMate oder einen anderen Player mit demselben Login. Die Zugangsdaten bleiben gleich."
+      ] }
+    ]
+  },
+  "iptv-box": {
+    "h1": "IPTV-Box: Auswahl, Einrichtung und Tipps",
+    "lead": [
+      { "h2": "Was Sie von einer Box erwarten sollten", "paras": [
+        "Eine IPTV-Box ist ein Gerät, das Streams abspielt, entweder auf Basis von Android TV oder als spezialisiertes Gerät, das ein Portal lädt. Gegenüber einem Stick bietet sie meist mehr Speicher, einen LAN-Anschluss und mehr Anschlüsse."
+      ] },
+      { "h2": "Worauf es ankommt", "list": [
+        "Offizielle Zertifizierung bei Android-TV-Geräten.",
+        "Mindestens 2 GB RAM und LAN mit Gigabit.",
+        "HDMI 2.0 oder besser und 4K-Decodierung.",
+        "Updates des Herstellers und eine klare Garantie."
+      ] },
+      { "h2": "Einrichtung", "steps": [
+        "Box per HDMI und LAN anschließen.",
+        "Software aktualisieren.",
+        "Player-App installieren.",
+        "Zugangsdaten eintragen.",
+        "Senderliste und Programmführer prüfen."
+      ] }
+    ]
+  },
+  "android-tv-box": {
+    "h1": "Android-TV-Box: Kaufberatung für IPTV und Streaming",
+    "lead": [
+      { "h2": "Warum Android-TV-Boxen beliebt sind", "paras": [
+        "Android-TV-Boxen sind flexibel: Sie laufen mit vielen Apps, bieten Anschlüsse für USB und LAN und sind oft preiswert. Der Nachteil ist die Qualität der Hardware und Software bei sehr günstigen Modellen."
+      ] },
+      { "h2": "Kaufkriterien", "list": [
+        "Zertifiziertes Android TV oder Google TV, damit der Play Store korrekt funktioniert.",
+        "Ausreichend RAM und Speicher.",
+        "Gigabit-LAN, WLAN 5 oder 6.",
+        "4K, HDR und HDMI 2.0 oder besser.",
+        "Update-Historie des Herstellers."
+      ] },
+      { "h2": "Billigboxen vermeiden", "paras": [
+        "Sehr günstige Boxen ohne Zertifizierung bekommen oft keine Updates und können Probleme mit Apps haben. Ein etwas teureres Markengerät ist auf Dauer meist die bessere Wahl."
+      ] }
+    ]
+  },
+  "m3u-iptv": {
+    "h1": "M3U und IPTV: Playlists verstehen und reparieren",
+    "lead": [
+      { "h2": "So ist eine M3U-Datei aufgebaut", "paras": [
+        "Eine M3U-Datei ist eine reine Textliste. Pro Sender gibt es eine Zeile, die mit #EXTINF beginnt und den Namen sowie optional Logo, Gruppe und Guide-ID enthält, danach die Stream-Adresse. Player lesen die Datei und zeigen sie als Senderliste.",
+        "Weil die Datei Ihre Zugangsdaten enthält, sollten Sie den Link wie ein Passwort behandeln."
+      ] },
+      { "h2": "Typische Probleme", "list": [
+        "Leere Liste: Link, Abo-Status und Internetverbindung prüfen.",
+        "Sender fehlen: Anbieter um eine aktualisierte Playlist bitten.",
+        "Kein Programmführer: Die EPG-Quelle muss zu den Guide-IDs passen.",
+        "Langsames Laden: Player nutzen, der große Listen kann, oder nach Gruppen filtern."
+      ] },
+      { "h2": "M3U oder Xtream Codes?", "paras": [
+        "Xtream Codes nutzt einen Server-Login statt einer Datei und lädt Live-TV, Filme, Serien und Programmführer zusammen. Wenn Ihr Anbieter beides anbietet, ist Xtream Codes meist einfacher zu pflegen."
+      ] }
+    ]
+  },
+  "iptv-player": {
+    "h1": "IPTV-Player: So vergleichen Sie sie sinnvoll",
+    "lead": [
+      { "h2": "Worin sich Player unterscheiden", "paras": [
+        "Alle IPTV-Player tun grundsätzlich dasselbe: Sie lesen eine Playlist oder einen Login und zeigen Sender. Unterschiede gibt es bei der Geschwindigkeit mit großen Listen, dem Aussehen des Programmführers, der Bedienung per Fernbedienung und der Pflege durch die Entwickler."
+      ] },
+      { "h2": "Sechs Vergleichspunkte", "list": [
+        "Start- und Umschaltgeschwindigkeit.",
+        "Programmführer und EPG-Aktualisierung.",
+        "Umgang mit sehr großen Senderlisten.",
+        "Favoriten, Gruppen, Suche und Kindersicherung.",
+        "Bedienung auf dem Fernseher mit Fernbedienung.",
+        "Update-Häufigkeit."
+      ] },
+      { "h2": "Zwei Player testen", "paras": [
+        "Installieren Sie zwei Player mit demselben Login und vergleichen Sie. Nach einem Abend wissen Sie meist, welcher besser zu Ihnen passt."
+      ] }
+    ]
+  },
+  "tivimate-iptv-player": {
+    "h1": "TiviMate: Funktionen, Einrichtung und Premium-Optionen",
+    "lead": [
+      { "h2": "Warum TiviMate beliebt ist", "paras": [
+        "TiviMate ist auf Android TV und Fire TV beliebt, weil der Programmführer übersichtlich ist und sich mit der Fernbedienung gut bedienen lässt. Die kostenlose Version ist funktional eingeschränkt, einige Funktionen sind kostenpflichtig."
+      ] },
+      { "h2": "Einrichtung", "steps": [
+        "TiviMate aus dem App-Store installieren.",
+        "Playlist hinzufügen: Xtream-Login oder M3U-Link.",
+        "EPG-Quelle prüfen.",
+        "Gruppen und Favoriten anlegen.",
+        "Aktualisierungsintervall für den EPG moderat einstellen."
+      ] },
+      { "h2": "Tipps", "list": [
+        "Sehr lange Listen lieber in Gruppen filtern.",
+        "Cache gelegentlich leeren.",
+        "Auf Geräten mit wenig Speicher nicht zu viele Playlists anlegen."
+      ] }
+    ]
+  },
+  "fire-tv-stick-einrichten": {
+    "h1": "Fire TV Stick einrichten: Komplette Anleitung",
+    "lead": [
+      { "h2": "Erste Einrichtung", "steps": [
+        "Stick am HDMI-Anschluss anschließen und mit Strom verbinden, nach Möglichkeit mit dem mitgelieferten Netzteil.",
+        "Fernbedienung koppeln, falls nötig.",
+        "WLAN wählen oder einen LAN-Adapter nutzen.",
+        "Mit dem Amazon-Konto anmelden.",
+        "Auf die Software-Updates warten.",
+        "Apps wie Mediatheken oder einen IPTV-Player installieren."
+      ] },
+      { "h2": "Tipps für den Alltag", "list": [
+        "HDMI-Verlängerung nutzen, falls der Stick hinter dem Fernseher heiß wird.",
+        "Ungenutzte Apps löschen, damit der Speicher frei bleibt.",
+        "Stick bei Problemen neu starten, regelmäßig aktualisieren.",
+        "Automatische Werbeempfehlungen in den Einstellungen reduzieren."
+      ] },
+      { "h2": "IPTV-Player installieren", "paras": [
+        "Viele Player sind im Amazon Appstore verfügbar. Für andere ist die App Downloader nötig, die Sie unter Einstellungen zuerst erlauben müssen. Laden Sie Apps nur aus vertrauenswürdigen Quellen herunter."
+      ] }
+    ]
+  },
+  "iptv-legality": {
+    "h1": "Ist IPTV legal? Eine nüchterne Einordnung",
+    "lead": [
+      { "h2": "Technik versus Inhalt", "paras": [
+        "IPTV als Technik ist legal und wird von Telekommunikationsanbietern, Sendern und Plattformen selbst eingesetzt. Entscheidend ist, ob der Anbieter die Rechte an den Inhalten besitzt, die er verkauft.",
+        "Dienste, die Bezahlsender ohne Lizenz verbreiten, können Urheberrechte verletzen. Behörden gehen gegen solche Anbieter vor. Auch für Nutzer kann die Nutzung rechtliche Folgen haben, die sich je nach Land und Einzelfall unterscheiden."
+      ] },
+      { "h2": "Woran Sie Unseriöses erkennen", "list": [
+        "Sehr niedrige Preise bei riesigen Senderzahlen.",
+        "Keine Angaben zum Unternehmen und keine Impressum-Daten.",
+        "Nur anonyme, nicht rückholbare Zahlungswege.",
+        "Keine Auskunft zu Lizenzen."
+      ] },
+      { "h2": "Sicher bleiben", "paras": [
+        "Nutzen Sie offizielle Dienste, wenn Sie rechtlich auf der sicheren Seite bleiben möchten. Dieser Text ist keine Rechtsberatung. Bei Zweifeln wenden Sie sich an eine Rechtsberatung."
+      ] }
+    ]
+  },
+  "was-ist-iptv": {
+    "h1": "Was ist IPTV? Technik, Anbieter und Nutzung erklärt",
+    "lead": [
+      { "h2": "Die Grundidee", "paras": [
+        "IPTV steht für Internet Protocol Television. Fernsehsender kommen als Datenstrom über Ihre Internetleitung zu Ihnen, statt über Kabel, Satellit oder Antenne. Das Prinzip kennen Sie von Mediatheken, nur geht es hier auch um Live-Sender und einen Programmführer.",
+        "Zum Schauen brauchen Sie ein Gerät mit einer passenden App, zum Beispiel einen Smart-TV, einen Stick, eine Box oder ein Smartphone."
+      ] },
+      { "h2": "Drei Arten von IPTV", "list": [
+        "Lizenzierte Streaming-Dienste von Sendern und Plattformen.",
+        "IPTV Ihres Internetanbieters mit eigener Box oder App.",
+        "Unabhängige Anbieter, die einen Login für Player-Apps liefern."
+      ] },
+      { "h2": "Was Sie beachten sollten", "paras": [
+        "Wählen Sie einen Dienst mit Test, klaren Vertragsbedingungen und einer nachvollziehbaren Rechtegrundlage. Prüfen Sie Ihre Leitung: Für HD sollten Sie mit 15 bis 25 Mbit/s pro Stream rechnen."
+      ] }
+    ]
+  },
+  "iptv-abo": {
+    "h1": "IPTV-Abo: Laufzeit, Kosten und Kündigung im Überblick",
+    "lead": [
+      { "h2": "Das steckt in einem Abo", "paras": [
+        "Ein IPTV-Abo ist ein Zugang mit einer bestimmten Zahl gleichzeitiger Verbindungen für eine feste Laufzeit. Der Monatspreis ist erst dann aussagekräftig, wenn Sie wissen, wie viele Verbindungen, welche Qualität und welche Verlängerungsregeln dazugehören."
+      ] },
+      { "h2": "Vertragspunkte prüfen", "list": [
+        "Mindestlaufzeit und automatische Verlängerung.",
+        "Kündigungsfrist und Form der Kündigung.",
+        "Gleichzeitige Streams und 4K.",
+        "Widerrufsrecht, Erstattung und Ersatz bei Ausfall.",
+        "Anbieterangaben und Kontaktmöglichkeiten."
+      ] },
+      { "h2": "Vernünftig kaufen", "steps": [
+        "Test anfordern und durchführen.",
+        "Einen Monat buchen.",
+        "Nach einem Monat mit normaler Nutzung über eine längere Laufzeit entscheiden.",
+        "Belege und Zugangsdaten sicher aufbewahren."
+      ] }
+    ]
+  }
+}

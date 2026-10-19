@@ -1,0 +1,319 @@
+{
+  "m3u-iptv": {
+    "h1": "M3U IPTV: How Playlists Work",
+    "lead": [
+      { "h2": "Anatomy of an M3U playlist", "paras": [
+        "An M3U file is plain text. Each channel has a line with its name, optional attributes such as a logo and group, and the stream URL. Players read this file and show it as a channel list.",
+        "Because it is just text, you can open an M3U in a text editor and see exactly what it contains."
+      ], "list": [
+        "Keep the link private; it contains your credentials.",
+        "A bad playlist usually has duplicate or dead channels; ask your provider for a refresh.",
+        "Pair it with an EPG file for the guide."
+      ] }
+    ]
+  },
+  "best-sports-app-for-firestick": {
+    "h1": "Best Sports App for Firestick: Choosing Wisely",
+    "lead": [
+      { "h2": "Pick by the sports you follow", "list": [
+        "League apps for official coverage: NFL, NBA, MLB, NHL and others.",
+        "Sports streaming services: ESPN and similar.",
+        "Live TV bundles that include your regional sports network.",
+        "Free ad-supported sports channels for highlights and replays."
+      ], "paras": ["Check blackout rules, since they affect what you can watch in your area."] }
+    ]
+  },
+  "ip-tv-sat-n-al": {
+    "h1": "IPTV vs Satellite: Which Suits You",
+    "lead": [
+      { "h2": "Key differences", "list": [
+        "Satellite needs a dish and receiver, and is not affected by your broadband speed.",
+        "IPTV needs a good internet connection and works on many devices without a dish.",
+        "Satellite is stable in bad weather only up to a point, and rain fade can interrupt it.",
+        "IPTV can be flexible on devices and plans."
+      ], "paras": ["If your broadband is weak or unstable, satellite may still be the more reliable choice for live TV."] }
+    ]
+  },
+  "iptv-tv-providers": {
+    "h1": "IPTV TV Providers: Comparing Fairly",
+    "lead": [
+      { "h2": "Use the same test for each", "paras": [
+        "Apply identical checks to every provider: same device, same time of day, same channels. Otherwise differences in your own setup will mislead you."
+      ] }
+    ]
+  },
+  "android-streaming-box": {
+    "h1": "Android Streaming Box: What to Know",
+    "lead": [
+      { "h2": "Why Android boxes are popular", "paras": [
+        "Android boxes are flexible: they run many apps, accept sideloaded apps and offer Ethernet and USB ports. The downside is quality control, and cheap uncertified boxes can lack updates or proper Google Play access."
+      ], "list": [
+        "Prefer certified Android TV or Google TV devices.",
+        "Check memory, storage and Ethernet.",
+        "Read reviews about long-term updates."
+      ] }
+    ]
+  },
+  "nba-subscription-price": {
+    "h1": "NBA Subscription Price: Where to Check",
+    "lead": [
+      { "h2": "Official sources first", "paras": [
+        "Subscription prices for NBA League Pass and team plans change by season and region. The NBA app and website show the current price. Some TV and mobile providers include discounted access, so check any perks you already have."
+      ] }
+    ]
+  },
+  "4kiptv": {
+    "h1": "4K IPTV Guide: Resolution, Bitrate and Bandwidth",
+    "lead": [
+      { "h2": "Resolution is not the whole story", "paras": [
+        "A 4K label tells you the frame size, not the picture quality. Bitrate matters too: a heavily compressed 4K stream can look worse than a clean 1080p one."
+      ], "list": [
+        "Check the bitrate if the player shows it.",
+        "Compare sport scenes with lots of motion.",
+        "Use Ethernet for 4K."
+      ] }
+    ]
+  },
+  "iptv-sports": {
+    "h1": "IPTV Sports: What to Check Before Match Day",
+    "lead": [
+      { "h2": "Match-day checklist", "steps": [
+        "Test the channel the day before.",
+        "Have a backup channel in your favourites.",
+        "Use Ethernet or strong Wi-Fi.",
+        "Close other bandwidth-heavy apps.",
+        "Open the stream 10 minutes before kick-off."
+      ], "paras": ["Rights for live sport are tightly controlled and differ by country, so check the current broadcaster for your competition."] }
+    ]
+  },
+  "iptv-firestick": {
+    "h1": "IPTV Firestick: Setup in Five Steps",
+    "lead": [
+      { "h2": "Setup in five steps", "steps": [
+        "Update the Firestick and connect it by Ethernet adapter if you can.",
+        "Install a player app from the Appstore, or with Downloader if it is not listed.",
+        "Open the app and choose Xtream Codes or Playlist URL.",
+        "Enter the details from your provider exactly as supplied.",
+        "Let the list and guide finish loading, then test a few channels."
+      ], "paras": ["If the stick is hot or slow, clear the app cache, remove unused apps and keep the stick in open air."] }
+    ]
+  },
+  "iptv-uk-trial": {
+    "h1": "IPTV UK Trial: A Quick Test for UK Viewers",
+    "lead": [
+      { "h2": "Quick test", "steps": [
+        "Check BBC, ITV, Channel 4 and Channel 5 in HD.",
+        "Open a sports channel in the evening.",
+        "Verify guide times.",
+        "Message support."
+      ] }
+    ]
+  },
+  "best-way-to-watch-nfl-games": {
+    "h1": "Best Way to Watch NFL Games: Options Compared",
+    "lead": [
+      { "h2": "The main routes", "list": [
+        "Local broadcast TV with an antenna for free local games.",
+        "Live-TV streaming services that carry the national and local networks.",
+        "Out-of-market package for Sunday afternoon games outside your area.",
+        "League digital services for replays, highlights and some live content.",
+        "Streaming exclusives, where certain games are only on a particular platform."
+      ], "paras": ["Rights change from season to season, so check the current schedule and which service carries your team."] }
+    ]
+  },
+  "best-ip-tv": {
+    "h1": "Best IP TV: A Short Method",
+    "lead": [
+      { "h2": "Short method", "steps": [
+        "Pick two services.",
+        "Run the same 60-minute test.",
+        "Score them on stability, speed, guide and support.",
+        "Choose and start with a short plan."
+      ] }
+    ]
+  },
+  "iptv-france": {
+    "h1": "IPTV France: French Channels Abroad",
+    "lead": [
+      { "h2": "What to check", "list": [
+        "French national and regional channels you want.",
+        "Time zone in the guide.",
+        "Rights restrictions: some French content is limited to viewers in France.",
+        "French-language support."
+      ] }
+    ]
+  },
+  "tv-streaming-box": {
+    "h1": "TV Streaming Box: Quick Guide",
+    "lead": [
+      { "h2": "Quick buying guide", "list": [
+        "4K and HDR if your TV supports them.",
+        "Ethernet for stable streaming.",
+        "Enough memory for your apps.",
+        "Software support from the maker."
+      ] }
+    ]
+  },
+  "nba-league-pass-discount-code": {
+    "h1": "NBA League Pass Discount Code: Staying Safe",
+    "lead": [
+      { "h2": "Avoid scams", "paras": [
+        "Discount code sites rarely work and sometimes try to collect your login or card details. Official promotions appear in official channels."
+      ], "list": [
+        "Use only the NBA app or website to buy.",
+        "Never give your password to a code site.",
+        "Check if your TV or mobile provider has a bundle."
+      ] }
+    ]
+  },
+  "nba-league-pass-coupon": {
+    "h1": "NBA League Pass Coupon: What You Can Do",
+    "lead": [
+      { "h2": "Save legitimately", "list": [
+        "Pick a single-team plan if you follow one team.",
+        "Watch for official seasonal offers.",
+        "Check partner offers from providers you already pay.",
+        "Skip coupon sites that ask for logins."
+      ] }
+    ]
+  },
+  "iptv-subscription-service": {
+    "h1": "IPTV Subscription Service: Plans and Terms",
+    "lead": [
+      { "h2": "Terms that matter", "list": [
+        "Length and renewal.",
+        "Number of connections.",
+        "Included channels and quality.",
+        "Refund and replacement policy."
+      ] }
+    ]
+  },
+  "android-tv-streaming-boxes": {
+    "h1": "Android TV Streaming Boxes: Comparing Models",
+    "lead": [
+      { "h2": "How to compare models", "list": [
+        "Chipset and memory.",
+        "Ethernet speed (gigabit if possible).",
+        "HDMI version and 4K HDR support.",
+        "Update policy and certification."
+      ] }
+    ]
+  },
+  "best-iptv-streaming-service": {
+    "h1": "Best IPTV Streaming Service: What Counts",
+    "lead": [
+      { "h2": "What counts", "paras": [
+        "Stability and honesty count most. A service that is open about what it carries, answers questions and keeps streams steady during busy hours is better than one with a bigger headline number."
+      ] }
+    ]
+  },
+  "box-iptv-android": {
+    "h1": "Android IPTV Box: Setup Tips",
+    "lead": [
+      { "h2": "Setup tips", "steps": [
+        "Update the box firmware.",
+        "Install a player from the app store.",
+        "Add your provider’s Xtream login or M3U link.",
+        "Use Ethernet and test at peak time."
+      ] }
+    ]
+  },
+  "best-iptv-subscription": {
+    "h1": "Best IPTV Subscription: Choosing a Plan",
+    "lead": [
+      { "h2": "Choose the plan, not just the price", "paras": [
+        "Match plan length to your confidence in the service. Choose one month after the trial, three months after a good first month, and longer only once you have seen it perform across different times."
+      ] }
+    ]
+  },
+  "iptv-reviews": {
+    "h1": "IPTV Reviews: How to Read Them",
+    "lead": [
+      { "h2": "Reading reviews", "list": [
+        "Look for specifics: device, location, date.",
+        "Discount vague praise and identical wording.",
+        "Check how problems were resolved.",
+        "Prefer forums and communities where users discuss problems openly."
+      ], "paras": ["The most reliable review is your own trial."] }
+    ]
+  },
+  "fire-stick-channels": {
+    "h1": "Fire Stick Channels: Apps and Services You Can Use",
+    "lead": [
+      { "h2": "Types of channels on Fire TV", "list": [
+        "Streaming services and live-TV apps from the Appstore.",
+        "Free ad-supported channels.",
+        "Sports league apps.",
+        "IPTV player apps for your own provider’s channels."
+      ] }
+    ]
+  },
+  "iptv-best-canada": {
+    "h1": "Best IPTV Canada: What Canadians Should Check",
+    "lead": [
+      { "h2": "Canada-specific checks", "list": [
+        "English and French channels as you need them.",
+        "Local channels for your province.",
+        "Hockey and other sport coverage, which is split by region and rights.",
+        "Time zones across the country."
+      ] }
+    ]
+  },
+  "purchase-iptv": {
+    "h1": "Purchase IPTV: Buying Safely",
+    "lead": [
+      { "h2": "Buy in this order", "steps": [
+        "Trial first.",
+        "Short plan next.",
+        "Keep receipts and credentials.",
+        "Move to a longer plan only after a normal month."
+      ] }
+    ]
+  },
+  "nba-league-pass-vpn": {
+    "h1": "NBA League Pass and VPNs: What to Know",
+    "lead": [
+      { "h2": "Be careful", "paras": [
+        "Using a VPN to change your apparent location can break the terms of the service and may cause streaming problems or account action. Blackouts exist for rights reasons, and the supported way to watch is from the region where your plan is valid.",
+        "If you travel, check the NBA’s guidance for using your plan abroad."
+      ] }
+    ]
+  },
+  "best-iptv-app-for-apple-tv": {
+    "h1": "Best IPTV App for Apple TV: What to Look For",
+    "lead": [
+      { "h2": "Apple TV specifics", "list": [
+        "tvOS support and a remote-friendly interface.",
+        "Xtream Codes and M3U support.",
+        "Good guide performance on large lists.",
+        "Regular updates."
+      ], "paras": ["Check that an app supports the Apple TV model you have before buying."] }
+    ]
+  },
+  "ip-smart-iptv": {
+    "h1": "IP Smart IPTV: What People Mean",
+    "lead": [
+      { "h2": "Clarifying the term", "paras": [
+        "The phrase usually refers to a smart TV IPTV app that plays an M3U playlist. If you cannot find one for your TV, an external streaming stick is an easy workaround."
+      ] }
+    ]
+  },
+  "cheapest-iptv": {
+    "h1": "Cheapest IPTV: What to Watch Out For",
+    "lead": [
+      { "h2": "Price per connection per month", "paras": [
+        "Compare like with like. A price that looks low can cover a single connection, HD only and a short term. Test before you pay and avoid lifetime offers."
+      ] }
+    ]
+  },
+  "ip-tv-uk": {
+    "h1": "IP TV UK: A Starting Guide",
+    "lead": [
+      { "h2": "Start in three steps", "steps": [
+        "Pick a device and install a player.",
+        "Test UK channels and the guide on a trial.",
+        "Choose a short plan first."
+      ] }
+    ]
+  }
+}

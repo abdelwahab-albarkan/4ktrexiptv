@@ -1,0 +1,24 @@
+---
+import { ICONS } from '../lib/icons';
+
+interface Props { name: string; size?: number; class?: string; label?: string }
+const { name, size = 20, class: cls, label } = Astro.props;
+const body = ICONS[name];
+if (!body) throw new Error(`Unknown icon: ${name}`);
+---
+<svg
+  class:list={['icon', cls]}
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  role={label ? 'img' : undefined}
+  aria-label={label}
+  aria-hidden={label ? undefined : 'true'}
+  focusable="false"
+  set:html={body}
+/>

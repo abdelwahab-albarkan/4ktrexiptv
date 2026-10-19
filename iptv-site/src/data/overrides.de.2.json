@@ -1,0 +1,350 @@
+{
+  "magenta-tv-kosten": {
+    "h1": "MagentaTV Kosten: Wie sich der Preis zusammensetzt",
+    "lead": [
+      { "h2": "Was den Preis bestimmt", "paras": [
+        "MagentaTV ist das Fernsehangebot der Telekom über das Internet. Die Kosten hängen vom gewählten Paket, von der Laufzeit, davon ab, ob Sie ein Telekom-Internet-Kunde sind, und von Zusatzoptionen wie Sport- oder Streaming-Paketen. Preise und Aktionen ändern sich regelmäßig, prüfen Sie den aktuellen Stand deshalb direkt bei der Telekom.",
+        "Vergleichen Sie nicht nur den Monatspreis, sondern auch Mindestlaufzeit, Kosten für Hardware und enthaltene Streaming-Optionen."
+      ] },
+      { "h2": "Worauf Sie beim Vergleich achten", "list": [
+        "Gilt der Preis nur im ersten Jahr oder dauerhaft?",
+        "Ist eine Box nötig oder reicht die App?",
+        "Welche Sender und Mediatheken sind inklusive?",
+        "Wie viele Geräte können gleichzeitig schauen?"
+      ] }
+    ]
+  },
+  "android-tv-box": {
+    "h1": "Android-TV-Box: Worauf Sie vor dem Kauf achten sollten",
+    "lead": [
+      { "h2": "Zertifizierung zuerst", "paras": [
+        "Eine Android-TV-Box macht aus einem älteren Fernseher ein Smart-TV. Achten Sie auf Geräte mit offizieller Android-TV- oder Google-TV-Zertifizierung, damit der Google Play Store sauber funktioniert und Updates kommen."
+      ], "list": [
+        "Mindestens 2 GB RAM und 16 GB Speicher.",
+        "Gigabit-LAN und WLAN 5 oder 6.",
+        "HDMI 2.0 oder besser, 4K und HDR.",
+        "Hersteller mit nachweisbarer Update-Historie.",
+        "Fernbedienung mit Sprachsteuerung."
+      ] }
+    ]
+  },
+  "streaming-dienste": {
+    "h1": "Streaming-Dienste im Vergleich: So behalten Sie die Kosten im Griff",
+    "lead": [
+      { "h2": "Das Abo-Karussell", "paras": [
+        "Wer mehrere Streaming-Dienste gleichzeitig abonniert, zahlt schnell mehr als für ein klassisches Kabelpaket. Ein bewährter Weg: ein oder zwei Dienste dauerhaft behalten und andere nur für einzelne Serien oder Sportsaisons monatsweise buchen."
+      ], "list": [
+        "Kündigungsfristen und Verlängerung prüfen.",
+        "Werbefreie und werbefinanzierte Tarife vergleichen.",
+        "Gleichzeitige Streams und 4K nur bezahlen, wenn Sie sie nutzen.",
+        "Kostenlose, werbefinanzierte Angebote der Sender als Ergänzung nutzen."
+      ] }
+    ]
+  },
+  "waipu-tv-kosten": {
+    "h1": "waipu.tv Kosten: Tarife und was Sie prüfen sollten",
+    "lead": [
+      { "h2": "Tarifaufbau", "paras": [
+        "waipu.tv bietet Fernsehen über das Internet in mehreren Tarifstufen, die sich bei Senderzahl, Aufnahmefunktion und Bildqualität unterscheiden. Preise und Aktionen ändern sich, prüfen Sie sie auf der Webseite des Anbieters."
+      ], "list": [
+        "Welche Sender sind im Tarif enthalten, welche nur gegen Aufpreis?",
+        "Wie viele Streams laufen gleichzeitig?",
+        "Wie groß ist der Aufnahmespeicher?",
+        "Welche Laufzeit und Kündigungsfrist gelten?"
+      ] }
+    ]
+  },
+  "iptv-smarters": {
+    "h1": "IPTV Smarters: Der schnelle Überblick",
+    "lead": [
+      { "h2": "Was die App kann", "paras": [
+        "IPTV Smarters ist ein Player für Live-TV, Filme und Serien, der mit Xtream-Codes-Logins und M3U-Playlists arbeitet. Er enthält selbst keine Inhalte. Es gibt Versionen für Android, iOS und weitere Plattformen."
+      ], "list": [
+        "Mehrere Nutzerprofile und Favoriten.",
+        "EPG-Anzeige, wenn der Anbieter Daten liefert.",
+        "Optionen für Kindersicherung und Player-Einstellungen.",
+        "Funktionsumfang kann je nach Plattform und Version variieren."
+      ] }
+    ]
+  },
+  "fernsehen-ueber-internet": {
+    "h1": "Fernsehen über Internet: Möglichkeiten im Überblick",
+    "lead": [
+      { "h2": "Vier Wege", "list": [
+        "Mediatheken der Sender, kostenlos und werbefinanziert.",
+        "Live-TV-Dienste, die Sender per App bündeln.",
+        "IPTV Ihres Internetanbieters mit eigener Box oder App.",
+        "Unabhängige IPTV-Anbieter, die einen Login für Player-Apps liefern."
+      ], "paras": [
+        "Für den Anfang genügt oft die Kombination aus Mediatheken und einem Live-TV-Dienst. Für die Nutzung brauchen Sie in jedem Fall eine stabile Leitung, am besten 25 Mbit/s oder mehr pro HD-Stream."
+      ] }
+    ]
+  },
+  "magenta-tv-app": {
+    "h1": "MagentaTV App: Geräte und Einrichtung",
+    "lead": [
+      { "h2": "Wo die App läuft", "paras": [
+        "Die MagentaTV App ist für verschiedene Geräte verfügbar, darunter Smartphones, Tablets, bestimmte Smart-TVs und Streaming-Geräte. Welche Funktionen und Sender Sie sehen, hängt von Ihrem Tarif ab."
+      ], "steps": [
+        "App im Store Ihres Geräts suchen und installieren.",
+        "Mit den Zugangsdaten Ihres Telekom-Kontos anmelden.",
+        "Sender und Aufnahmen prüfen.",
+        "Bei Ruckeln LAN oder 5-GHz-WLAN nutzen."
+      ] }
+    ]
+  },
+  "magenta-tv-kostenlos": {
+    "h1": "MagentaTV kostenlos: Was wirklich umsonst ist",
+    "lead": [
+      { "h2": "Kostenlos ist selten dauerhaft", "paras": [
+        "Die Telekom bietet gelegentlich Probemonate oder kostenlose Inhalte an, die Konditionen ändern sich aber. Prüfen Sie, ob ein Test automatisch in ein bezahltes Abo übergeht und welche Frist zum Kündigen gilt."
+      ], "list": [
+        "Datum des Testendes notieren.",
+        "Kündigung rechtzeitig vorbereiten.",
+        "Zusatzoptionen im Testzeitraum prüfen."
+      ] }
+    ]
+  },
+  "ip-iptv": {
+    "h1": "IP IPTV: Begriffe sauber erklärt",
+    "lead": [
+      { "h2": "Gemeint ist IPTV", "paras": [
+        "Die Wiederholung „IP IPTV“ ist redundant: IPTV steht bereits für Internet Protocol Television. Gemeint ist Fernsehen, das über das Internet-Protokoll geliefert wird, entweder über Ihren Provider oder über einen unabhängigen Anbieter."
+      ] }
+    ]
+  },
+  "flix-iptv": {
+    "h1": "Flix IPTV: Was die App ist",
+    "lead": [
+      { "h2": "Einordnung", "paras": [
+        "Flix IPTV ist ein Player, der eigene Playlists abspielt. Wie bei jedem Player hängen die Inhalte von der Playlist ab, die Sie hinzufügen. Prüfen Sie vor der Installation, welche Plattformen unterstützt werden und wie oft die App aktualisiert wird."
+      ] }
+    ]
+  },
+  "iptv-germany": {
+    "h1": "IPTV Germany: Deutsche Sender im Ausland und im Inland",
+    "lead": [
+      { "h2": "Was Sie prüfen sollten", "list": [
+        "Deutsche Sender in HD, regional und überregional.",
+        "Programmführer mit deutscher Zeit.",
+        "Rechtebeschränkungen: Manche Inhalte sind im Ausland nicht verfügbar.",
+        "Stabilität zur Hauptsendezeit."
+      ] }
+    ]
+  },
+  "iptv-kostenlos": {
+    "h1": "IPTV kostenlos: Legale Wege und Warnzeichen",
+    "lead": [
+      { "h2": "Was kostenlos möglich ist", "paras": [
+        "Kostenloses Fernsehen über das Internet gibt es legal: Mediatheken, werbefinanzierte Sender-Streams und kostenlose Live-TV-Angebote. Alles, was gegen Bezahlinhalte „gratis“ verspricht, ist riskant."
+      ], "list": [
+        "Mediatheken und Live-Streams der Sender.",
+        "Werbefinanzierte Streaming-Kanäle.",
+        "Testzugänge seriöser Anbieter.",
+        "Vorsicht bei Seiten, die zum Installieren fremder Apps drängen."
+      ] }
+    ]
+  },
+  "waipu-tv-kostenpflichtig": {
+    "h1": "waipu.tv kostenpflichtig oder kostenlos?",
+    "lead": [
+      { "h2": "Zwei Seiten", "paras": [
+        "waipu.tv bietet neben kostenpflichtigen Tarifen auch Angebote, bei denen frei empfangbare Sender enthalten sind. Welche Sender kostenlos und welche kostenpflichtig sind, ändert sich. Prüfen Sie die Tarifübersicht beim Anbieter."
+      ] }
+    ]
+  },
+  "iptv-german": {
+    "h1": "German IPTV: Deutsche Sender per IPTV",
+    "lead": [
+      { "h2": "Kurzcheck", "list": [
+        "ARD, ZDF, RTL, Sat.1, ProSieben und regionale Programme enthalten?",
+        "Sportsender und Pay-TV-Inhalte gemäß Ihrem Tarif.",
+        "EPG mit deutscher Zeit."
+      ] }
+    ]
+  },
+  "internet-fernsehen": {
+    "h1": "Internet-Fernsehen: Wie es funktioniert und was Sie brauchen",
+    "lead": [
+      { "h2": "Voraussetzungen", "list": [
+        "Internetanschluss mit 25 Mbit/s oder mehr für HD.",
+        "Gerät mit passender App (Smart-TV, Stick, Box, Smartphone).",
+        "Ein Dienst, der Ihre Sender enthält."
+      ], "paras": ["Wenn das Bild ruckelt, liegt es meist am WLAN. Ein LAN-Kabel hilft in den meisten Fällen."] }
+    ]
+  },
+  "fernsehen-aus-internet": {
+    "h1": "Fernsehen aus dem Internet: Anbieter und Alternativen",
+    "lead": [
+      { "h2": "Nutzen Sie, was schon da ist", "paras": [
+        "Viele Sender bieten kostenlose Live-Streams und Mediatheken. Ein Live-TV-Dienst bündelt sie bequem. Erst wenn Sie bestimmte Sender oder Sport vermissen, lohnt sich ein weiterer Dienst."
+      ] }
+    ]
+  },
+  "iptv-smart-player": {
+    "h1": "IPTV Smart Player: Funktionen im Überblick",
+    "lead": [
+      { "h2": "Typische Funktionen", "list": [
+        "Playlist- oder Xtream-Login.",
+        "EPG und Senderlisten.",
+        "Favoriten und Suche.",
+        "Optionale Aufnahme oder Catch-up."
+      ] }
+    ]
+  },
+  "siptv": {
+    "h1": "SIPTV: Einfacher Playlist-Player",
+    "lead": [
+      { "h2": "Was SIPTV ist", "paras": [
+        "SIPTV ist ein schlanker Player für Smart-TVs, der M3U-Playlists abspielt. Er eignet sich für einfache Anwendungen und nicht für sehr große Listen mit vielen Zusatzfunktionen."
+      ] }
+    ]
+  },
+  "iptv-app": {
+    "h1": "IPTV-App: Welche passt zu Ihnen?",
+    "lead": [
+      { "h2": "Auswahl nach Gerät", "list": [
+        "Smart-TV: App aus dem Hersteller-Store oder externer Stick.",
+        "Fire TV: Player aus dem Appstore oder per Downloader.",
+        "Android TV: Player aus dem Play Store.",
+        "Apple TV: Player aus dem App Store.",
+        "Smartphone: leichte Player mit Chromecast-Unterstützung."
+      ] }
+    ]
+  },
+  "m3u-iptv": {
+    "h1": "M3U und IPTV: So funktionieren Playlists",
+    "lead": [
+      { "h2": "Aufbau einer M3U-Datei", "paras": [
+        "Eine M3U-Datei ist reiner Text. Pro Sender steht dort ein Name, optional ein Logo und eine Gruppe, sowie die Stream-Adresse. Player lesen diese Datei und zeigen sie als Senderliste."
+      ], "list": [
+        "Link privat halten, er enthält Ihre Zugangsdaten.",
+        "Tote Sender dem Anbieter melden.",
+        "EPG separat laden, wenn nötig."
+      ] }
+    ]
+  },
+  "smartiptv": {
+    "h1": "SmartIPTV: App für Smart-TVs",
+    "lead": [
+      { "h2": "Wofür sie gedacht ist", "paras": [
+        "SmartIPTV bezeichnet eine App, die auf unterstützten Smart-TVs Playlists abspielt. Verfügbarkeit und Funktionsumfang hängen von Hersteller, Modell und Baujahr ab."
+      ] }
+    ]
+  },
+  "free-popular-iptv-playlist": {
+    "h1": "Free IPTV Playlists: Öffentliche Listen und ihre Grenzen",
+    "lead": [
+      { "h2": "Was öffentliche Listen sind", "paras": [
+        "Es gibt Community-Sammlungen frei verfügbarer Sender-Streams, zum Beispiel öffentlich bereitgestellter Nachrichten- und Regionalprogramme. Qualität, Aktualität und Rechtslage der Links sind sehr unterschiedlich, viele Links sind inaktiv."
+      ], "list": [
+        "Nur Streams nutzen, die ausdrücklich öffentlich bereitgestellt werden.",
+        "Keine unbekannten Dateien installieren.",
+        "Mit Ausfällen rechnen."
+      ] }
+    ]
+  },
+  "iptv-free-trial": {
+    "h1": "IPTV Free Trial: So testen Sie sinnvoll",
+    "lead": [
+      { "h2": "Testplan", "steps": [
+        "Test auf Ihrem Hauptgerät einrichten.",
+        "Ihre wichtigsten Sender prüfen.",
+        "Einmal zur Hauptzeit testen.",
+        "Programmführer und Favoriten ausprobieren.",
+        "Support anschreiben und Antwortzeit messen."
+      ] }
+    ]
+  },
+  "iptv-tv": {
+    "h1": "IPTV TV: Fernsehen über das Internet erklärt",
+    "lead": [
+      { "h2": "Kurz erklärt", "paras": [
+        "IPTV-TV ist eine Doppelung: Fernsehen über das Internet. Entscheidend ist, wer den Dienst liefert und wie Ihre Leitung ihn trägt."
+      ] }
+    ]
+  },
+  "waipu-tv-app": {
+    "h1": "waipu.tv App: Geräte und erste Schritte",
+    "lead": [
+      { "h2": "Erste Schritte", "steps": [
+        "App auf dem Gerät installieren.",
+        "Mit dem Konto anmelden.",
+        "Senderliste und Aufnahmefunktion prüfen.",
+        "Qualität nach Leitung einstellen."
+      ] }
+    ]
+  },
+  "iptv-player": {
+    "h1": "IPTV-Player: Auswahlkriterien",
+    "lead": [
+      { "h2": "Kriterien", "list": [
+        "Xtream- und M3U-Unterstützung.",
+        "Geschwindigkeit bei großen Listen.",
+        "Bedienung per Fernbedienung.",
+        "Regelmäßige Updates."
+      ] }
+    ]
+  },
+  "smart-tv-box": {
+    "h1": "Smart-TV-Box: Wann sie sich lohnt",
+    "lead": [
+      { "h2": "Wann eine Box sinnvoll ist", "paras": [
+        "Eine Smart-TV-Box lohnt sich, wenn Ihr Fernseher keine passenden Apps hat oder langsam geworden ist. Wählen Sie Geräte mit aktueller Software und LAN-Anschluss."
+      ] }
+    ]
+  },
+  "iptv-fire-tv-stick": {
+    "h1": "IPTV auf dem Fire TV Stick: Schnellstart",
+    "lead": [
+      { "h2": "Schnellstart", "steps": [
+        "Player aus dem Appstore installieren oder per Downloader laden.",
+        "Zugangsdaten eintragen.",
+        "Senderliste laden.",
+        "LAN-Adapter nutzen, wenn das Bild ruckelt."
+      ] }
+    ]
+  },
+  "rtl-kostenlos": {
+    "h1": "RTL kostenlos schauen: Legale Optionen",
+    "lead": [
+      { "h2": "Was möglich ist", "paras": [
+        "RTL und die Streaming-Plattform RTL+ bieten teils kostenlose, werbefinanzierte Inhalte an. Welche Inhalte frei sind und welche ein Abo erfordern, ändert sich. Prüfen Sie den aktuellen Stand direkt bei RTL+."
+      ], "list": [
+        "Registrierung kann nötig sein.",
+        "Premium-Inhalte sind kostenpflichtig.",
+        "Nutzen Sie nur offizielle Apps und Webseiten."
+      ] }
+    ]
+  },
+  "televizo": {
+    "h1": "Televizo: IPTV-Player für Android",
+    "lead": [
+      { "h2": "Einordnung", "paras": [
+        "Televizo ist ein Player für Android-Geräte, der eigene Playlists abspielt, mit Fokus auf Bedienung per TV-Fernbedienung. Er liefert keine Sender."
+      ] }
+    ]
+  },
+  "iptv-deutschland": {
+    "h1": "IPTV Deutschland: Was Zuschauer beachten sollten",
+    "lead": [
+      { "h2": "Das deutsche Angebot", "list": [
+        "Öffentlich-rechtliche und private Sender.",
+        "Regionale Programme und Landesfenster.",
+        "Pay-TV-Sport mit eigenen Rechten.",
+        "Zugang über lizenzierte Dienste oder Ihren Internetanbieter."
+      ], "paras": ["Fragen Sie jeden unabhängigen Anbieter, wie er die Rechte regelt."] }
+    ]
+  },
+  "iptv-testline": {
+    "h1": "IPTV Testline: Testzugang richtig nutzen",
+    "lead": [
+      { "h2": "Testline sinnvoll nutzen", "steps": [
+        "Zugangsdaten sicher speichern.",
+        "Gerät und App vorbereiten.",
+        "Sender und Programmführer prüfen.",
+        "Zur Hauptzeit testen."
+      ] }
+    ]
+  }
+}

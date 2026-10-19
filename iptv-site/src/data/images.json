@@ -1,0 +1,4824 @@
+{
+ "hero-home": {
+  "src": "/images/iptv-streaming-erlebnis.webp",
+  "base": "/images/iptv-streaming-erlebnis",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Family watching live TV and sport on a large smart TV in a dark living room",
+   "de": "Familie schaut Live-TV und Sport auf einem großen Smart-TV im abgedunkelten Wohnzimmer"
+  }
+ },
+ "home-living": {
+  "src": "/images/iptv-deutschland.webp",
+  "base": "/images/iptv-deutschland",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Bright modern living room with a wall-mounted smart TV",
+   "de": "Helles modernes Wohnzimmer mit Smart-TV an der Wand"
+  }
+ },
+ "home-smart-tv": {
+  "src": "/images/iptv-smart-tv.webp",
+  "base": "/images/iptv-smart-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Large smart TV showing colourful streaming content",
+   "de": "Großer Smart-TV mit farbigen Streaming-Inhalten"
+  }
+ },
+ "home-streaming": {
+  "src": "/images/iptv-streaming-home.webp",
+  "base": "/images/iptv-streaming-home",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Home cinema room with an IPTV channel guide on screen",
+   "de": "Heimkino-Raum mit IPTV-Senderliste auf dem Bildschirm"
+  }
+ },
+ "devices-collection": {
+  "src": "/images/devices-collection.webp",
+  "base": "/images/devices-collection",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Smart TV, tablet, phone, laptop and streaming stick on one table",
+   "de": "Smart-TV, Tablet, Smartphone, Laptop und Streaming-Stick auf einem Tisch"
+  }
+ },
+ "devices-multi": {
+  "src": "/images/iptv-mehrere-geraete.webp",
+  "base": "/images/iptv-mehrere-geraete",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "IPTV running on several devices at the same time",
+   "de": "IPTV läuft gleichzeitig auf mehreren Geräten"
+  }
+ },
+ "dev-firestick": {
+  "src": "/images/hero-fire-stick.webp",
+  "base": "/images/hero-fire-stick",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of a streaming stick with remote",
+   "de": "Illustration eines Streaming-Sticks mit Fernbedienung"
+  },
+  "fit": "contain"
+ },
+ "dev-androidtv": {
+  "src": "/images/hero-android-tv.webp",
+  "base": "/images/hero-android-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of a smart TV with a set-top box",
+   "de": "Illustration eines Smart-TVs mit TV-Box"
+  },
+  "fit": "contain"
+ },
+ "dev-appletv": {
+  "src": "/images/hero-apple-tv.webp",
+  "base": "/images/hero-apple-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of a streaming box with remote",
+   "de": "Illustration einer Streaming-Box mit Fernbedienung"
+  },
+  "fit": "contain"
+ },
+ "dev-lg": {
+  "src": "/images/hero-lg-tv.webp",
+  "base": "/images/hero-lg-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of a smart TV interface",
+   "de": "Illustration einer Smart-TV-Oberfläche"
+  },
+  "fit": "contain"
+ },
+ "dev-samsung": {
+  "src": "/images/hero-samsung-tv.webp",
+  "base": "/images/hero-samsung-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of a smart TV with app tiles",
+   "de": "Illustration eines Smart-TVs mit App-Kacheln"
+  },
+  "fit": "contain"
+ },
+ "dev-mag": {
+  "src": "/images/hero-mag-box.webp",
+  "base": "/images/hero-mag-box",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of an IPTV set-top box with remote",
+   "de": "Illustration einer IPTV-Set-Top-Box mit Fernbedienung"
+  },
+  "fit": "contain"
+ },
+ "dev-windows": {
+  "src": "/images/hero-windows-mac.webp",
+  "base": "/images/hero-windows-mac",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of a laptop with app tiles",
+   "de": "Illustration eines Laptops mit App-Kacheln"
+  },
+  "fit": "contain"
+ },
+ "dev-phone": {
+  "src": "/images/hero-android-handy.webp",
+  "base": "/images/hero-android-handy",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Illustration of a phone and tablet showing app tiles",
+   "de": "Illustration von Smartphone und Tablet mit App-Kacheln"
+  },
+  "fit": "contain"
+ },
+ "photo-firestick": {
+  "src": "/images/iptv-fire-stick.webp",
+  "base": "/images/iptv-fire-stick",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming stick plugged into the back of a TV",
+   "de": "Streaming-Stick am Fernseher angeschlossen"
+  }
+ },
+ "photo-androidtv": {
+  "src": "/images/iptv-android-tv.webp",
+  "base": "/images/iptv-android-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Remote control pointed at a smart TV home screen",
+   "de": "Fernbedienung vor dem Startbildschirm eines Smart-TVs"
+  }
+ },
+ "photo-appletv": {
+  "src": "/images/iptv-apple-tv.webp",
+  "base": "/images/iptv-apple-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming box and remote on a white shelf below a TV",
+   "de": "Streaming-Box und Fernbedienung auf einem weißen Regal unter dem Fernseher"
+  }
+ },
+ "photo-phone": {
+  "src": "/images/iptv-android-handy.webp",
+  "base": "/images/iptv-android-handy",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hand holding a phone with a streaming app",
+   "de": "Hand mit Smartphone und Streaming-App"
+  }
+ },
+ "photo-ipad": {
+  "src": "/images/iptv-iphone-ipad.webp",
+  "base": "/images/iptv-iphone-ipad",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "TV, tablet and phone showing the same streaming app",
+   "de": "Fernseher, Tablet und Smartphone mit derselben Streaming-App"
+  }
+ },
+ "photo-lg": {
+  "src": "/images/iptv-lg-tv-einrichtung.webp",
+  "base": "/images/iptv-lg-tv-einrichtung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Wall-mounted TV in a bright living room",
+   "de": "Wandmontierter Fernseher in einem hellen Wohnzimmer"
+  }
+ },
+ "photo-samsung": {
+  "src": "/images/iptv-samsung-tv-einrichtung.webp",
+  "base": "/images/iptv-samsung-tv-einrichtung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Large TV with a colourful home screen above a media console",
+   "de": "Großer Fernseher mit farbigem Startbildschirm über einem Sideboard"
+  }
+ },
+ "photo-windows": {
+  "src": "/images/iptv-windows-mac.webp",
+  "base": "/images/iptv-windows-mac",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Laptop, tablet and phone on a wooden table in front of a TV",
+   "de": "Laptop, Tablet und Smartphone auf einem Holztisch vor dem Fernseher"
+  }
+ },
+ "setup-install": {
+  "src": "/images/iptv-installieren.webp",
+  "base": "/images/iptv-installieren",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "TV with a Wi-Fi signal icon during installation",
+   "de": "Fernseher mit WLAN-Symbol bei der Installation"
+  }
+ },
+ "setup-steps": {
+  "src": "/images/iptv-einrichten.webp",
+  "base": "/images/iptv-einrichten",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Three setup steps: configure, connect, play",
+   "de": "Drei Einrichtungsschritte: konfigurieren, verbinden, abspielen"
+  }
+ },
+ "setup-epg": {
+  "src": "/images/iptv-epg.webp",
+  "base": "/images/iptv-epg",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Programme guide grid with a highlighted channel",
+   "de": "Programmführer-Raster mit markiertem Sender"
+  }
+ },
+ "setup-network": {
+  "src": "/images/iptv-heimnetzwerk.webp",
+  "base": "/images/iptv-heimnetzwerk",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Router connected to TV, laptop, phone and tablet",
+   "de": "Router verbunden mit Fernseher, Laptop, Smartphone und Tablet"
+  }
+ },
+ "setup-m3u": {
+  "src": "/images/iptv-m3u.webp",
+  "base": "/images/iptv-m3u",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Playlist rows with one selected stream",
+   "de": "Playlist-Zeilen mit einem ausgewählten Stream"
+  }
+ },
+ "guide-4k": {
+  "src": "/images/iptv-4k.webp",
+  "base": "/images/iptv-4k",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "4K TV with a colourful picture in a dark room",
+   "de": "4K-Fernseher mit farbigem Bild im dunklen Raum"
+  }
+ },
+ "guide-howto": {
+  "src": "/images/iptv-anleitung.webp",
+  "base": "/images/iptv-anleitung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Checklist card illustration",
+   "de": "Illustration einer Checkliste"
+  }
+ },
+ "guide-privacy": {
+  "src": "/images/iptv-datenschutz.webp",
+  "base": "/images/iptv-datenschutz",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Padlock over a circuit pattern",
+   "de": "Vorhängeschloss über einem Schaltkreis-Muster"
+  }
+ },
+ "guide-legal": {
+  "src": "/images/iptv-legal-deutschland.webp",
+  "base": "/images/iptv-legal-deutschland",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Scales of justice illustration",
+   "de": "Illustration einer Waage der Gerechtigkeit"
+  }
+ },
+ "guide-channels": {
+  "src": "/images/iptv-sender.webp",
+  "base": "/images/iptv-sender",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hexagon pattern of play buttons representing channels",
+   "de": "Sechseck-Muster aus Play-Symbolen als Sinnbild für Sender"
+  }
+ },
+ "guide-security": {
+  "src": "/images/iptv-sicherheit.webp",
+  "base": "/images/iptv-sicherheit",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Shield with a padlock",
+   "de": "Schild mit Vorhängeschloss"
+  }
+ },
+ "guide-tvguide": {
+  "src": "/images/iptv-tv-guide.webp",
+  "base": "/images/iptv-tv-guide",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "TV guide grid with a selected programme",
+   "de": "Programmführer-Raster mit ausgewählter Sendung"
+  }
+ },
+ "sport-bundesliga": {
+  "src": "/images/iptv-bundesliga.webp",
+  "base": "/images/iptv-bundesliga",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Football stadium shown on a TV in a dark room",
+   "de": "Fußballstadion auf dem Fernseher im abgedunkelten Raum"
+  }
+ },
+ "sport-football": {
+  "src": "/images/iptv-fussball.webp",
+  "base": "/images/iptv-fussball",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Football match on a wall-mounted TV",
+   "de": "Fußballspiel auf einem wandmontierten Fernseher"
+  }
+ },
+ "sport-generic": {
+  "src": "/images/iptv-sport.webp",
+  "base": "/images/iptv-sport",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Live football match on a large TV in a home cinema",
+   "de": "Live-Fußballspiel auf einem großen Fernseher im Heimkino"
+  }
+ },
+ "sport-nfl": {
+  "src": "/images/sport-nfl.webp",
+  "base": "/images/sport-nfl",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "American football quarterback about to throw under stadium lights",
+   "de": "American-Football-Quarterback kurz vor dem Wurf unter Flutlicht"
+  }
+ },
+ "sport-nba": {
+  "src": "/images/sport-nba.webp",
+  "base": "/images/sport-nba",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Basketball player dunking in an arena with spotlights",
+   "de": "Basketballspieler beim Dunking in einer Arena mit Scheinwerfern"
+  }
+ },
+ "sport-boxing": {
+  "src": "/images/sport-boxing.webp",
+  "base": "/images/sport-boxing",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Boxer with raised glove in a ring under arena lights",
+   "de": "Boxer mit erhobenem Handschuh im Ring unter Hallenlicht"
+  }
+ },
+ "sport-f1": {
+  "src": "/images/sport-f1.webp",
+  "base": "/images/sport-f1",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Open-wheel racing car at night with motion blur",
+   "de": "Formelwagen bei Nacht mit Bewegungsunschärfe"
+  }
+ },
+ "sport-baseball": {
+  "src": "/images/sport-baseball.webp",
+  "base": "/images/sport-baseball",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Baseball game in a full stadium at sunset",
+   "de": "Baseballspiel in einem vollen Stadion bei Sonnenuntergang"
+  }
+ },
+ "sport-striker": {
+  "src": "/images/soccer-striker.webp",
+  "base": "/images/soccer-striker",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Footballer striking the ball under floodlights",
+   "de": "Fußballer schießt den Ball unter Flutlicht"
+  }
+ },
+ "sport-stadium": {
+  "src": "/images/soccer-stadium.webp",
+  "base": "/images/soccer-stadium",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Football stadium under floodlights at night",
+   "de": "Fußballstadion bei Nacht unter Flutlicht"
+  }
+ },
+ "sport-living-us": {
+  "src": "/images/sport-living-us.webp",
+  "base": "/images/sport-living-us",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Friends cheering in front of a TV showing a game",
+   "de": "Freunde jubeln vor einem Fernseher mit Spielübertragung"
+  }
+ },
+ "sport-living-uk": {
+  "src": "/images/sport-living-uk.webp",
+  "base": "/images/sport-living-uk",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Cosy living room on a rainy evening with a match on TV",
+   "de": "Gemütliches Wohnzimmer an einem Regenabend mit Spiel im Fernsehen"
+  }
+ },
+ "biz-providers": {
+  "src": "/images/iptv-anbieter.webp",
+  "base": "/images/iptv-anbieter",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Membership card with a shield on a dark screen",
+   "de": "Mitgliedskarte mit Schild auf einem dunklen Bildschirm"
+  }
+ },
+ "biz-trial": {
+  "src": "/images/iptv-kostenlos-testen.webp",
+  "base": "/images/iptv-kostenlos-testen",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Play button inside a circular glow",
+   "de": "Play-Symbol in einem leuchtenden Kreis"
+  }
+ },
+ "biz-pricing": {
+  "src": "/images/iptv-preise.webp",
+  "base": "/images/iptv-preise",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Three plan columns of increasing height",
+   "de": "Drei Tarifsäulen in aufsteigender Höhe"
+  }
+ },
+ "biz-support": {
+  "src": "/images/iptv-support.webp",
+  "base": "/images/iptv-support",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Support agent with a headset at a workstation",
+   "de": "Support-Mitarbeiterin mit Headset am Arbeitsplatz"
+  }
+ },
+ "biz-compare": {
+  "src": "/images/iptv-vergleich.webp",
+  "base": "/images/iptv-vergleich",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Two devices side by side on a stage",
+   "de": "Zwei Geräte nebeneinander auf einer Bühne"
+  }
+ },
+ "biz-whatsapp": {
+  "src": "/images/iptv-whatsapp-support.webp",
+  "base": "/images/iptv-whatsapp-support",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Chat bubbles illustrating messenger support",
+   "de": "Sprechblasen als Sinnbild für Messenger-Support"
+  }
+ },
+ "ts-nopicture": {
+  "src": "/images/iptv-kein-bild.webp",
+  "base": "/images/iptv-kein-bild",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Screen with a blocked-signal icon",
+   "de": "Bildschirm mit Kein-Signal-Symbol"
+  }
+ },
+ "ts-problems": {
+  "src": "/images/iptv-probleme.webp",
+  "base": "/images/iptv-probleme",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Warning triangle icon",
+   "de": "Warndreieck-Symbol"
+  }
+ },
+ "ts-connection": {
+  "src": "/images/iptv-verbindung.webp",
+  "base": "/images/iptv-verbindung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Wi-Fi signal icon",
+   "de": "WLAN-Signal-Symbol"
+  }
+ },
+ "infra-server": {
+  "src": "/images/server-infra.webp",
+  "base": "/images/server-infra",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Rows of illuminated server racks",
+   "de": "Reihen beleuchteter Server-Racks"
+  }
+ },
+ "infra-zerobuffer": {
+  "src": "/images/zero-buffer.webp",
+  "base": "/images/zero-buffer",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streams of light representing fast data flow",
+   "de": "Lichtstreifen als Sinnbild für schnellen Datenfluss"
+  }
+ },
+ "infra-cloud": {
+  "src": "/images/iptv-cloud-streaming.webp",
+  "base": "/images/iptv-cloud-streaming",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Cloud above a grid of servers",
+   "de": "Wolke über einem Server-Raster"
+  }
+ },
+ "infra-4k": {
+  "src": "/images/anti-freeze-tech.webp",
+  "base": "/images/anti-freeze-tech",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "4K chip at the centre of a circuit diagram",
+   "de": "4K-Chip im Zentrum eines Schaltplans"
+  }
+ },
+ "infra-vpn": {
+  "src": "/images/vpn-shield.webp",
+  "base": "/images/vpn-shield",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Shield with a padlock in a tunnel of light",
+   "de": "Schild mit Vorhängeschloss in einem Lichttunnel"
+  }
+ },
+ "ui-apps": {
+  "src": "/images/apps-dashboard.webp",
+  "base": "/images/apps-dashboard",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming app dashboard on a TV in a dark living room",
+   "de": "Streaming-App-Übersicht auf dem Fernseher im dunklen Wohnzimmer"
+  }
+ },
+ "ui-vod": {
+  "src": "/images/vod-dashboard.webp",
+  "base": "/images/vod-dashboard",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Movie and series library on a large TV",
+   "de": "Film- und Serienbibliothek auf einem großen Fernseher"
+  }
+ },
+ "ui-cinema": {
+  "src": "/images/home-cinema.webp",
+  "base": "/images/home-cinema",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Home cinema room showing a film",
+   "de": "Heimkino-Raum mit laufendem Film"
+  }
+ },
+ "ui-family": {
+  "src": "/images/family-tv.webp",
+  "base": "/images/family-tv",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Family on a sofa watching TV",
+   "de": "Familie auf dem Sofa vor dem Fernseher"
+  }
+ },
+ "support-team": {
+  "src": "/images/support-team.webp",
+  "base": "/images/support-team",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Support agent with a headset at a desk",
+   "de": "Support-Mitarbeiterin mit Headset am Schreibtisch"
+  }
+ },
+ "og-base": {
+  "src": "/images/4kdeutsch-streaming.webp",
+  "base": "/images/4kdeutsch-streaming",
+  "w": 1200,
+  "h": 630,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Dark living room with a TV showing a streaming guide",
+   "de": "Dunkles Wohnzimmer mit Fernseher und Streaming-Übersicht"
+  }
+ },
+ "prod-firestick": {
+  "src": "/images/firestick.webp",
+  "base": "/images/firestick",
+  "w": 1014,
+  "h": 570,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Amazon Fire TV Stick with remote",
+   "de": "Amazon Fire TV Stick mit Fernbedienung"
+  }
+ },
+ "prod-firecube": {
+  "src": "/images/prod-firecube.webp",
+  "base": "/images/prod-firecube",
+  "w": 377,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Amazon Fire TV Cube",
+   "de": "Amazon Fire TV Cube"
+  }
+ },
+ "prod-appletv": {
+  "src": "/images/appletv.webp",
+  "base": "/images/appletv",
+  "w": 1110,
+  "h": 799,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Apple TV box with remote",
+   "de": "Apple-TV-Box mit Fernbedienung"
+  }
+ },
+ "prod-shield": {
+  "src": "/images/prod-shield.webp",
+  "base": "/images/prod-shield",
+  "w": 345,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "NVIDIA Shield TV with remote",
+   "de": "NVIDIA Shield TV mit Fernbedienung"
+  }
+ },
+ "prod-androidbox": {
+  "src": "/images/prod-androidbox.webp",
+  "base": "/images/prod-androidbox",
+  "w": 361,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Android TV box with remote",
+   "de": "Android-TV-Box mit Fernbedienung"
+  }
+ },
+ "prod-formuler": {
+  "src": "/images/prod-formuler.webp",
+  "base": "/images/prod-formuler",
+  "w": 465,
+  "h": 322,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Formuler IPTV box",
+   "de": "Formuler-IPTV-Box"
+  }
+ },
+ "prod-mag": {
+  "src": "/images/mag.webp",
+  "base": "/images/mag",
+  "w": 1024,
+  "h": 384,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "MAG IPTV set-top box",
+   "de": "MAG-IPTV-Set-Top-Box"
+  }
+ },
+ "prod-roku": {
+  "src": "/images/roku.webp",
+  "base": "/images/roku",
+  "w": 1400,
+  "h": 933,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Roku streaming stick with remote",
+   "de": "Roku-Streaming-Stick mit Fernbedienung"
+  }
+ },
+ "prod-chromecast": {
+  "src": "/images/chromecast.webp",
+  "base": "/images/chromecast",
+  "w": 512,
+  "h": 512,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Cast icon",
+   "de": "Cast-Symbol"
+  }
+ },
+ "prod-samsung": {
+  "src": "/images/samsungsmarttv.webp",
+  "base": "/images/samsungsmarttv",
+  "w": 1400,
+  "h": 933,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Samsung smart TV",
+   "de": "Samsung Smart-TV"
+  }
+ },
+ "prod-lg": {
+  "src": "/images/prod-lg-webos.webp",
+  "base": "/images/prod-lg-webos",
+  "w": 961,
+  "h": 633,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "LG webOS smart TV",
+   "de": "LG webOS Smart-TV"
+  }
+ },
+ "prod-hisense": {
+  "src": "/images/prod-hisense.webp",
+  "base": "/images/prod-hisense",
+  "w": 982,
+  "h": 623,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hisense smart TV",
+   "de": "Hisense Smart-TV"
+  }
+ },
+ "prod-tcl": {
+  "src": "/images/prod-tcl.webp",
+  "base": "/images/prod-tcl",
+  "w": 709,
+  "h": 451,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "TCL smart TV",
+   "de": "TCL Smart-TV"
+  }
+ },
+ "prod-sony": {
+  "src": "/images/prod-sony.webp",
+  "base": "/images/prod-sony",
+  "w": 1275,
+  "h": 1043,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Sony Google TV",
+   "de": "Sony Google TV"
+  }
+ },
+ "prod-othertv": {
+  "src": "/images/prod-othertv.webp",
+  "base": "/images/prod-othertv",
+  "w": 709,
+  "h": 399,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Other smart TV models",
+   "de": "Weitere Smart-TV-Modelle"
+  }
+ },
+ "prod-ipad": {
+  "src": "/images/prod-ipad.webp",
+  "base": "/images/prod-ipad",
+  "w": 645,
+  "h": 848,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "iPad tablets",
+   "de": "iPad-Tablets"
+  }
+ },
+ "prod-iphone": {
+  "src": "/images/iphone17.webp",
+  "base": "/images/iphone17",
+  "w": 1400,
+  "h": 1072,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "iPhone models",
+   "de": "iPhone-Modelle"
+  }
+ },
+ "prod-android-phones": {
+  "src": "/images/androidphones.webp",
+  "base": "/images/androidphones",
+  "w": 1400,
+  "h": 990,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Android phones",
+   "de": "Android-Smartphones"
+  }
+ },
+ "prod-firetablet": {
+  "src": "/images/prod-firetablet.webp",
+  "base": "/images/prod-firetablet",
+  "w": 576,
+  "h": 433,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Fire tablet",
+   "de": "Fire-Tablet"
+  }
+ },
+ "prod-windows": {
+  "src": "/images/windowspc.webp",
+  "base": "/images/windowspc",
+  "w": 1400,
+  "h": 1172,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Windows laptop",
+   "de": "Windows-Laptop"
+  }
+ },
+ "prod-mac": {
+  "src": "/images/macos.webp",
+  "base": "/images/macos",
+  "w": 1200,
+  "h": 750,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "MacBook",
+   "de": "MacBook"
+  }
+ },
+ "prod-playstation": {
+  "src": "/images/PlayStation.webp",
+  "base": "/images/PlayStation",
+  "w": 1400,
+  "h": 1400,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "PlayStation console",
+   "de": "PlayStation-Konsole"
+  }
+ },
+ "prod-xbox": {
+  "src": "/images/Xbox.webp",
+  "base": "/images/Xbox",
+  "w": 767,
+  "h": 992,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Xbox console",
+   "de": "Xbox-Konsole"
+  }
+ },
+ "logo-tivimate": {
+  "src": "/images/Tivimate-app-logo.webp",
+  "base": "/images/Tivimate-app-logo",
+  "w": 901,
+  "h": 901,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "TiviMate logo",
+   "de": "TiviMate-Logo"
+  }
+ },
+ "logo-ibo": {
+  "src": "/images/Ibo-Player-Pro-app-logo.webp",
+  "base": "/images/Ibo-Player-Pro-app-logo",
+  "w": 512,
+  "h": 512,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "IBO Player Pro logo",
+   "de": "IBO-Player-Pro-Logo"
+  }
+ },
+ "logo-smartiptv": {
+  "src": "/images/Smart-IPTV-app-logo.webp",
+  "base": "/images/Smart-IPTV-app-logo",
+  "w": 512,
+  "h": 512,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Smart IPTV logo",
+   "de": "Smart-IPTV-Logo"
+  }
+ },
+ "logo-smartstb": {
+  "src": "/images/Smart-STB-app-logo.webp",
+  "base": "/images/Smart-STB-app-logo",
+  "w": 512,
+  "h": 512,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Smart STB logo",
+   "de": "Smart-STB-Logo"
+  }
+ },
+ "logo-hotplayer": {
+  "src": "/images/Hot-Player-app-logo.webp",
+  "base": "/images/Hot-Player-app-logo",
+  "w": 512,
+  "h": 512,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Hot Player logo",
+   "de": "Hot-Player-Logo"
+  }
+ },
+ "pay-visa": {
+  "src": "/images/visa-logo.webp",
+  "base": "/images/visa-logo",
+  "w": 1400,
+  "h": 454,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Visa",
+   "de": "Visa"
+  }
+ },
+ "pay-mastercard": {
+  "src": "/images/mastercard-logo.webp",
+  "base": "/images/mastercard-logo",
+  "w": 1400,
+  "h": 1088,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Mastercard",
+   "de": "Mastercard"
+  }
+ },
+ "pay-paypal": {
+  "src": "/images/paypal-logo.webp",
+  "base": "/images/paypal-logo",
+  "w": 593,
+  "h": 585,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "PayPal",
+   "de": "PayPal"
+  }
+ },
+ "pay-applepay": {
+  "src": "/images/apple-pay-logo.webp",
+  "base": "/images/apple-pay-logo",
+  "w": 1280,
+  "h": 526,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Apple Pay",
+   "de": "Apple Pay"
+  }
+ },
+ "pay-googlepay": {
+  "src": "/images/google-pay-logo.webp",
+  "base": "/images/google-pay-logo",
+  "w": 512,
+  "h": 512,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Google Pay",
+   "de": "Google Pay"
+  }
+ },
+ "pay-crypto": {
+  "src": "/images/crypto-logo.webp",
+  "base": "/images/crypto-logo",
+  "w": 360,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Bitcoin",
+   "de": "Bitcoin"
+  }
+ },
+ "au-nrl": {
+  "src": "/images/au-nrl.webp",
+  "base": "/images/au-nrl",
+  "w": 1200,
+  "h": 720,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "NRL players in team kits",
+   "de": "NRL-Spieler in Teamtrikots"
+  }
+ },
+ "au-cricket": {
+  "src": "/images/au-cricket.webp",
+  "base": "/images/au-cricket",
+  "w": 1400,
+  "h": 975,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Cricket match with fielders crouching behind the wicket",
+   "de": "Cricket-Spiel mit Feldspielern hinter dem Wicket"
+  }
+ },
+ "au-afl": {
+  "src": "/images/playing-rules-scaled-1.webp",
+  "base": "/images/playing-rules-scaled-1",
+  "w": 1400,
+  "h": 934,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "AFL players jumping for a mark",
+   "de": "AFL-Spieler im Sprung um den Ball"
+  }
+ },
+ "au-nbl": {
+  "src": "/images/nbl-basketball.webp",
+  "base": "/images/nbl-basketball",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Basketball player at the hoop",
+   "de": "Basketballspieler am Korb"
+  }
+ },
+ "au-f1": {
+  "src": "/images/formula-1-aus.webp",
+  "base": "/images/formula-1-aus",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Formula 1 car on track",
+   "de": "Formel-1-Wagen auf der Strecke"
+  }
+ },
+ "au-stadium": {
+  "src": "/images/afl-nrl-stadium.webp",
+  "base": "/images/afl-nrl-stadium",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Football stadium under floodlights",
+   "de": "Fußballstadion unter Flutlicht"
+  }
+ },
+ "sport-ufc": {
+  "src": "/images/ufc-boxing-main-event.webp",
+  "base": "/images/ufc-boxing-main-event",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Fighter in the ring under arena lights",
+   "de": "Kämpfer im Ring unter Hallenlicht"
+  }
+ },
+ "sport-ufc-poster": {
+  "src": "/images/photo_2025-08-23_12-37-32_cleanup.webp",
+  "base": "/images/photo_2025-08-23_12-37-32_cleanup",
+  "w": 650,
+  "h": 1094,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Fight night poster collage",
+   "de": "Poster-Collage eines Kampfabends"
+  }
+ },
+ "sport-premier": {
+  "src": "/images/premier-league-soccer.webp",
+  "base": "/images/premier-league-soccer",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Football match on a TV in a green-lit room",
+   "de": "Fußballspiel auf dem Fernseher im grün beleuchteten Raum"
+  }
+ },
+ "sport-cricket-alt": {
+  "src": "/images/sport-cricket-alt.webp",
+  "base": "/images/sport-cricket-alt",
+  "w": 1400,
+  "h": 975,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Cricket match in progress",
+   "de": "Laufendes Cricket-Spiel"
+  }
+ },
+ "gen-trial": {
+  "src": "/images/gen-trial.webp",
+  "base": "/images/gen-trial",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Play button with a clock and gift ribbon",
+   "de": "Play-Symbol mit Uhr und Geschenkband"
+  }
+ },
+ "gen-pay": {
+  "src": "/images/gen-pay.webp",
+  "base": "/images/gen-pay",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Phone with shield protecting card payments",
+   "de": "Smartphone mit Schutzschild für sichere Zahlung"
+  }
+ },
+ "gen-sport-devices": {
+  "src": "/images/gen-sport-devices.webp",
+  "base": "/images/gen-sport-devices",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Sport on a TV, tablet and phone",
+   "de": "Sport auf Fernseher, Tablet und Smartphone"
+  }
+ },
+ "gen-stick": {
+  "src": "/images/gen-stick.webp",
+  "base": "/images/gen-stick",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming stick beside a TV",
+   "de": "Streaming-Stick neben dem Fernseher"
+  }
+ },
+ "gen-support": {
+  "src": "/images/gen-support.webp",
+  "base": "/images/gen-support",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Support agent with a headset in a bright office",
+   "de": "Support-Mitarbeiterin mit Headset im hellen Büro"
+  }
+ },
+ "gen-dashboard": {
+  "src": "/images/gen-dashboard.webp",
+  "base": "/images/gen-dashboard",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "TV showing a channel and movie dashboard",
+   "de": "Fernseher mit Sender- und Film-Übersicht"
+  }
+ },
+ "gen-box": {
+  "src": "/images/gen-box.webp",
+  "base": "/images/gen-box",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming box and remote on a dark surface",
+   "de": "Streaming-Box und Fernbedienung auf dunklem Untergrund"
+  }
+ },
+ "gen-wall-tv": {
+  "src": "/images/gen-wall-tv.webp",
+  "base": "/images/gen-wall-tv",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Colourful TV on a living-room wall",
+   "de": "Farbiger Fernseher an der Wohnzimmerwand"
+  }
+ },
+ "gen-laptop": {
+  "src": "/images/gen-laptop.webp",
+  "base": "/images/gen-laptop",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Laptop with a dashboard on a desk",
+   "de": "Laptop mit Dashboard auf dem Schreibtisch"
+  }
+ },
+ "gen-trial-neon": {
+  "src": "/images/gen-trial-neon.webp",
+  "base": "/images/gen-trial-neon",
+  "w": 1400,
+  "h": 788,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming interface with clock and ribbon",
+   "de": "Streaming-Oberfläche mit Uhr und Schleife"
+  }
+ },
+ "gen-friends": {
+  "src": "/images/gen-friends.webp",
+  "base": "/images/gen-friends",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Friends cheering in front of a TV",
+   "de": "Freunde jubeln vor dem Fernseher"
+  }
+ },
+ "gen-tv-cinema": {
+  "src": "/images/gen-tv-cinema.webp",
+  "base": "/images/gen-tv-cinema",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Large TV in a dark living room",
+   "de": "Großer Fernseher im dunklen Wohnzimmer"
+  }
+ },
+ "scene-premium": {
+  "src": "/images/iptv-premium-abo.webp",
+  "base": "/images/iptv-premium-abo",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Membership card with shield on a dark screen",
+   "de": "Mitgliedskarte mit Schild auf dunklem Bildschirm"
+  }
+ },
+ "scene-multi": {
+  "src": "/images/iptv-multi-geraete.webp",
+  "base": "/images/iptv-multi-geraete",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Several devices streaming at once",
+   "de": "Mehrere Geräte streamen gleichzeitig"
+  }
+ },
+ "scene-family": {
+  "src": "/images/iptv-familie-fernsehen.webp",
+  "base": "/images/iptv-familie-fernsehen",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Family on a sofa in front of a green-lit TV wall",
+   "de": "Familie auf dem Sofa vor einer grün beleuchteten TV-Wand"
+  }
+ },
+ "scene-heimkino": {
+  "src": "/images/iptv-heimkino.webp",
+  "base": "/images/iptv-heimkino",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Home cinema with a film on screen",
+   "de": "Heimkino mit Film auf dem Bildschirm"
+  }
+ },
+ "scene-live": {
+  "src": "/images/iptv-live-tv-wohnzimmer.webp",
+  "base": "/images/iptv-live-tv-wohnzimmer",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Live TV dashboard in a dark living room",
+   "de": "Live-TV-Übersicht im dunklen Wohnzimmer"
+  }
+ },
+ "scene-ipad": {
+  "src": "/images/iptv-ipad-pro.webp",
+  "base": "/images/iptv-ipad-pro",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Tablet with a streaming app",
+   "de": "Tablet mit Streaming-App"
+  }
+ },
+ "scene-iphone": {
+  "src": "/images/iptv-iphone.webp",
+  "base": "/images/iptv-iphone",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Phone with a streaming app on a dark desk",
+   "de": "Smartphone mit Streaming-App auf dunklem Schreibtisch"
+  }
+ },
+ "scene-macbook": {
+  "src": "/images/iptv-macbook-pro.webp",
+  "base": "/images/iptv-macbook-pro",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Laptop with a streaming dashboard",
+   "de": "Laptop mit Streaming-Übersicht"
+  }
+ },
+ "scene-4k": {
+  "src": "/images/iptv-4k-qualitaet.webp",
+  "base": "/images/iptv-4k-qualitaet",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Colourful 4K TV in a green-lit room",
+   "de": "Farbiger 4K-Fernseher im grün beleuchteten Raum"
+  }
+ },
+ "scene-tech": {
+  "src": "/images/iptv-streaming-technologie.webp",
+  "base": "/images/iptv-streaming-technologie",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "4K chip on a circuit diagram",
+   "de": "4K-Chip auf einem Schaltplan"
+  }
+ },
+ "scene-nobuffer": {
+  "src": "/images/iptv-ohne-buffering-illustration.webp",
+  "base": "/images/iptv-ohne-buffering-illustration",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Light streaks representing fast streaming",
+   "de": "Lichtstreifen als Sinnbild für schnelles Streaming"
+  }
+ },
+ "scene-server": {
+  "src": "/images/iptv-server-infrastruktur.webp",
+  "base": "/images/iptv-server-infrastruktur",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Row of lit server racks",
+   "de": "Reihe beleuchteter Server-Racks"
+  }
+ },
+ "scene-install": {
+  "src": "/images/iptv-installation-anleitung.webp",
+  "base": "/images/iptv-installation-anleitung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "TV with a router and Wi-Fi icon",
+   "de": "Fernseher mit Router und WLAN-Symbol"
+  }
+ },
+ "scene-background": {
+  "src": "/images/iptv-hintergrund-abstrakt.webp",
+  "base": "/images/iptv-hintergrund-abstrakt",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Abstract green wave background",
+   "de": "Abstrakter grüner Wellenhintergrund"
+  }
+ },
+ "scene-tech-bg": {
+  "src": "/images/iptv-tech-hintergrund.webp",
+  "base": "/images/iptv-tech-hintergrund",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Abstract green wave",
+   "de": "Abstrakte grüne Welle"
+  }
+ },
+ "scene-support": {
+  "src": "/images/iptv-support-team.webp",
+  "base": "/images/iptv-support-team",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Support agent with a headset",
+   "de": "Support-Mitarbeiterin mit Headset"
+  }
+ },
+ "scene-entertainment": {
+  "src": "/images/iptv-entertainment-dashboard.webp",
+  "base": "/images/iptv-entertainment-dashboard",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Entertainment dashboard on a wall-mounted screen",
+   "de": "Unterhaltungs-Übersicht auf einem Wandbildschirm"
+  }
+ },
+ "scene-securepay": {
+  "src": "/images/iptv-sichere-zahlung.webp",
+  "base": "/images/iptv-sichere-zahlung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Padlock on a circuit pattern",
+   "de": "Schloss auf einem Schaltkreis-Muster"
+  }
+ },
+ "scene-editorial": {
+  "src": "/images/iptv-streaming-editorial.webp",
+  "base": "/images/iptv-streaming-editorial",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming tips illustration",
+   "de": "Illustration mit Streaming-Tipps"
+  }
+ },
+ "scene-howitworks": {
+  "src": "/images/wie-funktioniert-iptv.webp",
+  "base": "/images/wie-funktioniert-iptv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Diagram of how IPTV delivers channels to devices",
+   "de": "Schaubild: So liefert IPTV Sender auf Geräte"
+  }
+ },
+ "avatar-1": {
+  "src": "/images/avatar-1.webp",
+  "base": "/images/avatar-1",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-2": {
+  "src": "/images/avatar-2.webp",
+  "base": "/images/avatar-2",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-3": {
+  "src": "/images/avatar-3.webp",
+  "base": "/images/avatar-3",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-4": {
+  "src": "/images/avatar-4.webp",
+  "base": "/images/avatar-4",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-5": {
+  "src": "/images/avatar-5.webp",
+  "base": "/images/avatar-5",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-6": {
+  "src": "/images/avatar-6.webp",
+  "base": "/images/avatar-6",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-7": {
+  "src": "/images/avatar-7.webp",
+  "base": "/images/avatar-7",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-8": {
+  "src": "/images/avatar-8.webp",
+  "base": "/images/avatar-8",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-9": {
+  "src": "/images/avatar-9.webp",
+  "base": "/images/avatar-9",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "rev-photo-anna": {
+  "src": "/images/pexels-anna-nekrashevich-6801642.webp",
+  "base": "/images/pexels-anna-nekrashevich-6801642",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Satisfied streaming user at home",
+   "de": "Zufriedene Streaming-Nutzerin zu Hause"
+  }
+ },
+ "rev-photo-helena": {
+  "src": "/images/pexels-helenalopes-27086758.webp",
+  "base": "/images/pexels-helenalopes-27086758",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Happy sports streaming subscriber",
+   "de": "Begeisterter Sport-Streaming-Abonnent"
+  }
+ },
+ "rev-photo-kelly": {
+  "src": "/images/pexels-kelly-3812011.webp",
+  "base": "/images/pexels-kelly-3812011",
+  "w": 1400,
+  "h": 1866,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Family TV streaming review",
+   "de": "Familie beim gemeinsamen Fernsehabend"
+  }
+ },
+ "rev-photo-pixabay": {
+  "src": "/images/pexels-pixabay-262391.webp",
+  "base": "/images/pexels-pixabay-262391",
+  "w": 1400,
+  "h": 1050,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Ultra HD streaming setup review",
+   "de": "Ultra HD Streaming Bewertung"
+  }
+ },
+ "rev-photo-haopeng": {
+  "src": "/images/pexels-hao-peng-2148478861-30976004.webp",
+  "base": "/images/pexels-hao-peng-2148478861-30976004",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Smart TV streaming customer",
+   "de": "Smart TV Streaming Kunde"
+  }
+ },
+ "rev-photo-andreas": {
+  "src": "/images/pexels-andreas-suwardy-2152085739-39131498.webp",
+  "base": "/images/pexels-andreas-suwardy-2152085739-39131498",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Customer enjoying 4K live sports",
+   "de": "Kunde genießt 4K Live-Sport"
+  }
+ },
+ "pay-safe-banner": {
+  "src": "/images/safe-payment.webp",
+  "base": "/images/safe-payment",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Secure encrypted checkout and payment methods",
+   "de": "Sichere verschlüsselte Zahlungsmethoden"
+  }
+ },
+ "pay-visa-logo": {
+  "src": "/images/pay-visa-badge.webp",
+  "base": "/images/pay-visa-badge",
+  "w": 1400,
+  "h": 454,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Visa payment accepted",
+   "de": "Visa Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "pay-mastercard-logo": {
+  "src": "/images/pay-mastercard-badge.webp",
+  "base": "/images/pay-mastercard-badge",
+  "w": 1400,
+  "h": 1088,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Mastercard payment accepted",
+   "de": "Mastercard Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "pay-paypal-logo": {
+  "src": "/images/pay-paypal-badge.webp",
+  "base": "/images/pay-paypal-badge",
+  "w": 593,
+  "h": 585,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "PayPal payment accepted",
+   "de": "PayPal Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "pay-applepay-logo": {
+  "src": "/images/pay-applepay-badge.webp",
+  "base": "/images/pay-applepay-badge",
+  "w": 1280,
+  "h": 526,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Apple Pay accepted",
+   "de": "Apple Pay Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "scene-family-tv": {
+  "src": "/images/family-watching-tv.webp",
+  "base": "/images/family-watching-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Family enjoying live channels and movies together",
+   "de": "Familie genießt Live-Sender und Filme gemeinsam"
+  }
+ },
+ "scene-living-hero": {
+  "src": "/images/living-room-hero.webp",
+  "base": "/images/living-room-hero",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Modern ambient living room with 4K IPTV stream",
+   "de": "Modernes Wohnzimmer mit 4K IPTV Stream"
+  }
+ },
+ "scene-smart-living": {
+  "src": "/images/smart-tv-living-room.webp",
+  "base": "/images/smart-tv-living-room",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Smart TV streaming sports and entertainment",
+   "de": "Smart-TV mit Live-Sport und Unterhaltung"
+  }
+ },
+ "scene-stream-remote": {
+  "src": "/images/streaming-device-remote.webp",
+  "base": "/images/streaming-device-remote",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming remote control for instant channel zapping",
+   "de": "Fernbedienung für schnelles Umschalten"
+  }
+ },
+ "scene-screen-trio": {
+  "src": "/images/tv-phone-tablet.webp",
+  "base": "/images/tv-phone-tablet",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Simultaneous streaming on TV, tablet and smartphone",
+   "de": "Paralleles Streaming auf TV, Tablet und Smartphone"
+  }
+ },
+ "scene-living-room": {
+  "src": "/images/living-room-tv.webp",
+  "base": "/images/living-room-tv",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Sleek living room television entertainment hub",
+   "de": "Modernes Fernseher-Unterhaltungssystem im Wohnzimmer"
+  }
+ },
+ "scene-frameless-tv": {
+  "src": "/images/frameless-smart-tv.webp",
+  "base": "/images/frameless-smart-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Frameless 4K Smart TV with ultra-vivid colors",
+   "de": "Rahmenloser 4K Smart TV mit brillanten Farben"
+  }
+ },
+ "scene-smart-remote": {
+  "src": "/images/smart-tv-remote.webp",
+  "base": "/images/smart-tv-remote",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "User switching channels on modern smart TV",
+   "de": "Benutzer wechselt Sender auf modernem Smart-TV"
+  }
+ },
+ "scene-wall-tv": {
+  "src": "/images/smart-tv-wall.webp",
+  "base": "/images/smart-tv-wall",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Wall-mounted OLED television running live IPTV",
+   "de": "Wandmontierter OLED-Fernseher mit Live-IPTV"
+  }
+ },
+ "scene-phone-stream": {
+  "src": "/images/smartphone-in-hand.webp",
+  "base": "/images/smartphone-in-hand",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming live football match on mobile phone",
+   "de": "Live-Fußballspiel auf dem Smartphone streamen"
+  }
+ },
+ "scene-stick-screen": {
+  "src": "/images/streaming-stick-tv.webp",
+  "base": "/images/streaming-stick-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming stick connected to TV HDMI port",
+   "de": "Streaming-Stick am HDMI-Anschluss des Fernsehers"
+  }
+ },
+ "scene-multi-trio": {
+  "src": "/images/tv-tablet-phone.webp",
+  "base": "/images/tv-tablet-phone",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Multi-screen streaming across household devices",
+   "de": "Multi-Screen-Streaming auf allen Geräten"
+  }
+ },
+ "prod-fire-tablet": {
+  "src": "/images/prod-fire-tablet.webp",
+  "base": "/images/prod-fire-tablet",
+  "w": 338,
+  "h": 231,
+  "variants": [],
+  "alt": {
+   "en": "Amazon Fire Tablet compatibility",
+   "de": "Amazon Fire Tablet Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-ipad-device": {
+  "src": "/images/prod-ipad-device.webp",
+  "base": "/images/prod-ipad-device",
+  "w": 274,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Apple iPad tablet compatibility",
+   "de": "Apple iPad Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-iphone-device": {
+  "src": "/images/prod-iphone-device.webp",
+  "base": "/images/prod-iphone-device",
+  "w": 317,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Apple iPhone mobile compatibility",
+   "de": "Apple iPhone Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-smart-tv-device": {
+  "src": "/images/prod-smart-tv-device.webp",
+  "base": "/images/prod-smart-tv-device",
+  "w": 480,
+  "h": 270,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Smart TV compatibility",
+   "de": "Smart-TV Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-win-laptop": {
+  "src": "/images/prod-win-laptop.webp",
+  "base": "/images/prod-win-laptop",
+  "w": 456,
+  "h": 360,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Windows laptop & PC compatibility",
+   "de": "Windows Laptop & PC Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "ui-beste-apps": {
+  "src": "/images/beste-iptv-apps-dashboard.webp",
+  "base": "/images/beste-iptv-apps-dashboard",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Top rated IPTV player apps dashboard comparison",
+   "de": "Beste IPTV Player-Apps Dashboard Übersicht"
+  }
+ },
+ "ui-google-dashboard": {
+  "src": "/images/google-tv-dashboard.webp",
+  "base": "/images/google-tv-dashboard",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Google TV and Android TV home interface",
+   "de": "Google TV und Android TV Benutzeroberfläche"
+  }
+ },
+ "ui-iptv-apps-hub": {
+  "src": "/images/iptv-apps.webp",
+  "base": "/images/iptv-apps",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Modern IPTV media player apps selection",
+   "de": "Moderne IPTV Media Player Apps Auswahl"
+  }
+ },
+ "ui-google-iptv": {
+  "src": "/images/iptv-google-tv-dashboard.webp",
+  "base": "/images/iptv-google-tv-dashboard",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Google TV IPTV channel navigation guide",
+   "de": "Google TV IPTV Sendenavigation und EPG"
+  }
+ },
+ "ui-samsung-apps": {
+  "src": "/images/iptv-samsung-app-store.webp",
+  "base": "/images/iptv-samsung-app-store",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Samsung Tizen App Store IPTV player search",
+   "de": "Samsung Tizen App Store IPTV Player Suche"
+  }
+ },
+ "sport-bundesliga-stadium": {
+  "src": "/images/bundesliga-stadion.webp",
+  "base": "/images/bundesliga-stadion",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Packed Bundesliga football stadium under floodlights",
+   "de": "Ausverkauftes Bundesliga-Stadion unter Flutlicht"
+  }
+ },
+ "sport-fussball-live": {
+  "src": "/images/fussball-streaming.webp",
+  "base": "/images/fussball-streaming",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Live European football streaming action in 4K",
+   "de": "Live-Fußball Streaming Übertragung in 4K"
+  }
+ },
+ "sport-cricket-aus": {
+  "src": "/images/cricket-iptv-australia-sports.webp",
+  "base": "/images/cricket-iptv-australia-sports",
+  "w": 1400,
+  "h": 975,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Live international cricket match streaming",
+   "de": "Live Cricket-Match Übertragung"
+  }
+ },
+ "sport-sunset-stadium": {
+  "src": "/images/stadium-sunset-match.webp",
+  "base": "/images/stadium-sunset-match",
+  "w": 1400,
+  "h": 788,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Sunset stadium match atmosphere",
+   "de": "Stadionatmosphäre bei Sonnenuntergang"
+  }
+ },
+ "sport-stadium-night": {
+  "src": "/images/lucid-origin_Dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0.webp",
+  "base": "/images/lucid-origin_Dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Dramatic wide angle football arena at night",
+   "de": "Dramatische Nachtaufnahme einer Fußballarena"
+  }
+ },
+ "sport-football-strike": {
+  "src": "/images/lucid-origin_Epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0.webp",
+  "base": "/images/lucid-origin_Epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Epic low angle football strike under stadium lights",
+   "de": "Epischer Torschuss unter Flutlicht"
+  }
+ },
+ "sport-playing-rules": {
+  "src": "/images/playing-rules-scaled-1.webp",
+  "base": "/images/playing-rules-scaled-1",
+  "w": 1400,
+  "h": 934,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Live professional sports broadcast rules",
+   "de": "Professionelle Live-Sportübertragung"
+  }
+ },
+ "sport-iptv-streaming": {
+  "src": "/images/iptv-sport-streaming.webp",
+  "base": "/images/iptv-sport-streaming",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "High bitrate buffer-free sports streaming",
+   "de": "Ruckelfreies Sport-Streaming mit hoher Bitrate"
+  }
+ },
+ "setup-androidtv-guide": {
+  "src": "/images/iptv-android-tv-setup.webp",
+  "base": "/images/iptv-android-tv-setup",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Android TV IPTV setup and installation steps",
+   "de": "Android TV IPTV Einrichtung und Installation"
+  }
+ },
+ "setup-appletv-guide": {
+  "src": "/images/iptv-apple-tv-4k.webp",
+  "base": "/images/iptv-apple-tv-4k",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Apple TV 4K IPTV player configuration guide",
+   "de": "Apple TV 4K IPTV Player Konfigurationsanleitung"
+  }
+ },
+ "setup-firestick-guide": {
+  "src": "/images/iptv-fire-tv-stick.webp",
+  "base": "/images/iptv-fire-tv-stick",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Amazon Fire TV Stick IPTV step-by-step setup",
+   "de": "Amazon Fire TV Stick IPTV Schritt-für-Schritt Anleitung"
+  }
+ },
+ "setup-lgtv-guide": {
+  "src": "/images/iptv-lg-smart-tv.webp",
+  "base": "/images/iptv-lg-smart-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "LG Smart TV webOS IPTV setup tutorial",
+   "de": "LG Smart TV webOS IPTV Einrichtungsanleitung"
+  }
+ },
+ "setup-samsung-guide": {
+  "src": "/images/iptv-samsung-tv-setup.webp",
+  "base": "/images/iptv-samsung-tv-setup",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Samsung Smart TV Tizen IPTV configuration",
+   "de": "Samsung Smart TV Tizen IPTV Konfiguration"
+  }
+ },
+ "setup-winpc-guide": {
+  "src": "/images/iptv-windows-pc.webp",
+  "base": "/images/iptv-windows-pc",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Windows PC & Mac IPTV VLC and player setup",
+   "de": "Windows PC & Mac IPTV VLC und Player Einrichtung"
+  }
+ },
+ "guide-de-hero": {
+  "src": "/images/iptv-deutschland-hero.webp",
+  "base": "/images/iptv-deutschland-hero",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Premium IPTV streaming in Germany and Europe",
+   "de": "Premium IPTV Streaming in Deutschland und Europa"
+  }
+ },
+ "guide-de-ratgeber": {
+  "src": "/images/iptv-ratgeber.webp",
+  "base": "/images/iptv-ratgeber",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Complete IPTV buyer and setup guide",
+   "de": "Vollständiger IPTV Ratgeber und Kaufberater"
+  }
+ },
+ "info-cable-iptv": {
+  "src": "/images/cable-vs-iptv.webp",
+  "base": "/images/cable-vs-iptv",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Traditional cable television vs modern IPTV comparison",
+   "de": "Traditionelles Kabelfernsehen im Vergleich zu modernem IPTV"
+  }
+ },
+ "info-anbieter-2026": {
+  "src": "/images/iptv-anbieter-vergleich-2026.webp",
+  "base": "/images/iptv-anbieter-vergleich-2026",
+  "w": 1376,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "2026 IPTV provider comparison criteria and benchmark",
+   "de": "IPTV Anbieter Vergleich 2026 Testkriterien"
+  }
+ },
+ "info-vergleich-editorial": {
+  "src": "/images/iptv-vergleich-editorial.webp",
+  "base": "/images/iptv-vergleich-editorial",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Editorial review and comparison of IPTV services",
+   "de": "Redaktioneller Test und Vergleich von IPTV-Diensten"
+  }
+ },
+ "infra-vpn-guard": {
+  "src": "/images/iptv-vpn-schutz.webp",
+  "base": "/images/iptv-vpn-schutz",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "VPN protection and ISP throttling bypass",
+   "de": "VPN-Schutz und Umgehung von ISP-Drosselung"
+  }
+ },
+ "info-kabel-vs-iptv": {
+  "src": "/images/iptv-vs-kabel-infografik.webp",
+  "base": "/images/iptv-vs-kabel-infografik",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Cable vs IPTV cost and features infographic",
+   "de": "Kabel vs IPTV Kosten und Funktionsvergleich Infografik"
+  }
+ },
+ "info-provider-compare": {
+  "src": "/images/provider-comparison.webp",
+  "base": "/images/provider-comparison",
+  "w": 1376,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Direct comparison between IPTV providers and plans",
+   "de": "Direkter Vergleich zwischen IPTV Anbietern und Tarifen"
+  }
+ },
+ "guide-quality-4k-uhd": {
+  "src": "/images/quality-4k.webp",
+  "base": "/images/quality-4k",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "True 4K UHD 60fps streaming resolution comparison",
+   "de": "Echte 4K UHD 60fps Streaming Auflösung im Vergleich"
+  }
+ },
+ "img-images-5403": {
+  "src": "/images/5403.webp",
+  "base": "/images/5403",
+  "w": 1200,
+  "h": 720,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "5403 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "5403 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-6124998": {
+  "src": "/images/6124998.webp",
+  "base": "/images/6124998",
+  "w": 512,
+  "h": 512,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "6124998 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "6124998 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-android-tv": {
+  "src": "/images/Android TV.webp",
+  "base": "/images/Android TV",
+  "w": 705,
+  "h": 601,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Android TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Android TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-androidtvbox": {
+  "src": "/images/androidtvbox.webp",
+  "base": "/images/androidtvbox",
+  "w": 899,
+  "h": 896,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Androidtvbox - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Androidtvbox - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-apple_pay_logo-svg": {
+  "src": "/images/Apple_Pay_logo.svg.webp",
+  "base": "/images/Apple_Pay_logo.svg",
+  "w": 1280,
+  "h": 526,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Apple Pay Logo.Svg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Apple Pay Logo.Svg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-cricket-ashes": {
+  "src": "/images/cricket-ashes.webp",
+  "base": "/images/cricket-ashes",
+  "w": 1400,
+  "h": 975,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Cricket Ashes - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Cricket Ashes - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-devices-collection": {
+  "src": "/images/devices/devices-collection.webp",
+  "base": "/images/devices/devices-collection",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Devices Collection - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Devices Collection - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-frameless-smart-tv": {
+  "src": "/images/devices/frameless-smart-tv.webp",
+  "base": "/images/devices/frameless-smart-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Frameless Smart Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Frameless Smart Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-android-tv-box": {
+  "src": "/images/devices/products/android-tv-box.webp",
+  "base": "/images/devices/products/android-tv-box",
+  "w": 361,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Android Tv Box - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Android Tv Box - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-fire-tablet": {
+  "src": "/images/devices/products/fire-tablet.webp",
+  "base": "/images/devices/products/fire-tablet",
+  "w": 338,
+  "h": 231,
+  "variants": [],
+  "alt": {
+   "en": "Fire Tablet - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Fire Tablet - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-fire-tv-cube": {
+  "src": "/images/devices/products/fire-tv-cube.webp",
+  "base": "/images/devices/products/fire-tv-cube",
+  "w": 377,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Fire Tv Cube - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Fire Tv Cube - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-formuler-box": {
+  "src": "/images/devices/products/formuler-box.webp",
+  "base": "/images/devices/products/formuler-box",
+  "w": 465,
+  "h": 322,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Formuler Box - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Formuler Box - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-ipad": {
+  "src": "/images/devices/products/ipad.webp",
+  "base": "/images/devices/products/ipad",
+  "w": 274,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Ipad - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Ipad - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-iphone": {
+  "src": "/images/devices/products/iphone.webp",
+  "base": "/images/devices/products/iphone",
+  "w": 317,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Iphone - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iphone - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-nvidia-shield": {
+  "src": "/images/devices/products/nvidia-shield.webp",
+  "base": "/images/devices/products/nvidia-shield",
+  "w": 345,
+  "h": 360,
+  "variants": [],
+  "alt": {
+   "en": "Nvidia Shield - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Nvidia Shield - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-smart-tv": {
+  "src": "/images/devices/products/smart-tv.webp",
+  "base": "/images/devices/products/smart-tv",
+  "w": 480,
+  "h": 270,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Smart Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Smart Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-products-windows-laptop": {
+  "src": "/images/devices/products/windows-laptop.webp",
+  "base": "/images/devices/products/windows-laptop",
+  "w": 456,
+  "h": 360,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Windows Laptop - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Windows Laptop - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-smart-tv-remote": {
+  "src": "/images/devices/smart-tv-remote.webp",
+  "base": "/images/devices/smart-tv-remote",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Smart Tv Remote - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Smart Tv Remote - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-smart-tv-wall": {
+  "src": "/images/devices/smart-tv-wall.webp",
+  "base": "/images/devices/smart-tv-wall",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Smart Tv Wall - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Smart Tv Wall - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-smartphone-in-hand": {
+  "src": "/images/devices/smartphone-in-hand.webp",
+  "base": "/images/devices/smartphone-in-hand",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Smartphone In Hand - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Smartphone In Hand - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-streaming-stick-tv": {
+  "src": "/images/devices/streaming-stick-tv.webp",
+  "base": "/images/devices/streaming-stick-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming Stick Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Streaming Stick Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-devices-tv-tablet-phone": {
+  "src": "/images/devices/tv-tablet-phone.webp",
+  "base": "/images/devices/tv-tablet-phone",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Tv Tablet Phone - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Tv Tablet Phone - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-fire-tablet": {
+  "src": "/images/Fire Tablet.webp",
+  "base": "/images/Fire Tablet",
+  "w": 576,
+  "h": 433,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Fire Tablet - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Fire Tablet - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-firetvcude": {
+  "src": "/images/firetvcude.webp",
+  "base": "/images/firetvcude",
+  "w": 1000,
+  "h": 955,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Firetvcude - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Firetvcude - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-formuler": {
+  "src": "/images/Formuler.webp",
+  "base": "/images/Formuler",
+  "w": 500,
+  "h": 500,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Formuler - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Formuler - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-hisense-tv": {
+  "src": "/images/Hisense TV.webp",
+  "base": "/images/Hisense TV",
+  "w": 982,
+  "h": 623,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hisense TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hisense TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-home-family-watching-tv": {
+  "src": "/images/home/family-watching-tv.webp",
+  "base": "/images/home/family-watching-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Family Watching Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Family Watching Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-home-living-room-hero": {
+  "src": "/images/home/living-room-hero.webp",
+  "base": "/images/home/living-room-hero",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Living Room Hero - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Living Room Hero - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-home-smart-tv-living-room": {
+  "src": "/images/home/smart-tv-living-room.webp",
+  "base": "/images/home/smart-tv-living-room",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Smart Tv Living Room - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Smart Tv Living Room - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-home-streaming-device-remote": {
+  "src": "/images/home/streaming-device-remote.webp",
+  "base": "/images/home/streaming-device-remote",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming Device Remote - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Streaming Device Remote - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-home-tv-phone-tablet": {
+  "src": "/images/home/tv-phone-tablet.webp",
+  "base": "/images/home/tv-phone-tablet",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Tv Phone Tablet - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Tv Phone Tablet - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-ipad": {
+  "src": "/images/iPad.webp",
+  "base": "/images/iPad",
+  "w": 645,
+  "h": 848,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "IPad - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "IPad - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-apps-iptv-apps": {
+  "src": "/images/iptv/apps/iptv-apps.webp",
+  "base": "/images/iptv/apps/iptv-apps",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Apps - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Apps - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-blog-iptv-ratgeber": {
+  "src": "/images/iptv/blog/iptv-ratgeber.webp",
+  "base": "/images/iptv/blog/iptv-ratgeber",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Ratgeber - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Ratgeber - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-business-iptv-anbieter": {
+  "src": "/images/iptv/business/iptv-anbieter.webp",
+  "base": "/images/iptv/business/iptv-anbieter",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Anbieter - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Anbieter - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-business-iptv-kostenlos-testen": {
+  "src": "/images/iptv/business/iptv-kostenlos-testen.webp",
+  "base": "/images/iptv/business/iptv-kostenlos-testen",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Kostenlos Testen - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Kostenlos Testen - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-business-iptv-preise": {
+  "src": "/images/iptv/business/iptv-preise.webp",
+  "base": "/images/iptv/business/iptv-preise",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Preise - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Preise - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-business-iptv-support": {
+  "src": "/images/iptv/business/iptv-support.webp",
+  "base": "/images/iptv/business/iptv-support",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Support - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Support - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-business-iptv-vergleich": {
+  "src": "/images/iptv/business/iptv-vergleich.webp",
+  "base": "/images/iptv/business/iptv-vergleich",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Vergleich - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Vergleich - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-business-iptv-whatsapp-support": {
+  "src": "/images/iptv/business/iptv-whatsapp-support.webp",
+  "base": "/images/iptv/business/iptv-whatsapp-support",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Whatsapp Support - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Whatsapp Support - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-android-handy": {
+  "src": "/images/iptv/devices/hero-android-handy.webp",
+  "base": "/images/iptv/devices/hero-android-handy",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Android Handy - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Android Handy - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-android-tv": {
+  "src": "/images/iptv/devices/hero-android-tv.webp",
+  "base": "/images/iptv/devices/hero-android-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Android Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Android Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-apple-tv": {
+  "src": "/images/iptv/devices/hero-apple-tv.webp",
+  "base": "/images/iptv/devices/hero-apple-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Apple Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Apple Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-fire-stick": {
+  "src": "/images/iptv/devices/hero-fire-stick.webp",
+  "base": "/images/iptv/devices/hero-fire-stick",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Fire Stick - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Fire Stick - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-lg-tv": {
+  "src": "/images/iptv/devices/hero-lg-tv.webp",
+  "base": "/images/iptv/devices/hero-lg-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Lg Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Lg Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-mag-box": {
+  "src": "/images/iptv/devices/hero-mag-box.webp",
+  "base": "/images/iptv/devices/hero-mag-box",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Mag Box - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Mag Box - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-samsung-tv": {
+  "src": "/images/iptv/devices/hero-samsung-tv.webp",
+  "base": "/images/iptv/devices/hero-samsung-tv",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Samsung Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Samsung Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-hero-windows-mac": {
+  "src": "/images/iptv/devices/hero-windows-mac.webp",
+  "base": "/images/iptv/devices/hero-windows-mac",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Hero Windows Mac - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Hero Windows Mac - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-android-handy": {
+  "src": "/images/iptv/devices/iptv-android-handy.webp",
+  "base": "/images/iptv/devices/iptv-android-handy",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Android Handy - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Android Handy - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-android-tv": {
+  "src": "/images/iptv/devices/iptv-android-tv.webp",
+  "base": "/images/iptv/devices/iptv-android-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Android Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Android Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-apple-tv": {
+  "src": "/images/iptv/devices/iptv-apple-tv.webp",
+  "base": "/images/iptv/devices/iptv-apple-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Apple Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Apple Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-fire-stick": {
+  "src": "/images/iptv/devices/iptv-fire-stick.webp",
+  "base": "/images/iptv/devices/iptv-fire-stick",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Fire Stick - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Fire Stick - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-iphone-ipad": {
+  "src": "/images/iptv/devices/iptv-iphone-ipad.webp",
+  "base": "/images/iptv/devices/iptv-iphone-ipad",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Iphone Ipad - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Iphone Ipad - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-lg-tv-einrichtung": {
+  "src": "/images/iptv/devices/iptv-lg-tv-einrichtung.webp",
+  "base": "/images/iptv/devices/iptv-lg-tv-einrichtung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Lg Tv Einrichtung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Lg Tv Einrichtung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-mehrere-geraete": {
+  "src": "/images/iptv/devices/iptv-mehrere-geraete.webp",
+  "base": "/images/iptv/devices/iptv-mehrere-geraete",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Mehrere Geraete - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Mehrere Geraete - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-samsung-tv-einrichtung": {
+  "src": "/images/iptv/devices/iptv-samsung-tv-einrichtung.webp",
+  "base": "/images/iptv/devices/iptv-samsung-tv-einrichtung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Samsung Tv Einrichtung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Samsung Tv Einrichtung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-devices-iptv-windows-mac": {
+  "src": "/images/iptv/devices/iptv-windows-mac.webp",
+  "base": "/images/iptv/devices/iptv-windows-mac",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Windows Mac - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Windows Mac - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-guides-iptv-4k": {
+  "src": "/images/iptv/guides/iptv-4k.webp",
+  "base": "/images/iptv/guides/iptv-4k",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv 4k - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv 4k - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-guides-iptv-anleitung": {
+  "src": "/images/iptv/guides/iptv-anleitung.webp",
+  "base": "/images/iptv/guides/iptv-anleitung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Anleitung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Anleitung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-guides-iptv-datenschutz": {
+  "src": "/images/iptv/guides/iptv-datenschutz.webp",
+  "base": "/images/iptv/guides/iptv-datenschutz",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Datenschutz - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Datenschutz - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-guides-iptv-legal-deutschland": {
+  "src": "/images/iptv/guides/iptv-legal-deutschland.webp",
+  "base": "/images/iptv/guides/iptv-legal-deutschland",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Legal Deutschland - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Legal Deutschland - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-guides-iptv-sender": {
+  "src": "/images/iptv/guides/iptv-sender.webp",
+  "base": "/images/iptv/guides/iptv-sender",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Sender - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Sender - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-guides-iptv-sicherheit": {
+  "src": "/images/iptv/guides/iptv-sicherheit.webp",
+  "base": "/images/iptv/guides/iptv-sicherheit",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Sicherheit - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Sicherheit - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-guides-iptv-tv-guide": {
+  "src": "/images/iptv/guides/iptv-tv-guide.webp",
+  "base": "/images/iptv/guides/iptv-tv-guide",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Tv Guide - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Tv Guide - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-home-iptv-deutschland": {
+  "src": "/images/iptv/home/iptv-deutschland.webp",
+  "base": "/images/iptv/home/iptv-deutschland",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Deutschland - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Deutschland - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-home-iptv-smart-tv": {
+  "src": "/images/iptv/home/iptv-smart-tv.webp",
+  "base": "/images/iptv/home/iptv-smart-tv",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Smart Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Smart Tv - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-home-iptv-streaming-erlebnis": {
+  "src": "/images/iptv/home/iptv-streaming-erlebnis.webp",
+  "base": "/images/iptv/home/iptv-streaming-erlebnis",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Streaming Erlebnis - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Streaming Erlebnis - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-home-iptv-streaming-home": {
+  "src": "/images/iptv/home/iptv-streaming-home.webp",
+  "base": "/images/iptv/home/iptv-streaming-home",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Streaming Home - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Streaming Home - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-setup-iptv-einrichten": {
+  "src": "/images/iptv/setup/iptv-einrichten.webp",
+  "base": "/images/iptv/setup/iptv-einrichten",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Einrichten - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Einrichten - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-setup-iptv-epg": {
+  "src": "/images/iptv/setup/iptv-epg.webp",
+  "base": "/images/iptv/setup/iptv-epg",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Epg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Epg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-setup-iptv-heimnetzwerk": {
+  "src": "/images/iptv/setup/iptv-heimnetzwerk.webp",
+  "base": "/images/iptv/setup/iptv-heimnetzwerk",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Heimnetzwerk - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Heimnetzwerk - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-setup-iptv-installieren": {
+  "src": "/images/iptv/setup/iptv-installieren.webp",
+  "base": "/images/iptv/setup/iptv-installieren",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Installieren - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Installieren - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-setup-iptv-m3u": {
+  "src": "/images/iptv/setup/iptv-m3u.webp",
+  "base": "/images/iptv/setup/iptv-m3u",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv M3u - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv M3u - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-social-4kdeutsch-streaming": {
+  "src": "/images/iptv/social/4kdeutsch-streaming.webp",
+  "base": "/images/iptv/social/4kdeutsch-streaming",
+  "w": 1200,
+  "h": 630,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "4kdeutsch Streaming - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "4kdeutsch Streaming - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-sports-iptv-bundesliga": {
+  "src": "/images/iptv/sports/iptv-bundesliga.webp",
+  "base": "/images/iptv/sports/iptv-bundesliga",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Bundesliga - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Bundesliga - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-sports-iptv-fussball": {
+  "src": "/images/iptv/sports/iptv-fussball.webp",
+  "base": "/images/iptv/sports/iptv-fussball",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Fussball - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Fussball - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-sports-iptv-sport": {
+  "src": "/images/iptv/sports/iptv-sport.webp",
+  "base": "/images/iptv/sports/iptv-sport",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Sport - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Sport - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-troubleshooting-iptv-kein-bild": {
+  "src": "/images/iptv/troubleshooting/iptv-kein-bild.webp",
+  "base": "/images/iptv/troubleshooting/iptv-kein-bild",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Kein Bild - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Kein Bild - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-troubleshooting-iptv-probleme": {
+  "src": "/images/iptv/troubleshooting/iptv-probleme.webp",
+  "base": "/images/iptv/troubleshooting/iptv-probleme",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Probleme - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Probleme - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-iptv-troubleshooting-iptv-verbindung": {
+  "src": "/images/iptv/troubleshooting/iptv-verbindung.webp",
+  "base": "/images/iptv/troubleshooting/iptv-verbindung",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Iptv Verbindung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Iptv Verbindung - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-lancer-au-coucher-du-soleil-au-stade": {
+  "src": "/images/Lancer au coucher du soleil au stade.webp",
+  "base": "/images/Lancer au coucher du soleil au stade",
+  "w": 1400,
+  "h": 788,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lancer Au Coucher Du Soleil Au Stade - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lancer Au Coucher Du Soleil Au Stade - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-lg-tv-webos-": {
+  "src": "/images/LG TV (webOS).webp",
+  "base": "/images/LG TV (webOS)",
+  "w": 961,
+  "h": 633,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "LG TV (WebOS) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "LG TV (WebOS) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-mastercard-logo-svg": {
+  "src": "/images/Mastercard-logo.svg.webp",
+  "base": "/images/Mastercard-logo.svg",
+  "w": 1400,
+  "h": 1088,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Mastercard Logo.Svg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Mastercard Logo.Svg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-nvidiashield": {
+  "src": "/images/nvidiashield.webp",
+  "base": "/images/nvidiashield",
+  "w": 500,
+  "h": 600,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Nvidiashield - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Nvidiashield - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-other-smart-tv": {
+  "src": "/images/other Smart TV.webp",
+  "base": "/images/other Smart TV",
+  "w": 709,
+  "h": 399,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Other Smart TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Other Smart TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-5403": {
+  "src": "/images/packimages2/5403.webp",
+  "base": "/images/packimages2/5403",
+  "w": 1200,
+  "h": 720,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "5403 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "5403 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-cricket-iptv-australia-sports": {
+  "src": "/images/packimages2/cricket-iptv-australia-sports.webp",
+  "base": "/images/packimages2/cricket-iptv-australia-sports",
+  "w": 1400,
+  "h": 975,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Cricket Iptv Australia Sports - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Cricket Iptv Australia Sports - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-friends-cheering": {
+  "src": "/images/packimages2/friends-cheering.webp",
+  "base": "/images/packimages2/friends-cheering",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Friends Cheering - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Friends Cheering - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_22ozpx22ozpx22oz": {
+  "src": "/images/packimages2/Gemini_Generated_Image_22ozpx22ozpx22oz.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_22ozpx22ozpx22oz",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image 22ozpx22ozpx22oz - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image 22ozpx22ozpx22oz - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_40x4xd40x4xd40x4": {
+  "src": "/images/packimages2/Gemini_Generated_Image_40x4xd40x4xd40x4.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_40x4xd40x4xd40x4",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image 40x4xd40x4xd40x4 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image 40x4xd40x4xd40x4 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_4jviup4jviup4jvi": {
+  "src": "/images/packimages2/Gemini_Generated_Image_4jviup4jviup4jvi.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_4jviup4jviup4jvi",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image 4jviup4jviup4jvi - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image 4jviup4jviup4jvi - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_68n0o968n0o968n0": {
+  "src": "/images/packimages2/Gemini_Generated_Image_68n0o968n0o968n0.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_68n0o968n0o968n0",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image 68n0o968n0o968n0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image 68n0o968n0o968n0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_932c5932c5932c59": {
+  "src": "/images/packimages2/Gemini_Generated_Image_932c5932c5932c59.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_932c5932c5932c59",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image 932c5932c5932c59 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image 932c5932c5932c59 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_9gszvc9gszvc9gsz": {
+  "src": "/images/packimages2/Gemini_Generated_Image_9gszvc9gszvc9gsz.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_9gszvc9gszvc9gsz",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image 9gszvc9gszvc9gsz - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image 9gszvc9gszvc9gsz - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_9kcsd19kcsd19kcs": {
+  "src": "/images/packimages2/Gemini_Generated_Image_9kcsd19kcsd19kcs.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_9kcsd19kcsd19kcs",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image 9kcsd19kcsd19kcs - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image 9kcsd19kcsd19kcs - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_ajzn75ajzn75ajzn": {
+  "src": "/images/packimages2/Gemini_Generated_Image_ajzn75ajzn75ajzn.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_ajzn75ajzn75ajzn",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image Ajzn75ajzn75ajzn - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image Ajzn75ajzn75ajzn - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_cavt4dcavt4dcavt": {
+  "src": "/images/packimages2/Gemini_Generated_Image_cavt4dcavt4dcavt.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_cavt4dcavt4dcavt",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image Cavt4dcavt4dcavt - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image Cavt4dcavt4dcavt - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_d1j3efd1j3efd1j3": {
+  "src": "/images/packimages2/Gemini_Generated_Image_d1j3efd1j3efd1j3.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_d1j3efd1j3efd1j3",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image D1j3efd1j3efd1j3 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image D1j3efd1j3efd1j3 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_fjow55fjow55fjow": {
+  "src": "/images/packimages2/Gemini_Generated_Image_fjow55fjow55fjow.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_fjow55fjow55fjow",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image Fjow55fjow55fjow - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image Fjow55fjow55fjow - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_razn6trazn6trazn": {
+  "src": "/images/packimages2/Gemini_Generated_Image_razn6trazn6trazn.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_razn6trazn6trazn",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image Razn6trazn6trazn - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image Razn6trazn6trazn - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_t9inzdt9inzdt9in": {
+  "src": "/images/packimages2/Gemini_Generated_Image_t9inzdt9inzdt9in.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_t9inzdt9inzdt9in",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image T9inzdt9inzdt9in - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image T9inzdt9inzdt9in - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gemini_generated_image_vqwd0ovqwd0ovqwd": {
+  "src": "/images/packimages2/Gemini_Generated_Image_vqwd0ovqwd0ovqwd.webp",
+  "base": "/images/packimages2/Gemini_Generated_Image_vqwd0ovqwd0ovqwd",
+  "w": 1400,
+  "h": 781,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gemini Generated Image Vqwd0ovqwd0ovqwd - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gemini Generated Image Vqwd0ovqwd0ovqwd - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-gpt-image-2_horizontal_logo_lockup_for_a_streaming_brand_a_small_blue-to-cyan_gradient_play-0": {
+  "src": "/images/packimages2/gpt-image-2_Horizontal_logo_lockup_for_a_streaming_brand_a_small_blue-to-cyan_gradient_play--0.webp",
+  "base": "/images/packimages2/gpt-image-2_Horizontal_logo_lockup_for_a_streaming_brand_a_small_blue-to-cyan_gradient_play--0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Gpt Image 2 Horizontal Logo Lockup For A Streaming Brand A Small Blue To Cyan Gradient Play  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Gpt Image 2 Horizontal Logo Lockup For A Streaming Brand A Small Blue To Cyan Gradient Play  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lancer-au-coucher-du-soleil-au-stade": {
+  "src": "/images/packimages2/Lancer au coucher du soleil au stade.webp",
+  "base": "/images/packimages2/Lancer au coucher du soleil au stade",
+  "w": 1400,
+  "h": 788,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lancer Au Coucher Du Soleil Au Stade - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lancer Au Coucher Du Soleil Au Stade - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_american_football_stadium_at_night_quarterback_about_to_throw_linemen_in_motion_-0": {
+  "src": "/images/packimages2/lucid-origin_American_football_stadium_at_night_quarterback_about_to_throw_linemen_in_motion_-0.webp",
+  "base": "/images/packimages2/lucid-origin_American_football_stadium_at_night_quarterback_about_to_throw_linemen_in_motion_-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin American Football Stadium At Night Quarterback About To Throw Linemen In Motion  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin American Football Stadium At Night Quarterback About To Throw Linemen In Motion  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_app_icon_512x512_dark_navy_background_070a14_with_a_glowing_blue-to-cyan_play_bu-0": {
+  "src": "/images/packimages2/lucid-origin_App_icon_512x512_dark_navy_background_070a14_with_a_glowing_blue-to-cyan_play_bu-0.webp",
+  "base": "/images/packimages2/lucid-origin_App_icon_512x512_dark_navy_background_070a14_with_a_glowing_blue-to-cyan_play_bu-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin App Icon 512x512 Dark Navy Background 070a14 With A Glowing Blue To Cyan Play Bu 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin App Icon 512x512 Dark Navy Background 070a14 With A Glowing Blue To Cyan Play Bu 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_basketball_arena_a_player_in_generic_plain_jersey_dunking_dramatic_spotlights_a_-0": {
+  "src": "/images/packimages2/lucid-origin_Basketball_arena_a_player_in_generic_plain_jersey_dunking_dramatic_spotlights_a_-0.webp",
+  "base": "/images/packimages2/lucid-origin_Basketball_arena_a_player_in_generic_plain_jersey_dunking_dramatic_spotlights_a_-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Basketball Arena A Player In Generic Plain Jersey Dunking Dramatic Spotlights A  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Basketball Arena A Player In Generic Plain Jersey Dunking Dramatic Spotlights A  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_devices_collection_television_a_minimal_modern_logo_icon_for_a_premium_4k_stream-0": {
+  "src": "/images/packimages2/lucid-origin_Devices_Collection_Television_A_minimal_modern_logo_icon_for_a_premium_4K_stream-0.webp",
+  "base": "/images/packimages2/lucid-origin_Devices_Collection_Television_A_minimal_modern_logo_icon_for_a_premium_4K_stream-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Devices Collection Television A Minimal Modern Logo Icon For A Premium 4K Stream 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Devices Collection Television A Minimal Modern Logo Icon For A Premium 4K Stream 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0-1-": {
+  "src": "/images/packimages2/lucid-origin_Dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0 (1).webp",
+  "base": "/images/packimages2/lucid-origin_Dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0 (1)",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Dramatic Wide Night Photo Of A Packed Football Stadium Floodlights Green Pitch P 0 (1) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Dramatic Wide Night Photo Of A Packed Football Stadium Floodlights Green Pitch P 0 (1) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0": {
+  "src": "/images/packimages2/lucid-origin_Dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0.webp",
+  "base": "/images/packimages2/lucid-origin_Dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Dramatic Wide Night Photo Of A Packed Football Stadium Floodlights Green Pitch P 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Dramatic Wide Night Photo Of A Packed Football Stadium Floodlights Green Pitch P 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0-1-": {
+  "src": "/images/packimages2/lucid-origin_Epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0 (1).webp",
+  "base": "/images/packimages2/lucid-origin_Epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0 (1)",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Epic Night Football Scene From Low Angle A Player Striking The Ball Under Bright 0 (1) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Epic Night Football Scene From Low Angle A Player Striking The Ball Under Bright 0 (1) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0": {
+  "src": "/images/packimages2/lucid-origin_Epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0.webp",
+  "base": "/images/packimages2/lucid-origin_Epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Epic Night Football Scene From Low Angle A Player Striking The Ball Under Bright 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Epic Night Football Scene From Low Angle A Player Striking The Ball Under Bright 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_fighter_in_a_boxing_ring_seen_from_behind_glove_raised_arena_lights_and_smoke_cr-0": {
+  "src": "/images/packimages2/lucid-origin_Fighter_in_a_boxing_ring_seen_from_behind_glove_raised_arena_lights_and_smoke_cr-0.webp",
+  "base": "/images/packimages2/lucid-origin_Fighter_in_a_boxing_ring_seen_from_behind_glove_raised_arena_lights_and_smoke_cr-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Fighter In A Boxing Ring Seen From Behind Glove Raised Arena Lights And Smoke Cr 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Fighter In A Boxing Ring Seen From Behind Glove Raised Arena Lights And Smoke Cr 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_formula-style_open-wheel_racing_car_at_night_on_a_city_circuit_motion_blur_neon_-0": {
+  "src": "/images/packimages2/lucid-origin_Formula-style_open-wheel_racing_car_at_night_on_a_city_circuit_motion_blur_neon_-0.webp",
+  "base": "/images/packimages2/lucid-origin_Formula-style_open-wheel_racing_car_at_night_on_a_city_circuit_motion_blur_neon_-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Formula Style Open Wheel Racing Car At Night On A City Circuit Motion Blur Neon  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Formula Style Open Wheel Racing Car At Night On A City Circuit Motion Blur Neon  0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_photorealistic_american_living_room_in_the_evening_a_group_of_friends_cheering_i-0": {
+  "src": "/images/packimages2/lucid-origin_Photorealistic_American_living_room_in_the_evening_a_group_of_friends_cheering_i-0.webp",
+  "base": "/images/packimages2/lucid-origin_Photorealistic_American_living_room_in_the_evening_a_group_of_friends_cheering_i-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Photorealistic American Living Room In The Evening A Group Of Friends Cheering I 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Photorealistic American Living Room In The Evening A Group Of Friends Cheering I 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_photorealistic_cozy_british_living_room_rainy_evening_visible_through_the_window-0": {
+  "src": "/images/packimages2/lucid-origin_Photorealistic_cozy_British_living_room_rainy_evening_visible_through_the_window-0.webp",
+  "base": "/images/packimages2/lucid-origin_Photorealistic_cozy_British_living_room_rainy_evening_visible_through_the_window-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Photorealistic Cozy British Living Room Rainy Evening Visible Through The Window 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Photorealistic Cozy British Living Room Rainy Evening Visible Through The Window 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_photorealistic_wide_shot_of_a_modern_living_room_at_night_with_a_large_65-inch_4-0": {
+  "src": "/images/packimages2/lucid-origin_Photorealistic_wide_shot_of_a_modern_living_room_at_night_with_a_large_65-inch_4-0.webp",
+  "base": "/images/packimages2/lucid-origin_Photorealistic_wide_shot_of_a_modern_living_room_at_night_with_a_large_65-inch_4-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Photorealistic Wide Shot Of A Modern Living Room At Night With A Large 65 Inch 4 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Photorealistic Wide Shot Of A Modern Living Room At Night With A Large 65 Inch 4 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-lucid-origin_social_share_banner_1200x630_a_sleek_modern_tv_in_a_dark_moody_living_room_showi-0": {
+  "src": "/images/packimages2/lucid-origin_Social_share_banner_1200x630_a_sleek_modern_TV_in_a_dark_moody_living_room_showi-0.webp",
+  "base": "/images/packimages2/lucid-origin_Social_share_banner_1200x630_a_sleek_modern_TV_in_a_dark_moody_living_room_showi-0",
+  "w": 1344,
+  "h": 768,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Lucid Origin Social Share Banner 1200x630 A Sleek Modern TV In A Dark Moody Living Room Showi 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Lucid Origin Social Share Banner 1200x630 A Sleek Modern TV In A Dark Moody Living Room Showi 0 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-photo_2025-08-23_12-37-32_cleanup": {
+  "src": "/images/packimages2/photo_2025-08-23_12-37-32_cleanup.webp",
+  "base": "/images/packimages2/photo_2025-08-23_12-37-32_cleanup",
+  "w": 650,
+  "h": 1094,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Photo 2025 08 23 12 37 32 Cleanup - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Photo 2025 08 23 12 37 32 Cleanup - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-playing-rules-scaled-1": {
+  "src": "/images/packimages2/playing-rules-scaled-1.webp",
+  "base": "/images/packimages2/playing-rules-scaled-1",
+  "w": 1400,
+  "h": 934,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Playing Rules Scaled 1 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Playing Rules Scaled 1 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-soccer-stadium": {
+  "src": "/images/packimages2/soccer-stadium.webp",
+  "base": "/images/packimages2/soccer-stadium",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Soccer Stadium - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Soccer Stadium - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-soccer-striker": {
+  "src": "/images/packimages2/soccer-striker.webp",
+  "base": "/images/packimages2/soccer-striker",
+  "w": 1200,
+  "h": 686,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Soccer Striker - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Soccer Striker - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-packimages2-streaming-24_7-en-lumi-re-n-on": {
+  "src": "/images/packimages2/Streaming 24_7 en lumière néon.webp",
+  "base": "/images/packimages2/Streaming 24_7 en lumière néon",
+  "w": 1400,
+  "h": 788,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Streaming 24 7 En LumièRe NéOn - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Streaming 24 7 En LumièRe NéOn - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-paypal_2014_logo": {
+  "src": "/images/Paypal_2014_logo.webp",
+  "base": "/images/Paypal_2014_logo",
+  "w": 593,
+  "h": 585,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "Paypal 2014 Logo - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Paypal 2014 Logo - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-1": {
+  "src": "/images/revriw/avatars/avatar-1.webp",
+  "base": "/images/revriw/avatars/avatar-1",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 1 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 1 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-2": {
+  "src": "/images/revriw/avatars/avatar-2.webp",
+  "base": "/images/revriw/avatars/avatar-2",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 2 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 2 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-3": {
+  "src": "/images/revriw/avatars/avatar-3.webp",
+  "base": "/images/revriw/avatars/avatar-3",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 3 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 3 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-4": {
+  "src": "/images/revriw/avatars/avatar-4.webp",
+  "base": "/images/revriw/avatars/avatar-4",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 4 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 4 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-5": {
+  "src": "/images/revriw/avatars/avatar-5.webp",
+  "base": "/images/revriw/avatars/avatar-5",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 5 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 5 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-6": {
+  "src": "/images/revriw/avatars/avatar-6.webp",
+  "base": "/images/revriw/avatars/avatar-6",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 6 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 6 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-7": {
+  "src": "/images/revriw/avatars/avatar-7.webp",
+  "base": "/images/revriw/avatars/avatar-7",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 7 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 7 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-8": {
+  "src": "/images/revriw/avatars/avatar-8.webp",
+  "base": "/images/revriw/avatars/avatar-8",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 8 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 8 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-avatars-avatar-9": {
+  "src": "/images/revriw/avatars/avatar-9.webp",
+  "base": "/images/revriw/avatars/avatar-9",
+  "w": 192,
+  "h": 192,
+  "variants": [],
+  "alt": {
+   "en": "Avatar 9 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Avatar 9 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-fa3b8c97268dbbb518ebfed70843cf4c": {
+  "src": "/images/revriw/fa3b8c97268dbbb518ebfed70843cf4c.webp",
+  "base": "/images/revriw/fa3b8c97268dbbb518ebfed70843cf4c",
+  "w": 1164,
+  "h": 648,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Fa3b8c97268dbbb518ebfed70843cf4c - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Fa3b8c97268dbbb518ebfed70843cf4c - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-alpha-iliya-2149105184-32064778-1-": {
+  "src": "/images/revriw/pexels-alpha-iliya-2149105184-32064778 (1).webp",
+  "base": "/images/revriw/pexels-alpha-iliya-2149105184-32064778 (1)",
+  "w": 1400,
+  "h": 1960,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels Alpha Iliya 2149105184 32064778 (1) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels Alpha Iliya 2149105184 32064778 (1) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-andreas-suwardy-2152085739-39131498": {
+  "src": "/images/revriw/pexels-andreas-suwardy-2152085739-39131498.webp",
+  "base": "/images/revriw/pexels-andreas-suwardy-2152085739-39131498",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels Andreas Suwardy 2152085739 39131498 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels Andreas Suwardy 2152085739 39131498 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-anna-nekrashevich-6801642": {
+  "src": "/images/revriw/pexels-anna-nekrashevich-6801642.webp",
+  "base": "/images/revriw/pexels-anna-nekrashevich-6801642",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels Anna Nekrashevich 6801642 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels Anna Nekrashevich 6801642 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-d-ng-thanh-tu-2922122-10341324": {
+  "src": "/images/revriw/pexels-d-ng-thanh-tu-2922122-10341324.webp",
+  "base": "/images/revriw/pexels-d-ng-thanh-tu-2922122-10341324",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels D Ng Thanh Tu 2922122 10341324 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels D Ng Thanh Tu 2922122 10341324 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-hao-peng-2148478861-30976004": {
+  "src": "/images/revriw/pexels-hao-peng-2148478861-30976004.webp",
+  "base": "/images/revriw/pexels-hao-peng-2148478861-30976004",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels Hao Peng 2148478861 30976004 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels Hao Peng 2148478861 30976004 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-helenalopes-27086758": {
+  "src": "/images/revriw/pexels-helenalopes-27086758.webp",
+  "base": "/images/revriw/pexels-helenalopes-27086758",
+  "w": 1400,
+  "h": 2100,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels Helenalopes 27086758 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels Helenalopes 27086758 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-kelly-3812011": {
+  "src": "/images/revriw/pexels-kelly-3812011.webp",
+  "base": "/images/revriw/pexels-kelly-3812011",
+  "w": 1400,
+  "h": 1866,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels Kelly 3812011 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels Kelly 3812011 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-revriw-pexels-pixabay-262391": {
+  "src": "/images/revriw/pexels-pixabay-262391.webp",
+  "base": "/images/revriw/pexels-pixabay-262391",
+  "w": 1400,
+  "h": 1050,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Pexels Pixabay 262391 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Pexels Pixabay 262391 - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-sony-tv-google-tv-": {
+  "src": "/images/Sony TV (Google TV).webp",
+  "base": "/images/Sony TV (Google TV)",
+  "w": 1275,
+  "h": 1043,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Sony TV (Google TV) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Sony TV (Google TV) - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-tcl-tv": {
+  "src": "/images/TCL TV.webp",
+  "base": "/images/TCL TV",
+  "w": 709,
+  "h": 451,
+  "variants": [
+   400
+  ],
+  "alt": {
+   "en": "TCL TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "TCL TV - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ },
+ "img-images-visa_inc-_logo_-2005-2014-svg": {
+  "src": "/images/Visa_Inc._logo_(2005–2014).svg.webp",
+  "base": "/images/Visa_Inc._logo_(2005–2014).svg",
+  "w": 1400,
+  "h": 454,
+  "variants": [
+   400,
+   800
+  ],
+  "alt": {
+   "en": "Visa Inc. Logo (2005–2014).Svg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming",
+   "de": "Visa Inc. Logo (2005–2014).Svg - 4K Trex IPTV IPTV Reseller Panel & 4K Streaming"
+  }
+ }
+}

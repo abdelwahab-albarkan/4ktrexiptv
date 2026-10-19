@@ -1,0 +1,920 @@
+---
+import '../styles/global.css';
+import '../styles/v2.css';
+import '../styles/portal.css';
+import '../styles/responsive.css';
+import { SITE, CAT_ORDER } from '../config';
+import { T } from '../i18n';
+import { byCategory } from '../lib/pages';
+import { getHreflangs } from '../lib/hreflang';
+
+interface Props {
+  title: string;
+  description: string;
+  jsonLd?: object[];
+  noindex?: boolean;
+}
+
+const { title, description, jsonLd = [], noindex = false } = Astro.props;
+const cleanPath = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const canonical = new URL(cleanPath, SITE.url).href;
+const de = SITE.locale === 'de';
+const hreflangs = getHreflangs(cleanPath, noindex);
+const filteredJsonLd = jsonLd.filter(j => (j as any)['@type'] !== 'Organization');
+
+const org = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: `${SITE.name} IPTV Reseller Panel`,
+  url: SITE.url,
+  logo: `${SITE.url}/favicon.svg`,
+  sameAs: [
+    SITE.social.discord,
+    SITE.social.instagram,
+    SITE.social.facebook,
+    SITE.social.x,
+  ],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: SITE.phone,
+    contactType: 'customer service',
+    availableLanguage: ['English', 'German', 'French', 'Arabic'],
+  },
+};
+---
+<!doctype html>
+<html lang={SITE.locale}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex,follow" />}
+  {hreflangs.map(h => (
+    <link rel="alternate" hreflang={h.lang} href={h.href} />
+  ))}
+  
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content={`${SITE.name} IPTV Reseller Panel`} />
+  <meta property="og:image" content={`${SITE.url}/og/og-${SITE.market}.jpg`} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={`${SITE.url}/og/og-${SITE.market}.jpg`} />
+  
+  <meta name="theme-color" content="#0a0f1e" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="alternate" type="application/rss+xml" title={`${SITE.name} RSS Feed`} href="/rss.xml" />
+  
+  <!-- Preconnect & Google Fonts -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" /></noscript>
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" /></noscript>
+
+  <script type="application/ld+json" set:html={JSON.stringify(org)} />
+  {filteredJsonLd.map(j => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
+</head>
+<body class="upgraded-theme">
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="announcement-track">
+      <div class="announcement-content">
+        <div class="announcement-left">
+          <span class="live-status-pill">
+            <span class="live-dot"></span>
+            <strong>99.98% Server SLA</strong>
+          </span>
+          <span class="announcement-divider">|</span>
+          <a href={`mailto:${SITE.supportEmail}`} class="util-link notranslate" translate="no" title={`Email Support: ${SITE.supportEmail}`}>
+            <i class="fa-solid fa-envelope"></i>
+            <span>{SITE.supportEmail}</span>
+          </a>
+          <span class="announcement-divider">|</span>
+          <a href={SITE.orderUrl} target="_blank" rel="nofollow noopener noreferrer" class="util-link notranslate" translate="no" title="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>{SITE.phone}</span>
+          </a>
+        </div>
+        <div class="announcement-right">
+          <a href={SITE.buy1YearUrl} class="announcement-cta" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Buy Subscription 1 Year</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <div class="top-social-bar">
+            <a href={SITE.social.discord} target="_blank" rel="nofollow noopener noreferrer" class="util-social-link" title="Join Discord Community"><i class="fa-brands fa-discord"></i></a>
+            <a href={SITE.social.instagram} target="_blank" rel="nofollow noopener noreferrer" class="util-social-link" title="Instagram @4ktrexiptv"><i class="fa-brands fa-instagram"></i></a>
+            <a href={SITE.social.facebook} target="_blank" rel="nofollow noopener noreferrer" class="util-social-link" title="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href={SITE.social.x} target="_blank" rel="nofollow noopener noreferrer" class="util-social-link" title="X @4ktrexiptv"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header with Mega Dropdowns -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="/" class="site-logo notranslate" translate="no" aria-label={`${SITE.name} Home`}>
+        <div class="logo-icon"><i class="fa-solid fa-dragon"></i></div>
+        <span>4K Trex<span class="accent"> IPTV</span><small>2026</small></span>
+      </a>
+
+      <!-- Desktop Mega Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="/" class="nav-link active">
+          <i class="fa-solid fa-house"></i> Home
+        </a>
+
+        <!-- Providers Mega Dropdown -->
+        <div class="nav-item dropdown">
+          <a href="/category/providers/" class="nav-link dropdown-toggle">
+            <i class="fa-solid fa-tv"></i> Providers <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="mega-dropdown">
+            <div class="mega-container">
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-crown"></i> Premium Providers</h4>
+                <ul class="mega-list">
+                  <li><a href="/trex-iptv/">Trex IPTV <span class="mega-badge">#1</span></a></li>
+                  <li><a href="/ultra-8k-iptv/">Ultra 8K IPTV <span class="mega-badge">8K</span></a></li>
+                  <li><a href="/8k-iptv/">8K IPTV <span class="mega-badge">Best</span></a></li>
+                  <li><a href="/5glive-iptv/">5GLive IPTV <span class="mega-badge">Asia</span></a></li>
+                  <li><a href="/smarter8k-iptv/">Smarter8K</a></li>
+                  <li><a href="/crystal-iptv/">Crystal IPTV</a></li>
+                  <li><a href="/cyber-iptv/">Cyber IPTV</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-fire"></i> Value Providers</h4>
+                <ul class="mega-list">
+                  <li><a href="/dream-4k-iptv/">Dream 4K IPTV</a></li>
+                  <li><a href="/megaott-iptv/">MegaOTT</a></li>
+                  <li><a href="/b1g-iptv/">B1G IPTV</a></li>
+                  <li><a href="/hot-iptv/">Hot IPTV</a></li>
+                  <li><a href="/starshare-iptv/">StarShare IPTV</a></li>
+                  <li><a href="/4k-iptv-app/">4K IPTV App</a></li>
+                  <li><a href="/lion-iptv/">Lion IPTV</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-scale-balanced"></i> Directories & Guides</h4>
+                <ul class="mega-list">
+                  <li><a href="/#servers-directory"><strong style="color: #c084fc;"><i class="fa-solid fa-server"></i> All 47 IPTV Servers</strong> <span class="mega-badge">New</span></a></li>
+                  <li><a href="/#apps-hub"><strong style="color: #38bdf8;"><i class="fa-solid fa-play"></i> Top 10 Players & 19 TV Apps</strong></a></li>
+                  <li><a href="/category/providers/">All Providers Directory</a></li>
+                  <li><a href="/8k-iptv-vs-megaott/">8K IPTV vs MegaOTT</a></li>
+                  <li><a href="/trexiptv-vs-crystaliptv/">Trex vs Crystal</a></li>
+                  <li><a href="/#comparison-matrix">Comparison Matrix</a></li>
+                </ul>
+              </div>
+              <div class="mega-column mega-highlight">
+                <div class="mega-featured">
+                  <span class="mega-featured-badge"><i class="fa-solid fa-star"></i> Editor's Choice</span>
+                  <h4>Trex IPTV</h4>
+                  <p>#1 Rated with 51,000+ channels, 200,000+ VOD & all PPV included</p>
+                  <div class="mega-rating">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span>4.9/5 (12.5k)</span>
+                  </div>
+                  <a href={SITE.trialUrl} class="btn btn-primary btn-sm full-width" target="_blank" rel="nofollow noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> Instant Trial
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="mega-footer">
+              <a href="/category/providers/" class="mega-footer-link">
+                <i class="fa-solid fa-arrow-right"></i> Explore All IPTV Provider Reviews & Guides
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reseller Panel Mega Dropdown -->
+        <div class="nav-item dropdown">
+          <a href="/category/reseller/" class="nav-link dropdown-toggle">
+            <i class="fa-solid fa-store"></i> Reseller Panel <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="mega-dropdown">
+            <div class="mega-container">
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-rocket"></i> Reseller Programs</h4>
+                <ul class="mega-list">
+                  <li><a href="/trex-iptv-reseller/">Trex IPTV Reseller <span class="mega-badge">#1</span></a></li>
+                  <li><a href="/ultra-8k-iptv-reseller/">Ultra 8K Reseller</a></li>
+                  <li><a href="/8k-iptv-reseller-panel/">8K IPTV Reseller</a></li>
+                  <li><a href="/crystal-iptv-reseller/">Crystal IPTV Reseller</a></li>
+                  <li><a href="/megaott-reseller-panel/">MegaOTT Reseller</a></li>
+                  <li><a href="/5glive-reseller-panel/">5GLive Reseller</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-tags"></i> Credits & Pricing</h4>
+                <ul class="mega-list">
+                  <li><a href="/#reseller-pricing">Credit Packs & Pricing</a></li>
+                  <li><a href="/iptv-reseller-credits/">Credit System Guide</a></li>
+                  <li><a href="/iptv-reseller-wholesale-pricing/">Wholesale Tiers</a></li>
+                  <li><a href="/white-label-iptv-reseller/">White-Label Panel</a></li>
+                  <li><a href="/cheap-iptv-reseller-panel/">Budget Reseller Panels</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-graduation-cap"></i> Reseller Guides</h4>
+                <ul class="mega-list">
+                  <li><a href="/how-to-start-iptv-reseller-business/">Start Reseller Business</a></li>
+                  <li><a href="/iptv-reseller-panel/">Reseller Panel Architecture</a></li>
+                  <li><a href="/best-iptv-reseller-panel-2026/">Best Panels 2026</a></li>
+                  <li><a href="/category/reseller/">All Reseller Articles</a></li>
+                </ul>
+              </div>
+              <div class="mega-column mega-highlight">
+                <div class="mega-featured">
+                  <span class="mega-featured-badge"><i class="fa-solid fa-bolt"></i> High Margins</span>
+                  <h4>Start Your Brand</h4>
+                  <p>Keep up to 85% profit margins. Sell IPTV subscriptions under your own brand.</p>
+                  <a href={SITE.orderUrl} class="btn btn-primary btn-sm full-width" target="_blank" rel="nofollow noopener noreferrer">
+                    <i class="fa-solid fa-rocket"></i> Get Reseller Panel
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="mega-footer">
+              <a href="/category/reseller/" class="mega-footer-link">
+                <i class="fa-solid fa-arrow-right"></i> View Complete IPTV Reseller Solutions & Guides
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pricing Mega Dropdown -->
+        <div class="nav-item dropdown">
+          <a href="/#pricing" class="nav-link dropdown-toggle">
+            <i class="fa-solid fa-tags"></i> Pricing <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="mega-dropdown mega-dropdown-sm">
+            <div class="mega-container">
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-gem"></i> Subscription Plans</h4>
+                <ul class="mega-list">
+                  <li><a href="/#pricing">3 Months ($39.99 – $99.99)</a></li>
+                  <li><a href="/#pricing">6 Months ($56.99 – $134.99) <span class="mega-badge">Hot</span></a></li>
+                  <li><a href="/#pricing">12 Months ($79.99 – $179.99) <span class="mega-badge">Save 50%</span></a></li>
+                  <li><a href="/category/pricing/">All Pricing Tiers & Details</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-store"></i> Reseller Credit Packs</h4>
+                <ul class="mega-list">
+                  <li><a href="/#reseller-pricing">10 Credits Pack ($150)</a></li>
+                  <li><a href="/#reseller-pricing">25 Credits Pack ($325) <span class="mega-badge">Popular</span></a></li>
+                  <li><a href="/#reseller-pricing">50 Credits Pack ($550)</a></li>
+                  <li><a href="/#reseller-pricing">100 Credits VIP ($900)</a></li>
+                  <li><a href="/#reseller-pricing">250 Credits Master ($1,875)</a></li>
+                </ul>
+              </div>
+              <div class="mega-column mega-highlight">
+                <div class="mega-featured">
+                  <span class="mega-featured-badge"><i class="fa-solid fa-crown"></i> Best Value</span>
+                  <h4>1 Year Subscription</h4>
+                  <p>Save 50% on 20,000+ channels, 4K sports & VOD with instant activation.</p>
+                  <a href={SITE.buy1YearUrl} class="btn btn-primary btn-sm full-width" target="_blank" rel="nofollow noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> Buy 1 Year Plan
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="mega-footer">
+              <a href="/category/pricing/" class="mega-footer-link">
+                <i class="fa-solid fa-arrow-right"></i> Explore All Subscription & Wholesale Pricing Details
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Locations Mega Dropdown -->
+        <div class="nav-item dropdown">
+          <a href="/category/locations/" class="nav-link dropdown-toggle">
+            <i class="fa-solid fa-globe"></i> Locations <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="mega-dropdown mega-dropdown-sm">
+            <div class="mega-container">
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-location-dot"></i> Global Hubs</h4>
+                <ul class="mega-list">
+                  <li><a href="/iptv-usa/"><i class="fa-solid fa-flag-usa"></i> IPTV USA</a></li>
+                  <li><a href="/iptv-uk/"><i class="fa-solid fa-landmark-flag"></i> UK IPTV</a></li>
+                  <li><a href="/iptv-europe/"><i class="fa-solid fa-earth-europe"></i> IPTV Europe</a></li>
+                  <li><a href="/iptv-canada/"><i class="fa-solid fa-maple-leaf"></i> IPTV Canada</a></li>
+                  <li><a href="/iptv-australia/"><i class="fa-solid fa-earth-oceania"></i> IPTV Australia</a></li>
+                  <li><a href="/iptv-deutschland/"><i class="fa-solid fa-flag"></i> IPTV Deutschland</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-city"></i> City Hubs</h4>
+                <ul class="mega-list">
+                  <li><a href="/iptv-london/">IPTV London</a></li>
+                  <li><a href="/iptv-new-york/">IPTV New York</a></li>
+                  <li><a href="/iptv-sydney/">IPTV Sydney</a></li>
+                  <li><a href="/iptv-toronto/">IPTV Toronto</a></li>
+                  <li><a href="/iptv-melbourne/">IPTV Melbourne</a></li>
+                  <li><a href="/iptv-california/">IPTV California</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-info-circle"></i> Local Guides</h4>
+                <ul class="mega-list">
+                  <li><a href="/category/locations/">All 250+ Location Guides</a></li>
+                  <li><a href="/category/sports/">Local Sports Streaming</a></li>
+                  <li><a href="/category/pricing/">Currency Pricing Tiers</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-footer">
+              <a href="/category/locations/" class="mega-footer-link">
+                <i class="fa-solid fa-arrow-right"></i> Explore All Location-Based IPTV Guides
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Devices Dropdown -->
+        <div class="nav-item dropdown">
+          <a href="/category/devices/" class="nav-link dropdown-toggle">
+            <i class="fa-solid fa-display"></i> Devices <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="mega-dropdown mega-dropdown-sm">
+            <div class="mega-container">
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-brands fa-amazon"></i> Fire TV & Android</h4>
+                <ul class="mega-list">
+                  <li><a href="/firestick/">Fire TV Stick 4K</a></li>
+                  <li><a href="/android-tv-box/">Android TV Box</a></li>
+                  <li><a href="/nvidia-shield/">NVIDIA Shield Pro</a></li>
+                  <li><a href="/chromecast-with-google-tv/">Chromecast Google TV</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-tv"></i> Smart TVs</h4>
+                <ul class="mega-list">
+                  <li><a href="/samsung-smart-tv/">Samsung Tizen TV</a></li>
+                  <li><a href="/lg-smart-tv/">LG webOS TV</a></li>
+                  <li><a href="/apple-tv/">Apple TV 4K</a></li>
+                  <li><a href="/mag-box/">MAG Box / Formuler</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-laptop"></i> PC & Mobile</h4>
+                <ul class="mega-list">
+                  <li><a href="/windows-pc/">Windows 11 / Mac</a></li>
+                  <li><a href="/iphone-ipad/">iPhone & iPad iOS</a></li>
+                  <li><a href="/category/devices/">All Device Tutorials</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-footer">
+              <a href="/category/devices/" class="mega-footer-link">
+                <i class="fa-solid fa-arrow-right"></i> Browse All Device Setup Tutorials
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Apps Mega Dropdown -->
+        <div class="nav-item dropdown">
+          <a href="/#apps-hub" class="nav-link dropdown-toggle">
+            <i class="fa-solid fa-play"></i> Apps <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="mega-dropdown mega-dropdown-sm">
+            <div class="mega-container">
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-star"></i> Top 10 IPTV Players</h4>
+                <ul class="mega-list">
+                  <li><a href="/iptv-smarters-pro/">IPTV Smarters Pro <span class="mega-badge">#1</span></a></li>
+                  <li><a href="/tivimate-iptv-player/">TiviMate Player <span class="mega-badge">Top UI</span></a></li>
+                  <li><a href="/xciptv-for-windows/">XCIPTV Player</a></li>
+                  <li><a href="/ibo-player/">IBO Player Pro</a></li>
+                  <li><a href="/smart-iptv/">Smart IPTV (SIPTV)</a></li>
+                  <li><a href="/vlc-media-player/">VLC Media Player</a></li>
+                </ul>
+              </div>
+              <div class="mega-column">
+                <h4 class="mega-heading"><i class="fa-solid fa-tv"></i> Smart TV Portal Apps</h4>
+                <ul class="mega-list">
+                  <li><a href="/#apps-hub">IBOPLAYER³ & BobPlayer</a></li>
+                  <li><a href="/#apps-hub">Duplex Play & SmartOne</a></li>
+                  <li><a href="/#apps-hub">OTT Navigator & GSE Smart</a></li>
+                  <li><a href="/#apps-hub">Kodi PVR Simple Client</a></li>
+                  <li><a href="/apple-tv-box-4k/">iPlayTV (Apple TV)</a></li>
+                  <li><a href="/category/apps/">All Player Guides</a></li>
+                </ul>
+              </div>
+              <div class="mega-column mega-highlight">
+                <div class="mega-featured">
+                  <span class="mega-featured-badge"><i class="fa-solid fa-download"></i> Downloader</span>
+                  <h4>Quick Install Codes</h4>
+                  <p>Smarters Pro: <strong>25240</strong><br/>TiviMate: <strong>278077</strong><br/>XCIPTV: <strong>193855</strong></p>
+                  <a href={`${SITE.orderUrl}?text=${encodeURIComponent('Hello, I need setup assistance for an IPTV app.')}`} class="btn btn-primary btn-sm full-width" target="_blank" rel="nofollow noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> Get Setup Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="mega-footer">
+              <a href="/category/apps/" class="mega-footer-link">
+                <i class="fa-solid fa-arrow-right"></i> Explore All IPTV Player Apps & Configuration Tutorials
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sports -->
+        <a href="/category/sports/" class="nav-link">
+          <i class="fa-solid fa-futbol"></i> Sports
+        </a>
+
+        <!-- Setup -->
+        <a href="/category/setup/" class="nav-link">
+          <i class="fa-solid fa-wrench"></i> Setup
+        </a>
+
+        <!-- Multi-Language Selector Dropdown -->
+        <div class="lang-selector dropdown">
+          <button class="lang-toggle-btn" id="langToggleBtn" type="button" aria-label="Select Language">
+            <span id="currentLangFlag"><img class="flag" src="/flags/gb.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span>
+            <span id="currentLangName">EN</span>
+            <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px;"></i>
+          </button>
+          <div class="lang-dropdown-menu" id="langDropdownMenu">
+            <button type="button" class="lang-option active" data-lang="en" data-flag="🇬🇧" data-name="EN">
+              <span><img class="flag" src="/flags/gb.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span> English
+            </button>
+            <button type="button" class="lang-option" data-lang="fr" data-flag="🇫🇷" data-name="FR">
+              <span><img class="flag" src="/flags/fr.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span> Français
+            </button>
+            <button type="button" class="lang-option" data-lang="es" data-flag="🇪🇸" data-name="ES">
+              <span><img class="flag" src="/flags/es.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span> Español
+            </button>
+            <button type="button" class="lang-option" data-lang="de" data-flag="🇩🇪" data-name="DE">
+              <span><img class="flag" src="/flags/de.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span> Deutsch
+            </button>
+            <button type="button" class="lang-option" data-lang="it" data-flag="🇮🇹" data-name="IT">
+              <span><img class="flag" src="/flags/it.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span> Italiano
+            </button>
+            <button type="button" class="lang-option" data-lang="ar" data-flag="🇦🇪" data-name="AR">
+              <span><img class="flag" src="/flags/ae.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span> العربية
+            </button>
+            <button type="button" class="lang-option" data-lang="nl" data-flag="🇳🇱" data-name="NL">
+              <span><img class="flag" src="/flags/nl.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /></span> Nederlands
+            </button>
+          </div>
+        </div>
+
+        <!-- Contact CTA -->
+        <a href={SITE.orderUrl} class="nav-link nav-cta" target="_blank" rel="nofollow noopener noreferrer">
+          <i class="fa-brands fa-whatsapp"></i> Get Started
+        </a>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Google Translate Element Container (Accessible, Clean, Anti-Cloaking Compliant) -->
+    <div id="google_translate_element" aria-hidden="true" translate="no" style="display:none !important; visibility:hidden !important; position:absolute; left:-9999px; width:0; height:0; overflow:hidden;"></div>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+      <div class="mobile-menu-container">
+        <div class="mobile-menu-header">
+          <a href="/" class="site-logo notranslate" translate="no">
+            <div class="logo-icon"><i class="fa-solid fa-dragon"></i></div>
+            <span>4K Trex<span class="accent"> IPTV</span></span>
+          </a>
+          <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close Navigation Menu">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="mobile-menu-body">
+          <a href="/" class="mobile-nav-link"><i class="fa-solid fa-house"></i> Home</a>
+          
+          <button class="mobile-accordion-toggle">
+            <span><i class="fa-solid fa-tv"></i> Providers</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="mobile-accordion-content">
+            <a href="/#servers-directory" style="color: #c084fc; font-weight: 700;"><i class="fa-solid fa-server"></i> All 47 IPTV Servers Directory</a>
+            <a href="/#apps-hub" style="color: #38bdf8; font-weight: 700;"><i class="fa-solid fa-play"></i> Top 10 Players & 19 TV Apps</a>
+            <a href="/category/providers/">All Providers Directory</a>
+            <a href="/trex-iptv/">Trex IPTV (#1 Sports)</a>
+            <a href="/ultra-8k-iptv/">Ultra 8K IPTV</a>
+            <a href="/8k-iptv/">8K IPTV</a>
+            <a href="/5glive-iptv/">5GLive IPTV</a>
+            <a href="/crystal-iptv/">Crystal IPTV</a>
+            <a href="/megaott-iptv/">MegaOTT</a>
+          </div>
+
+          <button class="mobile-accordion-toggle">
+            <span><i class="fa-solid fa-store"></i> Reseller Panel</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="mobile-accordion-content">
+            <a href="/category/reseller/">Reseller Overview</a>
+            <a href="/#reseller-pricing">Credit Packs & Pricing</a>
+            <a href="/trex-iptv-reseller/">Trex IPTV Reseller</a>
+            <a href="/ultra-8k-iptv-reseller/">Ultra 8K Reseller</a>
+            <a href="/how-to-start-iptv-reseller-business/">Start Reseller Business</a>
+          </div>
+
+          <button class="mobile-accordion-toggle">
+            <span><i class="fa-solid fa-globe"></i> Locations</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="mobile-accordion-content">
+            <a href="/iptv-usa/">IPTV USA</a>
+            <a href="/iptv-uk/">UK IPTV</a>
+            <a href="/iptv-europe/">IPTV Europe</a>
+            <a href="/iptv-canada/">IPTV Canada</a>
+            <a href="/iptv-australia/">IPTV Australia</a>
+          </div>
+
+          <button class="mobile-accordion-toggle">
+            <span><i class="fa-solid fa-play"></i> Apps & Players</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="mobile-accordion-content">
+            <a href="/#apps-hub">Top 10 IPTV Players Guide</a>
+            <a href="/iptv-smarters-pro/">IPTV Smarters Pro</a>
+            <a href="/tivimate-iptv-player/">TiviMate Player</a>
+            <a href="/ibo-player/">IBO Player Pro (Smart TV)</a>
+            <a href="/xciptv-for-windows/">XCIPTV Player</a>
+            <a href="/smart-iptv/">Smart IPTV (SIPTV)</a>
+            <a href="/vlc-media-player/">VLC Media Player</a>
+            <a href="/category/apps/">All 50+ Player Guides</a>
+          </div>
+          <button class="mobile-accordion-toggle">
+            <span><i class="fa-solid fa-tags"></i> Pricing & Plans</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="mobile-accordion-content">
+            <a href="/#pricing">Subscription Plans (3, 6, 12 Months)</a>
+            <a href="/#reseller-pricing">Wholesale Reseller Credit Packs</a>
+            <a href="/category/pricing/">All Pricing Guides & Tiers</a>
+          </div>
+          
+          <!-- Mobile Language Bar -->
+          <div style="padding: 12px; background: rgba(255, 255, 255, 0.04); border-radius: 10px; margin: 16px 0; border: 1px solid rgba(255, 255, 255, 0.08);">
+            <span style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 8px; text-transform: uppercase;">
+              <i class="fa-solid fa-globe"></i> Language / Langue / اللغة
+            </span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+              <button type="button" class="lang-option" data-lang="en" data-flag="🇬🇧" data-name="EN" style="padding: 4px 8px; font-size: 0.78rem; background: rgba(255,255,255,0.06); border-radius: 6px; width: auto;"><img class="flag" src="/flags/gb.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /> EN</button>
+              <button type="button" class="lang-option" data-lang="fr" data-flag="🇫🇷" data-name="FR" style="padding: 4px 8px; font-size: 0.78rem; background: rgba(255,255,255,0.06); border-radius: 6px; width: auto;"><img class="flag" src="/flags/fr.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /> FR</button>
+              <button type="button" class="lang-option" data-lang="es" data-flag="🇪🇸" data-name="ES" style="padding: 4px 8px; font-size: 0.78rem; background: rgba(255,255,255,0.06); border-radius: 6px; width: auto;"><img class="flag" src="/flags/es.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /> ES</button>
+              <button type="button" class="lang-option" data-lang="de" data-flag="🇩🇪" data-name="DE" style="padding: 4px 8px; font-size: 0.78rem; background: rgba(255,255,255,0.06); border-radius: 6px; width: auto;"><img class="flag" src="/flags/de.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /> DE</button>
+              <button type="button" class="lang-option" data-lang="it" data-flag="🇮🇹" data-name="IT" style="padding: 4px 8px; font-size: 0.78rem; background: rgba(255,255,255,0.06); border-radius: 6px; width: auto;"><img class="flag" src="/flags/it.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /> IT</button>
+              <button type="button" class="lang-option" data-lang="ar" data-flag="🇦🇪" data-name="AR" style="padding: 4px 8px; font-size: 0.78rem; background: rgba(255,255,255,0.06); border-radius: 6px; width: auto;"><img class="flag" src="/flags/ae.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /> AR</button>
+              <button type="button" class="lang-option" data-lang="nl" data-flag="🇳🇱" data-name="NL" style="padding: 4px 8px; font-size: 0.78rem; background: rgba(255,255,255,0.06); border-radius: 6px; width: auto;"><img class="flag" src="/flags/nl.svg" alt="" width="20" height="14" loading="lazy" decoding="async" /> NL</button>
+            </div>
+          </div>
+          
+          <div style="margin-top: 16px;">
+            <a href={SITE.buy1YearUrl} class="btn btn-primary full-width" target="_blank" rel="nofollow noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i> Buy Subscription 1 Year
+            </a>
+          </div>
+
+          <!-- Mobile Social Links -->
+          <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08); text-align: center;">
+            <p style="font-size: 0.78rem; color: #94a3b8; margin: 0 0 10px;">Official Support & Social Channels</p>
+            <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+              <a href={SITE.social.discord} target="_blank" rel="nofollow noopener noreferrer" class="mobile-social-icon" aria-label="Discord" title="Discord Community"><i class="fa-brands fa-discord"></i></a>
+              <a href={SITE.social.instagram} target="_blank" rel="nofollow noopener noreferrer" class="mobile-social-icon" aria-label="Instagram" title="Instagram @4ktrexiptv"><i class="fa-brands fa-instagram"></i></a>
+              <a href={SITE.social.facebook} target="_blank" rel="nofollow noopener noreferrer" class="mobile-social-icon" aria-label="Facebook" title="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href={SITE.social.x} target="_blank" rel="nofollow noopener noreferrer" class="mobile-social-icon" aria-label="X" title="X @4ktrexiptv"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href={`mailto:${SITE.supportEmail}`} class="mobile-social-icon" aria-label="Email" title={`Email: ${SITE.supportEmail}`}><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Body Slot -->
+  <main id="main">
+    <slot />
+  </main>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href={SITE.orderUrl} class="whatsapp-float" target="_blank" rel="nofollow noopener noreferrer" aria-label="WhatsApp Support">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with Support ({SITE.phone})</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="/" class="footer-logo">
+            <i class="fa-solid fa-dragon"></i>
+            <span>{SITE.name} • 4ktrexiptv.com</span>
+          </a>
+          <p>
+            {SITE.name} (4ktrexiptv.com) is the premier IPTV comparison, subscription & reseller panel platform in {SITE.year}. Access 47+ verified IPTV servers (Trex, Forever, Zen 4K, Strong, Iron), 200,000+ VOD movies, and 51,000+ live 4K channels with 99.98% anti-freeze uptime.
+          </p>
+          <div class="footer-contact">
+            <p><i class="fa-solid fa-envelope"></i> <a href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a></p>
+            <p><i class="fa-brands fa-whatsapp"></i> <a href={SITE.orderUrl} target="_blank" rel="nofollow noopener noreferrer">{SITE.phone}</a></p>
+            <p><i class="fa-solid fa-clock"></i> 24/7 Priority Support Desk</p>
+          </div>
+
+          <!-- Official Social Media & Community Bar -->
+          <div class="footer-social-wrap" style="margin-top: 20px;">
+            <span style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; font-weight: 700; display: block; margin-bottom: 10px;">Official Community & Support</span>
+            <div class="footer-social-bar" style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+              <a href={SITE.social.discord} target="_blank" rel="nofollow noopener noreferrer" class="social-link-btn dc" aria-label="Discord Community" title="Join Discord Community">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+              <a href={SITE.social.instagram} target="_blank" rel="nofollow noopener noreferrer" class="social-link-btn ig" aria-label="Instagram @4ktrexiptv" title="Follow on Instagram @4ktrexiptv">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href={SITE.social.facebook} target="_blank" rel="nofollow noopener noreferrer" class="social-link-btn fb" aria-label="Facebook Page" title="Follow on Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href={SITE.social.x} target="_blank" rel="nofollow noopener noreferrer" class="social-link-btn tw" aria-label="X (Twitter) @4ktrexiptv" title="Follow on X @4ktrexiptv">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href={`mailto:${SITE.supportEmail}`} class="social-link-btn em" aria-label="Email Support" title={`Email: ${SITE.supportEmail}`}>
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href={SITE.orderUrl} target="_blank" rel="nofollow noopener noreferrer" class="social-link-btn wa" aria-label="WhatsApp Desk" title={`WhatsApp: ${SITE.phone}`}>
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Top IPTV Providers</h3>
+          <ul>
+            <li><a href="/trex-iptv/">Trex IPTV (#1 Sports)</a></li>
+            <li><a href="/ultra-8k-iptv/">Ultra 8K IPTV (8K UHD)</a></li>
+            <li><a href="/8k-iptv/">8K IPTV (Best Overall)</a></li>
+            <li><a href="/5glive-iptv/">5GLive IPTV (Asia/ME)</a></li>
+            <li><a href="/crystal-iptv/">Crystal IPTV</a></li>
+            <li><a href="/megaott-iptv/">MegaOTT</a></li>
+            <li><a href="/category/providers/">View All Providers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Reseller & Locations</h3>
+          <ul>
+            <li><a href="/category/reseller/">Reseller Panel Portal</a></li>
+            <li><a href="/#reseller-pricing">Credit Packs & Pricing</a></li>
+            <li><a href="/trex-iptv-reseller/">Trex IPTV Reseller</a></li>
+            <li><a href="/how-to-start-iptv-reseller-business/">Start Reseller Business</a></li>
+            <li><a href="/iptv-usa/">IPTV USA Market</a></li>
+            <li><a href="/iptv-uk/">UK IPTV Market</a></li>
+            <li><a href="/iptv-europe/">IPTV Europe Market</a></li>
+            <li><a href="/category/locations/">All 250+ Location Hubs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Guides & Company</h3>
+          <ul>
+            <li><a href="/category/devices/">Device Setup Guides</a></li>
+            <li><a href="/category/apps/">Player Apps & M3U</a></li>
+            <li><a href="/category/sports/">Live Sports 4K Streams</a></li>
+            <li><a href="/category/setup/">Troubleshooting & Fixes</a></li>
+            <li><a href="/about/">About {SITE.name}</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/terms/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p>© {SITE.year} {SITE.name} Reseller Panel. All rights reserved.</p>
+          <div class="footer-payment-badges" style="display: flex; gap: 8px; align-items: center; justify-content: center; margin: 16px 0; flex-wrap: wrap;">
+            <span class="footer-pay-chip" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 4px 10px; height: 30px; display: inline-flex; align-items: center; justify-content: center;">
+              <img src="/images/pay-visa-badge-w400.webp" alt="Visa" width="44" height="18" style="height: 18px !important; max-height: 18px !important; width: auto !important; max-width: 55px !important; object-fit: contain; display: block; opacity: 0.9;" loading="lazy" decoding="async" />
+            </span>
+            <span class="footer-pay-chip" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 4px 10px; height: 30px; display: inline-flex; align-items: center; justify-content: center;">
+              <img src="/images/pay-mastercard-badge-w400.webp" alt="Mastercard" width="38" height="18" style="height: 18px !important; max-height: 18px !important; width: auto !important; max-width: 45px !important; object-fit: contain; display: block; opacity: 0.9;" loading="lazy" decoding="async" />
+            </span>
+            <span class="footer-pay-chip" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 4px 10px; height: 30px; display: inline-flex; align-items: center; justify-content: center;">
+              <img src="/images/pay-paypal-badge-w400.webp" alt="PayPal" width="52" height="18" style="height: 18px !important; max-height: 18px !important; width: auto !important; max-width: 60px !important; object-fit: contain; display: block; opacity: 0.9;" loading="lazy" decoding="async" />
+            </span>
+            <span class="footer-pay-chip" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 4px 10px; height: 30px; display: inline-flex; align-items: center; justify-content: center;">
+              <img src="/images/pay-applepay-badge-w400.webp" alt="Apple Pay" width="44" height="18" style="height: 18px !important; max-height: 18px !important; width: auto !important; max-width: 50px !important; object-fit: contain; display: block; opacity: 0.9;" loading="lazy" decoding="async" />
+            </span>
+            <span class="footer-pay-chip" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 4px 10px; height: 30px; display: inline-flex; align-items: center; justify-content: center;">
+              <img src="/images/google-pay-logo-w400.webp" alt="Google Pay" width="46" height="18" style="height: 18px !important; max-height: 18px !important; width: auto !important; max-width: 52px !important; object-fit: contain; display: block; opacity: 0.9;" loading="lazy" decoding="async" />
+            </span>
+            <span class="footer-pay-chip" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 4px 10px; height: 30px; display: inline-flex; align-items: center; justify-content: center;">
+              <img src="/images/crypto-logo.webp" alt="Crypto (BTC/USDT)" width="18" height="18" style="height: 18px !important; max-height: 18px !important; width: 18px !important; max-width: 18px !important; object-fit: cover; display: block; opacity: 0.9; border-radius: 50%;" loading="lazy" decoding="async" />
+            </span>
+          </div>
+          <p class="footer-disclaimer">
+            Disclaimer & DMCA Notice: {SITE.name} ({new URL(SITE.url).host}) is an independent technical review, comparison, and reseller infrastructure information platform. We do not broadcast, store, host, or transmit copyright-protected media streams on our web servers. All channel names, brand logos, and service trademarks remain the exclusive property of their respective owners.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts for Mobile Menu & Interactivity -->
+  <script is:inline>
+    // Header scroll background
+    const header = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        header?.classList.add('scrolled');
+      } else {
+        header?.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu drawer
+    const menuBtn = document.getElementById('mobileMenuBtn');
+    const menuOverlay = document.getElementById('mobileMenuOverlay');
+    const menuClose = document.getElementById('mobileMenuClose');
+
+    menuBtn?.addEventListener('click', () => {
+      menuOverlay?.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+
+    menuClose?.addEventListener('click', () => {
+      menuOverlay?.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+
+    menuOverlay?.addEventListener('click', (e) => {
+      if (e.target === menuOverlay) {
+        menuOverlay?.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Accordions inside mobile menu
+    document.querySelectorAll('.mobile-accordion-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        content?.classList.toggle('open');
+        const icon = btn.querySelector('.fa-chevron-down');
+        if (icon) {
+          icon.style.transform = content?.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0deg)';
+        }
+      });
+    });
+
+    // Back to top button
+    const backBtn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        backBtn?.classList.add('visible');
+      } else {
+        backBtn?.classList.remove('visible');
+      }
+    });
+    backBtn?.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Multi-Language Switcher Controller
+    const langToggleBtn = document.getElementById('langToggleBtn');
+    const langDropdownMenu = document.getElementById('langDropdownMenu');
+    const currentLangFlag = document.getElementById('currentLangFlag');
+    const currentLangName = document.getElementById('currentLangName');
+
+    langToggleBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      langDropdownMenu?.classList.toggle('show');
+    });
+
+    document.addEventListener('click', () => {
+      langDropdownMenu?.classList.remove('show');
+    });
+
+    const FLAG_CODES = { en: 'gb', fr: 'fr', es: 'es', de: 'de', it: 'it', ar: 'ae', nl: 'nl' };
+    const flagHtml = lang => FLAG_CODES[lang] ? `<img class="flag" src="/flags/${FLAG_CODES[lang]}.svg" alt="" width="20" height="14" loading="lazy" decoding="async" />` : '';
+    // ---- Translation: Google Translate is loaded only when a visitor picks a language other than English ----
+    const GT_LANGS = 'en,fr,es,de,it,ar,nl';
+    let gtPromise = null;
+    function loadGoogleTranslate() {
+      if (gtPromise) return gtPromise;
+      gtPromise = new Promise((resolve, reject) => {
+        window.googleTranslateElementInit = () => {
+          new window.google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: GT_LANGS, autoDisplay: false }, 'google_translate_element');
+          resolve();
+        };
+        const el = document.createElement('script');
+        el.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        el.async = true;
+        el.onerror = () => { gtPromise = null; reject(new Error('translate script blocked')); };
+        document.head.appendChild(el);
+      });
+      return gtPromise;
+    }
+    function applyGoogleLanguage(lang, tries = 0) {
+      const select = document.querySelector('#google_translate_element select.goog-te-combo');
+      if (select) {
+        select.value = lang;
+        select.dispatchEvent(new Event('change'));
+        langToggleBtn?.classList.remove('is-loading');
+        langToggleBtn?.removeAttribute('aria-busy');
+        return;
+      }
+      if (tries < 50) setTimeout(() => applyGoogleLanguage(lang, tries + 1), 120);
+      else langToggleBtn?.classList.remove('is-loading');
+    }
+    const hasTranslateCookie = () => /(?:^|;\s*)googtrans=\/en\/[a-z]{2}/.test(document.cookie);
+    const setTranslateCookie = lang => {
+      document.cookie = 'googtrans=/en/' + lang + '; path=/; max-age=31536000; SameSite=Lax';
+      document.cookie = 'googtrans=/en/' + lang + '; path=/; max-age=31536000; SameSite=Lax; domain=' + location.hostname;
+    };
+    const clearTranslateCookie = () => {
+      const past = 'expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      document.cookie = 'googtrans=; path=/; ' + past;
+      document.cookie = 'googtrans=; path=/; domain=' + location.hostname + '; ' + past;
+    };
+    function updateLanguageUi(lang, name) {
+      if (currentLangFlag) currentLangFlag.innerHTML = flagHtml(lang);
+      if (currentLangName) currentLangName.textContent = name || lang.toUpperCase();
+      document.documentElement.setAttribute('lang', lang);
+      if (lang === 'ar') document.documentElement.setAttribute('dir', 'rtl'); else document.documentElement.removeAttribute('dir');
+      document.querySelectorAll('.lang-option').forEach(btn => btn.classList.toggle('active', btn.getAttribute('data-lang') === lang));
+    }
+    function setLanguage(lang, flag, name) {
+      updateLanguageUi(lang, name);
+      try { localStorage.setItem('stream_lang', lang); } catch (e) {}
+      if (lang === 'en') {
+        // back to the original page text: only needs a reload if a translation is currently applied
+        if (hasTranslateCookie()) { clearTranslateCookie(); window.location.reload(); }
+        return;
+      }
+      setTranslateCookie(lang);
+      langToggleBtn?.classList.add('is-loading');
+      langToggleBtn?.setAttribute('aria-busy', 'true');
+      loadGoogleTranslate().then(() => applyGoogleLanguage(lang)).catch(() => langToggleBtn?.classList.remove('is-loading'));
+    }
+
+    document.querySelectorAll('.lang-option').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const lang = btn.getAttribute('data-lang');
+        const flag = btn.getAttribute('data-flag');
+        const name = btn.getAttribute('data-name');
+        if (lang) {
+          setLanguage(lang, flag || '🌐', name || lang.toUpperCase());
+          langDropdownMenu?.classList.remove('show');
+          const menuOverlay = document.getElementById('mobileMenuOverlay');
+          if (menuOverlay?.classList.contains('open')) {
+            menuOverlay.classList.remove('open');
+            document.body.style.overflow = '';
+          }
+        }
+      });
+    });
+
+    // Restore the saved language (English visitors never load the translate script)
+    let savedLang = 'en';
+    try { savedLang = localStorage.getItem('stream_lang') || 'en'; } catch (e) {}
+    if (savedLang !== 'en' && FLAG_CODES[savedLang]) {
+      const matchBtn = document.querySelector('.lang-option[data-lang="' + savedLang + '"]');
+      updateLanguageUi(savedLang, matchBtn?.getAttribute('data-name') || savedLang.toUpperCase());
+      setTranslateCookie(savedLang);
+      const start = () => loadGoogleTranslate().then(() => applyGoogleLanguage(savedLang)).catch(() => {});
+      if ('requestIdleCallback' in window) requestIdleCallback(start, { timeout: 2500 }); else setTimeout(start, 800);
+    }
+  </script>
+
+</body>
+</html>

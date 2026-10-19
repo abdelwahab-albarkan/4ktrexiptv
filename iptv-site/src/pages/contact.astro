@@ -1,0 +1,153 @@
+---
+// src/pages/contact.astro
+// Official Support & Contact Center for 4K Trex IPTV (4ktrexiptv.com)
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+
+const contactChannels = [
+  {
+    type: 'whatsapp',
+    title: 'WhatsApp Priority Desk',
+    val: SITE.phone,
+    sub: 'Instant 2-5 min account activation, renewals & 24h free trials.',
+    link: SITE.orderUrl,
+    btnText: 'Message on WhatsApp',
+    icon: 'fa-brands fa-whatsapp',
+    badge: 'Fastest Response',
+    color: '#22c55e',
+  },
+  {
+    type: 'email',
+    title: 'Official Support Email',
+    val: SITE.supportEmail,
+    sub: 'Technical inquiries, billing, business & reseller partnership queries.',
+    link: `mailto:${SITE.supportEmail}`,
+    btnText: 'Send an Email',
+    icon: 'fa-solid fa-envelope',
+    badge: 'Under 1 Hour SLA',
+    color: '#ef4444',
+  },
+  {
+    type: 'discord',
+    title: 'Discord Community Server',
+    val: 'discord.gg/BFr5HSZfk',
+    sub: 'Live server status, sports schedule alerts, community discussions & tips.',
+    link: SITE.social.discord,
+    btnText: 'Join Discord Server',
+    icon: 'fa-brands fa-discord',
+    badge: 'Live Community',
+    color: '#6366f1',
+  },
+  {
+    type: 'instagram',
+    title: 'Instagram Official',
+    val: '@4ktrexiptv',
+    sub: 'Daily sports highlights, app tutorials, new VOD movie releases & reels.',
+    link: SITE.social.instagram,
+    btnText: 'Follow on Instagram',
+    icon: 'fa-brands fa-instagram',
+    badge: '@4ktrexiptv',
+    color: '#ec4899',
+  },
+  {
+    type: 'facebook',
+    title: 'Facebook Official Page',
+    val: `${SITE.name} Official Page`,
+    sub: 'Service announcements, promotional vouchers, customer testimonials & reviews.',
+    link: SITE.social.facebook,
+    btnText: 'Visit Facebook Page',
+    icon: 'fa-brands fa-facebook-f',
+    badge: 'Verified Page',
+    color: '#3b82f6',
+  },
+  {
+    type: 'x-twitter',
+    title: 'X (Formerly Twitter)',
+    val: '@4ktrexiptv',
+    sub: 'Real-time sports match updates, server uptime status & instant news.',
+    link: SITE.social.x,
+    btnText: 'Follow on X',
+    icon: 'fa-brands fa-x-twitter',
+    badge: '@4ktrexiptv',
+    color: '#f8fafc',
+  },
+];
+---
+
+<Base
+  title={`Contact & Official Support Center | ${SITE.name} (${SITE.year})`}
+  description={`Reach out to ${SITE.name} official support via Email (${SITE.supportEmail}), WhatsApp (${SITE.phone}), Discord, Instagram, Facebook or X. 24/7 dedicated streaming support.`}
+  noindex={false}
+>
+  <div class="contact-hub-wrapper">
+    <div class="contact-hero-box">
+      <span class="section-badge" style="background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); padding: 6px 16px; border-radius: 9999px; font-weight: 700; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px;">
+        <i class="fa-solid fa-headset"></i> 24/7 Dedicated Customer Support
+      </span>
+      <h1 style="font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 800; color: #fff; margin: 16px 0 12px; letter-spacing: -0.02em;">
+        How Can We Help You Today?
+      </h1>
+      <p style="font-size: 1.1rem; color: #94a3b8; max-width: 700px; margin: 0 auto; line-height: 1.6;">
+        Have questions about our 47 IPTV servers, subscription pricing, free trials, or player setup? Our support agents and community team are available 24/7.
+      </p>
+    </div>
+
+    <!-- Contact Channels Grid -->
+    <div class="contact-channels-grid">
+      {contactChannels.map(c => (
+        <div class={`contact-channel-card ${c.type}`}>
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+              <div class="card-top-icon">
+                <i class={c.icon}></i>
+              </div>
+              <span style={`background: rgba(255,255,255,0.08); color: ${c.color}; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);`}>
+                {c.badge}
+              </span>
+            </div>
+            <h2 style="font-size: 1.25rem; font-weight: 800; color: #fff; margin: 0 0 4px;">{c.title}</h2>
+            <div style="font-size: 0.95rem; font-weight: 700; color: var(--secondary-light, #38bdf8); margin-bottom: 10px; word-break: break-all;">
+              {c.val}
+            </div>
+            <p style="font-size: 0.88rem; color: #94a3b8; line-height: 1.5; margin-bottom: 20px;">
+              {c.sub}
+            </p>
+          </div>
+          <a
+            href={c.link}
+            target={c.type !== 'email' ? '_blank' : undefined}
+            rel={c.type !== 'email' ? 'nofollow noopener noreferrer' : undefined}
+            class="btn btn-primary full-width"
+            style={`background: ${c.type === 'whatsapp' ? 'linear-gradient(135deg, #16a34a, #15803d)' : ''}; justify-content: center;`}
+          >
+            <i class={c.icon}></i> {c.btnText}
+          </a>
+        </div>
+      ))}
+    </div>
+
+    <!-- Quick Help & Diagnostic Tips Box -->
+    <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(148, 163, 184, 0.15); border-radius: 20px; padding: 32px; box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);">
+      <h3 style="font-size: 1.3rem; font-weight: 800; color: #fff; margin: 0 0 12px; display: flex; align-items: center; gap: 10px;">
+        <i class="fa-solid fa-lightbulb" style="color: #f59e0b;"></i> Tips for Fastest Support Response
+      </h3>
+      <p style="font-size: 0.95rem; color: #cbd5e1; line-height: 1.6; margin-bottom: 16px;">
+        When reaching out for setup assistance or troubleshooting, please include the following details in your first message so we can solve your inquiry in under 3 minutes:
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 14px;">
+        <div style="background: rgba(2, 6, 23, 0.6); padding: 14px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.06);">
+          <strong style="color: #38bdf8; display: block; margin-bottom: 4px;"><i class="fa-solid fa-tv"></i> Device Model</strong>
+          <span style="font-size: 0.85rem; color: #94a3b8;">e.g., Firestick 4K Max, Samsung Smart TV (2024), LG OLED, Android Box.</span>
+        </div>
+        <div style="background: rgba(2, 6, 23, 0.6); padding: 14px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.06);">
+          <strong style="color: #a855f7; display: block; margin-bottom: 4px;"><i class="fa-solid fa-play"></i> Player Application</strong>
+          <span style="font-size: 0.85rem; color: #94a3b8;">e.g., IPTV Smarters Pro, TiviMate, IBO Player Pro, SIPTV.</span>
+        </div>
+        <div style="background: rgba(2, 6, 23, 0.6); padding: 14px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.06);">
+          <strong style="color: #10b981; display: block; margin-bottom: 4px;"><i class="fa-solid fa-server"></i> Server / Bouquet</strong>
+          <span style="font-size: 0.85rem; color: #94a3b8;">e.g., Trex IPTV, Forever Server, Zen 4K, Strong, Iron Pro, Atlas.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>

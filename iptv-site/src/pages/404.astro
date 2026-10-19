@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, CAT_ORDER } from '../config';
+import { T } from '../i18n';
+import { byCategory } from '../lib/pages';
+const cats = CAT_ORDER.filter(c => byCategory(c).length > 0);
+const de = SITE.locale === 'de';
+---
+<Base title={`${de ? 'Seite nicht gefunden' : 'Page not found'} | ${SITE.name}`} description={de ? 'Diese Seite existiert nicht.' : 'This page does not exist.'} noindex={true}>
+  <div class="wrap">
+    <h1>{de ? 'Seite nicht gefunden' : 'Page not found'}</h1>
+    <p class="lead">{de ? 'Die Seite wurde verschoben oder existiert nicht. Probieren Sie einen dieser Bereiche:' : 'The page may have moved or never existed. Try one of these sections:'}</p>
+    <div class="grid">{cats.map(c => <a class="card" href={`/category/${c}/`}><h3>{T.categories[c].title}</h3><p>{T.categories[c].blurb}</p></a>)}</div>
+    <p><a href="/">← {T.home}</a></p>
+  </div>
+</Base>

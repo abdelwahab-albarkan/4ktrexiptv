@@ -1,0 +1,128 @@
+---
+import Base from '../../layouts/Base.astro';
+import Img from '../../components/Img.astro';
+import Icon from '../../components/Icon.astro';
+import PricingSection from '../../components/PricingSection.astro';
+import { categoryImage } from '../../lib/images';
+import { SITE, CAT_ORDER } from '../../config';
+import { T } from '../../i18n';
+import { byCategory } from '../../lib/pages';
+import { titleCase } from '../../lib/util';
+import { CAT_PILLARS_EN, CAT_PILLARS_DE } from '../../lib/categories';
+
+export function getStaticPaths() {
+  return CAT_ORDER.filter(cat => byCategory(cat).length > 0).map(cat => ({ params: { cat } }));
+}
+const { cat } = Astro.params;
+const de = SITE.locale === 'de';
+const meta = T.categories[cat!];
+const items = byCategory(cat!);
+const top = items.slice(0, 12);
+const title = `${meta.title} (${SITE.year}) | ${SITE.name}`;
+
+const pillars = de ? CAT_PILLARS_DE : CAT_PILLARS_EN;
+const pillar = pillars[cat!] || pillars.providers;
+const url = `${SITE.url}/category/${cat}/`;
+
+const catIcon: Record<string, string> = { providers: 'layers', reseller: 'store', locations: 'globe', pricing: 'card', trial: 'clock', devices: 'tv', apps: 'play', sports: 'trophy', setup: 'sliders' };
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: T.home, item: SITE.url + '/' },
+      { '@type': 'ListItem', position: 2, name: meta.title, item: url },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: pillar.faqs.map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+];
+const catDescription = `${meta.blurb} ${de ? `Entdecken Sie ${items.length} umfassende Ratgeber, Player-Setups und Tarife bei ${SITE.name}.` : `Explore ${items.length} comprehensive guides, player setups, and server comparisons with ${SITE.name}.`}`;
+---
+<Base title={title} description={catDescription} jsonLd={jsonLd}>
+  <div class="wrap">
+    <nav class="crumbs" aria-label={de ? 'Brotkrumen' : 'Breadcrumb'}>
+      <a href="/">{T.home}</a><Icon name="chevron-right" size={14} />
+      <span aria-current="page">{meta.title}</span>
+    </nav>
+
+    <header class="cat-banner">
+      <div>
+        <span class="eyebrow"><Icon name={catIcon[cat!] ?? 'layers'} size={16} />{meta.nav}</span>
+        <h1>{meta.title}</h1>
+        <p class="lead">{meta.blurb} {T.guidesIn(items.length)}</p>
+        <a class="btn btn-whatsapp" href={SITE.trialUrl} target="_blank" rel="nofollow noopener noreferrer"><Icon name="whatsapp" size={20} />{T.ctaBtn}</a>
+      </div>
+      <div class="cat-banner-img"><Img k={categoryImage[cat!] ?? 'biz-providers'} eager sizes="(max-width: 860px) 100vw, 520px" /></div>
+    </header>
+
+    <!-- Deep authority pillar guide -->
+    <section class="cat-pillar-box" aria-labelledby="pillar-title">
+      <h2 id="pillar-title">{pillar.guideH2}</h2>
+      <p class="lead">{pillar.lead}</p>
+      {pillar.paragraphs.map(p => <p class="pillar-p">{p}</p>)}
+
+      <h3 class="pillar-sub"><Icon name="shield-check" size={22} />{pillar.checklistTitle}</h3>
+      <ul class="cat-checklist-grid">
+        {pillar.checklist.map(item => (
+          <li class="cat-checklist-item"><Icon name="check" size={20} /><span>{item}</span></li>
+        ))}
+      </ul>
+    </section>
+
+    {cat === 'pricing' && <PricingSection id="pricing" />}
+
+    <!-- Featured guides -->
+    <section class="hub-section">
+      <h2>{T.popular}</h2>
+      <ul class="tile-list">
+        {top.map(p => (
+          <li>
+            <a class="tile-link" href={`/${p.slug}/`}>
+              <span class="tile-icon"><Icon name={catIcon[cat!] ?? 'layers'} size={20} /></span>
+              <span class="tile-text">{titleCase(p.keyword)}</span>
+              <Icon name="arrow-right" size={18} class="tile-arrow" />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- Category FAQs -->
+    <section class="hub-section">
+      <h2>{de ? `Häufige Fragen zu ${meta.title}` : `Frequently Asked Questions: ${meta.title}`}</h2>
+      <div class="faq-wrap">
+        {pillar.faqs.map(f => (
+          <details>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <!-- Directory -->
+    <section class="hub-section">
+      <h2>{T.allGuides(meta.title)} <span class="count">{items.length}</span></h2>
+      <ul class="linklist">
+        {items.map(p => (
+          <li><a href={`/${p.slug}/`}>{titleCase(p.keyword)}</a></li>
+        ))}
+      </ul>
+    </section>
+
+    <div class="cta-box">
+      <h2>{T.ctaH}</h2>
+      <p>{T.ctaP}</p>
+      <a class="btn btn-whatsapp btn-lg" href={SITE.trialUrl} rel="nofollow noopener"><Icon name="whatsapp" size={20} />{T.ctaBtn}</a>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,62 @@
+{
+  "iptv-australia": {
+    "h1": "IPTV Australia: What to Check Before You Subscribe",
+    "lead": [
+      { "h2": "What Australian viewers need", "paras": [
+        "Australian viewers usually want the free-to-air channels for their city, the main sport codes and a guide that uses the correct time zone for their state. Because rights for sport are split between several broadcasters, a service that looks complete on paper can still miss the matches you care about.",
+        "The best check is a trial: pick the three channels you watch most and one live sport event, and test them on your own device."
+      ] },
+      { "h2": "Australia-specific checklist", "list": [
+        "Local free-to-air channels for your capital city or region.",
+        "A guide that handles different time zones and daylight saving, which does not apply in every state.",
+        "Stability during evening peak and on weekend sport.",
+        "NBN speed: aim for at least 25 Mbps free for a single HD or 4K stream, and test over Ethernet before blaming the service.",
+        "Support hours that overlap with Australian evenings."
+      ] },
+      { "h2": "Devices that work well", "paras": [
+        "Fire TV and Android TV boxes are common choices, Apple TV works well if you are in the Apple ecosystem, and many recent Samsung and LG TVs can run a player app directly. If your smart TV is older, add a streaming box with an Ethernet port."
+      ] }
+    ]
+  },
+  "best-iptv-australia": {
+    "h1": "Best IPTV Australia: A Simple Test You Can Run This Weekend",
+    "lead": [
+      { "h2": "The weekend test", "steps": [
+        "Request a trial and load it on the device you will use.",
+        "Check your local free-to-air channels and the guide.",
+        "Watch one live sport event from start to finish and note every freeze.",
+        "Test during Friday or Saturday evening, when load is highest.",
+        "Message support with a question and time the reply."
+      ], "paras": ["If a service passes all five, it is a strong candidate. If not, move on before paying for a long plan."] }
+    ]
+  },
+  "iptv-box": {
+    "h1": "IPTV Box: What to Look For in an Android or Streaming Box",
+    "lead": [
+      { "h2": "Specs that matter", "list": [
+        "Ethernet port: a wired connection is the single biggest stability upgrade.",
+        "2 GB of RAM or more for large playlists and 4K.",
+        "HDMI 2.0 or higher and 4K decoding if you have a 4K TV.",
+        "Regular software updates and a mainstream app store.",
+        "A remote that works well with live TV."
+      ] },
+      { "h2": "Box or stick?", "paras": [
+        "A stick is cheaper and tidier. A box has more memory and a network port, which helps with sport and multi-room use. If you only watch occasionally on one HD TV, a stick is fine; if the TV is the household’s main screen, choose a box."
+      ] }
+    ]
+  },
+  "streaming-devices": {
+    "h1": "Streaming Devices in Australia: Which One Suits You",
+    "lead": [
+      { "h2": "Picking by what you do", "list": [
+        "Mostly catch-up and on-demand apps: any mainstream stick or smart TV will do.",
+        "Live sport and large channel lists: a box with Ethernet and 2 GB of RAM or more.",
+        "Apple household: Apple TV 4K integrates with AirPlay and your other devices.",
+        "Budget: a basic stick, wired with an Ethernet adapter if possible."
+      ] },
+      { "h2": "Before you buy", "paras": [
+        "Check which streaming apps you use are available on the platform, and whether the device supports the video quality of your TV."
+      ] }
+    ]
+  }
+}

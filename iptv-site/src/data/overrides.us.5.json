@@ -1,0 +1,207 @@
+{
+  "iptv-trial": {
+    "h1": "IPTV Trial: A Complete Guide to Testing Before You Pay",
+    "lead": [
+      { "h2": "Why a trial matters more than any review", "paras": [
+        "IPTV quality depends on three things you cannot see from a sales page: how the provider’s servers behave when many people are watching, how well the stream works on your device and home network, and how the provider treats customers when something goes wrong. A trial lets you check all three.",
+        "Treat the trial as a small project, not a casual look. A planned hour of testing will tell you more than a week of casual viewing."
+      ] },
+      { "h2": "What to prepare before you start", "list": [
+        "The device you will really use, updated and connected the way you will connect it every day.",
+        "A list of ten channels you watch, plus one live sports event if you care about sport.",
+        "A notepad or phone note to record start-up times and any freezes.",
+        "A speed test result from your connection, so you can separate network problems from service problems."
+      ] },
+      { "h2": "The three-point test", "steps": [
+        "Speed: time how long a channel takes to start. Under three seconds is good, over eight is poor.",
+        "Stability: leave one live channel running for thirty minutes in the evening. Count freezes and resolution drops.",
+        "Support: send one real question, such as how to load the guide on your device, and see whether you get a useful answer and how quickly."
+      ] },
+      { "h2": "Red flags during a trial", "list": [
+        "The trial looks different from what paying customers get.",
+        "Only a handful of channels are available.",
+        "You are asked for card details to start a trial.",
+        "The provider pushes you to pay a long plan before you have finished testing."
+      ], "paras": ["If a trial passes, start with a one-month plan, not a year. Move to a longer plan only after a month of normal use, including at least one busy weekend."] }
+    ],
+    "faqs": [
+      { "q": "How long should a trial be?", "a": "At least 24 hours so you can test during the day and the evening peak. Anything shorter than a few hours is hard to judge." },
+      { "q": "Should I enter card details for a trial?", "a": "Avoid it if you can. A free trial that needs a card often rolls into a paid plan automatically." }
+    ]
+  },
+  "iptv-free-trial-2026": {
+    "h1": "IPTV Free Trial 2026: What to Expect and How to Test",
+    "lead": [
+      { "h2": "What a 2026 trial should look like", "paras": [
+        "A good trial in 2026 gives you real access to the live channels, the programme guide and the apps you will use. It should work on the same servers as paid accounts and last long enough to cover an evening peak.",
+        "Ask three questions before you accept one: how long it lasts, what is included, and what happens when it ends. A clear answer to all three is a good sign."
+      ] },
+      { "h2": "Quality checks for 2026", "list": [
+        "4K and HDR: check whether the channels labelled 4K are truly 4K by looking at the player’s information panel.",
+        "Modern players: confirm that current versions of IPTV Smarters or TiviMate work with the login.",
+        "Guide: confirm the EPG loads and matches the time zone.",
+        "Catch-up and recording: check whether these features exist and how they behave."
+      ] },
+      { "h2": "A simple scoring sheet", "paras": [
+        "Score each of five areas from one to five: start-up speed, stability, picture quality, guide and support. Add them up. Anything below 18 out of 25 is a reason to keep looking."
+      ] }
+    ]
+  },
+  "best-iptv-for-firestick": {
+    "h1": "Best IPTV for Firestick: How to Get Reliable Streams",
+    "lead": [
+      { "h2": "Get the Firestick itself right first", "paras": [
+        "Many complaints about IPTV on a Firestick are really about the stick: limited memory, heat, weak Wi-Fi or a full storage drive. Fix those first and any decent service will behave better.",
+        "Use a recent model, connect it with an Ethernet adapter if you can, and keep at least a gigabit of free storage."
+      ] },
+      { "h2": "Setup that works", "steps": [
+        "Update the Firestick in Settings.",
+        "Install a player from the Appstore, or with Downloader if you need to sideload one.",
+        "Add the Xtream Codes details or M3U link from your provider.",
+        "Create favourites to keep the list short and fast.",
+        "Restart the stick once a week."
+      ] },
+      { "h2": "When the stick is fine but the stream is not", "list": [
+        "Streams buffer on several apps at once: check your router and ISP.",
+        "Only one channel fails: report it; the channel source may be down.",
+        "Everything fails in the evening: the provider’s servers are probably overloaded.",
+        "Guide is empty: refresh the EPG or check the guide source."
+      ] }
+    ]
+  },
+  "best-iptv-player": {
+    "h1": "Best IPTV Player: A Comparison Framework",
+    "lead": [
+      { "h2": "What players actually differ on", "paras": [
+        "All IPTV players do the same basic job: read a playlist or login and show channels. They differ in speed with large lists, how the guide looks and loads, whether they work well with a remote control, and how often they are updated.",
+        "Because they are free to try, the best way to choose is to install two and compare them with the same login."
+      ] },
+      { "h2": "Compare on these six points", "list": [
+        "Start-up and channel-switching speed.",
+        "Guide layout and EPG refresh behaviour.",
+        "Handling of very large channel lists.",
+        "Favourites, groups, search and parental controls.",
+        "Remote-control friendliness on TV platforms.",
+        "Update frequency and developer support."
+      ] },
+      { "h2": "Special features worth checking", "paras": [
+        "Catch-up, recording and multi-view are useful but often limited to paid versions. If you want them, check which features are free and which require an upgrade before you commit."
+      ] }
+    ]
+  },
+  "4k-iptv": {
+    "h1": "4K IPTV: Real Ultra HD or Marketing?",
+    "lead": [
+      { "h2": "Check the whole chain", "paras": [
+        "True 4K needs every link in the chain to support it: the stream, the player, the device, the cable, the TV and your connection. A weak link silently drops you to HD.",
+        "Start by checking the TV’s HDMI port. Not every port on a 4K TV supports the full 4K HDR signal, and many 4K TVs mark one or two ports as the right ones."
+      ] },
+      { "h2": "What 4K needs", "list": [
+        "A 4K TV and an HDMI port that supports 4K HDR.",
+        "A device with a hardware 4K decoder.",
+        "A high-speed HDMI cable.",
+        "At least 25 Mbps of stable bandwidth per stream.",
+        "Channels that are genuinely 4K."
+      ] },
+      { "h2": "Spotting fake 4K", "paras": [
+        "Many channels labelled 4K are upscaled HD. Look at the player’s info panel for the actual resolution, and compare the same programme in HD and 4K. If you cannot see a difference, you are probably watching an upscale."
+      ] }
+    ]
+  },
+  "cheap-iptv": {
+    "h1": "Cheap IPTV: How to Save Without Getting Burned",
+    "lead": [
+      { "h2": "Cheap is a feature, not a promise", "paras": [
+        "Low prices are not automatically bad. A small provider with low costs can offer a fair price. But very low prices often mean overloaded servers, a single connection or a business that will not last.",
+        "The only reliable approach is to test, then buy small."
+      ] },
+      { "h2": "How to buy cheap safely", "steps": [
+        "Get a trial and test at the evening peak.",
+        "Buy the shortest plan first.",
+        "Compare price per connection per month, not just the headline price.",
+        "Keep receipts and screenshots of what was promised.",
+        "Move to a longer plan only after a good month."
+      ] },
+      { "h2": "Offers to avoid", "list": [
+        "Lifetime subscriptions at a tiny one-off price.",
+        "Sellers who accept only irreversible payment methods.",
+        "Providers who refuse to give a trial.",
+        "Claims of unlimited channels with no detail."
+      ] }
+    ]
+  },
+  "iptv-reviews": {
+    "h1": "IPTV Reviews: How to Separate Real From Fake",
+    "lead": [
+      { "h2": "Why reviews are hard", "paras": [
+        "Many IPTV reviews are written by affiliates or are posted by the provider itself. That does not make all of them wrong, but it means you should look for details that a real customer would mention."
+      ] },
+      { "h2": "Signs of a real review", "list": [
+        "Names the device, country and when it was tested.",
+        "Mentions a problem and how it was resolved.",
+        "Gives specific channels, not generic praise.",
+        "Does not use the same wording as other reviews."
+      ] },
+      { "h2": "Where to look", "paras": [
+        "Independent forums and communities where people discuss problems openly are generally more useful than rating websites. Cross-check any claim you rely on, and use your own trial as the final judge."
+      ] }
+    ]
+  },
+  "reseller-for-iptv": {
+    "h1": "IPTV Reseller: What the Business Really Involves",
+    "lead": [
+      { "h2": "How reselling works", "paras": [
+        "An IPTV reseller buys credits from a supplier and sells subscriptions to customers, usually with their own brand and support. Margins can look attractive, but the business depends on supplier reliability and on your ability to support customers."
+      ] },
+      { "h2": "Questions before you start", "list": [
+        "Does the supplier have stable servers and clear terms?",
+        "What is the supplier’s approach to content rights?",
+        "What happens to your customers if the supplier shuts down?",
+        "Can you provide support at the times your customers need it?",
+        "What are the tax and legal rules where you live?"
+      ] },
+      { "h2": "Customer experience is the product", "paras": [
+        "Customers judge you on how quickly you fix problems, not on the supplier behind you. Prepare setup guides, a simple refund policy and clear communication about outages."
+      ] }
+    ]
+  },
+  "m3u-iptv": {
+    "h1": "M3U IPTV: Understanding and Fixing Playlists",
+    "lead": [
+      { "h2": "How an M3U playlist is built", "paras": [
+        "An M3U file is a plain text list. Each channel has a line starting with #EXTINF that gives its name and optional attributes such as logo, group and guide ID, followed by a line with the stream address. Players read the file and display it as a channel list.",
+        "Because the file contains your credentials, treat the link like a password."
+      ] },
+      { "h2": "Fixing common problems", "list": [
+        "Empty list: check the link, the subscription status and your internet connection.",
+        "Channels missing: ask your provider to refresh the playlist.",
+        "No guide: the EPG source must match the guide IDs in the playlist.",
+        "Slow loading: use a player that handles large lists, or filter by group."
+      ] },
+      { "h2": "M3U versus Xtream Codes", "paras": [
+        "Xtream Codes uses a server login instead of a file, and loads live TV, movies, series and the guide together. If your provider offers both, Xtream Codes is usually easier to keep updated."
+      ] }
+    ]
+  },
+  "iptv-firestick": {
+    "h1": "IPTV Firestick: Setup, Tuning and Troubleshooting",
+    "lead": [
+      { "h2": "Setup in five steps", "steps": [
+        "Update the Firestick and connect it by Ethernet adapter if you can.",
+        "Install a player app from the Appstore, or with Downloader if it is not listed.",
+        "Open the app and choose Xtream Codes or Playlist URL.",
+        "Enter the details from your provider exactly as supplied.",
+        "Let the list and guide finish loading, then test a few channels."
+      ] },
+      { "h2": "Tuning for smooth playback", "list": [
+        "Keep storage free by removing unused apps.",
+        "Clear the player’s cache when it slows down.",
+        "Turn off unneeded data collection and background apps in settings.",
+        "Place the stick in open air and avoid trapping it behind the TV."
+      ] },
+      { "h2": "Troubleshooting guide", "paras": [
+        "If the stick restarts or freezes, check power: use the original adapter, not a TV USB port. If streams buffer, test with a wired connection. If only one provider’s streams fail, the problem is probably on the provider’s side."
+      ] }
+    ]
+  }
+}

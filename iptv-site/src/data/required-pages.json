@@ -1,0 +1,132 @@
+[
+ {
+  "slug": "firestick",
+  "keyword": "firestick",
+  "category": "devices"
+ },
+ {
+  "slug": "android-tv-box",
+  "keyword": "android tv box",
+  "category": "devices"
+ },
+ {
+  "slug": "nvidia-shield",
+  "keyword": "nvidia shield",
+  "category": "devices"
+ },
+ {
+  "slug": "chromecast-with-google-tv",
+  "keyword": "chromecast with google tv",
+  "category": "devices"
+ },
+ {
+  "slug": "samsung-smart-tv",
+  "keyword": "samsung smart tv",
+  "category": "devices"
+ },
+ {
+  "slug": "lg-smart-tv",
+  "keyword": "lg smart tv",
+  "category": "devices"
+ },
+ {
+  "slug": "apple-tv",
+  "keyword": "apple tv",
+  "category": "devices"
+ },
+ {
+  "slug": "mag-box",
+  "keyword": "mag box",
+  "category": "devices"
+ },
+ {
+  "slug": "windows-pc",
+  "keyword": "windows pc",
+  "category": "devices"
+ },
+ {
+  "slug": "iphone-ipad",
+  "keyword": "iphone ipad",
+  "category": "devices"
+ },
+ {
+  "slug": "apple-tv-box-4k",
+  "keyword": "apple tv box 4k",
+  "category": "devices"
+ },
+ {
+  "slug": "best-iptv-for-firestick",
+  "keyword": "best iptv for firestick",
+  "category": "devices"
+ },
+ {
+  "slug": "iptv-smarters-pro",
+  "keyword": "iptv smarters pro",
+  "category": "apps"
+ },
+ {
+  "slug": "tivimate-iptv-player",
+  "keyword": "tivimate iptv player",
+  "category": "apps"
+ },
+ {
+  "slug": "xciptv-for-windows",
+  "keyword": "xciptv for windows",
+  "category": "apps"
+ },
+ {
+  "slug": "ibo-player",
+  "keyword": "ibo player",
+  "category": "apps"
+ },
+ {
+  "slug": "smart-iptv",
+  "keyword": "smart iptv",
+  "category": "apps"
+ },
+ {
+  "slug": "best-iptv-player-for-android-phones",
+  "keyword": "best iptv player for android phones",
+  "category": "apps"
+ },
+ {
+  "slug": "iptv-uk",
+  "keyword": "iptv uk",
+  "category": "locations"
+ },
+ {
+  "slug": "iptv-france",
+  "keyword": "iptv france",
+  "category": "locations"
+ },
+ {
+  "slug": "iptv-espana",
+  "keyword": "iptv espana",
+  "category": "locations"
+ },
+ {
+  "slug": "iptv-italia",
+  "keyword": "iptv italia",
+  "category": "locations"
+ },
+ {
+  "slug": "iptv-uae",
+  "keyword": "iptv uae",
+  "category": "locations"
+ },
+ {
+  "slug": "iptv-scandinavia",
+  "keyword": "iptv scandinavia",
+  "category": "locations"
+ },
+ {
+  "slug": "iptv-nederland",
+  "keyword": "iptv nederland",
+  "category": "locations"
+ },
+ {
+  "slug": "best-iptv-player-for-windows",
+  "keyword": "best iptv player for windows",
+  "category": "devices"
+ }
+]

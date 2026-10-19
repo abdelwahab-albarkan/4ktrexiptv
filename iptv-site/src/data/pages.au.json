@@ -1,0 +1,6657 @@
+[
+ {
+  "slug": "8k-iptv",
+  "keyword": "8k iptv",
+  "volume": 15200,
+  "totalVolume": 15200,
+  "kd": 25,
+  "cpc": 1.4,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 534.1,
+  "related": []
+ },
+ {
+  "slug": "trex-iptv",
+  "keyword": "trex iptv",
+  "volume": 12500,
+  "totalVolume": 12500,
+  "kd": 22,
+  "cpc": 1.2,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 477.9,
+  "related": []
+ },
+ {
+  "slug": "iptv-usa",
+  "keyword": "iptv usa",
+  "volume": 12000,
+  "totalVolume": 12000,
+  "kd": 27,
+  "cpc": 1.8,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 400,
+  "related": []
+ },
+ {
+  "slug": "ultra-8k-iptv",
+  "keyword": "ultra 8k iptv",
+  "volume": 8900,
+  "totalVolume": 8900,
+  "kd": 18,
+  "cpc": 1.1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 385.7,
+  "related": []
+ },
+ {
+  "slug": "5glive-iptv",
+  "keyword": "5glive iptv",
+  "volume": 8400,
+  "totalVolume": 8400,
+  "kd": 19,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 352.3,
+  "related": []
+ },
+ {
+  "slug": "iptv-australia",
+  "keyword": "iptv australia",
+  "volume": 7200,
+  "totalVolume": 9450,
+  "kd": 24,
+  "cpc": 1.7,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 341.3,
+  "related": [
+   {
+    "k": "iptv australia",
+    "v": 1300
+   },
+   {
+    "k": "australia iptv",
+    "v": 480
+   },
+   {
+    "k": "iptv for australia",
+    "v": 260
+   },
+   {
+    "k": "iptv in australia",
+    "v": 210
+   }
+  ]
+ },
+ {
+  "slug": "iptv-reseller-panel",
+  "keyword": "iptv reseller panel",
+  "volume": 9900,
+  "totalVolume": 9900,
+  "kd": 28,
+  "cpc": 2.2,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 321.8,
+  "related": []
+ },
+ {
+  "slug": "uk-iptv",
+  "keyword": "uk iptv",
+  "volume": 9900,
+  "totalVolume": 9900,
+  "kd": 29,
+  "cpc": 1.9,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 313.9,
+  "related": []
+ },
+ {
+  "slug": "iptv-deutschland",
+  "keyword": "iptv deutschland",
+  "volume": 8800,
+  "totalVolume": 8800,
+  "kd": 26,
+  "cpc": 1.7,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 301.1,
+  "related": []
+ },
+ {
+  "slug": "megaott-iptv",
+  "keyword": "megaott iptv",
+  "volume": 7400,
+  "totalVolume": 7400,
+  "kd": 20,
+  "cpc": 1.1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 300.6,
+  "related": []
+ },
+ {
+  "slug": "smarter8k-iptv",
+  "keyword": "smarter8k iptv",
+  "volume": 6800,
+  "totalVolume": 6800,
+  "kd": 19,
+  "cpc": 0.9,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 285.2,
+  "related": []
+ },
+ {
+  "slug": "iptv-canada",
+  "keyword": "iptv canada",
+  "volume": 8100,
+  "totalVolume": 8100,
+  "kd": 25,
+  "cpc": 1.6,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 284.6,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-player",
+  "keyword": "vlc media player",
+  "volume": 18100,
+  "totalVolume": 19790,
+  "kd": 85,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 265.2,
+  "related": [
+   {
+    "k": "vlc media player vlc",
+    "v": 1300
+   },
+   {
+    "k": "vlc media player media player",
+    "v": 390
+   }
+  ]
+ },
+ {
+  "slug": "dream-4k-iptv",
+  "keyword": "dream 4k iptv",
+  "volume": 5300,
+  "totalVolume": 5300,
+  "kd": 16,
+  "cpc": 0.9,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 246.1,
+  "related": []
+ },
+ {
+  "slug": "iptv-europe",
+  "keyword": "iptv europe",
+  "volume": 6400,
+  "totalVolume": 6400,
+  "kd": 23,
+  "cpc": 1.5,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 237.7,
+  "related": []
+ },
+ {
+  "slug": "trex-iptv-reseller",
+  "keyword": "trex iptv reseller",
+  "volume": 5400,
+  "totalVolume": 5400,
+  "kd": 19,
+  "cpc": 1.9,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 226.5,
+  "related": []
+ },
+ {
+  "slug": "crystal-iptv",
+  "keyword": "crystal iptv",
+  "volume": 5400,
+  "totalVolume": 5400,
+  "kd": 21,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 212.7,
+  "related": []
+ },
+ {
+  "slug": "cyber-iptv",
+  "keyword": "cyber iptv",
+  "volume": 4600,
+  "totalVolume": 4600,
+  "kd": 17,
+  "cpc": 0.8,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 206.2,
+  "related": []
+ },
+ {
+  "slug": "4k-iptv-app",
+  "keyword": "4k iptv app",
+  "volume": 4200,
+  "totalVolume": 4200,
+  "kd": 17,
+  "cpc": 0.9,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 188.3,
+  "related": []
+ },
+ {
+  "slug": "8k-iptv-reseller-panel",
+  "keyword": "8k iptv reseller panel",
+  "volume": 4200,
+  "totalVolume": 4200,
+  "kd": 18,
+  "cpc": 1.8,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 182,
+  "related": []
+ },
+ {
+  "slug": "best-iptv-reseller-panel-2026",
+  "keyword": "best iptv reseller panel 2026",
+  "volume": 4800,
+  "totalVolume": 4800,
+  "kd": 24,
+  "cpc": 2,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 173.3,
+  "related": []
+ },
+ {
+  "slug": "ultra-8k-iptv-reseller",
+  "keyword": "ultra 8k iptv reseller",
+  "volume": 3800,
+  "totalVolume": 3800,
+  "kd": 17,
+  "cpc": 1.7,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 170.3,
+  "related": []
+ },
+ {
+  "slug": "hot-iptv",
+  "keyword": "hot iptv",
+  "volume": 3500,
+  "totalVolume": 3570,
+  "kd": 18,
+  "cpc": 0.8,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 154.7,
+  "related": [
+   {
+    "k": "iptv hot",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "b1g-iptv",
+  "keyword": "b1g iptv",
+  "volume": 3200,
+  "totalVolume": 3200,
+  "kd": 15,
+  "cpc": 0.7,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 154.1,
+  "related": []
+ },
+ {
+  "slug": "megaott-reseller-panel",
+  "keyword": "megaott reseller panel",
+  "volume": 3400,
+  "totalVolume": 3400,
+  "kd": 17,
+  "cpc": 1.6,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 152.4,
+  "related": []
+ },
+ {
+  "slug": "iptv-reseller-credits",
+  "keyword": "iptv reseller credits",
+  "volume": 3600,
+  "totalVolume": 3600,
+  "kd": 20,
+  "cpc": 1.8,
+  "intent": "transactional",
+  "category": "reseller",
+  "score": 146.3,
+  "related": []
+ },
+ {
+  "slug": "starshare-iptv",
+  "keyword": "starshare iptv",
+  "volume": 2900,
+  "totalVolume": 2900,
+  "kd": 14,
+  "cpc": 0.7,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 145,
+  "related": []
+ },
+ {
+  "slug": "5glive-reseller-panel",
+  "keyword": "5glive reseller panel",
+  "volume": 3100,
+  "totalVolume": 3100,
+  "kd": 16,
+  "cpc": 1.5,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 143.9,
+  "related": []
+ },
+ {
+  "slug": "crystal-iptv-reseller",
+  "keyword": "crystal iptv reseller",
+  "volume": 2900,
+  "totalVolume": 2900,
+  "kd": 15,
+  "cpc": 1.5,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 139.6,
+  "related": []
+ },
+ {
+  "slug": "lion-iptv",
+  "keyword": "lion iptv",
+  "volume": 2400,
+  "totalVolume": 2400,
+  "kd": 15,
+  "cpc": 0.6,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 115.6,
+  "related": []
+ },
+ {
+  "slug": "cheap-iptv-reseller-panel",
+  "keyword": "cheap iptv reseller panel",
+  "volume": 2600,
+  "totalVolume": 2600,
+  "kd": 18,
+  "cpc": 1.7,
+  "intent": "transactional",
+  "category": "reseller",
+  "score": 112.7,
+  "related": []
+ },
+ {
+  "slug": "iptv-london",
+  "keyword": "iptv london",
+  "volume": 2400,
+  "totalVolume": 2400,
+  "kd": 16,
+  "cpc": 1.3,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 111.4,
+  "related": []
+ },
+ {
+  "slug": "best-streaming-service-australia",
+  "keyword": "best streaming service australia",
+  "volume": 1600,
+  "totalVolume": 2950,
+  "kd": 23,
+  "cpc": 1.9,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 109.6,
+  "related": [
+   {
+    "k": "best streaming services australia",
+    "v": 390
+   },
+   {
+    "k": "best streaming services in australia",
+    "v": 320
+   },
+   {
+    "k": "what is the best streaming service in australia",
+    "v": 320
+   },
+   {
+    "k": "best streaming service in australia",
+    "v": 320
+   }
+  ]
+ },
+ {
+  "slug": "vlc-video-player-software",
+  "keyword": "vlc video player software",
+  "volume": 6600,
+  "totalVolume": 6600,
+  "kd": 70,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 104.6,
+  "related": []
+ },
+ {
+  "slug": "8k-iptv-vs-megaott",
+  "keyword": "8k iptv vs megaott",
+  "volume": 1900,
+  "totalVolume": 1900,
+  "kd": 12,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 102.9,
+  "related": []
+ },
+ {
+  "slug": "vlc-hd-player",
+  "keyword": "vlc hd player",
+  "volume": 6600,
+  "totalVolume": 6600,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 102.1,
+  "related": []
+ },
+ {
+  "slug": "vlc-view",
+  "keyword": "vlc view",
+  "volume": 6600,
+  "totalVolume": 6600,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 102.1,
+  "related": []
+ },
+ {
+  "slug": "iptv-reseller-wholesale-pricing",
+  "keyword": "iptv reseller wholesale pricing",
+  "volume": 2200,
+  "totalVolume": 2200,
+  "kd": 16,
+  "cpc": 1.5,
+  "intent": "transactional",
+  "category": "reseller",
+  "score": 102.1,
+  "related": []
+ },
+ {
+  "slug": "streaming-services-australia",
+  "keyword": "streaming services australia",
+  "volume": 4400,
+  "totalVolume": 4470,
+  "kd": 45,
+  "cpc": 1.92,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 101.9,
+  "related": [
+   {
+    "k": "streaming service in australia",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "how-to-start-iptv-reseller-business",
+  "keyword": "how to start iptv reseller business",
+  "volume": 2800,
+  "totalVolume": 2800,
+  "kd": 18,
+  "cpc": 1.4,
+  "intent": "informational",
+  "category": "reseller",
+  "score": 93.3,
+  "related": []
+ },
+ {
+  "slug": "iptv-california",
+  "keyword": "iptv california",
+  "volume": 1900,
+  "totalVolume": 1900,
+  "kd": 15,
+  "cpc": 1.2,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 91.5,
+  "related": []
+ },
+ {
+  "slug": "play-vlc-player",
+  "keyword": "play vlc player",
+  "volume": 6600,
+  "totalVolume": 6600,
+  "kd": 82,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 91.3,
+  "related": []
+ },
+ {
+  "slug": "trexiptv-vs-crystaliptv",
+  "keyword": "trexiptv vs crystaliptv",
+  "volume": 1600,
+  "totalVolume": 1600,
+  "kd": 11,
+  "cpc": 0.9,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 90.4,
+  "related": []
+ },
+ {
+  "slug": "iptv-new-york",
+  "keyword": "iptv new york",
+  "volume": 1800,
+  "totalVolume": 1800,
+  "kd": 14,
+  "cpc": 1.2,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 90,
+  "related": []
+ },
+ {
+  "slug": "iptv-sydney",
+  "keyword": "iptv sydney",
+  "volume": 1700,
+  "totalVolume": 1700,
+  "kd": 13,
+  "cpc": 1.2,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 88.4,
+  "related": []
+ },
+ {
+  "slug": "white-label-iptv-reseller",
+  "keyword": "white label iptv reseller",
+  "volume": 1900,
+  "totalVolume": 1900,
+  "kd": 17,
+  "cpc": 1.6,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 85.2,
+  "related": []
+ },
+ {
+  "slug": "iptv-toronto",
+  "keyword": "iptv toronto",
+  "volume": 1600,
+  "totalVolume": 1600,
+  "kd": 13,
+  "cpc": 1.2,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 83.2,
+  "related": []
+ },
+ {
+  "slug": "ultra-8k-vs-5glive",
+  "keyword": "ultra 8k vs 5glive",
+  "volume": 1400,
+  "totalVolume": 1400,
+  "kd": 10,
+  "cpc": 0.8,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 82.7,
+  "related": []
+ },
+ {
+  "slug": "iptv-melbourne",
+  "keyword": "iptv melbourne",
+  "volume": 1500,
+  "totalVolume": 1500,
+  "kd": 12,
+  "cpc": 1.1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 81.3,
+  "related": []
+ },
+ {
+  "slug": "vlc-vlc-vlc",
+  "keyword": "vlc vlc vlc",
+  "volume": 6600,
+  "totalVolume": 6600,
+  "kd": 80,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 71.7,
+  "related": []
+ },
+ {
+  "slug": "tv-box",
+  "keyword": "tv box",
+  "volume": 1300,
+  "totalVolume": 2160,
+  "kd": 28,
+  "cpc": 0.57,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 70.2,
+  "related": [
+   {
+    "k": "box tv box",
+    "v": 480
+   },
+   {
+    "k": "tv box au",
+    "v": 210
+   },
+   {
+    "k": "au tv box",
+    "v": 170
+   }
+  ]
+ },
+ {
+  "slug": "cyberiptv-vs-b1giptv",
+  "keyword": "cyberiptv vs b1giptv",
+  "volume": 1100,
+  "totalVolume": 1100,
+  "kd": 9,
+  "cpc": 0.7,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 68.1,
+  "related": []
+ },
+ {
+  "slug": "methstreams-ufc",
+  "keyword": "methstreams ufc",
+  "volume": 2900,
+  "totalVolume": 2900,
+  "kd": 45,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 66.1,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-for-download",
+  "keyword": "vlc player for download",
+  "volume": 1900,
+  "totalVolume": 4380,
+  "kd": 75,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 65.4,
+  "related": [
+   {
+    "k": "vlc download player",
+    "v": 1600
+   },
+   {
+    "k": "vlc player download",
+    "v": 880
+   }
+  ]
+ },
+ {
+  "slug": "download-vlc-dvd-player",
+  "keyword": "download vlc dvd player",
+  "volume": 2400,
+  "totalVolume": 3700,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 58,
+  "related": [
+   {
+    "k": "vlc dvd player download",
+    "v": 1300
+   }
+  ]
+ },
+ {
+  "slug": "vlc-download",
+  "keyword": "vlc download",
+  "volume": 3600,
+  "totalVolume": 4670,
+  "kd": 75,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 53.7,
+  "related": [
+   {
+    "k": "download vlc",
+    "v": 1000
+   },
+   {
+    "k": "vlc downloads",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "streaming-devices",
+  "keyword": "streaming devices",
+  "volume": 1000,
+  "totalVolume": 1590,
+  "kd": 33,
+  "cpc": 0.53,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 45.9,
+  "related": [
+   {
+    "k": "streaming device",
+    "v": 590
+   }
+  ]
+ },
+ {
+  "slug": "cricket-live-tv-streaming",
+  "keyword": "cricket live tv streaming",
+  "volume": 2900,
+  "totalVolume": 2900,
+  "kd": 55,
+  "cpc": 1.23,
+  "intent": "informational",
+  "category": "sports",
+  "score": 43.3,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-player-download",
+  "keyword": "vlc media player download",
+  "volume": 2400,
+  "totalVolume": 2880,
+  "kd": 83,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 39.4,
+  "related": [
+   {
+    "k": "download vlc media player",
+    "v": 480
+   }
+  ]
+ },
+ {
+  "slug": "best-streaming-service",
+  "keyword": "best streaming service",
+  "volume": 720,
+  "totalVolume": 1620,
+  "kd": 42,
+  "cpc": 1.98,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 39,
+  "related": [
+   {
+    "k": "best streaming services",
+    "v": 590
+   },
+   {
+    "k": "what is the best streaming service",
+    "v": 170
+   },
+   {
+    "k": "what the best streaming service",
+    "v": 70
+   },
+   {
+    "k": "whats the best streaming service",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "elgato-stream-deck",
+  "keyword": "elgato stream deck",
+  "volume": 1900,
+  "totalVolume": 1900,
+  "kd": 38,
+  "cpc": 0.08,
+  "intent": "informational",
+  "category": "providers",
+  "score": 38,
+  "related": []
+ },
+ {
+  "slug": "foxtel-now-streaming-service",
+  "keyword": "foxtel now streaming service",
+  "volume": 2400,
+  "totalVolume": 2400,
+  "kd": 52,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "providers",
+  "score": 37.5,
+  "related": []
+ },
+ {
+  "slug": "programa-vlc-media-player",
+  "keyword": "programa vlc media player",
+  "volume": 1900,
+  "totalVolume": 1900,
+  "kd": 59,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 34.8,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-4k-streaming-device",
+  "keyword": "apple tv 4k streaming device",
+  "volume": 1600,
+  "totalVolume": 1600,
+  "kd": 49,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 34.1,
+  "related": []
+ },
+ {
+  "slug": "smart-tv-box",
+  "keyword": "smart tv box",
+  "volume": 720,
+  "totalVolume": 1220,
+  "kd": 25,
+  "cpc": 0.29,
+  "intent": "informational",
+  "category": "devices",
+  "score": 33,
+  "related": [
+   {
+    "k": "smart box tv box",
+    "v": 110
+   },
+   {
+    "k": "smart tv tv box",
+    "v": 110
+   },
+   {
+    "k": "smart tv box for tv",
+    "v": 70
+   },
+   {
+    "k": "tv box for smart tv",
+    "v": 70
+   },
+   {
+    "k": "tv box smart tv box",
+    "v": 70
+   },
+   {
+    "k": "tv smart tv box",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "india-vs-australia-live-free-cricket-streaming",
+  "keyword": "india vs australia live free cricket streaming",
+  "volume": 590,
+  "totalVolume": 1270,
+  "kd": 42,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 30.6,
+  "related": [
+   {
+    "k": "live cricket india vs australia streaming free",
+    "v": 590
+   },
+   {
+    "k": "live cricket free streaming india vs australia",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "best-iptv",
+  "keyword": "best iptv",
+  "volume": 320,
+  "totalVolume": 630,
+  "kd": 15,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 30.3,
+  "related": [
+   {
+    "k": "best for iptv",
+    "v": 260
+   },
+   {
+    "k": "best iptv 2025",
+    "v": 50
+   }
+  ]
+ },
+ {
+  "slug": "tv-streaming-devices",
+  "keyword": "tv streaming devices",
+  "volume": 480,
+  "totalVolume": 1010,
+  "kd": 32,
+  "cpc": 0.32,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 29.8,
+  "related": [
+   {
+    "k": "streaming device for tv",
+    "v": 320
+   },
+   {
+    "k": "streaming devices for tv",
+    "v": 210
+   }
+  ]
+ },
+ {
+  "slug": "iptv-box",
+  "keyword": "iptv box",
+  "volume": 260,
+  "totalVolume": 640,
+  "kd": 11,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 27.8,
+  "related": [
+   {
+    "k": "iptv with box",
+    "v": 210
+   },
+   {
+    "k": "box iptv",
+    "v": 170
+   }
+  ]
+ },
+ {
+  "slug": "live-score-of-premier-league",
+  "keyword": "live score of premier league",
+  "volume": 1300,
+  "totalVolume": 2300,
+  "kd": 75,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 26.4,
+  "related": [
+   {
+    "k": "live scores in premier league",
+    "v": 1000
+   }
+  ]
+ },
+ {
+  "slug": "watch-cricket-live-free",
+  "keyword": "watch cricket live free",
+  "volume": 480,
+  "totalVolume": 840,
+  "kd": 31,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 25.4,
+  "related": [
+   {
+    "k": "watch cricket free online",
+    "v": 170
+   },
+   {
+    "k": "live cricket online free watch",
+    "v": 140
+   },
+   {
+    "k": "watch live free cricket",
+    "v": 50
+   }
+  ]
+ },
+ {
+  "slug": "iptv-service",
+  "keyword": "iptv service",
+  "volume": 480,
+  "totalVolume": 620,
+  "kd": 20,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 25.2,
+  "related": [
+   {
+    "k": "iptv services",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "iwatch-for-golf",
+  "keyword": "iwatch for golf",
+  "volume": 880,
+  "totalVolume": 880,
+  "kd": 34,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 24.9,
+  "related": []
+ },
+ {
+  "slug": "live-scores-sanfl",
+  "keyword": "live scores sanfl",
+  "volume": 720,
+  "totalVolume": 720,
+  "kd": 19,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 23.2,
+  "related": []
+ },
+ {
+  "slug": "watch-nrl-live",
+  "keyword": "watch nrl live",
+  "volume": 1300,
+  "totalVolume": 1300,
+  "kd": 47,
+  "cpc": 2.09,
+  "intent": "informational",
+  "category": "sports",
+  "score": 22,
+  "related": []
+ },
+ {
+  "slug": "media-streaming-devices",
+  "keyword": "media streaming devices",
+  "volume": 590,
+  "totalVolume": 730,
+  "kd": 33,
+  "cpc": 0.21,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 21.1,
+  "related": [
+   {
+    "k": "media streaming device",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "espn-live-cricket-scores",
+  "keyword": "espn live cricket scores",
+  "volume": 590,
+  "totalVolume": 1400,
+  "kd": 79,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "sports",
+  "score": 20,
+  "related": [
+   {
+    "k": "espn live cricket score",
+    "v": 390
+   },
+   {
+    "k": "live cricket scores espn",
+    "v": 260
+   },
+   {
+    "k": "live espn cricket scores",
+    "v": 90
+   },
+   {
+    "k": "live cricket score espn",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "free-streaming-services-australia",
+  "keyword": "free streaming services australia",
+  "volume": 1000,
+  "totalVolume": 1000,
+  "kd": 38,
+  "cpc": 1.43,
+  "intent": "informational",
+  "category": "locations",
+  "score": 20,
+  "related": []
+ },
+ {
+  "slug": "fetch-tv-box",
+  "keyword": "fetch tv box",
+  "volume": 1000,
+  "totalVolume": 1000,
+  "kd": 40,
+  "cpc": 0.64,
+  "intent": "navigational",
+  "category": "providers",
+  "score": 19.2,
+  "related": []
+ },
+ {
+  "slug": "streaming-services-for-music",
+  "keyword": "streaming services for music",
+  "volume": 1000,
+  "totalVolume": 1000,
+  "kd": 56,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 19.1,
+  "related": []
+ },
+ {
+  "slug": "top-rated-iptv",
+  "keyword": "top rated iptv",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 6,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 18.8,
+  "related": []
+ },
+ {
+  "slug": "video-vlc",
+  "keyword": "video vlc",
+  "volume": 1900,
+  "totalVolume": 1900,
+  "kd": 89,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 18.8,
+  "related": []
+ },
+ {
+  "slug": "real-tv-box",
+  "keyword": "real tv box",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 14,
+  "cpc": 0.43,
+  "intent": "navigational",
+  "category": "providers",
+  "score": 18.5,
+  "related": []
+ },
+ {
+  "slug": "sport-streaming-services",
+  "keyword": "sport streaming services",
+  "volume": 880,
+  "totalVolume": 880,
+  "kd": 36,
+  "cpc": 1.79,
+  "intent": "informational",
+  "category": "sports",
+  "score": 18.3,
+  "related": []
+ },
+ {
+  "slug": "android-tv-box-android-tv",
+  "keyword": "android tv box android tv",
+  "volume": 210,
+  "totalVolume": 880,
+  "kd": 52,
+  "cpc": 0.26,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 17.9,
+  "related": [
+   {
+    "k": "android tv box top",
+    "v": 170
+   },
+   {
+    "k": "good android tv box",
+    "v": 170
+   },
+   {
+    "k": "android tv box android",
+    "v": 110
+   },
+   {
+    "k": "android tv box au",
+    "v": 110
+   },
+   {
+    "k": "tv box with android tv",
+    "v": 110
+   }
+  ]
+ },
+ {
+  "slug": "livescore-basketball-nba-espn",
+  "keyword": "livescore basketball nba espn",
+  "volume": 1300,
+  "totalVolume": 1300,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 17.8,
+  "related": []
+ },
+ {
+  "slug": "provider-portal",
+  "keyword": "provider portal",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 23,
+  "cpc": 12.12,
+  "intent": "commercial",
+  "category": "reseller",
+  "score": 17.8,
+  "related": []
+ },
+ {
+  "slug": "best-iptv-australia",
+  "keyword": "best iptv australia",
+  "volume": 210,
+  "totalVolume": 300,
+  "kd": 10,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 17.7,
+  "related": [
+   {
+    "k": "best iptv in australia",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "apple-tv-app",
+  "keyword": "apple tv app",
+  "volume": 1300,
+  "totalVolume": 1300,
+  "kd": 65,
+  "cpc": 1.71,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 16.9,
+  "related": []
+ },
+ {
+  "slug": "india-vs-australia-live-streaming-cricket-match",
+  "keyword": "india vs australia live streaming cricket match",
+  "volume": 210,
+  "totalVolume": 630,
+  "kd": 26,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 16.6,
+  "related": [
+   {
+    "k": "live cricket match india vs australia live streaming",
+    "v": 210
+   },
+   {
+    "k": "live streaming cricket match india vs australia",
+    "v": 210
+   }
+  ]
+ },
+ {
+  "slug": "live-cricket-ipl-live-streaming",
+  "keyword": "live cricket ipl live streaming",
+  "volume": 880,
+  "totalVolume": 880,
+  "kd": 43,
+  "cpc": 2.89,
+  "intent": "informational",
+  "category": "sports",
+  "score": 16,
+  "related": []
+ },
+ {
+  "slug": "centstreams-ufc",
+  "keyword": "centstreams ufc",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 19,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 15.5,
+  "related": []
+ },
+ {
+  "slug": "best-iptv-provider",
+  "keyword": "best iptv provider",
+  "volume": 170,
+  "totalVolume": 260,
+  "kd": 10,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 15.4,
+  "related": [
+   {
+    "k": "best iptv providers",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "media-streaming-device-for-tv",
+  "keyword": "media streaming device for tv",
+  "volume": 260,
+  "totalVolume": 470,
+  "kd": 28,
+  "cpc": 0.32,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 15.3,
+  "related": [
+   {
+    "k": "media streaming devices for tv",
+    "v": 210
+   }
+  ]
+ },
+ {
+  "slug": "cruze-tv-box",
+  "keyword": "cruze tv box",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 2,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 15,
+  "related": []
+ },
+ {
+  "slug": "live-score-cricket-england-vs-australia",
+  "keyword": "live score cricket england vs australia",
+  "volume": 880,
+  "totalVolume": 880,
+  "kd": 66,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 14.7,
+  "related": []
+ },
+ {
+  "slug": "live-score-cricket-ind-vs-aus",
+  "keyword": "live score cricket ind vs aus",
+  "volume": 390,
+  "totalVolume": 560,
+  "kd": 38,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 14.6,
+  "related": [
+   {
+    "k": "live cricket score aus vs ind",
+    "v": 170
+   }
+  ]
+ },
+ {
+  "slug": "score-live-cricket-india-vs-england",
+  "keyword": "score live cricket india vs england",
+  "volume": 480,
+  "totalVolume": 570,
+  "kd": 40,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 14.3,
+  "related": [
+   {
+    "k": "live cricket india vs england score",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "boxes-for-tv-streaming",
+  "keyword": "boxes for tv streaming",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 25,
+  "cpc": 0.65,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 13.7,
+  "related": []
+ },
+ {
+  "slug": "streaming-box-for-tv",
+  "keyword": "streaming box for tv",
+  "volume": 140,
+  "totalVolume": 480,
+  "kd": 34,
+  "cpc": 0.31,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 13.6,
+  "related": [
+   {
+    "k": "tv streaming box",
+    "v": 140
+   },
+   {
+    "k": "box for tv streaming",
+    "v": 110
+   },
+   {
+    "k": "tv box for streaming",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "espn-livescore-nba",
+  "keyword": "espn livescore nba",
+  "volume": 480,
+  "totalVolume": 1170,
+  "kd": 74,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 13.6,
+  "related": [
+   {
+    "k": "livescore espn nba",
+    "v": 480
+   },
+   {
+    "k": "livescore nba espn",
+    "v": 210
+   }
+  ]
+ },
+ {
+  "slug": "live-pga-tour-golf",
+  "keyword": "live pga tour golf",
+  "volume": 1300,
+  "totalVolume": 1300,
+  "kd": 85,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 13.4,
+  "related": []
+ },
+ {
+  "slug": "best-music-streaming-service",
+  "keyword": "best music streaming service",
+  "volume": 590,
+  "totalVolume": 590,
+  "kd": 50,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 12.4,
+  "related": []
+ },
+ {
+  "slug": "elgato-streamdeck",
+  "keyword": "elgato streamdeck",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 20,
+  "cpc": 0.08,
+  "intent": "informational",
+  "category": "providers",
+  "score": 12.2,
+  "related": []
+ },
+ {
+  "slug": "indian-tv-box",
+  "keyword": "indian tv box",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 3,
+  "cpc": 0.6,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 12.1,
+  "related": []
+ },
+ {
+  "slug": "australia-iptv",
+  "keyword": "australia-iptv",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 0,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 11.9,
+  "related": []
+ },
+ {
+  "slug": "4k-streaming-device",
+  "keyword": "4k streaming device",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 42,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 11.6,
+  "related": []
+ },
+ {
+  "slug": "best-streaming-device-australia",
+  "keyword": "best streaming device australia",
+  "volume": 210,
+  "totalVolume": 380,
+  "kd": 32,
+  "cpc": 0.22,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 11.2,
+  "related": [
+   {
+    "k": "best streaming device for australia",
+    "v": 170
+   }
+  ]
+ },
+ {
+  "slug": "live-cricket-streaming-india-vs-australia",
+  "keyword": "live cricket streaming india vs australia",
+  "volume": 170,
+  "totalVolume": 410,
+  "kd": 36,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 11.1,
+  "related": [
+   {
+    "k": "live cricket india vs australia live streaming",
+    "v": 170
+   },
+   {
+    "k": "india vs australia live cricket streaming",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "media-vlc",
+  "keyword": "media vlc",
+  "volume": 720,
+  "totalVolume": 720,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 11.1,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-streaming-cricbuzz",
+  "keyword": "live cricket streaming cricbuzz",
+  "volume": 390,
+  "totalVolume": 780,
+  "kd": 59,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 11,
+  "related": [
+   {
+    "k": "live streaming cricket cricbuzz",
+    "v": 390
+   }
+  ]
+ },
+ {
+  "slug": "mylivecricket",
+  "keyword": "mylivecricket",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 17,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 11,
+  "related": []
+ },
+ {
+  "slug": "streaming-stick",
+  "keyword": "streaming stick",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 35,
+  "cpc": 0.29,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 10.8,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-streams",
+  "keyword": "live cricket streams",
+  "volume": 590,
+  "totalVolume": 590,
+  "kd": 59,
+  "cpc": 1.23,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 10.8,
+  "related": []
+ },
+ {
+  "slug": "live-score-cricket-ind-vs-eng",
+  "keyword": "live score cricket ind vs eng",
+  "volume": 320,
+  "totalVolume": 390,
+  "kd": 37,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 10.3,
+  "related": [
+   {
+    "k": "live cricket ind vs eng score",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "lg-appliances",
+  "keyword": "lg appliances",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 37,
+  "cpc": 1.58,
+  "intent": "transactional",
+  "category": "devices",
+  "score": 10.3,
+  "related": []
+ },
+ {
+  "slug": "stb-tv-box",
+  "keyword": "stb tv box",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 37,
+  "cpc": 0.41,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 10.3,
+  "related": []
+ },
+ {
+  "slug": "iptv-providers",
+  "keyword": "iptv providers",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 21,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 10.2,
+  "related": []
+ },
+ {
+  "slug": "ip-tv",
+  "keyword": "ip tv",
+  "volume": 590,
+  "totalVolume": 590,
+  "kd": 46,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 10.2,
+  "related": []
+ },
+ {
+  "slug": "netflix-streaming-service",
+  "keyword": "netflix streaming service",
+  "volume": 1000,
+  "totalVolume": 1140,
+  "kd": 100,
+  "cpc": 3.22,
+  "intent": "informational",
+  "category": "providers",
+  "score": 10.2,
+  "related": [
+   {
+    "k": "netflix streaming services",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "iptv-aus",
+  "keyword": "iptv aus",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 6,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 10.1,
+  "related": []
+ },
+ {
+  "slug": "elgato-stream-deck-mk-2",
+  "keyword": "elgato stream deck mk 2",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 28,
+  "cpc": 0.37,
+  "intent": "informational",
+  "category": "providers",
+  "score": 9.8,
+  "related": []
+ },
+ {
+  "slug": "streaming-box",
+  "keyword": "streaming box",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 41,
+  "cpc": 0.65,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 9.6,
+  "related": []
+ },
+ {
+  "slug": "live-score-cricket-cricbuzz",
+  "keyword": "live score cricket cricbuzz",
+  "volume": 320,
+  "totalVolume": 750,
+  "kd": 68,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 9.4,
+  "related": [
+   {
+    "k": "live cricbuzz cricket score",
+    "v": 210
+   },
+   {
+    "k": "cricbuzz live cricket score",
+    "v": 110
+   },
+   {
+    "k": "cricbuzz live cricket scores",
+    "v": 110
+   }
+  ]
+ },
+ {
+  "slug": "best-android-tv-box",
+  "keyword": "best android tv box",
+  "volume": 210,
+  "totalVolume": 350,
+  "kd": 37,
+  "cpc": 0.18,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 9.3,
+  "related": [
+   {
+    "k": "best of android tv box",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "myplanmanager-provider-portal",
+  "keyword": "myplanmanager provider portal",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 16,
+  "cpc": 6.66,
+  "intent": "navigational",
+  "category": "reseller",
+  "score": 9.3,
+  "related": []
+ },
+ {
+  "slug": "best-tv-streaming-device",
+  "keyword": "best tv streaming device",
+  "volume": 170,
+  "totalVolume": 310,
+  "kd": 32,
+  "cpc": 0.23,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 9.2,
+  "related": [
+   {
+    "k": "best streaming devices for tv",
+    "v": 90
+   },
+   {
+    "k": "best streaming device for tv",
+    "v": 50
+   }
+  ]
+ },
+ {
+  "slug": "where-can-i-watch-ufc-fights-near-me",
+  "keyword": "where can i watch ufc fights near me",
+  "volume": 110,
+  "totalVolume": 220,
+  "kd": 19,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "sports",
+  "score": 9.2,
+  "related": [
+   {
+    "k": "where to watch the ufc fight near me",
+    "v": 110
+   }
+  ]
+ },
+ {
+  "slug": "roku-stream-device",
+  "keyword": "roku stream device",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 0,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 9.2,
+  "related": []
+ },
+ {
+  "slug": "ind-vs-eng-live-cricket",
+  "keyword": "ind vs eng live cricket",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 8.9,
+  "related": []
+ },
+ {
+  "slug": "live-streaming-cricket-match-ind-vs-nz",
+  "keyword": "live streaming cricket match ind vs nz",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 26,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 8.9,
+  "related": []
+ },
+ {
+  "slug": "iptv-box-australia",
+  "keyword": "iptv box australia",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 13,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 8.8,
+  "related": []
+ },
+ {
+  "slug": "tv-boxes",
+  "keyword": "tv boxes",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 27,
+  "cpc": 0.57,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 8.7,
+  "related": []
+ },
+ {
+  "slug": "live-streaming-cricket-india-vs-new-zealand-free",
+  "keyword": "live streaming cricket india vs new zealand free",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 27,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 8.7,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-apple",
+  "keyword": "apple tv apple",
+  "volume": 210,
+  "totalVolume": 560,
+  "kd": 54,
+  "cpc": 1.05,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 8.5,
+  "related": [
+   {
+    "k": "apple tv apple tv",
+    "v": 210
+   },
+   {
+    "k": "apple apple tv",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "cheapest-way-to-bundle-streaming-services-australia",
+  "keyword": "cheapest way to bundle streaming services australia",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 28,
+  "cpc": 1.29,
+  "intent": "commercial",
+  "category": "pricing",
+  "score": 8.5,
+  "related": []
+ },
+ {
+  "slug": "kodi-box",
+  "keyword": "kodi box",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 20,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 8.5,
+  "related": []
+ },
+ {
+  "slug": "best-audio-streaming-service",
+  "keyword": "best audio streaming service",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 8.5,
+  "related": []
+ },
+ {
+  "slug": "iptv-free-trial",
+  "keyword": "iptv free trial",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 5,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "trial",
+  "score": 8.4,
+  "related": []
+ },
+ {
+  "slug": "watch-live-streaming-cricket",
+  "keyword": "watch live streaming cricket",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 39,
+  "cpc": 1.23,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 8.2,
+  "related": []
+ },
+ {
+  "slug": "foxtel-streaming-service",
+  "keyword": "foxtel streaming service",
+  "volume": 390,
+  "totalVolume": 600,
+  "kd": 61,
+  "cpc": 1.7,
+  "intent": "navigational",
+  "category": "providers",
+  "score": 8.2,
+  "related": [
+   {
+    "k": "foxtel streaming services",
+    "v": 210
+   }
+  ]
+ },
+ {
+  "slug": "tv-streaming-devices-australia",
+  "keyword": "tv streaming devices australia",
+  "volume": 140,
+  "totalVolume": 250,
+  "kd": 28,
+  "cpc": 0.25,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 8.1,
+  "related": [
+   {
+    "k": "streaming device for tv australia",
+    "v": 110
+   }
+  ]
+ },
+ {
+  "slug": "live-watch-cricket-india-vs-australia",
+  "keyword": "live watch cricket india vs australia",
+  "volume": 140,
+  "totalVolume": 280,
+  "kd": 33,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 8.1,
+  "related": [
+   {
+    "k": "watch live cricket india vs australia",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "live-sanfl",
+  "keyword": "live sanfl",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 36,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 8.1,
+  "related": []
+ },
+ {
+  "slug": "live-score-soccer-premier-league",
+  "keyword": "live score soccer premier league",
+  "volume": 720,
+  "totalVolume": 720,
+  "kd": 79,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 7.9,
+  "related": []
+ },
+ {
+  "slug": "appletv-3rd-gen-apple-tv",
+  "keyword": "appletv 3rd gen apple tv",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 52,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "devices",
+  "score": 7.9,
+  "related": []
+ },
+ {
+  "slug": "iptv-au",
+  "keyword": "iptv au",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 11,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 7.9,
+  "related": []
+ },
+ {
+  "slug": "indian-tv-box-australia",
+  "keyword": "indian tv box australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 3,
+  "cpc": 1.27,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 7.8,
+  "related": []
+ },
+ {
+  "slug": "smarters",
+  "keyword": "smarters",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 38,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 7.8,
+  "related": []
+ },
+ {
+  "slug": "livecricketstreaming-net",
+  "keyword": "livecricketstreaming net",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 7.7,
+  "related": []
+ },
+ {
+  "slug": "australian-iptv",
+  "keyword": "australian iptv",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 24,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 7.6,
+  "related": []
+ },
+ {
+  "slug": "iptv-tv",
+  "keyword": "iptv tv",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 30,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 7.6,
+  "related": []
+ },
+ {
+  "slug": "media-streaming-box",
+  "keyword": "media streaming box",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 33,
+  "cpc": 0.65,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 7.5,
+  "related": []
+ },
+ {
+  "slug": "watch-australian-open-golf",
+  "keyword": "watch australian open golf",
+  "volume": 90,
+  "totalVolume": 180,
+  "kd": 19,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 7.5,
+  "related": [
+   {
+    "k": "watch the australian open golf",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "best-movie-streaming-service-australia",
+  "keyword": "best movie streaming service australia",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 25,
+  "cpc": 1.58,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 7.4,
+  "related": []
+ },
+ {
+  "slug": "vlc-multimedia-player-download",
+  "keyword": "vlc multimedia player download",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 7.4,
+  "related": []
+ },
+ {
+  "slug": "panasonic-tv-box",
+  "keyword": "panasonic tv box",
+  "volume": 90,
+  "totalVolume": 180,
+  "kd": 20,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 7.3,
+  "related": [
+   {
+    "k": "tv box panasonic",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "live-lpga-golf-scores",
+  "keyword": "live lpga golf scores",
+  "volume": 590,
+  "totalVolume": 590,
+  "kd": 69,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 7.3,
+  "related": []
+ },
+ {
+  "slug": "watch-live-cricket-match-ipl",
+  "keyword": "watch live cricket match ipl",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 46,
+  "cpc": 1.63,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 7.2,
+  "related": []
+ },
+ {
+  "slug": "apple-watch-boxing-day-sale",
+  "keyword": "apple watch boxing day sale",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 19,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "sports",
+  "score": 7.1,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-ipl-watch",
+  "keyword": "live cricket ipl watch",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 47,
+  "cpc": 1.63,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 7.1,
+  "related": []
+ },
+ {
+  "slug": "multimedia-streaming-device",
+  "keyword": "multimedia streaming device",
+  "volume": 140,
+  "totalVolume": 230,
+  "kd": 31,
+  "cpc": 0.55,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 7,
+  "related": [
+   {
+    "k": "multimedia streaming devices",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "elgato-stream-deck-software",
+  "keyword": "elgato stream deck software",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 37,
+  "cpc": 0.01,
+  "intent": "transactional",
+  "category": "providers",
+  "score": 6.9,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-match-streaming-india-vs-england",
+  "keyword": "live cricket match streaming india vs england",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 38,
+  "cpc": 1.95,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 6.8,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-dow",
+  "keyword": "vlc player dow",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 81,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 6.7,
+  "related": []
+ },
+ {
+  "slug": "best-media-streaming-device",
+  "keyword": "best media streaming device",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 39,
+  "cpc": 0.15,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 6.6,
+  "related": []
+ },
+ {
+  "slug": "best-streaming-device",
+  "keyword": "best streaming device",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 39,
+  "cpc": 0.15,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 6.6,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-tv-box",
+  "keyword": "apple tv tv box",
+  "volume": 210,
+  "totalVolume": 420,
+  "kd": 52,
+  "cpc": 0.18,
+  "intent": "informational",
+  "category": "devices",
+  "score": 6.6,
+  "related": [
+   {
+    "k": "tv box apple",
+    "v": 210
+   }
+  ]
+ },
+ {
+  "slug": "audio-streaming-services",
+  "keyword": "audio streaming services",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 6.6,
+  "related": []
+ },
+ {
+  "slug": "television-streaming-devices",
+  "keyword": "television streaming devices",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 40,
+  "cpc": 0.32,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 6.5,
+  "related": []
+ },
+ {
+  "slug": "tv-box-australia",
+  "keyword": "tv box australia",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 28,
+  "cpc": 0.51,
+  "intent": "informational",
+  "category": "locations",
+  "score": 6.5,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-stream-free",
+  "keyword": "live cricket stream free",
+  "volume": 110,
+  "totalVolume": 210,
+  "kd": 30,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 6.5,
+  "related": [
+   {
+    "k": "free live stream cricket",
+    "v": 50
+   },
+   {
+    "k": "live free cricket stream",
+    "v": 50
+   }
+  ]
+ },
+ {
+  "slug": "live-golf-scores-australian-pga",
+  "keyword": "live golf scores australian pga",
+  "volume": 170,
+  "totalVolume": 310,
+  "kd": 36,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 6.5,
+  "related": [
+   {
+    "k": "live australian pga golf scores",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "free-live-cricket-streaming",
+  "keyword": "free live cricket streaming",
+  "volume": 140,
+  "totalVolume": 250,
+  "kd": 27,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 6.4,
+  "related": [
+   {
+    "k": "live cricket streaming online free",
+    "v": 110
+   }
+  ]
+ },
+ {
+  "slug": "apple-tv-3rd-generation-apple",
+  "keyword": "apple tv 3rd generation apple",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 40,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 6.2,
+  "related": []
+ },
+ {
+  "slug": "ip-tv-australia",
+  "keyword": "ip tv australia",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 11,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 6.1,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-match-today-online",
+  "keyword": "live cricket match today online",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 91,
+  "cpc": 1.99,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 6.1,
+  "related": []
+ },
+ {
+  "slug": "tv-streaming-services-australia",
+  "keyword": "tv streaming services australia",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 31,
+  "cpc": 1.55,
+  "intent": "informational",
+  "category": "locations",
+  "score": 6,
+  "related": []
+ },
+ {
+  "slug": "apple-store-tv-box",
+  "keyword": "apple store tv box",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 0,
+  "cpc": 0.15,
+  "intent": "informational",
+  "category": "providers",
+  "score": 5.8,
+  "related": []
+ },
+ {
+  "slug": "streaming-services-australia-prices",
+  "keyword": "streaming services australia prices",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 35,
+  "cpc": 1.44,
+  "intent": "commercial",
+  "category": "pricing",
+  "score": 5.8,
+  "related": []
+ },
+ {
+  "slug": "watch-free-cricket-match-online",
+  "keyword": "watch free cricket match online",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 5.7,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-live-tv",
+  "keyword": "live cricket live tv",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 34,
+  "cpc": 0.54,
+  "intent": "informational",
+  "category": "sports",
+  "score": 5.7,
+  "related": []
+ },
+ {
+  "slug": "arabic-tv-box",
+  "keyword": "arabic tv box",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 4,
+  "cpc": 0.16,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 5.7,
+  "related": []
+ },
+ {
+  "slug": "livescore-football-live-scores-champions-league",
+  "keyword": "livescore football live scores champions league",
+  "volume": 480,
+  "totalVolume": 480,
+  "kd": 73,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 5.6,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-software",
+  "keyword": "vlc media software",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 79,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 5.6,
+  "related": []
+ },
+ {
+  "slug": "digital-tv-box",
+  "keyword": "digital tv box",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 19,
+  "cpc": 0.6,
+  "intent": "informational",
+  "category": "providers",
+  "score": 5.5,
+  "related": []
+ },
+ {
+  "slug": "bes-iptv",
+  "keyword": "bes iptv",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 14,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 5.5,
+  "related": []
+ },
+ {
+  "slug": "iptv-subscribe",
+  "keyword": "iptv subscribe",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 35,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 5.5,
+  "related": []
+ },
+ {
+  "slug": "watch-ufc-317",
+  "keyword": "watch ufc 317",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 21,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 5.5,
+  "related": [
+   {
+    "k": "where to watch ufc 317",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "best-firestick-apps",
+  "keyword": "best firestick apps",
+  "volume": 90,
+  "totalVolume": 160,
+  "kd": 26,
+  "cpc": 0.36,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 5.5,
+  "related": [
+   {
+    "k": "best apps on firestick",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "best-media-streaming-device-australia",
+  "keyword": "best media streaming device australia",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 29,
+  "cpc": 0.37,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 5.4,
+  "related": []
+ },
+ {
+  "slug": "top-rated-streaming-devices",
+  "keyword": "top rated streaming devices",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 40,
+  "cpc": 0.15,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 5.3,
+  "related": []
+ },
+ {
+  "slug": "hulu-streaming-services",
+  "keyword": "hulu streaming services",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "providers",
+  "score": 5.3,
+  "related": []
+ },
+ {
+  "slug": "anfroid-tv-box",
+  "keyword": "anfroid tv box",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 41,
+  "cpc": 0.24,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 5.2,
+  "related": []
+ },
+ {
+  "slug": "android-tv-box-australia",
+  "keyword": "android tv box australia",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 23,
+  "cpc": 0.25,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 5.2,
+  "related": []
+ },
+ {
+  "slug": "streaming-devices-australia",
+  "keyword": "streaming devices australia",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 23,
+  "cpc": 0.5,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 5.2,
+  "related": []
+ },
+ {
+  "slug": "where-to-watch-ufc-in-sydney",
+  "keyword": "where to watch ufc in sydney",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 23,
+  "cpc": 2.38,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 5.2,
+  "related": [
+   {
+    "k": "where to watch ufc sydney",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "recommended-android-tv-box",
+  "keyword": "recommended android tv box",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 31,
+  "cpc": 0.18,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 5.1,
+  "related": []
+ },
+ {
+  "slug": "best-media-streaming-service",
+  "keyword": "best media streaming service",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 43,
+  "cpc": 2.5,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 5,
+  "related": []
+ },
+ {
+  "slug": "best-tv-box-for-indian-channels-in-australia",
+  "keyword": "best tv box for indian channels in australia",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 1,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 5,
+  "related": []
+ },
+ {
+  "slug": "willow-tv-live-cricket-streaming",
+  "keyword": "willow tv live cricket streaming",
+  "volume": 170,
+  "totalVolume": 280,
+  "kd": 44,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 5,
+  "related": [
+   {
+    "k": "live cricket streaming willow tv",
+    "v": 110
+   }
+  ]
+ },
+ {
+  "slug": "dow-vlc",
+  "keyword": "dow vlc",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 5,
+  "related": []
+ },
+ {
+  "slug": "vlc-video-player-for-windows",
+  "keyword": "vlc video player for windows",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 5,
+  "related": []
+ },
+ {
+  "slug": "outdoor-tv-box",
+  "keyword": "outdoor tv box",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 17,
+  "cpc": 1.69,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.9,
+  "related": []
+ },
+ {
+  "slug": "top-streaming-services",
+  "keyword": "top streaming services",
+  "volume": 140,
+  "totalVolume": 210,
+  "kd": 44,
+  "cpc": 2.09,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.9,
+  "related": [
+   {
+    "k": "good streaming services",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "live-cricket-india-vs-pakistan-live-streaming",
+  "keyword": "live cricket india vs pakistan live streaming",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 33,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 4.9,
+  "related": []
+ },
+ {
+  "slug": "yupptv-subscription",
+  "keyword": "yupptv subscription",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 33,
+  "cpc": 4.9,
+  "intent": "transactional",
+  "category": "pricing",
+  "score": 4.9,
+  "related": []
+ },
+ {
+  "slug": "espn-live-football-scores-nfl",
+  "keyword": "espn live football scores nfl",
+  "volume": 170,
+  "totalVolume": 340,
+  "kd": 58,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 4.9,
+  "related": [
+   {
+    "k": "espn live nfl football scores",
+    "v": 170
+   }
+  ]
+ },
+ {
+  "slug": "vlc-media-player-download-free-download",
+  "keyword": "vlc media player download free download",
+  "volume": 110,
+  "totalVolume": 290,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 4.9,
+  "related": [
+   {
+    "k": "vlc vlc media player free download",
+    "v": 110
+   },
+   {
+    "k": "vlc player media player free download",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "television-streaming-box",
+  "keyword": "television streaming box",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 34,
+  "cpc": 0.68,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 4.8,
+  "related": []
+ },
+ {
+  "slug": "live-rugby-wallabies",
+  "keyword": "live rugby wallabies",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 42,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 4.8,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-scorecard-india-vs-england",
+  "keyword": "live cricket scorecard india vs england",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 33,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 4.7,
+  "related": []
+ },
+ {
+  "slug": "india-vs-pakistan-live-tv-streaming",
+  "keyword": "india vs pakistan live tv streaming",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 35,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.7,
+  "related": []
+ },
+ {
+  "slug": "top-rated-music-streaming-services",
+  "keyword": "top rated music streaming services",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 56,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 4.7,
+  "related": []
+ },
+ {
+  "slug": "better-streaming-device",
+  "keyword": "better streaming device",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 47,
+  "cpc": 0.15,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 4.6,
+  "related": []
+ },
+ {
+  "slug": "4k-apple-tv-box",
+  "keyword": "4k apple tv box",
+  "volume": 140,
+  "totalVolume": 280,
+  "kd": 49,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 4.6,
+  "related": [
+   {
+    "k": "apple tv box 4k",
+    "v": 140
+   }
+  ]
+ },
+ {
+  "slug": "best-iptv-service",
+  "keyword": "best iptv service",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 8,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.6,
+  "related": []
+ },
+ {
+  "slug": "indian-tv-channels-box",
+  "keyword": "indian tv channels box",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 2,
+  "cpc": 0.48,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.6,
+  "related": []
+ },
+ {
+  "slug": "elgato-stream-deck-neo",
+  "keyword": "elgato stream deck neo",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 25,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 4.6,
+  "related": []
+ },
+ {
+  "slug": "samsung-appliances",
+  "keyword": "samsung appliances",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 45,
+  "cpc": 1.87,
+  "intent": "informational",
+  "category": "devices",
+  "score": 4.6,
+  "related": []
+ },
+ {
+  "slug": "tv-boxing-day-sales",
+  "keyword": "tv boxing day sales",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 28,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "sports",
+  "score": 4.6,
+  "related": []
+ },
+ {
+  "slug": "tv-streaming-services",
+  "keyword": "tv streaming services",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 35,
+  "cpc": 1.59,
+  "intent": "informational",
+  "category": "providers",
+  "score": 4.5,
+  "related": []
+ },
+ {
+  "slug": "vlc-for-windows",
+  "keyword": "vlc for windows",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 63,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 4.5,
+  "related": []
+ },
+ {
+  "slug": "livescore-ufc",
+  "keyword": "livescore ufc",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 63,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 4.5,
+  "related": []
+ },
+ {
+  "slug": "dtv-box",
+  "keyword": "dtv box",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 38,
+  "cpc": 0.6,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.4,
+  "related": []
+ },
+ {
+  "slug": "best-television-streaming-device",
+  "keyword": "best television streaming device",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 29,
+  "cpc": 0.16,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 4.4,
+  "related": []
+ },
+ {
+  "slug": "iptv-stream",
+  "keyword": "iptv stream",
+  "volume": 90,
+  "totalVolume": 140,
+  "kd": 29,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.4,
+  "related": [
+   {
+    "k": "iptv streams",
+    "v": 50
+   }
+  ]
+ },
+ {
+  "slug": "live-espn-nfl-scores",
+  "keyword": "live espn nfl scores",
+  "volume": 170,
+  "totalVolume": 340,
+  "kd": 66,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 4.4,
+  "related": [
+   {
+    "k": "live scores nfl espn",
+    "v": 170
+   }
+  ]
+ },
+ {
+  "slug": "live-lpga-golf",
+  "keyword": "live lpga golf",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 4.4,
+  "related": []
+ },
+ {
+  "slug": "tv-streaming-stick",
+  "keyword": "tv streaming stick",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 30,
+  "cpc": 0.32,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 4.3,
+  "related": []
+ },
+ {
+  "slug": "biggest-iptv",
+  "keyword": "biggest iptv",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 15,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4.3,
+  "related": []
+ },
+ {
+  "slug": "iptv-player",
+  "keyword": "iptv player",
+  "volume": 210,
+  "totalVolume": 280,
+  "kd": 53,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 4.3,
+  "related": [
+   {
+    "k": "iptv player online",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "watch-india-vs-england-live-cricket",
+  "keyword": "watch india vs england live cricket",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 30,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 4.3,
+  "related": []
+ },
+ {
+  "slug": "live-rugby-scores-league",
+  "keyword": "live rugby scores league",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 52,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 4.3,
+  "related": []
+ },
+ {
+  "slug": "bbc-live-sport-cricket",
+  "keyword": "bbc live sport cricket",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 63,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 4.3,
+  "related": []
+ },
+ {
+  "slug": "abc-live-cricket",
+  "keyword": "abc live cricket",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 50,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 4.2,
+  "related": []
+ },
+ {
+  "slug": "where-to-watch-ufc-314",
+  "keyword": "where to watch ufc 314",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 21,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 4.2,
+  "related": []
+ },
+ {
+  "slug": "samsung-appliances-home",
+  "keyword": "samsung appliances home",
+  "volume": 90,
+  "totalVolume": 180,
+  "kd": 31,
+  "cpc": 0.88,
+  "intent": "informational",
+  "category": "devices",
+  "score": 4.2,
+  "related": [
+   {
+    "k": "samsung home appliances",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "cheapest-streaming-service-australia",
+  "keyword": "cheapest streaming service australia",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 22,
+  "cpc": 1.7,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 4.1,
+  "related": []
+ },
+ {
+  "slug": "fox-tv-box",
+  "keyword": "fox tv box",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "providers",
+  "score": 4.1,
+  "related": []
+ },
+ {
+  "slug": "ibo-player-pro",
+  "keyword": "ibo player pro",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 51,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 4.1,
+  "related": []
+ },
+ {
+  "slug": "live-stats-nba",
+  "keyword": "live stats nba",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 84,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 4.1,
+  "related": []
+ },
+ {
+  "slug": "exterior-tv-box",
+  "keyword": "exterior tv box",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 17,
+  "cpc": 1.69,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 4,
+  "related": []
+ },
+ {
+  "slug": "live-cricketscore-espn",
+  "keyword": "live cricketscore espn",
+  "volume": 390,
+  "totalVolume": 390,
+  "kd": 86,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 4,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-streaming-video-india-vs-australia",
+  "keyword": "live cricket streaming video india vs australia",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 41,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 4,
+  "related": []
+ },
+ {
+  "slug": "live-and-official-cricket-scores",
+  "keyword": "live and official cricket scores",
+  "volume": 320,
+  "totalVolume": 320,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 3.9,
+  "related": []
+ },
+ {
+  "slug": "best-media-streaming-device-for-tv",
+  "keyword": "best media streaming device for tv",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 36,
+  "cpc": 0.16,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 3.8,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-box-australia",
+  "keyword": "apple tv box australia",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 44,
+  "cpc": 0.13,
+  "intent": "informational",
+  "category": "locations",
+  "score": 3.8,
+  "related": []
+ },
+ {
+  "slug": "sa-vs-aus-live-streaming-cricket",
+  "keyword": "sa vs aus live streaming cricket",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 36,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 3.8,
+  "related": []
+ },
+ {
+  "slug": "xxiptv",
+  "keyword": "xxiptv",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 26,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 3.8,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-vlc",
+  "keyword": "vlc player vlc",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 77,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 3.8,
+  "related": []
+ },
+ {
+  "slug": "over-the-top-streaming-services",
+  "keyword": "over the top streaming services",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 45,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 3.7,
+  "related": []
+ },
+ {
+  "slug": "iptv-smarter-pro",
+  "keyword": "iptv smarter pro",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 39,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 3.6,
+  "related": [
+   {
+    "k": "smarters iptv pro",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "iptv-trial",
+  "keyword": "iptv trial",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 6,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "trial",
+  "score": 3.6,
+  "related": []
+ },
+ {
+  "slug": "watch-nba-league",
+  "keyword": "watch nba league",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 3.6,
+  "related": []
+ },
+ {
+  "slug": "lime-iptv",
+  "keyword": "lime iptv",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 8,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 3.5,
+  "related": []
+ },
+ {
+  "slug": "best-value-streaming-service-australia",
+  "keyword": "best value streaming service australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 22,
+  "cpc": 1.56,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 3.4,
+  "related": []
+ },
+ {
+  "slug": "king-iptv",
+  "keyword": "king iptv",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 22,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 3.4,
+  "related": []
+ },
+ {
+  "slug": "big-iptv",
+  "keyword": "big iptv",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 23,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 3.3,
+  "related": []
+ },
+ {
+  "slug": "free-live-cricket-ipl",
+  "keyword": "free live cricket ipl",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 40,
+  "cpc": 2.09,
+  "intent": "informational",
+  "category": "sports",
+  "score": 3.3,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-streaming-app",
+  "keyword": "live cricket streaming app",
+  "volume": 110,
+  "totalVolume": 180,
+  "kd": 43,
+  "cpc": 0.99,
+  "intent": "informational",
+  "category": "sports",
+  "score": 3.3,
+  "related": [
+   {
+    "k": "online live cricket streaming app",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "compare-streaming-services-australia",
+  "keyword": "compare streaming services australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 24,
+  "cpc": 0.79,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 3.3,
+  "related": []
+ },
+ {
+  "slug": "hdmi-media-streaming-device",
+  "keyword": "hdmi media streaming device",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 24,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 3.3,
+  "related": []
+ },
+ {
+  "slug": "real-x-tv-box",
+  "keyword": "real x tv box",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 9,
+  "cpc": 0.61,
+  "intent": "informational",
+  "category": "providers",
+  "score": 3.3,
+  "related": []
+ },
+ {
+  "slug": "live-tv-streaming-for-free",
+  "keyword": "live tv streaming for free",
+  "volume": 90,
+  "totalVolume": 180,
+  "kd": 42,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 3.3,
+  "related": [
+   {
+    "k": "online tv streaming free",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "watch-nba-basketball-live-free",
+  "keyword": "watch nba basketball live free",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 66,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 3.3,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-software-download",
+  "keyword": "vlc player software download",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 3.3,
+  "related": []
+ },
+ {
+  "slug": "is-iptv-legal-in-australia",
+  "keyword": "is iptv legal in australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 10,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 3.2,
+  "related": []
+ },
+ {
+  "slug": "best-watch-for-golf",
+  "keyword": "best watch for golf",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 25,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 3.2,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-box-cost",
+  "keyword": "apple tv box cost",
+  "volume": 90,
+  "totalVolume": 180,
+  "kd": 46,
+  "cpc": 0.11,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 3.1,
+  "related": [
+   {
+    "k": "cost of apple tv box",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "live-cricket-scores-com-au",
+  "keyword": "live cricket scores com au",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 3.1,
+  "related": []
+ },
+ {
+  "slug": "extreme-iptv",
+  "keyword": "extreme iptv",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 9,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 3.1,
+  "related": []
+ },
+ {
+  "slug": "free-live-cricket-streaming-india-vs-england",
+  "keyword": "free live cricket streaming india vs england",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 17,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 3.1,
+  "related": []
+ },
+ {
+  "slug": "roku-streaming-stick-australia",
+  "keyword": "roku streaming stick australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 26,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 3.1,
+  "related": []
+ },
+ {
+  "slug": "hbo-streaming-service-australia",
+  "keyword": "hbo streaming service australia",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 42,
+  "cpc": 0.56,
+  "intent": "informational",
+  "category": "locations",
+  "score": 3.1,
+  "related": []
+ },
+ {
+  "slug": "live-streaming-services-melbourne",
+  "keyword": "live streaming services melbourne",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 17,
+  "cpc": 2.04,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 3.1,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-com-au",
+  "keyword": "live cricket com au",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 74,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 3,
+  "related": []
+ },
+ {
+  "slug": "watch-matildas-game",
+  "keyword": "watch matildas game",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 36,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "sports",
+  "score": 3,
+  "related": []
+ },
+ {
+  "slug": "andriod-tv-box",
+  "keyword": "andriod tv box",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 28,
+  "cpc": 0.24,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2.9,
+  "related": []
+ },
+ {
+  "slug": "which-streaming-service-is-the-best",
+  "keyword": "which streaming service is the best",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 28,
+  "cpc": 2.05,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2.9,
+  "related": []
+ },
+ {
+  "slug": "free-live-boxing-streams",
+  "keyword": "free live boxing streams",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 51,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.9,
+  "related": [
+   {
+    "k": "live free boxing streams",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "watch-live-cricket-ind-vs-aus",
+  "keyword": "watch live cricket ind vs aus",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 37,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.9,
+  "related": []
+ },
+ {
+  "slug": "best-tv-streaming-service-australia",
+  "keyword": "best tv streaming service australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 19,
+  "cpc": 1.3,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.9,
+  "related": []
+ },
+ {
+  "slug": "watch-cricket-live-australia-free",
+  "keyword": "watch cricket live australia free",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 29,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.9,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-download-free-download",
+  "keyword": "vlc player download free download",
+  "volume": 90,
+  "totalVolume": 180,
+  "kd": 69,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 2.9,
+  "related": [
+   {
+    "k": "vlc player free download",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "live-soccer-champions-league",
+  "keyword": "live soccer champions league",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 80,
+  "cpc": 1.19,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.8,
+  "related": []
+ },
+ {
+  "slug": "android-tv-streaming-device",
+  "keyword": "android tv streaming device",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 39,
+  "cpc": 0.26,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.8,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-applications",
+  "keyword": "apple tv applications",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 53,
+  "cpc": 1.49,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.8,
+  "related": []
+ },
+ {
+  "slug": "smart-ip-tv",
+  "keyword": "smart ip tv",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 27,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2.8,
+  "related": []
+ },
+ {
+  "slug": "streaming-services-available-in-australia",
+  "keyword": "streaming services available in australia",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 40,
+  "cpc": 1.55,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.8,
+  "related": []
+ },
+ {
+  "slug": "iptvon",
+  "keyword": "iptvon",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 6,
+  "cpc": 0.51,
+  "intent": "navigational",
+  "category": "providers",
+  "score": 2.8,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-player-download-64-bit-windows-10",
+  "keyword": "vlc media player download 64 bit windows 10",
+  "volume": 90,
+  "totalVolume": 160,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.8,
+  "related": [
+   {
+    "k": "vlc media player download windows 10 64 bit",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "best-music-streaming-service-australia",
+  "keyword": "best music streaming service australia",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 54,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.8,
+  "related": []
+ },
+ {
+  "slug": "live-soccer-uefa-champions-league",
+  "keyword": "live soccer uefa champions league",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 84,
+  "cpc": 1.51,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.7,
+  "related": []
+ },
+ {
+  "slug": "popular-streaming-services",
+  "keyword": "popular streaming services",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 51,
+  "cpc": 2.05,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2.7,
+  "related": []
+ },
+ {
+  "slug": "live-rankings-tennis",
+  "keyword": "live rankings tennis",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 50,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.7,
+  "related": []
+ },
+ {
+  "slug": "android-tv-streaming-media-player",
+  "keyword": "android tv streaming media player",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 33,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "media-streaming-box-australia",
+  "keyword": "media streaming box australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 23,
+  "cpc": 0.31,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "apple-black-friday-apple-tv",
+  "keyword": "apple black friday apple tv",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 53,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-box-price",
+  "keyword": "apple tv box price",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 43,
+  "cpc": 0.11,
+  "intent": "transactional",
+  "category": "pricing",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "compare-streaming-services",
+  "keyword": "compare streaming services",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 33,
+  "cpc": 0.84,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "iptv-player-list",
+  "keyword": "iptv player list",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 22,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "list-of-all-streaming-services-and-prices",
+  "keyword": "list of all streaming services and prices",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 43,
+  "cpc": 2.49,
+  "intent": "commercial",
+  "category": "pricing",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "roku-streaming",
+  "keyword": "roku streaming",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 30,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "best-free-streaming-services-australia",
+  "keyword": "best free streaming services australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 23,
+  "cpc": 1.22,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "live-rugby-union-scores-today",
+  "keyword": "live rugby union scores today",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 53,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "smartbox-tv-box",
+  "keyword": "smartbox tv box",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 15,
+  "cpc": 0.44,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2.6,
+  "related": []
+ },
+ {
+  "slug": "live-football-uefa-champions-league",
+  "keyword": "live football uefa champions league",
+  "volume": 260,
+  "totalVolume": 260,
+  "kd": 92,
+  "cpc": 1.51,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "onn-android-tv-box",
+  "keyword": "onn android tv box",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 24,
+  "cpc": 0.26,
+  "intent": "informational",
+  "category": "devices",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "apple-4k-apple-tv",
+  "keyword": "apple 4k apple tv",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 45,
+  "cpc": 0.45,
+  "intent": "informational",
+  "category": "devices",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "ip-tv-sat-n-al",
+  "keyword": "ip tv satın al",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 8,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "mylive-cricket-org",
+  "keyword": "mylive cricket org",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 24,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "roku-media-streamer",
+  "keyword": "roku media streamer",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "smart-tv-streaming-apps",
+  "keyword": "smart tv streaming apps",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 25,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "auf-provider-portal",
+  "keyword": "auf provider portal",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 25,
+  "cpc": 1,
+  "intent": "transactional",
+  "category": "reseller",
+  "score": 2.5,
+  "related": []
+ },
+ {
+  "slug": "best-tv-box",
+  "keyword": "best tv box",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 37,
+  "cpc": 0.24,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2.4,
+  "related": []
+ },
+ {
+  "slug": "ip-smart-iptv",
+  "keyword": "ip smart iptv",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 33,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 2.4,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-match-watch-online",
+  "keyword": "live cricket match watch online",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.4,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-free",
+  "keyword": "live cricket free",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 36,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.4,
+  "related": []
+ },
+ {
+  "slug": "arabic-iptv",
+  "keyword": "arabic iptv",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 15,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2.4,
+  "related": []
+ },
+ {
+  "slug": "firestick-with-iptv",
+  "keyword": "firestick with iptv",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 27,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "smart-tv-box-reviews",
+  "keyword": "smart tv box reviews",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 27,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "streaming-box-australia",
+  "keyword": "streaming box australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 28,
+  "cpc": 0.42,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "streaming-service-bundles-australia",
+  "keyword": "streaming service bundles australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 19,
+  "cpc": 1.33,
+  "intent": "informational",
+  "category": "locations",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-streaming-willow-cricket",
+  "keyword": "live cricket streaming willow cricket",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 35,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "install-vlc",
+  "keyword": "install vlc",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 50,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "setup",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "samsung-household-appliances",
+  "keyword": "samsung household appliances",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 39,
+  "cpc": 0.98,
+  "intent": "transactional",
+  "category": "devices",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "appliances-online-smart-tv",
+  "keyword": "appliances online smart tv",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 28,
+  "cpc": 0.37,
+  "intent": "transactional",
+  "category": "devices",
+  "score": 2.3,
+  "related": []
+ },
+ {
+  "slug": "live-premier-league",
+  "keyword": "live premier league",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 84,
+  "cpc": 1.7,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "best-tv-streaming-device-australia",
+  "keyword": "best tv streaming device australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 30,
+  "cpc": 0.2,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "apple-store-apple-tv",
+  "keyword": "apple store apple tv",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 53,
+  "cpc": 2.64,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "good-streaming-apps",
+  "keyword": "good streaming apps",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 29,
+  "cpc": 1.98,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "watch-cricket-live-ind-vs-eng",
+  "keyword": "watch cricket live ind vs eng",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 29,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "tv-box-moving",
+  "keyword": "tv box moving",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 17,
+  "cpc": 1.23,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "willow-sports-live-cricket-streaming",
+  "keyword": "willow sports live cricket streaming",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 37,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "live-nrl-blog",
+  "keyword": "live nrl blog",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 29,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "software-vlc-media-player-download",
+  "keyword": "software vlc media player download",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 64,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "live-rugby-score",
+  "keyword": "live rugby score",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 51,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.2,
+  "related": []
+ },
+ {
+  "slug": "best-movie-streaming-services",
+  "keyword": "best movie streaming services",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 45,
+  "cpc": 1.92,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "best-iptv-app",
+  "keyword": "best iptv app",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "live-nrl-tv",
+  "keyword": "live nrl tv",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 40,
+  "cpc": 1.24,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "streamer-afl-sydney",
+  "keyword": "streamer afl sydney",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 21,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "locations",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "google-tv-streamer-4k-vs-firestick-4k-max",
+  "keyword": "google tv streamer 4k vs firestick 4k max",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 19,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "streaming-apps-australia",
+  "keyword": "streaming apps australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 30,
+  "cpc": 2.03,
+  "intent": "informational",
+  "category": "locations",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "fiptv",
+  "keyword": "fiptv",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 21,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "crictime-live-cricket-streaming-hotstar",
+  "keyword": "crictime live cricket streaming hotstar",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "free-stream-ufc",
+  "keyword": "free stream ufc",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 57,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "installer-vlc",
+  "keyword": "installer vlc",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 54,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "setup",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "samsung-kitchen-appliances",
+  "keyword": "samsung kitchen appliances",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 31,
+  "cpc": 0.88,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "sm-tv-box",
+  "keyword": "sm tv box",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 22,
+  "cpc": 0.44,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "live-afl-screenings-perth",
+  "keyword": "live afl screenings perth",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 12,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "pga-live-golf",
+  "keyword": "pga live golf",
+  "volume": 210,
+  "totalVolume": 210,
+  "kd": 86,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2.1,
+  "related": []
+ },
+ {
+  "slug": "football-live-scores-premier-league",
+  "keyword": "football live scores premier league",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "live-footy-nrl",
+  "keyword": "live footy nrl",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 44,
+  "cpc": 1.64,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "live-footy-scores-nrl",
+  "keyword": "live footy scores nrl",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 43,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "smart-tv-box-australia",
+  "keyword": "smart tv box australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 23,
+  "cpc": 0.3,
+  "intent": "informational",
+  "category": "locations",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "live-bbc-cricket-scores",
+  "keyword": "live bbc cricket scores",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-score-pakistan-vs-west-indies",
+  "keyword": "live cricket score pakistan vs west indies",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "best-tv-streaming-australia",
+  "keyword": "best tv streaming australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 48,
+  "cpc": 1.35,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-vs-fire-stick",
+  "keyword": "apple tv vs fire stick",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 20,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "elgato-streaming-deck",
+  "keyword": "elgato streaming deck",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 20,
+  "cpc": 0.09,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "livescorehunter-tennis",
+  "keyword": "livescorehunter tennis",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 74,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "where-to-watch-matildas-vs-philippines",
+  "keyword": "where to watch matildas vs philippines",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 32,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 2,
+  "related": []
+ },
+ {
+  "slug": "free-music-streaming-service",
+  "keyword": "free music streaming service",
+  "volume": 90,
+  "totalVolume": 180,
+  "kd": 80,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 2,
+  "related": [
+   {
+    "k": "free music streaming services",
+    "v": 90
+   }
+  ]
+ },
+ {
+  "slug": "live-football-champions-league",
+  "keyword": "live football champions league",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 76,
+  "cpc": 1.72,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "tv-streaming-device-by-google",
+  "keyword": "tv streaming device by google",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 50,
+  "cpc": 0.59,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "streaming-stick-australia",
+  "keyword": "streaming stick australia",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 23,
+  "cpc": 0.33,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "apple-smart-tv-app",
+  "keyword": "apple smart tv app",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 63,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 1.9,
+  "related": [
+   {
+    "k": "apple tv app smart tv",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "boxing-live-boxing",
+  "keyword": "boxing live boxing",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 46,
+  "cpc": 1.62,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-streaming-video",
+  "keyword": "live cricket streaming video",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 79,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "roku-streaming-services",
+  "keyword": "roku streaming services",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 45,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "pay-tv-packages",
+  "keyword": "pay tv packages",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 37,
+  "cpc": 1.25,
+  "intent": "commercial",
+  "category": "pricing",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "freeview-tv-channels-australia",
+  "keyword": "freeview tv channels australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 36,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "best-apps-for-fire-tv-stick",
+  "keyword": "best apps for fire tv stick",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 24,
+  "cpc": 0.36,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-software-free-download",
+  "keyword": "vlc player software free download",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.9,
+  "related": []
+ },
+ {
+  "slug": "recommended-tv-box",
+  "keyword": "recommended tv box",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 40,
+  "cpc": 0.37,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "best-streaming-apps",
+  "keyword": "best streaming apps",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 38,
+  "cpc": 1.98,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "bbc-live-scores-tennis",
+  "keyword": "bbc live scores tennis",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1.8,
+  "related": [
+   {
+    "k": "live tennis scores bbc",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "live-aus-open-golf-scores",
+  "keyword": "live aus open golf scores",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 16,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "iptv-providers-australia",
+  "keyword": "iptv providers australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 40,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "live-today-boxing",
+  "keyword": "live today boxing",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 64,
+  "cpc": 1.84,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "watch-ufc-free-online",
+  "keyword": "watch ufc free online",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 54,
+  "cpc": 5.67,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-match-ind-vs-aus-watch",
+  "keyword": "live cricket match ind vs aus watch",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 39,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-streaming-ind-vs-aus",
+  "keyword": "live cricket streaming ind vs aus",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 39,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "roku-streaming-video",
+  "keyword": "roku streaming video",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 39,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "vlc-free-dl",
+  "keyword": "vlc free dl",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 69,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "roku-streaming-device",
+  "keyword": "roku streaming device",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 48,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "4k-roku-streaming-stick",
+  "keyword": "4k roku streaming stick",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 53,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "binge-streaming-services-australia",
+  "keyword": "binge streaming services australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 39,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "locations",
+  "score": 1.8,
+  "related": []
+ },
+ {
+  "slug": "live-score-bundesliga",
+  "keyword": "live score bundesliga",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 51,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "tv-boxes-with-all-channels",
+  "keyword": "tv boxes with all channels",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 26,
+  "cpc": 5.84,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "tv-streaming-box-australia",
+  "keyword": "tv streaming box australia",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 26,
+  "cpc": 0.42,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "best-free-streaming-services",
+  "keyword": "best free streaming services",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 41,
+  "cpc": 0.93,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "tv-box-with-all-channels-australia",
+  "keyword": "tv box with all channels australia",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 26,
+  "cpc": 0.9,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-match-streaming-online",
+  "keyword": "live cricket match streaming online",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 73,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "fetch-tv-boxes",
+  "keyword": "fetch tv boxes",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 29,
+  "cpc": 0.64,
+  "intent": "navigational",
+  "category": "providers",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "roku-stick-streaming-plus",
+  "keyword": "roku stick streaming plus",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 43,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "elgado-stream-deck",
+  "keyword": "elgado stream deck",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 18,
+  "cpc": 0.09,
+  "intent": "informational",
+  "category": "providers",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "goal1-live-f1",
+  "keyword": "goal1.live f1",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "watch-afl-live-stream-free",
+  "keyword": "watch afl live stream free",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 41,
+  "cpc": 2.22,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "best-streams-for-ufc",
+  "keyword": "best streams for ufc",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 27,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "video-vlc-media-player",
+  "keyword": "video vlc media player",
+  "volume": 170,
+  "totalVolume": 170,
+  "kd": 88,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "vlc-video-player-app",
+  "keyword": "vlc video player app",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 74,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "download-vlc-player-for-windows",
+  "keyword": "download vlc player for windows",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "vlc-dvd-player-free-download",
+  "keyword": "vlc dvd player free download",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 73,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "appliances-online-samsung-tv",
+  "keyword": "appliances online samsung tv",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 30,
+  "cpc": 0.51,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 1.7,
+  "related": []
+ },
+ {
+  "slug": "bbc-live-scores-football-premier-league",
+  "keyword": "bbc live scores football premier league",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 78,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1.6,
+  "related": [
+   {
+    "k": "live football scores bbc premier league",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "apple-tv-streaming-australia",
+  "keyword": "apple tv streaming australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 44,
+  "cpc": 2.2,
+  "intent": "informational",
+  "category": "locations",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "espn-cricket-live-cricket",
+  "keyword": "espn cricket live cricket",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 77,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "tv-subscriptions-australia",
+  "keyword": "tv subscriptions australia",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 44,
+  "cpc": 1.51,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "google-tv-streamer-vs-firestick",
+  "keyword": "google tv streamer vs firestick",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 28,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "livescore-hunter-tennis",
+  "keyword": "livescore hunter tennis",
+  "volume": 140,
+  "totalVolume": 140,
+  "kd": 76,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "stream-nba-free",
+  "keyword": "stream nba free",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-player-downloaden",
+  "keyword": "vlc media player downloaden",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 78,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-player-software-free-download",
+  "keyword": "vlc media player software free download",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 62,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "vlc-software-free-download",
+  "keyword": "vlc software free download",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 79,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "cheapest-music-streaming-service-australia",
+  "keyword": "cheapest music streaming service australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 33,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 1.6,
+  "related": []
+ },
+ {
+  "slug": "liverpool-uefa-champions-league-table",
+  "keyword": "liverpool uefa champions league table",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 59,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "live-football-nrl",
+  "keyword": "live football nrl",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 50,
+  "cpc": 1.06,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "smart-tv-boxes",
+  "keyword": "smart tv boxes",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 32,
+  "cpc": 0.29,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "live-boxing-results-tonight-round-by-round-youtube",
+  "keyword": "live boxing results tonight round by round youtube",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 50,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "iptv-firestick-4k-max",
+  "keyword": "iptv firestick 4k max",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 30,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "espn-live-nfl-scoreboard",
+  "keyword": "espn live nfl scoreboard",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 62,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "espn-live-nba-scores",
+  "keyword": "espn live nba scores",
+  "volume": 70,
+  "totalVolume": 140,
+  "kd": 79,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1.5,
+  "related": [
+   {
+    "k": "live nba scores espn",
+    "v": 70
+   }
+  ]
+ },
+ {
+  "slug": "vlc-player-video",
+  "keyword": "vlc player video",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 85,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "down-vlc-player",
+  "keyword": "down vlc player",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "android-vlc",
+  "keyword": "android vlc",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 47,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-player-application",
+  "keyword": "vlc media player application",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 83,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "download-vlc-media-player-for-windows",
+  "keyword": "download vlc media player for windows",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 64,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "vlc-download-free-download",
+  "keyword": "vlc download free download",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.5,
+  "related": []
+ },
+ {
+  "slug": "androis-tv-box",
+  "keyword": "androis tv box",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 36,
+  "cpc": 0.32,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "media-streaming-devices-for-older-tv",
+  "keyword": "media streaming devices for older tv",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 34,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "smart-tv-streaming-device",
+  "keyword": "smart tv/streaming device",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 33,
+  "cpc": 0.31,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "televizo-firestick",
+  "keyword": "televizo firestick",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 25,
+  "cpc": 0.88,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "apple-tv-support-apple-tv",
+  "keyword": "apple tv support apple tv",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 67,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "smart-tv-with-apple",
+  "keyword": "smart tv with apple",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 54,
+  "cpc": 0.42,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "live-boxing-scoring",
+  "keyword": "live boxing scoring",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 55,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "abc-live-cricket-radio",
+  "keyword": "abc live cricket radio",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 51,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "vlc-macbook",
+  "keyword": "vlc macbook",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 38,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "vlc-video-player-software-free-download",
+  "keyword": "vlc video player software free download",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "music-streaming-services-compared",
+  "keyword": "music streaming services compared",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 55,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "live-afl-trade-news",
+  "keyword": "live afl trade news",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 37,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "espn-live-golf-scores",
+  "keyword": "espn live golf scores",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 68,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1.4,
+  "related": []
+ },
+ {
+  "slug": "live-afl-news",
+  "keyword": "live afl news",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 58,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "livescore-bundesliga",
+  "keyword": "livescore bundesliga",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 58,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "samsung-tv-channels-australia",
+  "keyword": "samsung tv channels australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 41,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "streaming-device-for-smart-tv",
+  "keyword": "streaming device for smart tv",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 43,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "internet-tv-box",
+  "keyword": "internet tv box",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 26,
+  "cpc": 0.29,
+  "intent": "informational",
+  "category": "providers",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "live-tennis-scores-wimbledon",
+  "keyword": "live tennis scores wimbledon",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-scores-australia-vs-india",
+  "keyword": "live cricket scores australia vs india",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 44,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "india-versus-england-live-cricket-match",
+  "keyword": "india versus england live cricket match",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 40,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "tv-subscription",
+  "keyword": "tv subscription",
+  "volume": 110,
+  "totalVolume": 110,
+  "kd": 72,
+  "cpc": 1.84,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "watch-nrl-com",
+  "keyword": "watch nrl com",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 42,
+  "cpc": 2.55,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "free-online-live-cricket-match",
+  "keyword": "free online live cricket match",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 37,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "internet-and-tv-packages-australia",
+  "keyword": "internet and tv packages australia",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 41,
+  "cpc": 1.16,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 1.3,
+  "related": []
+ },
+ {
+  "slug": "live-scores-champions-league",
+  "keyword": "live scores champions league",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 63,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "google-android-tv-apps",
+  "keyword": "google android tv apps",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 64,
+  "cpc": 0.69,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "best-video-streaming-box",
+  "keyword": "best video streaming box",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 43,
+  "cpc": 0.31,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-boll",
+  "keyword": "live cricket boll",
+  "volume": 90,
+  "totalVolume": 90,
+  "kd": 83,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "streaming-service-free-trial",
+  "keyword": "streaming service free trial",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 45,
+  "cpc": 3.88,
+  "intent": "informational",
+  "category": "trial",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "streaming-services-with-cbs",
+  "keyword": "streaming services with cbs",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 48,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "tv-streaming-websites",
+  "keyword": "tv streaming websites",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 64,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "lg-kitchen-appliances",
+  "keyword": "lg kitchen appliances",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 30,
+  "cpc": 0.74,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "livenrl",
+  "keyword": "livenrl",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 46,
+  "cpc": 1.17,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "top-streams-nba",
+  "keyword": "top streams nba",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "vlc-dvd-player-for-windows-10",
+  "keyword": "vlc dvd player for windows 10",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 63,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "vlc-for-windows-10",
+  "keyword": "vlc for windows 10",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "vlc-software-for-windows-10",
+  "keyword": "vlc software for windows 10",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 64,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "vlc-video-player-for-windows-10",
+  "keyword": "vlc video player for windows 10",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "vlc",
+  "keyword": "vlc.",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 66,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "mobile-vlc-player",
+  "keyword": "mobile vlc player",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 44,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "free-download-vlc-media",
+  "keyword": "free download vlc media",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 67,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "roku-stream-stick",
+  "keyword": "roku stream stick",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 45,
+  "cpc": 0.29,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.2,
+  "related": []
+ },
+ {
+  "slug": "free-iptv-player",
+  "keyword": "free iptv player",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 34,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "trial",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "live-boxing-results-tonight-round-by-round-espn",
+  "keyword": "live boxing results tonight round-by-round espn",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 53,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "livecricket-com",
+  "keyword": "livecricket.com",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 49,
+  "cpc": 0.55,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "optus-tv-packages",
+  "keyword": "optus tv packages",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 34,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "pricing",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "fire-stick-apps",
+  "keyword": "fire stick apps",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 49,
+  "cpc": 0.53,
+  "intent": "commercial",
+  "category": "devices",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "best-free-movie-streaming-service",
+  "keyword": "best free movie streaming service",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 70,
+  "cpc": 0.87,
+  "intent": "commercial",
+  "category": "providers",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "lg-home-appliances",
+  "keyword": "lg home appliances",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 32,
+  "cpc": 1.32,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "live-telecast-afl",
+  "keyword": "live telecast afl",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 50,
+  "cpc": 1.24,
+  "intent": "informational",
+  "category": "sports",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "vlc-viewer-windows-10",
+  "keyword": "vlc viewer windows 10",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 51,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "vlc-video-player-free-download",
+  "keyword": "vlc video player free download",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 69,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "live-sport-tv-rugby",
+  "keyword": "live sport tv rugby",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 49,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1.1,
+  "related": []
+ },
+ {
+  "slug": "best-free-streaming-app-android",
+  "keyword": "best free streaming app android",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 37,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "best-free-streaming-apps",
+  "keyword": "best free streaming apps",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 37,
+  "cpc": 0.68,
+  "intent": "informational",
+  "category": "providers",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "india-vs-australia-live-cricket-match",
+  "keyword": "india vs australia live cricket match",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 40,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "locations",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "live-updates-ufc",
+  "keyword": "live updates ufc",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 83,
+  "cpc": 1.34,
+  "intent": "commercial",
+  "category": "sports",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-player-on-windows-10",
+  "keyword": "vlc media player on windows 10",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-app",
+  "keyword": "vlc player app",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 80,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "streaming-appli",
+  "keyword": "streaming appli",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 37,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "unibet-live-streaming-tennis",
+  "keyword": "unibet live streaming tennis",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 61,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 1,
+  "related": []
+ },
+ {
+  "slug": "best-free-iptv-player",
+  "keyword": "best free iptv player",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 43,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "trial",
+  "score": 0.9,
+  "related": []
+ },
+ {
+  "slug": "github-m3u-links",
+  "keyword": "github m3u links",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 43,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "apps",
+  "score": 0.9,
+  "related": []
+ },
+ {
+  "slug": "foxtelgo-app",
+  "keyword": "foxtelgo app",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 42,
+  "cpc": 1.47,
+  "intent": "informational",
+  "category": "apps",
+  "score": 0.9,
+  "related": []
+ },
+ {
+  "slug": "vlc-player-for-win-10",
+  "keyword": "vlc player for win 10",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 59,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "apps",
+  "score": 0.9,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-software-free-download",
+  "keyword": "vlc media software free download",
+  "volume": 70,
+  "totalVolume": 70,
+  "kd": 68,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 0.9,
+  "related": []
+ },
+ {
+  "slug": "streaming-media-players-apple-tv",
+  "keyword": "streaming media players apple tv",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 48,
+  "cpc": 1.24,
+  "intent": "navigational",
+  "category": "devices",
+  "score": 0.8,
+  "related": []
+ },
+ {
+  "slug": "vlc-video-player-android",
+  "keyword": "vlc video player android",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 51,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "devices",
+  "score": 0.8,
+  "related": []
+ },
+ {
+  "slug": "channel-4-f1",
+  "keyword": "channel 4 f1",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 47,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 0.8,
+  "related": []
+ },
+ {
+  "slug": "australiaiptv",
+  "keyword": "australiaiptv",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 75,
+  "cpc": 1,
+  "intent": "commercial",
+  "category": "locations",
+  "score": 0.7,
+  "related": []
+ },
+ {
+  "slug": "live-youtube-cricket",
+  "keyword": "live youtube cricket",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 57,
+  "cpc": 1,
+  "intent": "navigational",
+  "category": "sports",
+  "score": 0.7,
+  "related": []
+ },
+ {
+  "slug": "live-uefa-champions-league",
+  "keyword": "live uefa champions league",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 67,
+  "cpc": 1.51,
+  "intent": "informational",
+  "category": "sports",
+  "score": 0.6,
+  "related": []
+ },
+ {
+  "slug": "livescore-of-english-premier-league",
+  "keyword": "livescore of english premier league",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 71,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 0.6,
+  "related": []
+ },
+ {
+  "slug": "live-test-cricket-today",
+  "keyword": "live test cricket today",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 72,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "trial",
+  "score": 0.6,
+  "related": []
+ },
+ {
+  "slug": "espn-live-cricket-fixtures",
+  "keyword": "espn live cricket fixtures",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 65,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "setup",
+  "score": 0.6,
+  "related": []
+ },
+ {
+  "slug": "live-cricket-scores-ashes-today",
+  "keyword": "live cricket scores ashes today",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 69,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "sports",
+  "score": 0.6,
+  "related": []
+ },
+ {
+  "slug": "abc-tv-streaming",
+  "keyword": "abc tv streaming",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 69,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "providers",
+  "score": 0.6,
+  "related": []
+ },
+ {
+  "slug": "vlc-media-playerr",
+  "keyword": "vlc media playerr",
+  "volume": 50,
+  "totalVolume": 50,
+  "kd": 75,
+  "cpc": 1,
+  "intent": "informational",
+  "category": "apps",
+  "score": 0.6,
+  "related": []
+ }
+]

@@ -1,0 +1,297 @@
+{
+  "iptv-playlist": {
+    "h1": "IPTV-Playlist: Aufbau und Pflege",
+    "lead": [
+      { "h2": "Playlist im Alltag", "list": [
+        "Link privat halten.",
+        "Tote Sender melden.",
+        "Gruppen und Favoriten im Player pflegen."
+      ] }
+    ]
+  },
+  "smart-iptv-playlist": {
+    "h1": "Smart-IPTV-Playlist: Hinzufügen und Fehler beheben",
+    "lead": [
+      { "h2": "Schritte", "steps": [
+        "App auf dem Fernseher öffnen.",
+        "Playlist-Link oder -Datei hinzufügen.",
+        "Senderliste laden.",
+        "Bei Fehler Link prüfen."
+      ] }
+    ]
+  },
+  "m3u-playlist-iptv": {
+    "h1": "M3U-Playlist für IPTV: Praxis",
+    "lead": [
+      { "h2": "Praxis-Tipps", "list": [
+        "Vollständigen Link inklusive Zugangsdaten verwenden.",
+        "Auf Leerzeichen achten.",
+        "EPG separat verknüpfen, falls nötig."
+      ] }
+    ]
+  },
+  "iptv-fire-tv": {
+    "h1": "IPTV auf Fire TV: Einrichtung",
+    "lead": [
+      { "h2": "Einrichtung", "steps": [
+        "Player installieren.",
+        "Zugangsdaten eintragen.",
+        "Senderliste laden und testen."
+      ] }
+    ]
+  },
+  "iptv-kostenlos-sky": {
+    "h1": "Sky kostenlos schauen: Was legal ist",
+    "lead": [
+      { "h2": "Legale Wege", "paras": [
+        "Sky-Inhalte sind kostenpflichtig. Legal gibt es Probemonate, Aktionen und teils freie Inhalte. Vermeiden Sie Angebote, die Sky-Programm gratis versprechen, denn die Quellen sind riskant."
+      ] }
+    ]
+  },
+  "iptv-4k": {
+    "h1": "IPTV in 4K: Anforderungen",
+    "lead": [
+      { "h2": "Anforderungen", "list": [
+        "4K-Fernseher mit HDMI 2.0.",
+        "Gerät mit 4K-Decoder.",
+        "Mindestens 25 Mbit/s pro Stream.",
+        "Echte 4K-Streams, nicht hochskaliertes HD."
+      ] }
+    ]
+  },
+  "kostenlos-fernsehen-ueber-internet": {
+    "h1": "Kostenlos fernsehen über das Internet",
+    "lead": [
+      { "h2": "Wege", "list": [
+        "Mediatheken der Sender.",
+        "Live-Streams auf den Webseiten der Sender.",
+        "Werbefinanzierte Kanäle."
+      ] }
+    ]
+  },
+  "smart-ip-tv": {
+    "h1": "Smart IP TV: Begriff und Nutzung",
+    "lead": [
+      { "h2": "Gemeint ist", "paras": [
+        "Der Begriff beschreibt meist Fernsehen über das Internet auf Smart-TVs, per App oder Playlist."
+      ] }
+    ]
+  },
+  "internet-fernsehen-anbieter": {
+    "h1": "Internet-Fernsehen-Anbieter vergleichen",
+    "lead": [
+      { "h2": "Vergleichskriterien", "list": [
+        "Senderumfang.",
+        "Kosten und Laufzeit.",
+        "Gleichzeitige Streams.",
+        "Unterstützte Geräte.",
+        "Aufnahmefunktion."
+      ] }
+    ]
+  },
+  "iptv-kostenlos-testen": {
+    "h1": "IPTV kostenlos testen: Schritt für Schritt",
+    "lead": [
+      { "h2": "So testen Sie", "steps": [
+        "Test beim Anbieter anfragen.",
+        "Gerät vorbereiten.",
+        "Zur Hauptzeit prüfen.",
+        "Support testen.",
+        "Entscheiden."
+      ] }
+    ]
+  },
+  "sky-iptv-box": {
+    "h1": "Sky über IPTV-Box: Was geht, was nicht",
+    "lead": [
+      { "h2": "Offizielle Wege", "paras": [
+        "Sky bietet eigene Apps und Streaming-Geräte an. Nutzen Sie diese oder offizielle Partnerangebote."
+      ] }
+    ]
+  },
+  "rtl-app": {
+    "h1": "RTL App: RTL+ auf allen Geräten",
+    "lead": [
+      { "h2": "Wo die App läuft", "paras": [
+        "Die RTL+ App ist für Smartphones, Tablets und viele Smart-TVs verfügbar. Teile des Angebots sind kostenlos mit Werbung, Premium-Inhalte brauchen ein Abo."
+      ] }
+    ]
+  },
+  "iptv-alle-sender": {
+    "h1": "IPTV mit allen Sendern: Was dahintersteckt",
+    "lead": [
+      { "h2": "Kritisch lesen", "paras": [
+        "Versprechen wie alle Sender sind selten wahr. Prüfen Sie im Test, ob Ihre Sender enthalten sind, und fragen Sie nach den Rechten."
+      ] }
+    ]
+  },
+  "fire-tv-stick-einrichten": {
+    "h1": "Fire TV Stick einrichten: Schritt für Schritt",
+    "lead": [
+      { "h2": "Erste Einrichtung", "steps": [
+        "Stick am HDMI-Anschluss des Fernsehers anschließen und Strom verbinden.",
+        "Fernbedienung koppeln.",
+        "WLAN wählen oder LAN-Adapter nutzen.",
+        "Mit dem Amazon-Konto anmelden.",
+        "Updates installieren lassen.",
+        "Apps installieren, zum Beispiel Mediatheken oder einen IPTV-Player."
+      ] },
+      { "h2": "Tipps", "list": [
+        "Stick nicht hinter den Fernseher klemmen, wenn er dort heiß wird.",
+        "HDMI-Verlängerung nutzen, falls der Platz knapp ist.",
+        "Speicher durch ungenutzte Apps freihalten."
+      ] }
+    ]
+  },
+  "iptv-legality": {
+    "h1": "Ist IPTV legal? Was Sie wissen sollten",
+    "lead": [
+      { "h2": "Die Technik ist legal, der Inhalt ist die Frage", "paras": [
+        "IPTV als Technik ist legal, es wird von Telekommunikationsanbietern und Sendern selbst genutzt. Rechtlich entscheidend ist, ob der Anbieter die Rechte an den Inhalten hat. Angebote, die Bezahlsender ohne Lizenz verbreiten, können Urheberrechte verletzen, und gegen solche Anbieter gehen Behörden vor.",
+        "Dieser Text ist keine Rechtsberatung. Bei Unsicherheit holen Sie rechtlichen Rat ein."
+      ], "list": [
+        "Fragen Sie Anbieter, wie sie Rechte regeln.",
+        "Seien Sie skeptisch bei sehr niedrigen Preisen und riesigen Senderzahlen.",
+        "Nutzen Sie offizielle Dienste, wenn Sie rechtlich auf der sicheren Seite sein möchten."
+      ] }
+    ]
+  },
+  "streaming-anbieter": {
+    "h1": "Streaming-Anbieter: Auswahlhilfe",
+    "lead": [
+      { "h2": "Auswahl nach Bedarf", "list": [
+        "Serien und Filme: große Abo-Plattformen.",
+        "Live-TV: Dienste, die Sender bündeln.",
+        "Sport: Dienste der jeweiligen Rechteinhaber.",
+        "Kostenlos: Mediatheken und werbefinanzierte Kanäle."
+      ] }
+    ]
+  },
+  "iptv-internet-protocol": {
+    "h1": "IPTV und das Internet Protocol",
+    "lead": [
+      { "h2": "Technik in Kürze", "paras": [
+        "Das Internet Protocol überträgt Daten in Paketen. Beim IPTV werden Videodaten in solchen Paketen vom Server zum Player gesendet. Je nach Verfahren werden Streams per Unicast zu einem Zuschauer oder per Multicast zu vielen gleichzeitig geliefert."
+      ] }
+    ]
+  },
+  "iptv-smarter-player-pro": {
+    "h1": "IPTV Smarter Player Pro: Einrichtung",
+    "lead": [
+      { "h2": "Einrichtung", "steps": [
+        "App installieren.",
+        "Nutzer hinzufügen.",
+        "Xtream-Codes-Login oder Playlist eintragen.",
+        "Laden und testen."
+      ] }
+    ]
+  },
+  "smart-iptv-app": {
+    "h1": "Smart IPTV App: Hinweise zur Nutzung",
+    "lead": [
+      { "h2": "Hinweise", "list": [
+        "Prüfen, ob die App für Ihr TV-Modell verfügbar ist.",
+        "Playlist-Link sorgfältig eintragen.",
+        "Als Alternative einen Stick nutzen."
+      ] }
+    ]
+  },
+  "ip-tv-kostenlos": {
+    "h1": "IP TV kostenlos: Legale Gratis-Optionen",
+    "lead": [
+      { "h2": "Legal und gratis", "list": [
+        "Mediatheken.",
+        "Werbefinanzierte Live-Kanäle.",
+        "Testangebote."
+      ] }
+    ]
+  },
+  "public-iptv-playlist": {
+    "h1": "Public IPTV Playlist: Öffentliche Streams nutzen",
+    "lead": [
+      { "h2": "Mit Vorsicht nutzen", "paras": [
+        "Öffentliche Listen sammeln Links zu Streams, die Sender selbst bereitstellen. Die Qualität schwankt, Links verschwinden. Prüfen Sie die Quelle und vermeiden Sie Dateien, die zum Installieren zusätzlicher Software drängen."
+      ] }
+    ]
+  },
+  "ssiptv": {
+    "h1": "SSIPTV: Playlist-App für Smart-TVs",
+    "lead": [
+      { "h2": "Einordnung", "paras": [
+        "SSIPTV ist wie SS IPTV eine Player-App für Smart-TV-Plattformen. Prüfen Sie die Verfügbarkeit für Ihr Modell."
+      ] }
+    ]
+  },
+  "iptv-testing": {
+    "h1": "IPTV Testing: Worauf es ankommt",
+    "lead": [
+      { "h2": "Testkriterien", "list": [
+        "Startzeit und Umschaltzeit.",
+        "Stabilität zur Hauptzeit.",
+        "Programmführer.",
+        "Support."
+      ] }
+    ]
+  },
+  "android-tv-iptv-box": {
+    "h1": "Android-TV-Box für IPTV: Auswahl",
+    "lead": [
+      { "h2": "Kriterien", "list": [
+        "Zertifizierung.",
+        "Speicher und LAN.",
+        "Updates."
+      ] }
+    ]
+  },
+  "iptv-pro": {
+    "h1": "IPTV Pro: Was Pro bedeuten sollte",
+    "lead": [
+      { "h2": "Pro prüfen", "paras": [
+        "Pro ist ein Label. Prüfen Sie es im Test an Stabilität, Support und Transparenz."
+      ] }
+    ]
+  },
+  "iptv-profesional": {
+    "h1": "IPTV Professional: Einsatz im Betrieb",
+    "lead": [
+      { "h2": "Professioneller Einsatz", "paras": [
+        "In Hotels, Gastronomie und Unternehmen wird IPTV über eigene Systeme verteilt. Wichtig sind Lizenzen für die öffentliche Wiedergabe, ausreichend Bandbreite und eine verlässliche Verwaltung der Endgeräte."
+      ] }
+    ]
+  },
+  "iptv-sky": {
+    "h1": "Sky über IPTV: Legale Wege",
+    "lead": [
+      { "h2": "Offiziell nutzen", "paras": [
+        "Sky ist ein Bezahlangebot. Nutzen Sie offizielle Apps und Partnerangebote, um Inhalte legal zu sehen."
+      ] }
+    ]
+  },
+  "live-tv-app": {
+    "h1": "Live-TV-App: Auswahl",
+    "lead": [
+      { "h2": "Kriterien", "list": [
+        "Senderumfang.",
+        "Preis.",
+        "Geräteunterstützung.",
+        "Aufnahmefunktion."
+      ] }
+    ]
+  },
+  "magenta-tv-preise": {
+    "h1": "MagentaTV Preise: Pakete vergleichen",
+    "lead": [
+      { "h2": "Vergleichen", "paras": [
+        "Preise und Aktionen ändern sich. Prüfen Sie den aktuellen Stand direkt bei der Telekom und vergleichen Sie Laufzeit, Hardware und enthaltene Dienste."
+      ] }
+    ]
+  },
+  "vlc-vlc-player-download": {
+    "h1": "VLC Player Download: Sicher herunterladen",
+    "lead": [
+      { "h2": "Sicherer Download", "paras": [
+        "Laden Sie VLC nur von der offiziellen Seite des Projekts oder aus den offiziellen App-Stores. Das Programm ist kostenlos, Seiten, die Geld verlangen oder Zusatzsoftware mitliefern, sollten Sie meiden."
+      ] }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+---
+import data from '../data/images.json';
+import { SITE } from '../config';
+
+interface Props { k: string; sizes?: string; class?: string; eager?: boolean; alt?: string }
+const { k, sizes = '(max-width: 800px) 100vw, 1100px', class: cls, eager = false, alt } = Astro.props;
+const im = (data as Record<string, any>)[k];
+if (!im) throw new Error(`Unknown image key: ${k}`);
+const srcset = [...im.variants.map((w: number) => `${im.base}-w${w}.webp ${w}w`), `${im.src} ${im.w}w`].join(', ');
+---
+<img
+  src={im.src}
+  srcset={srcset}
+  sizes={sizes}
+  width={im.w}
+  height={im.h}
+  alt={alt ?? im.alt[SITE.locale]}
+  loading={eager ? 'eager' : 'lazy'}
+  decoding="async"
+  fetchpriority={eager ? 'high' : undefined}
+  class:list={[cls, im.fit === 'contain' && 'fit-contain']}
+/>

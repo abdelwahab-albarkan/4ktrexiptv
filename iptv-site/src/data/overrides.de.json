@@ -1,0 +1,106 @@
+{
+  "iptv": {
+    "h1": "IPTV: Was es ist, was es kostet und worauf Sie achten sollten",
+    "lead": [
+      { "h2": "IPTV in einfachen Worten", "paras": [
+        "IPTV heißt, dass Fernsehsender als Datenstrom über das Internet zu Ihnen kommen, nicht über Satellit, Kabel oder Antenne. Das gleiche Prinzip nutzen Mediatheken und Streaming-Dienste, nur eben für Live-Sender mit Programmführer.",
+        "Wichtig ist die Unterscheidung zwischen drei Arten: lizenzierte Streaming-Dienste von Sendern und Plattformen, IPTV Ihres Internetanbieters mit eigener Box und unabhängige Anbieter, die einen Playlist-Link oder Xtream-Codes-Login für eine beliebige Player-App liefern."
+      ] },
+      { "h2": "Was Sie für den Start brauchen", "list": [
+        "Ein Gerät: Smart-TV, Fire TV Stick, Android-Box, Apple TV, Smartphone oder Computer.",
+        "Eine Player-App, zum Beispiel IPTV Smarters oder TiviMate.",
+        "Eine stabile Leitung: etwa 15–25 Mbit/s pro HD-Stream, mehr für 4K.",
+        "Am besten ein LAN-Kabel statt WLAN."
+      ] },
+      { "h2": "Rechtliches und Seriosität", "paras": [
+        "Der Markt ist unübersichtlich. Fragen Sie jeden Anbieter, wie er die Rechte für die angebotenen Inhalte regelt, und meiden Sie Angebote, die dazu schweigen oder nur unwiderrufliche Zahlungsarten akzeptieren. Wer Inhalte ohne Rechte nutzt, trägt ein eigenes Risiko."
+      ] }
+    ]
+  },
+  "iptv-anbieter": {
+    "h1": "IPTV-Anbieter vergleichen: Diese Fragen sollten Sie stellen",
+    "lead": [
+      { "h2": "Anbieter nach Verhalten bewerten, nicht nach Versprechen", "paras": [
+        "Fast alle Anbieter werben mit tausenden Sendern, 4K und „ohne Ruckeln“. Entscheidend ist, wie der Dienst abends und an Spieltagen läuft und wie schnell jemand Probleme behebt.",
+        "Bitten Sie deshalb jeden Anbieter um einen Test und prüfen Sie auf Ihrem Gerät, mit Ihren Sendern, zur Hauptzeit zwischen etwa 19 und 22 Uhr."
+      ] },
+      { "h2": "Zehn Fragen an jeden Anbieter", "steps": [
+        "Kann ich auf meinem Gerät testen?",
+        "Wie viele gleichzeitige Verbindungen sind im Tarif enthalten?",
+        "Welche Player-Apps werden unterstützt?",
+        "Welche deutschen Sender sind enthalten, und wie wird der Programmführer geliefert?",
+        "Wie informieren Sie über Störungen?",
+        "Wie erreiche ich den Support, und wann?",
+        "Wie sehen Erstattung und Ersatz aus?",
+        "Wie regeln Sie die Rechte an den Inhalten?",
+        "Verlängert sich der Tarif automatisch?",
+        "Kann ich das Abo auf ein anderes Gerät übertragen?"
+      ] }
+    ]
+  },
+  "iptv-kaufen": {
+    "h1": "IPTV kaufen: Tarife, Verbindungen und versteckte Kosten",
+    "lead": [
+      { "h2": "Was Sie beim Kauf wirklich bezahlen", "paras": [
+        "Ein IPTV-Abo besteht aus Zugangsdaten und einer Zahl gleichzeitiger Verbindungen für einen festen Zeitraum. Der Preis allein sagt wenig, solange Sie nicht wissen, wie viele Verbindungen, welche Qualität und welche Verlängerungsregeln dazugehören.",
+        "Zwei Tarife zum selben Preis können sehr verschieden sein: einmal ein einzelner HD-Stream, einmal drei Streams inklusive 4K. Vergleichen Sie immer den Monatspreis pro Verbindung."
+      ] },
+      { "h2": "So kaufen Sie vernünftig", "steps": [
+        "Zuerst testen.",
+        "Dann einen Monat kaufen.",
+        "Erst nach einem Monat mit normaler Nutzung, inklusive einem Wochenende mit Live-Sport, auf eine längere Laufzeit wechseln.",
+        "Zahlungsbelege und Zugangsdaten sicher aufbewahren."
+      ], "paras": ["Die Ersparnis eines 12-Monats-Tarifs ist nur dann real, wenn der Dienst zuverlässig läuft."] }
+    ]
+  },
+  "iptv-smarters-pro": {
+    "h1": "IPTV Smarters Pro: Einrichtung, Login und typische Probleme",
+    "lead": [
+      { "h2": "Was IPTV Smarters Pro ist und was nicht", "paras": [
+        "IPTV Smarters Pro ist nur ein Player. Er enthält keine Sender. Was Sie sehen, bestimmt der Anbieter, dessen Zugangsdaten Sie eintragen.",
+        "Die App unterstützt typischerweise zwei Wege: Login mit Xtream Codes API oder Laden einer Playlist per URL oder Datei."
+      ] },
+      { "h2": "Einrichtung in fünf Schritten", "steps": [
+        "App installieren und öffnen.",
+        "Neuen Nutzer hinzufügen.",
+        "Xtream Codes API wählen und Anzeigenamen, Benutzername, Passwort und Server-URL eintragen.",
+        "Warten, bis Live-TV, Filme und Serien geladen sind.",
+        "Einen Sender öffnen und prüfen, ob Programmführer und Ton passen."
+      ] },
+      { "h2": "Häufige Fehler und Lösungen", "list": [
+        "Login schlägt fehl: Server-URL mit http:// oder https:// und Port exakt wie erhalten eintragen, keine Leerzeichen.",
+        "Senderliste leer: Playlist neu laden und prüfen, ob das Abo aktiv ist.",
+        "Programmführer leer: EPG im Menü aktualisieren, Sender-IDs müssen zur Playlist passen.",
+        "Ruckeln: LAN statt WLAN testen, Cache leeren, App aktualisieren."
+      ] }
+    ]
+  },
+  "smart-iptv": {
+    "h1": "Smart IPTV: App, Playlist und Alternativen",
+    "lead": [
+      { "h2": "Was „Smart IPTV“ meint", "paras": [
+        "Mit Smart IPTV ist meist eine App für Smart-TVs gemeint, die eine M3U-Playlist abspielt. Je nach Hersteller und Baujahr ist sie für Samsung, LG oder andere Plattformen verfügbar.",
+        "Auch hier gilt: Die App liefert keine Sender. Sie brauchen eine eigene Playlist von einem Anbieter."
+      ] },
+      { "h2": "Wenn die App auf Ihrem Fernseher fehlt", "list": [
+        "Fire TV Stick oder Android-Box per HDMI anschließen und dort einen Player nutzen.",
+        "Firmware des Fernsehers aktualisieren und im App-Store erneut suchen.",
+        "Auf andere Player wie IPTV Smarters oder TiviMate ausweichen."
+      ] }
+    ]
+  },
+  "ip-tv": {
+    "h1": "IP TV oder IPTV? Unterschiede, Begriffe und Einstieg",
+    "lead": [
+      { "h2": "Gleiche Sache, zwei Schreibweisen", "paras": [
+        "„IP TV“ und „IPTV“ meinen dasselbe: Fernsehen über das Internet-Protokoll. Die zusammengeschriebene Form ist üblicher. Wichtiger als die Schreibweise ist die Frage, welche Art von Dienst gemeint ist: lizenzierter Streaming-Dienst, IPTV Ihres Internetanbieters oder unabhängiger Anbieter."
+      ] },
+      { "h2": "Der schnellste Einstieg", "steps": [
+        "Gerät wählen, auf dem Sie schauen möchten.",
+        "Player-App installieren.",
+        "Test beim Anbieter anfragen.",
+        "Zugangsdaten eintragen und Sender auf Stabilität prüfen."
+      ] }
+    ]
+  }
+}

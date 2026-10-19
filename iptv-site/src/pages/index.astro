@@ -1,0 +1,2378 @@
+---
+import Base from '../layouts/Base.astro';
+import PricingSection from '../components/PricingSection.astro';
+import ServersMasterHub from '../components/ServersMasterHub.astro';
+import AppsMasterHub from '../components/AppsMasterHub.astro';
+import { SITE, PLANS, CAT_ORDER } from '../config';
+import { ALL, byCategory } from '../lib/pages';
+import { titleCase } from '../lib/util';
+
+const providers = [
+  {
+    name: 'Trex IPTV',
+    rank: '#1 Top Rated 2026',
+    rankClass: 'top-rated',
+    badge: 'Sports King',
+    icon: 'fa-dragon',
+    rating: '4.9/5',
+    reviews: '12,500+ Reviews',
+    desc: 'The undisputed king of IPTV services for 2026. Trex IPTV delivers an unmatched streaming experience with 51,000+ live channels, 200,000+ VOD titles, all major PPV events included free, comprehensive sports coverage worldwide, and blazing-fast anti-freeze servers across 5 continents. The #1 recommendation for sports bars and demanding viewers.',
+    tags: ['150+ Global Servers', '5 Continents', 'Anti-Freeze Tech 9.8', 'VPN Friendly'],
+    features: [
+      '51,000+ Live Channels Worldwide',
+      '200,000+ Movies & Series (VOD)',
+      'All PPV Events Included Free (UFC, Boxing, WWE)',
+      '4K / 8K / UHD 60FPS Streaming Quality',
+      '99.98% Server SLA Uptime Guarantee',
+      'Multi-Device Support (Up to 5 Connections)',
+      'Instant Reseller Panel with Credit System',
+      'EPG TV Guide with 7-Day Catch-Up TV',
+    ],
+    price: '$10',
+    trial: '36-Hour Free Trial',
+    slug: 'trex-iptv',
+    resellerSlug: 'trex-iptv-reseller',
+  },
+  {
+    name: 'Ultra 8K IPTV',
+    rank: '#2 Ultra HD Choice',
+    rankClass: '',
+    badge: 'Premium UHD',
+    icon: 'fa-gem',
+    rating: '4.8/5',
+    reviews: '8,900+ Reviews',
+    desc: 'Built for the ultimate visual experience on OLED and 8K Smart TVs. Ultra 8K IPTV delivers native 8K and uncompressed 4K streaming with 5 simultaneous connections per account. With 45,000+ channels, 200,000+ VOD titles, and dedicated 24/7 support, this service is engineered for premium reseller success.',
+    tags: ['100+ High-Speed Servers', 'True 8K Resolution', '5 Simultaneous Connections', '24/7 VIP Support'],
+    features: [
+      '45,000+ Live Channels with Backup Feeds',
+      '200,000+ Movies & Series (Updated Weekly)',
+      'True 8K and 4K Ultra HD Streaming',
+      '5 Devices Stream Simultaneously',
+      'Full EPG & Catch-Up TV Included',
+      'Turnkey Reseller Panel with Instant Activation',
+      'Anti-Freeze Technology v9.8',
+    ],
+    price: '$9.50',
+    trial: '24-Hour Free Trial',
+    slug: 'ultra-8k-iptv',
+    resellerSlug: 'ultra-8k-iptv-reseller',
+  },
+  {
+    name: '8K IPTV',
+    rank: '#3 Premium Choice',
+    rankClass: '',
+    badge: 'Best Overall',
+    icon: 'fa-crown',
+    rating: '4.7/5',
+    reviews: '15,200+ Reviews',
+    desc: 'A premium IPTV powerhouse with 45,000+ live channels, 150,000+ VOD titles, and rock-solid 99.9% uptime. Known across North America and Europe for comprehensive sports coverage and a highly responsive 24/7 support team. One of the most established names in the IPTV industry.',
+    tags: ['120+ Global Servers', '99.9% Uptime', '150K+ VOD Library', '24/7 Human Support'],
+    features: [
+      '45,000+ Live Channels Across 60+ Countries',
+      '150,000+ Movies & Series in Multiple Languages',
+      '8K / 4K / HD Quality with H.265 Codec',
+      '99.9% Monitored Server Uptime',
+      'EPG Electronic Program Guide Included',
+      'Reseller Panel with Non-Expiring Credits',
+      'Multi-Device Support (Firestick, Smart TV, Android)',
+    ],
+    price: '$11',
+    trial: '24-Hour Free Trial',
+    slug: '8k-iptv',
+    resellerSlug: '8k-iptv-reseller-panel',
+  },
+  {
+    name: '5GLive IPTV',
+    rank: '#1 Asia & Middle East',
+    rankClass: 'top-rated',
+    badge: 'Regional Champion',
+    icon: 'fa-globe-asia',
+    rating: '4.9/5',
+    reviews: '12,500+ Reviews',
+    desc: 'The undisputed #1 IPTV service for Asia, India, Pakistan, UAE, KSA, Qatar, and international expatriates. 5GLive delivers 48,000+ live channels with the largest Bollywood and regional film library, dedicated Cricket & IPL 4K coverage, and native Android APK.',
+    tags: ['Largest Bollywood Library', 'Cricket & IPL 4K Coverage', 'Native Android APK', 'Asian CDN Edge Nodes'],
+    features: [
+      '48,000+ Live Channels Worldwide',
+      '180,000+ Movies & Series (VOD)',
+      '8K / 4K / HD Quality Streaming',
+      'Bollywood, Hindi, Urdu, Punjabi, Tamil, Arabic',
+      'Dedicated Asian & Middle Eastern CDN Servers',
+      'Highest Reseller Profit Margins in the Industry',
+    ],
+    price: '$10',
+    trial: 'Free Trial Available',
+    slug: '5glive-iptv',
+    resellerSlug: '5glive-reseller-panel',
+  },
+  {
+    name: 'Smarter8K IPTV',
+    rank: '#4 Smart Choice',
+    rankClass: '',
+    badge: 'App Excellence',
+    icon: 'fa-mobile-screen-button',
+    rating: '4.6/5',
+    reviews: '6,800+ Reviews',
+    desc: 'Modern IPTV platform engineered for seamless app integration with IPTV Smarters Pro, TiviMate, and XCIPTV. Features cutting-edge anti-freeze technology and a massive 150,000+ VOD library with instant channel zapping under 0.3 seconds.',
+    tags: ['80+ Optimized Servers', 'Anti-Freeze Tech', '150K+ VOD', 'Instant Zapping'],
+    features: [
+      '45,000+ Live Channels',
+      '150,000+ Movies & Series',
+      'Optimized for Mobile, Tablet & TV Apps',
+      'Instant Sub-Second Channel Switching',
+      'Comprehensive EPG Guide Included',
+      'Reseller Ready Infrastructure',
+    ],
+    price: '$11',
+    trial: '24-Hour Free Trial',
+    slug: 'smarter8k-iptv',
+    resellerSlug: 'category/reseller',
+  },
+  {
+    name: 'Crystal IPTV',
+    rank: '#6 Clean & Premium',
+    rankClass: '',
+    badge: 'Clean & Premium',
+    icon: 'fa-diamond',
+    rating: '4.6/5',
+    reviews: '4,100+ Reviews',
+    desc: 'A clean, high-end IPTV service praised for zero stream clutter, premium international channel categorization, and a sleek user interface. Crystal IPTV is ideal for resellers who cater to affluent residential viewers and boutique commercial clients.',
+    tags: ['70+ Premium Servers', 'Clean UI/UX', 'Secure Encrypted Streams', 'VIP Support'],
+    features: [
+      'Curated Selection of Premium Channels',
+      'Multi-Device Streaming Support',
+      'Clean Interface with Accurate EPG',
+      'Extensive 4K Cinema VOD Releases',
+      '4K / Full HD High Bitrates',
+      'Reseller Panel with Sub-Reseller Accounts',
+    ],
+    price: '$8',
+    trial: '24-Hour Free Trial',
+    slug: 'crystal-iptv',
+    resellerSlug: 'crystal-iptv-reseller',
+  },
+  {
+    name: 'MegaOTT IPTV',
+    rank: '#7 OTT Leader',
+    rankClass: '',
+    badge: 'Money-Back Guarantee',
+    icon: 'fa-network-wired',
+    rating: '4.5/5',
+    reviews: '7,400+ Reviews',
+    desc: 'OTT-focused IPTV platform that sets itself apart with custom-branded mobile and TV applications, a 7-day money-back guarantee, and 150,000+ VOD titles. With 27,000+ live channels and consumer-friendly activation policies.',
+    tags: ['90+ Dedicated Servers', '7-Day Guarantee', 'Dedicated Apps', '150K+ VOD'],
+    features: [
+      '27,000+ Live Channels',
+      'Custom Mobile & Smart TV Apps',
+      '7-Day Money-Back Guarantee',
+      '150,000+ On-Demand Movies & TV Seasons',
+      'Full 4K / Full HD Bitrate Quality',
+      'Flexible Reseller Credit Packs',
+    ],
+    price: '$6',
+    trial: '48-Hour Free Trial',
+    slug: 'megaott-iptv',
+    resellerSlug: 'megaott-reseller-panel',
+  },
+  {
+    name: 'Dream 4K IPTV',
+    rank: '#5 Best Value 4K',
+    rankClass: '',
+    badge: 'Best Value',
+    icon: 'fa-cloud',
+    rating: '4.5/5',
+    reviews: '5,300+ Reviews',
+    desc: 'Budget-friendly 4K IPTV service delivering premium viewing experiences at wallet-friendly prices. With 36,000+ live channels and international content spanning 60+ countries, Dream 4K IPTV proves you do not need to overpay for quality entertainment.',
+    tags: ['60+ Global Servers', '4K Quality Focus', '60+ Countries', 'Budget Friendly'],
+    features: [
+      '36,000+ Live Channels Worldwide',
+      'Full 4K and FHD Sports Packages',
+      'Plans from Just $7/Month',
+      'Multi-Language International Channels',
+      'Reliable EPG & Catch-Up Features',
+      'Turnkey Reseller Starter Path',
+    ],
+    price: '$7',
+    trial: '24-Hour Free Trial',
+    slug: 'dream-4k-iptv',
+    resellerSlug: 'category/reseller',
+  },
+  {
+    name: 'B1G IPTV',
+    rank: '#8 Global Content',
+    rankClass: '',
+    badge: 'Global Content',
+    icon: 'fa-bolt',
+    rating: '4.3/5',
+    reviews: '3,200+ Reviews',
+    desc: 'Premium international IPTV brand with a strong focus on global channel variety, built-in VPN compatibility, and reliable 24/7 availability. An excellent choice for resellers targeting diverse diaspora and expat communities.',
+    tags: ['50+ Global Servers', 'VPN Friendly', 'International Catalog', '24/7 Available'],
+    features: [
+      'Global Channel Catalog (UK, USA, Europe, Africa, Asia)',
+      '100% VPN Friendly Infrastructure',
+      'Extensive Cinema & TV Series VOD',
+      'Comprehensive European & US Sports',
+      'Stable Xtream Codes & M3U Links',
+      'Low Wholesale Entry for Resellers',
+    ],
+    price: '$6',
+    trial: '24-Hour Free Trial',
+    slug: 'b1g-iptv',
+    resellerSlug: 'category/reseller',
+  },
+  {
+    name: '4K IPTV App',
+    rank: '#9 Easy Setup',
+    rankClass: '',
+    badge: 'Beginner Friendly',
+    icon: 'fa-display',
+    rating: '4.2/5',
+    reviews: '2,800+ Reviews',
+    desc: 'Modern 4K IPTV service designed for ultimate simplicity. With an easy 5-minute setup process, broad player compatibility, 8,000+ channels, and smooth 4K streaming, it is the perfect choice for streaming beginners.',
+    tags: ['40+ Fast Servers', '5-Minute Setup', '4K Streaming', 'Beginner Friendly'],
+    features: [
+      'Quick 5-Minute Setup on Any Device',
+      'Broad Player Compatibility',
+      '8,000+ Curated Live Channels',
+      'Smooth 4K Streaming Quality',
+      'Simple User Interface',
+      'Reseller Programs with Fast Support',
+    ],
+    price: '$6',
+    trial: '24-Hour Free Trial',
+    slug: '4k-iptv-app',
+    resellerSlug: 'category/reseller',
+  },
+  {
+    name: 'Hot IPTV',
+    rank: '#10 Fast Access',
+    rankClass: '',
+    badge: 'Quick Connect',
+    icon: 'fa-fire',
+    rating: '4.1/5',
+    reviews: '3,500+ Reviews',
+    desc: 'Fast-access IPTV service with lightning-quick server connections, 25,000+ live TV packages, comprehensive sports content, built-in EPG guide, and entertainment channels. Prioritizes speed and low-latency response.',
+    tags: ['35+ Speed Servers', 'Instant Connect', 'Sports Focus', 'Fast EPG'],
+    features: [
+      '25,000+ Live Channels',
+      'Sub-Second Server Connect Times',
+      'Full EPG TV Guide Included',
+      'Sports & PPV Packages',
+      'Multi-Device Streaming',
+      'Reseller Options Available',
+    ],
+    price: '$11',
+    trial: '24-Hour Free Trial',
+    slug: 'hot-iptv',
+    resellerSlug: 'category/reseller',
+  },
+  {
+    name: 'Cyber IPTV',
+    rank: '#11 Trusted Security',
+    rankClass: '',
+    badge: 'Most Secure',
+    icon: 'fa-shield-halved',
+    rating: '4.9/5',
+    reviews: '4,600+ Reviews',
+    desc: 'The most trusted IPTV service for security-conscious streamers. Cyber IPTV combines 24,000+ live channels with military-grade anti-freeze technology, built-in VPN compatibility, and 4K/8K streaming quality across Asia, Europe, and the Americas.',
+    tags: ['110+ Secure Servers', 'Military-Grade Security', 'Anti-Freeze Tech', 'VPN Friendly'],
+    features: [
+      '24,000+ Live Channels with Encryption',
+      '4K / 8K Streaming Quality',
+      'Anti-Freeze Technology v9.8',
+      'VPN Compatible & Built-in Support',
+      'EPG TV Guide Included',
+      'Reseller Friendly Options with Top Security',
+    ],
+    price: '$5',
+    trial: '24-Hour Free Trial',
+    slug: 'cyber-iptv',
+    resellerSlug: 'category/reseller',
+  },
+];
+
+const serverClusters = [
+  { region: 'US East (New York & Ashburn)', flag: 'fa-flag-usa', ping: '12ms', uptime: '99.99%', load: 'Normal' },
+  { region: 'US West (California & Oregon)', flag: 'fa-flag-usa', ping: '16ms', uptime: '99.98%', load: 'Normal' },
+  { region: 'UK & Ireland (London & Slough)', flag: 'fa-landmark-flag', ping: '9ms', uptime: '100.0%', load: 'Optimal' },
+  { region: 'EU Central (Frankfurt Hub)', flag: 'fa-earth-europe', ping: '8ms', uptime: '100.0%', load: 'Optimal' },
+  { region: 'Oceania (Sydney & Melbourne)', flag: 'fa-earth-oceania', ping: '21ms', uptime: '99.96%', load: 'Normal' },
+  { region: 'MENA & Gulf (Dubai Edge)', flag: 'fa-mosque', ping: '19ms', uptime: '99.97%', load: 'Normal' },
+];
+
+const resellerCreditPacks = [
+  { credits: '10 Credits', price: '$150', per: '$15.00 / credit', badge: 'Starter Pack', popular: false, desc: 'Ideal for testing customer demand and launching your IPTV business with minimal upfront capital. Allows creating 10 full 1-year subscriptions.' },
+  { credits: '25 Credits', price: '$325', per: '$13.00 / credit', badge: 'Most Popular', popular: true, desc: 'Best balance of cost and margin. Create trials, activate 1, 3, 6, and 12-month client accounts. Unlocks full reseller panel dashboard.' },
+  { credits: '50 Credits', price: '$550', per: '$11.00 / credit', badge: 'Pro Reseller', popular: false, desc: 'Higher margins for growing resellers. Includes full panel control, custom DNS branding, and sub-reseller account creation.' },
+  { credits: '100 Credits', price: '$900', per: '$9.00 / credit', badge: 'VIP Distributor', popular: false, desc: 'Maximum profit margin. Unlocks wholesale pricing, priority server routes, white-label branding, and dedicated account manager.' },
+  { credits: '250 Credits', price: '$1,875', per: '$7.50 / credit', badge: 'Master Wholesaler', popular: false, desc: 'Elite distributor pricing. Ideal for large-scale operations with sub-reseller networks. Keep up to 88% pure profit margin.' },
+];
+
+const roiCalculations = [
+  { tier: 'Starter Pack', credits: '10 Credits', cost: '$150', unitCost: '$15.00', retailPrice: '$70.00', revenue: '$700', profit: '+$550 Net Profit', margin: '366% ROI', badge: 'Beginner' },
+  { tier: 'Growth Pack', credits: '25 Credits', cost: '$325', unitCost: '$13.00', retailPrice: '$75.00', revenue: '$1,875', profit: '+$1,550 Net Profit', margin: '477% ROI', badge: 'Most Popular' },
+  { tier: 'Pro Reseller', credits: '50 Credits', cost: '$550', unitCost: '$11.00', retailPrice: '$80.00', revenue: '$4,000', profit: '+$3,450 Net Profit', margin: '627% ROI', badge: 'High Margin' },
+  { tier: 'VIP Distributor', credits: '100 Credits', cost: '$900', unitCost: '$9.00', retailPrice: '$80.00', revenue: '$8,000', profit: '+$7,100 Net Profit', margin: '788% ROI', badge: 'Wholesale' },
+  { tier: 'Master Wholesaler', credits: '250 Credits', cost: '$1,875', unitCost: '$7.50', retailPrice: '$85.00', revenue: '$21,250', profit: '+$19,375 Net Profit', margin: '1,033% ROI', badge: 'Max Profit' },
+];
+
+const channelBouquets = [
+  {
+    title: 'Live 4K Sports Networks',
+    badge: '60FPS Feeds',
+    icon: 'fa-futbol',
+    img: '/images/premier-league-soccer-w400.webp',
+    desc: 'Watch every global football league, combat sports PPV, motorsport, and domestic tournament without regional blackouts.',
+    channels: ['Sky Sports Main Event, PL, F1 4K', 'TNT Sports 1-4 UHD & Ultimate', 'Optus Sport 1-11 Australia', 'beIN Sports MENA 4K & French Feeds', 'DAZN 1 & 2 Bar Channels', 'ESPN, ESPN2, SEC, ACC USA', 'Fox Sports 501-507 & Kayo AU'],
+  },
+  {
+    title: 'USA, UK & Canada Entertainment',
+    badge: 'All Local Affiliates',
+    icon: 'fa-flag-usa',
+    img: '/images/smart-tv-living-room-w400.webp',
+    desc: 'Full national networks, local city affiliate stations (ABC, NBC, CBS, FOX), and premium cinema packages in 1080p and 4K.',
+    channels: ['ABC, CBS, NBC, FOX Local Affiliates', 'HBO, Cinemax, Showtime, Starz Feeds', 'BBC One/Two, ITV 1-4, Channel 4/5 UK', 'Sky Cinema & Sky Atlantic UK', 'TSN 1-5 & Sportsnet East/West CA', 'Discovery, Nat Geo, History, HGTV'],
+  },
+  {
+    title: 'European & International Hubs',
+    badge: 'Multi-Language',
+    icon: 'fa-earth-europe',
+    img: '/images/4kdeutsch-streaming-w400.webp',
+    desc: 'Direct satellite and terrestrial feeds across Germany, France, Spain, Italy, Netherlands, Portugal, Poland, and Scandinavia.',
+    channels: ['Germany: Sky Bundesliga, DAZN DE, ARD, ZDF', 'France: Canal+, RMC Sport, TF1, beIN FR', 'Spain: Movistar+ LaLiga, DAZN LaLiga', 'Italy: Sky Sport Serie A, DAZN IT, Rai HD', 'Netherlands: Ziggo Sport, Viaplay, ESPN NL', 'Arabic: OSN Cinema, MBC, Shahid VIP, SSC'],
+  },
+  {
+    title: 'Massive 20,000+ VOD Cinema Vault',
+    badge: 'Updated Daily',
+    icon: 'fa-film',
+    img: '/images/vod-dashboard-w400.webp',
+    desc: 'An enormous on-demand streaming vault that surpasses all major SVOD platforms combined, with multi-language subtitles.',
+    channels: ['Latest 2026 Cinema Box Office Releases', 'Complete Netflix Originals & Series', 'Disney+ Marvel & Star Wars Universe', 'HBO Max & Warner Bros Complete Vault', 'Amazon Prime & Apple TV+ 4K Series', 'Anime, Documentaries & Kids Animation'],
+  },
+];
+
+const speedMatrix = [
+  { quality: 'SD 480p Channels', res: '854 x 480', minSpeed: '5 Mbps', recSpeed: '10 Mbps', ping: '< 80 ms', codec: 'H.264 (AVC)', buffer: '1 - 2 sec' },
+  { quality: 'HD 720p Sports', res: '1280 x 720', minSpeed: '10 Mbps', recSpeed: '15 Mbps', ping: '< 60 ms', codec: 'H.264 / H.265', buffer: '1 - 2 sec' },
+  { quality: 'Full HD 1080p 60FPS', res: '1920 x 1080', minSpeed: '15 Mbps', recSpeed: '25 Mbps', ping: '< 40 ms', codec: 'H.265 (HEVC)', buffer: 'Sub-second' },
+  { quality: '4K Ultra HD 60FPS', res: '3840 x 2160', minSpeed: '25 Mbps', recSpeed: '40 - 50 Mbps', ping: '< 25 ms', codec: 'H.265 / AV1', buffer: 'Zero Buffer' },
+  { quality: '8K Native Cinema', res: '7680 x 4320', minSpeed: '50 Mbps', recSpeed: '80 - 100 Mbps', ping: '< 15 ms', codec: 'AV1 Main 10', buffer: 'Zero Buffer' },
+];
+
+const devices = [
+  { name: 'Amazon Firestick (4K / Max / Cube)', icon: 'fa-fire', img: '/images/firestick-w400.webp', setupTime: '3 mins', difficulty: 'Beginner', apps: 'TiviMate, Smarters Pro, Downloader', desc: 'The most popular streaming hardware worldwide. Hardware HEVC decoding guarantees smooth 60fps 4K streams with zero lag.', slug: 'best-iptv-for-firestick' },
+  { name: 'Apple TV 4K & iPhone / iPad iOS', icon: 'fa-apple', img: '/images/appletv-w400.webp', setupTime: '4 mins', difficulty: 'Easy', apps: 'IPTVX, GSE Smart IPTV, Smarters', desc: 'Silky smooth tvOS interface with Dolby Vision and spatial audio. Easily configured using M3U playlist URLs or Xtream API.', slug: 'apple-tv-box-4k' },
+  { name: 'Nvidia Shield & Android TV Boxes', icon: 'fa-robot', img: '/images/Android%20TV-w400.webp', setupTime: '3 mins', difficulty: 'Beginner', apps: 'TiviMate Premium, XCIPTV, Sparkle', desc: 'Unmatched AI upscaling and gigabit ethernet connectivity. The benchmark setup for sports enthusiasts and high-bitrate 4K viewing.', slug: 'best-android-tv-box' },
+  { name: 'Samsung Smart TV (Tizen OS)', icon: 'fa-tv', img: '/images/samsungsmarttv-w400.webp', setupTime: '5 mins', difficulty: 'Easy', apps: 'IBO Player, Smart IPTV, Nanomid', desc: 'Native Smart TV app installation directly from the Samsung App Store. No external dongle or HDMI streaming sticks needed.', slug: 'category/devices' },
+  { name: 'LG Smart TV (webOS 6.0+)', icon: 'fa-display', img: '/images/prod-lg-webos-w400.webp', setupTime: '5 mins', difficulty: 'Easy', apps: 'IBO Player Pro, IPTV Smarters, Flix', desc: 'Vibrant OLED panel optimization with instant channel switching. Fast setup via MAC address or Xtream Codes login.', slug: 'category/devices' },
+  { name: 'Formuler, MAG & Stalker Boxes', icon: 'fa-box', img: '/images/mag-w400.webp', setupTime: '2 mins', difficulty: 'Instant', apps: 'MYTVOnline 2/3, Stalker Portal', desc: 'Dedicated IPTV set-top boxes with authentic cable remote controls, lightning-fast channel zapping, and hardware EPG caching.', slug: 'mag-box' },
+  { name: 'Windows PC & Mac OS', icon: 'fa-laptop', img: '/images/iptv-windows-pc-w400.webp', setupTime: '3 mins', difficulty: 'Easy', apps: 'IPTV Smarters Desktop, VLC, Kodi', desc: 'Enjoy crystal clear streaming on laptops and desktop setups with multi-window viewing and hardware GPU acceleration.', slug: 'best-iptv-player-for-windows' },
+  { name: 'Android Smartphones & Tablets', icon: 'fa-mobile-screen-button', img: '/images/androidphones-w400.webp', setupTime: '2 mins', difficulty: 'Instant', apps: 'XCIPTV, Smarters Pro, OTT Navigator', desc: 'Take 50,000+ live channels anywhere on 5G mobile networks with adaptive bitrate streaming that saves battery and data.', slug: 'best-iptv-player-for-android-phones' },
+];
+
+const detailedTutorials = [
+  {
+    title: 'Amazon Fire TV Stick 4K & Max Setup',
+    badge: 'Downloader Method',
+    icon: 'fa-fire',
+    img: '/images/streaming-stick-tv.webp',
+    steps: [
+      'Install the "Downloader" app directly from the Amazon Appstore.',
+      'Go to Fire TV Settings > My Fire TV > Developer Options > Install Unknown Apps > Turn ON for Downloader.',
+      'Open Downloader and enter code 25240 (IPTV Smarters Pro) or 278077 (TiviMate).',
+      'Open the player, choose "Login with Xtream Codes API", and enter the URL, Username, and Password sent via WhatsApp.',
+    ],
+    tip: 'Pro-Tip: Set Hardware Decoder to ON in TiviMate settings for fluid 60 FPS sports motion.',
+  },
+  {
+    title: 'Android TV & Google TV (NVIDIA Shield, Sony, Xiaomi)',
+    badge: 'Google Play Store',
+    icon: 'fa-robot',
+    img: '/images/smart-tv-living-room-w400.webp',
+    steps: [
+      'Open the Google Play Store on your Android TV device.',
+      'Search for and install "TiviMate IPTV Player" or "IPTV Smarters Pro".',
+      'Launch the app and select "Add Playlist" > "Xtream Codes".',
+      'Type your server address and account details. The channels, categories, and 7-day EPG will synchronize in seconds.',
+    ],
+    tip: 'Pro-Tip: TiviMate supports multi-screen mode, allowing you to watch 4 live sports matches simultaneously.',
+  },
+  {
+    title: 'Samsung (Tizen) & LG (webOS) Smart TVs',
+    badge: 'No Streaming Stick Needed',
+    icon: 'fa-tv',
+    img: '/images/smart-tv-remote-w400.webp',
+    steps: [
+      'Open Samsung Smart Hub or LG Content Store on your TV.',
+      'Search for and install "IBO Player Pro" or "Nanomid Player".',
+      'Note down the Device MAC Address and Device Key shown on your screen.',
+      'Send those two codes to our WhatsApp support agent (+212 625 218 443) for instant remote playlist activation.',
+    ],
+    tip: 'Pro-Tip: Native TV apps connect directly over your Wi-Fi or LAN cable, eliminating the need for an extra HDMI stick.',
+  },
+  {
+    title: 'Apple TV 4K, iPhone & iPad (iOS / tvOS)',
+    badge: 'App Store Method',
+    icon: 'fa-apple',
+    img: '/images/tv-tablet-phone-w400.webp',
+    steps: [
+      'Open the Apple App Store on your Apple TV 4K or iPhone.',
+      'Download "IPTVX", "Smarters Player Lite", or "GSE Smart IPTV".',
+      'Select Xtream API login and enter the server credentials provided by our WhatsApp support team.',
+      'Enjoy 4K Dolby Vision playback and seamless AirPlay casting between your Apple devices.',
+    ],
+    tip: 'Pro-Tip: Apple TV 4K with wired gigabit ethernet offers industry-leading sub-second channel switching (<0.3s).',
+  },
+];
+
+const iptvPlayers = [
+  {
+    name: 'IPTV Smarters Pro',
+    shortName: 'Smarters Pro',
+    badge: '#1 Most Popular Universal',
+    badgeClass: 'popular',
+    icon: 'fa-mobile-screen',
+    logo: '/images/apps-dashboard-w400.webp',
+    rating: '4.9/5',
+    reviews: '35,000+ Reviews',
+    devices: ['Firestick', 'Android TV', 'Samsung Tizen', 'LG webOS', 'iOS', 'Windows', 'Mac'],
+    protocols: ['Xtream Codes API', 'M3U Playlist', 'Single Stream'],
+    downloaderCode: 'Downloader Code 25240',
+    slug: 'iptv-smarters-pro',
+    keywords: ['IPTV Smarters Pro', 'Smarters Player Lite', 'Xtream Codes API', 'Multi-Screen 4-Way', 'Parental Controls', 'Catch-Up EPG'],
+    desc: 'The ubiquitous global standard for IPTV streaming. Featuring a clean, Netflix-style dashboard with separate sections for Live TV, Movies, Series, and Catch-Up.',
+    deepDive: 'IPTV Smarters Pro (and Smarters Player Lite on iOS and Apple TV) is the undisputed industry standard for everyday streaming. Engineered for effortless navigation with standard TV remote controls, it parses Xtream Codes API dynamically to ensure blazing-fast channel loading without freezing your streaming hardware. Features include automatic OpenSubtitles fetching, 4-screen multi-view for simultaneous sports matches, master search across live and VOD catalogs, and native VPN integration for privacy.',
+    pros: ['Netflix-style dashboard for Live TV, Movies & Series', 'Up to 4-screen multi-view for live sports', 'Native support on Samsung Tizen & LG webOS TVs', 'Automated subtitles from OpenSubtitles'],
+    setup: [
+      'Install via Downloader (Code 25240) on Fire TV or download from Google Play / Apple App Store.',
+      'Select "Login with Xtream Codes API" on the welcome screen.',
+      'Enter Any Name, Username, Password, and Server Portal URL sent to your WhatsApp.',
+    ],
+  },
+  {
+    name: 'TiviMate IPTV Player',
+    shortName: 'TiviMate',
+    badge: 'Ultimate Android TV & Firestick UI',
+    badgeClass: 'top-rated',
+    icon: 'fa-star',
+    logo: '/images/Tivimate-app-logo-w400.webp',
+    rating: '5.0/5',
+    reviews: '48,000+ Reviews',
+    devices: ['Amazon Firestick 4K/Max', 'Nvidia Shield Pro', 'Google TV', 'Android TV Boxes'],
+    protocols: ['Xtream Codes API', 'M3U Plus', 'Stalker Portal'],
+    downloaderCode: 'Downloader Code 278077',
+    slug: 'tivimate-iptv-player',
+    keywords: ['TiviMate Premium', 'TiviMate Companion', 'Hardware HW+ Decoding', 'DVR Scheduled Recording', 'Sub-Second Zapping', 'Custom Channel Groups'],
+    desc: 'Widely recognized by enthusiasts as the gold standard IPTV interface on the market today. TiviMate replicates the fluid, cable-box experience with a modern dark EPG TV guide.',
+    deepDive: 'Ask any IPTV enthusiast which player they prefer on a streaming stick, and TiviMate is almost always the #1 answer. Featuring a cable-grade dark UI, TiviMate provides instantaneous channel zapping under 0.3 seconds, full XMLTV electronic program guides with catch-up timeshift, scheduled recording (DVR) to internal memory or NAS/SMB network storage, multi-view supporting up to 9 simultaneous screens, and custom channel reordering.',
+    pros: ['Cable-box grade EPG timeline with instant zapping (<0.3s)', 'Automated DVR recording to internal or network SMB drives', 'Multi-view supporting up to 9 simultaneous screens', 'Hardware HW+ decoding for fluid 60 FPS sports motion'],
+    setup: [
+      'Open Downloader on Fire TV and enter code 278077 to install TiviMate.',
+      'Navigate to Settings > Playlists > Add Playlist > Choose Xtream Codes API.',
+      'Enter your server details. Enable "Hardware Video Decoder (HW+)" in Playback settings for flawless 60 FPS sports.',
+    ],
+  },
+  {
+    name: 'XCIPTV Player',
+    shortName: 'XCIPTV',
+    badge: 'Best Dual-Engine Media Player',
+    badgeClass: 'feature',
+    icon: 'fa-layer-group',
+    logo: '/images/Smart-IPTV-app-logo-w400.webp',
+    rating: '4.8/5',
+    reviews: '22,000+ Reviews',
+    devices: ['Android TV', 'Fire TV Stick', 'Android Mobile', 'Tablets', 'Windows (via APK)'],
+    protocols: ['Xtream Codes API', 'M3U Playlist URL'],
+    downloaderCode: 'Downloader Code 193855',
+    slug: 'xciptv-for-windows',
+    keywords: ['XCIPTV Player', 'ExoPlayer & VLC Engine', 'IMDb VOD Metadata', 'Speed Test Tool', 'HLS Adaptive Streaming', 'Backup & Restore'],
+    desc: 'A powerhouse OTT player built on dual media engines (ExoPlayer and VLC Player). Features an intuitive tile-based dashboard with native IMDb rating integrations for movies and series.',
+    deepDive: 'XCIPTV Player delivers a clean, modern grid design powered by dual hardware video engines—ExoPlayer and VLC Player. This dual-architecture guarantees that whether you are watching an uncompressed 4K 60FPS Premier League match or a legacy interlaced standard-definition stream, the app switches engines automatically to avoid crashes. It features native IMDb ratings, actor bios, trailers, built-in network speed tests, and automated configuration backup.',
+    pros: ['Dual playback engines (ExoPlayer + VLC Player)', 'Integrated IMDb ratings, actor bios & movie trailers', 'Built-in internet speed test utility', '100% free with customizable interface layouts'],
+    setup: [
+      'Install XCIPTV using Downloader code 193855 or from Google Play.',
+      'Launch the app and input your Xtream Codes API credentials (Server, Username, Password).',
+      'Select your preferred player engine (ExoPlayer recommended for live sports, VLC for VOD movies).',
+    ],
+  },
+  {
+    name: 'IBO Player Pro',
+    shortName: 'IBO Player',
+    badge: 'Top Pick for Samsung & LG Smart TVs',
+    badgeClass: 'hot',
+    icon: 'fa-bolt',
+    logo: '/images/Ibo-Player-Pro-app-logo-w400.webp',
+    rating: '4.8/5',
+    reviews: '29,000+ Reviews',
+    devices: ['Samsung Smart TV (Tizen)', 'LG Smart TV (webOS)', 'Firestick', 'Apple TV', 'Android TV'],
+    protocols: ['MAC Address Web Portal', 'M3U URL', 'Xtream API'],
+    downloaderCode: 'Samsung / LG App Store',
+    slug: 'ibo-player',
+    keywords: ['IBO Player Pro', 'IBO Player Samsung', 'IBO Player LG webOS', 'Device MAC & Key', 'Remote Playlist Upload', 'iboplayer.com'],
+    desc: 'Specifically engineered to provide lightning-fast streaming directly on Smart TVs without requiring an external streaming stick. Runs natively on Samsung and LG TVs with rapid channel switching.',
+    deepDive: 'For viewers who want to stream IPTV directly through their Smart TV without plugging in an external Amazon Firestick or Apple TV box, IBO Player Pro is the top recommendation. Designed natively for Samsung Tizen OS and LG webOS, it provides hardware-accelerated 4K playback, subtitle synchronization, multi-audio language switching, and remote playlist synchronization through the iboplayer.com cloud portal using your TV MAC address and Device Key.',
+    pros: ['Native installation directly from Samsung & LG TV App Stores', 'Instant remote playlist activation via Device MAC & Key', 'Fast 4K hardware acceleration with low TV RAM usage', 'Smooth subtitle and audio track switching'],
+    setup: [
+      'Search for "IBO Player Pro" directly inside the Samsung App Store or LG Content Store and install.',
+      'Open the app and note down the Device MAC and Device Key displayed on screen.',
+      'Send these two codes to our WhatsApp desk (+212 625 218 443) for instant remote playlist activation.',
+    ],
+  },
+  {
+    name: 'Smart IPTV (SIPTV)',
+    shortName: 'SIPTV',
+    badge: 'Pioneer Smart TV MAC App',
+    badgeClass: 'standard',
+    icon: 'fa-tv',
+    logo: '/images/Smart-IPTV-app-logo-w400.webp',
+    rating: '4.6/5',
+    reviews: '40,000+ Reviews',
+    devices: ['Samsung Tizen', 'LG webOS', 'Android TV', 'Amazon Firestick', 'MAG Boxes'],
+    protocols: ['MAC Address Upload (siptv.app)'],
+    downloaderCode: 'siptv.app',
+    slug: 'smart-iptv',
+    keywords: ['Smart IPTV', 'SIPTV App', 'siptv.app/mylist', 'Samsung Smart IPTV', 'LG webOS SIPTV', 'MAC Address Playlist'],
+    desc: 'The legendary pioneer of Smart TV IPTV applications. Operates via a simple, lightweight interface that minimizes memory consumption on older smart TV hardware.',
+    deepDive: 'Smart IPTV (often referred to as SIPTV) is the classic application that started the Smart TV streaming revolution. Renowned for its minimalist, no-nonsense interface, SIPTV consumes very little system memory, making it ideal for older Smart TVs that suffer from sluggish app performance. Playlist uploading is handled remotely on siptv.app by entering your television MAC address and M3U link.',
+    pros: ['Ultra-low memory footprint ideal for older Smart TVs', 'Remote web playlist management on siptv.app/mylist', 'Proven stability over 10+ years of active development', 'Simple one-time activation license (€5.49)'],
+    setup: [
+      'Install Smart IPTV on your Smart TV or Android device.',
+      'Launch the app to reveal your unique 12-character MAC address.',
+      'Visit siptv.app/mylist, enter your MAC address, paste your M3U playlist link, and click "Send". Restart the app to stream.',
+    ],
+  },
+  {
+    name: 'OTT Navigator IPTV',
+    shortName: 'OTT Navigator',
+    badge: 'Most Customizable & Power-User Friendly',
+    badgeClass: 'feature',
+    icon: 'fa-sliders',
+    logo: '/images/apps-dashboard-w400.webp',
+    rating: '4.7/5',
+    reviews: '18,500+ Reviews',
+    devices: ['Android TV', 'Google TV', 'Amazon Firestick', 'Android Phones & Tablets'],
+    protocols: ['Xtream Codes API', 'M3U / M3U8', 'Stalker Portal'],
+    downloaderCode: 'Google Play / Direct APK',
+    slug: 'category/apps',
+    keywords: ['OTT Navigator IPTV', 'Picture-in-Picture PiP', 'Studio Channel Filtering', 'Auto Reconnect', 'Archive Catch-Up', 'Custom Remote Mappings'],
+    desc: 'The ultimate player for power users who demand total control over their viewing experience. Features studio-grade channel filtering, automatic reconnect, and picture-in-picture (PiP).',
+    deepDive: 'OTT Navigator is revered among advanced IPTV users for its astonishing depth of customization. It supports automatic stream reconnect when network hiccups occur, picture-in-picture (PiP) multitasking, studio-grade category filtering to hide bouquets you do not watch, timeshift archive playback, and custom remote control key mapping. It is exceptionally lightweight and fast on Android TV and Fire OS.',
+    pros: ['Studio-grade channel & bouquet filtering to hide unwanted content', 'Picture-in-Picture (PiP) multitasking mode', 'Automated stream reconnect on unstable internet connections', 'Comprehensive archive catch-up playback support'],
+    setup: [
+      'Download OTT Navigator from the Google Play Store or sideload the APK onto your Firestick.',
+      'Navigate to Settings > Provider > Add Provider > Select Xtream Codes API.',
+      'Enter your login details and configure your preferred EPG update frequency.',
+    ],
+  },
+  {
+    name: 'GSE Smart IPTV',
+    shortName: 'GSE Smart IPTV',
+    badge: 'Top Multi-Platform Suite',
+    badgeClass: 'standard',
+    icon: 'fa-compact-disc',
+    logo: '/images/Smart-STB-app-logo-w400.webp',
+    rating: '4.5/5',
+    reviews: '26,000+ Reviews',
+    devices: ['Apple iPhone', 'iPad', 'Apple TV (tvOS)', 'Android TV', 'Firestick', 'macOS'],
+    protocols: ['Xtream Codes API', 'M3U URL', 'JSON Playlists', 'RTMP', 'RTSP'],
+    downloaderCode: 'Apple App Store / Google Play',
+    slug: 'category/apps',
+    keywords: ['GSE Smart IPTV', 'Apple TV GSE', 'AirPlay & Chromecast', 'Dynamic Live Recording', 'JSON & M3U Parser', 'iOS IPTV Player'],
+    desc: 'A versatile cross-platform IPTV suite with comprehensive codec support. Supports dynamic live stream recording, external subtitle integration, Chromecast, and AirPlay streaming.',
+    deepDive: 'GSE Smart IPTV is one of the most resilient multi-platform IPTV solutions available for iOS, Apple TV, and Android. It handles a massive array of streaming protocols, including RTMP, RTSP, MMS, and HTTP live streams. Features include real-time live recording, dynamic subtitle parsing, AirPlay mirroring, parent-level content protection, and support for multiple simultaneous remote playlists.',
+    pros: ['Comprehensive Apple ecosystem support (iPhone, iPad, Apple TV, Mac)', 'Support for M3U, JSON, RTMP, RTSP, and Xtream Codes', 'Built-in AirPlay and Chromecast wireless casting', 'Live stream recording directly to device storage'],
+    setup: [
+      'Install GSE Smart IPTV from the Apple App Store or Google Play Store.',
+      'Tap the top-left menu > Remote Playlists > Tap the "+" button > Add Xtream Codes API.',
+      'Enter your account server URL, username, and password, then tap Connect.',
+    ],
+  },
+  {
+    name: 'VLC Media Player',
+    shortName: 'VLC Player',
+    badge: 'Best Free & Open-Source Desktop Player',
+    badgeClass: 'top-rated',
+    icon: 'fa-laptop',
+    logo: '/images/iptv-windows-pc-w400.webp',
+    rating: '4.9/5',
+    reviews: '100,000+ Reviews',
+    devices: ['Windows 11/10', 'macOS', 'Linux', 'Android', 'iOS'],
+    protocols: ['M3U', 'M3U8', 'RTSP', 'RTMP', 'HTTP Live Streaming'],
+    downloaderCode: 'videolan.org',
+    slug: 'vlc-media-player',
+    keywords: ['VLC Media Player', 'VLC IPTV Stream', 'Open Network Stream', 'H.265 HEVC Codec', 'Network Caching Buffer', 'Free Open Source'],
+    desc: 'The world\'s most trusted open-source media player. Completely free with zero advertisements or tracking. Handles raw M3U playlist URLs with ease, with custom network caching.',
+    deepDive: 'VLC Media Player by VideoLAN is the gold standard for desktop IPTV viewing on PC, Mac, and laptops. 100% free, open-source, and devoid of ads or subscription fees, VLC contains built-in decoders for virtually every audio and video codec in existence. Users can fine-tune network caching buffer sizes (e.g. 1000ms - 3000ms) to ensure butter-smooth streaming even over congested Wi-Fi connections.',
+    pros: ['100% Free and open-source with zero ads or tracking', 'Native decoders for all codecs (H.264, H.265/HEVC, AV1, VP9)', 'Custom network caching buffer settings eliminate buffering', 'Works seamlessly across Windows, Mac, and Linux'],
+    setup: [
+      'Download and install VLC from videolan.org.',
+      'Press Ctrl + N (or Media > Open Network Stream).',
+      'Paste your M3U Plus link provided by our WhatsApp support team and click Play. Use Ctrl + L to toggle the full channel playlist.',
+    ],
+  },
+  {
+    name: 'Kodi (PVR IPTV Simple Client)',
+    shortName: 'Kodi',
+    badge: 'Ultimate Home Theater Hub',
+    badgeClass: 'feature',
+    icon: 'fa-cube',
+    logo: '/images/beste-iptv-apps-dashboard-w400.webp',
+    rating: '4.7/5',
+    reviews: '60,000+ Reviews',
+    devices: ['Windows', 'macOS', 'Linux', 'Firestick', 'Android TV', 'Raspberry Pi', 'Xbox'],
+    protocols: ['PVR IPTV Simple Client (M3U & XMLTV EPG)'],
+    downloaderCode: 'kodi.tv',
+    slug: 'category/apps',
+    keywords: ['Kodi IPTV', 'PVR IPTV Simple Client', 'Kodi Addons', 'Kodi Firestick', 'XMLTV EPG Guide', 'Dolby Atmos Pass-Through'],
+    desc: 'The premier open-source home theater software. By configuring the PVR IPTV Simple Client add-on, Kodi transforms into a comprehensive entertainment hub with rich TV guides.',
+    deepDive: 'For cinephiles and home cinema owners who want a complete media center experience, Kodi stands unmatched. When combined with the official PVR IPTV Simple Client add-on, Kodi delivers a unified interface integrating live TV, on-demand movies, local media libraries, and streaming services. It supports hardware Dolby Atmos and DTS-HD audio pass-through, customizable high-definition skins, and multi-day XMLTV EPG guides.',
+    pros: ['Full home theater media center integration with Dolby Atmos audio', 'Rich XMLTV electronic program guide grid', 'Highly customizable interface skins and layout options', 'Support for Trakt.tv watch-history tracking on movies & series'],
+    setup: [
+      'Install Kodi from kodi.tv or via Downloader on Firestick.',
+      'Navigate to Add-ons > Install from Repository > PVR Clients > PVR IPTV Simple Client.',
+      'Configure the add-on by entering your M3U playlist URL and EPG URL, enable the add-on, and restart Kodi.',
+    ],
+  },
+  {
+    name: 'iPlayTV (Apple TV IPTV Player)',
+    shortName: 'iPlayTV',
+    badge: 'Premier Apple TV 4K Experience',
+    badgeClass: 'top-rated',
+    icon: 'fa-apple',
+    logo: '/images/appletv-w400.webp',
+    rating: '4.9/5',
+    reviews: '15,000+ Reviews',
+    devices: ['Apple TV 4K / HD (tvOS)', 'iPhone', 'iPad'],
+    protocols: ['Xtream Codes API', 'M3U Playlist', 'WebDAV'],
+    downloaderCode: 'Apple TV tvOS App Store',
+    slug: 'apple-tv-box-4k',
+    keywords: ['iPlayTV Apple TV', 'iPlayTV tvOS', 'Apple TV 4K IPTV', 'Siri Remote Trackpad', 'iCloud Sync Playlists', 'Dolby Vision HDR'],
+    desc: 'Tailored specifically for Apple TV 4K, iPlayTV delivers an exquisite tvOS experience with smooth Siri Remote trackpad navigation, native Dolby Vision & HDR playback, and seamless iCloud sync.',
+    deepDive: 'Engineered exclusively for Apple TV 4K and tvOS, iPlayTV provides the slickest, most responsive interface available in the Apple ecosystem. It leverages Apple\'s native AVPlayer and Metal graphics acceleration for zero-lag channel zapping, full Dolby Vision and HDR10 color reproduction, automatic channel logo matching, multi-EPG timelines, and iCloud synchronization so your favorite channels stay in sync across your Apple TV, iPhone, and iPad.',
+    pros: ['Engineered exclusively for Apple TV 4K with Siri Remote support', 'Native Dolby Vision, HDR10 and spatial audio playback', 'iCloud playlist and favorites synchronization across Apple devices', 'Automated high-resolution channel logos and multi-EPG timelines'],
+    setup: [
+      'Search for "iPlayTV" on the Apple TV App Store and install.',
+      'Select "Add Playlist" > "Xtream Codes API".',
+      'Enter the Server URL, Username, and Password sent to you on WhatsApp. Enjoy instant uncompressed 4K streaming.',
+    ],
+  },
+];
+
+const portalActivationApps = [
+  { name: 'IBOPLAYER³', icon: 'fa-play', badge: 'Tizen / webOS' },
+  { name: 'BOBPLAYER', icon: 'fa-tv', badge: 'Smart TV' },
+  { name: 'DUPLEX PLAY', icon: 'fa-desktop', badge: 'Multi-OS' },
+  { name: 'IBOXXPLAYER', icon: 'fa-box', badge: 'Android / TV' },
+  { name: 'ABEPlayerTV', icon: 'fa-circle-play', badge: 'Smart TV' },
+  { name: 'MACPLAYER', icon: 'fa-microchip', badge: 'MAC Portal' },
+  { name: 'VIRGINIA PLAYER', icon: 'fa-film', badge: 'Fast Portal' },
+  { name: 'AllPlayer', icon: 'fa-satellite-dish', badge: 'Universal' },
+  { name: 'HUSHPLAY', icon: 'fa-sliders', badge: 'Smart TV' },
+  { name: 'KTNPLAYER', icon: 'fa-bolt', badge: 'Fast Zapping' },
+  { name: 'FAMILYPLAYER', icon: 'fa-users', badge: 'Family Safe' },
+  { name: 'IBOSSPLAYER', icon: 'fa-crown', badge: 'Premium' },
+  { name: 'KING4KPLAYER', icon: 'fa-gem', badge: '4K Ultra' },
+  { name: 'IBOSTB', icon: 'fa-server', badge: 'Stalker Portal' },
+  { name: 'BOBPRO', icon: 'fa-star', badge: 'Pro Edition' },
+  { name: 'BOBPREMIUM', icon: 'fa-award', badge: 'VIP Portal' },
+  { name: 'FLIXNET', icon: 'fa-clapperboard', badge: 'VOD Focus' },
+  { name: 'SMARTONE PRO', icon: 'fa-display', badge: 'LG & Samsung' },
+  { name: 'IBOSOLPlayer', icon: 'fa-satellite', badge: 'Smart TV' },
+];
+
+const playerComparison = [
+  { name: 'IPTV Smarters Pro', platform: 'Firestick, Android, iOS, Smart TV, PC', xtream: 'Yes (Native)', m3u: 'Yes', epg: 'XMLTV Grid', multi: 'Up to 4 Screens', dvr: 'Basic', cost: 'Free / Pro', bestFor: 'Universal Family Streaming' },
+  { name: 'TiviMate IPTV Player', platform: 'Firestick, Android TV, Nvidia Shield', xtream: 'Yes (Native)', m3u: 'Yes', epg: 'Full Timeshift', multi: 'Up to 9 Screens', dvr: 'Advanced SMB', cost: 'Free / Premium', bestFor: 'Living Room TV Box Experience' },
+  { name: 'XCIPTV Player', platform: 'Firestick, Android TV, Mobile, Windows', xtream: 'Yes (Native)', m3u: 'Yes', epg: 'Dual Engine', multi: 'Dual Screen', dvr: 'Internal Storage', cost: '100% Free', bestFor: 'IMDb VOD & Live Sports' },
+  { name: 'IBO Player Pro', platform: 'Samsung Tizen, LG webOS, Firestick', xtream: 'Yes', m3u: 'Yes', epg: 'Web Sync', multi: 'Single Screen', dvr: 'Cloud/External', cost: '7-Day Trial / Lifetime', bestFor: 'Direct Smart TV Playback' },
+  { name: 'Smart IPTV (SIPTV)', platform: 'Samsung Tizen, LG webOS, Android TV', xtream: 'No (M3U Only)', m3u: 'Yes', epg: 'Remote Portal', multi: 'Single Screen', dvr: 'No', cost: '7-Day Trial / €5.49', bestFor: 'Older Smart TV Compatibility' },
+  { name: 'OTT Navigator IPTV', platform: 'Android TV, Google TV, Firestick, Mobile', xtream: 'Yes', m3u: 'Yes', epg: 'Studio Filtering', multi: 'Picture-in-Picture', dvr: 'Archive Catch-up', cost: 'Free / Premium', bestFor: 'Power Users & Channel Filtering' },
+  { name: 'GSE Smart IPTV', platform: 'iPhone, iPad, Apple TV, Android, Mac', xtream: 'Yes', m3u: 'Yes', epg: 'Multi-EPG', multi: 'AirPlay / Cast', dvr: 'Live Recording', cost: 'Free / In-App', bestFor: 'Apple iOS & Multi-Format Codecs' },
+  { name: 'VLC Media Player', platform: 'Windows 11/10, macOS, Linux, Android', xtream: 'No (Network M3U)', m3u: 'Yes', epg: 'Basic Text', multi: 'Multi-Window', dvr: 'Manual Record', cost: '100% Free Open Source', bestFor: 'Desktop & Laptop Streaming' },
+  { name: 'Kodi (PVR Simple)', platform: 'Windows, Mac, Firestick, Android, Xbox', xtream: 'Via Addon', m3u: 'Yes', epg: 'PVR Grid', multi: 'Trakt / Skins', dvr: 'PVR Backend', cost: '100% Free Open Source', bestFor: 'Home Theater Media Centers' },
+  { name: 'iPlayTV', platform: 'Apple TV 4K / HD, iPhone, iPad', xtream: 'Yes', m3u: 'Yes', epg: 'Interactive', multi: 'iCloud Sync', dvr: 'Timeshift', cost: 'Paid App (tvOS)', bestFor: 'Native Apple TV 4K & Dolby Vision' },
+];
+
+const sportsHub = [
+  {
+    category: 'Global Football & Soccer',
+    icon: 'fa-futbol',
+    img: '/images/premier-league-soccer-w400.webp',
+    leagues: ['Premier League (UK)', 'UEFA Champions League', 'La Liga (Spain)', 'Serie A (Italy)', 'Bundesliga (Germany)', 'Ligue 1 (France)', 'MLS (USA)', 'Saudi Pro League', 'FIFA World Cup 2026'],
+    specs: '4K Ultra HD @ 60 FPS • Multi-Audio (English, Spanish, Arabic, French) • 7-Day Catch-Up',
+  },
+  {
+    category: 'US Major Leagues',
+    icon: 'fa-football',
+    img: '/images/sport-nfl-w400.webp',
+    leagues: ['NFL Sunday Ticket', 'NFL RedZone', 'NBA League Pass', 'NHL Center Ice', 'MLB Extra Innings', 'NCAA College Football', 'March Madness'],
+    specs: 'Every Game Live • Local Broadcast Feeds • Zero Blackout Restrictions • True 1080p 60fps',
+  },
+  {
+    category: 'Combat Sports & PPV Events',
+    icon: 'fa-hand-fist',
+    img: '/images/ufc-boxing-main-event-w400.webp',
+    leagues: ['UFC Main Cards & Early Prelims', 'WWE WrestleMania & Raw', 'DAZN Boxing Title Fights', 'Top Rank & PBC Boxing', 'Bellator MMA', 'ONE Championship'],
+    specs: 'All PPVs Included Free • Early Preliminary Access • Anti-Freeze 9.8 Peak Routing',
+  },
+  {
+    category: 'Motorsports & Racing',
+    icon: 'fa-flag-checkered',
+    img: '/images/sport-f1-w400.webp',
+    leagues: ['Formula 1 (All Races & Quali)', 'Sky Sports F1 4K UHD', 'F1 TV Multi-Camera Onboard', 'MotoGP World Championship', 'NASCAR Cup Series', 'IndyCar'],
+    specs: 'Native 4K 60FPS Streams • Onboard Cockpit Channels • Team Radio Audio Options',
+  },
+  {
+    category: 'Cricket, Rugby & World Sports',
+    icon: 'fa-cricket-bat-ball',
+    img: '/images/au-cricket-w400.webp',
+    leagues: ['IPL Indian Premier League 4K', 'ICC T20 & ODI World Cup', 'The Ashes Test Series', 'Rugby Six Nations', 'NRL & AFL Australia', 'Tennis Grand Slams', 'PGA Tour Golf'],
+    specs: 'Comprehensive Willow TV, Sky Sports Cricket, Fox Sports AU & SuperSport Feeds',
+  },
+];
+
+const paymentMethods = [
+  { name: 'Visa Secure', img: '/images/pay-visa-badge-w400.webp' },
+  { name: 'Mastercard ID Check', img: '/images/pay-mastercard-badge-w400.webp' },
+  { name: 'PayPal Buyer Protection', img: '/images/pay-paypal-badge-w400.webp' },
+  { name: 'Apple Pay Express', img: '/images/pay-applepay-badge-w400.webp' },
+  { name: 'Google Pay', img: '/images/google-pay-logo-w400.webp' },
+  { name: 'Bitcoin & USDT Crypto', img: '/images/crypto-logo.webp' },
+];
+
+const galleryItems = [
+  { title: '4K Ultra HD Home Cinema', desc: 'Uncompressed 4K 60FPS streams with vibrant HDR color grading and dynamic multi-channel surround sound.', img: '/images/living-room-hero-w800.webp', tag: 'Cinema Experience' },
+  { title: 'Live Stadium Sports Arena', desc: 'Premier League, UEFA Champions League, NFL, and Formula 1 with zero broadcast stutter or buffering.', img: '/images/soccer-stadium-w800.webp', tag: 'Live Sports 60FPS' },
+  { title: 'Multi-Screen Household Streaming', desc: 'Up to 5 simultaneous device connections across Firesticks, smart TVs, tablets, and phones.', img: '/images/family-watching-tv-w800.webp', tag: 'Multi-Room' },
+  { title: 'Modern IPTV Dashboard Interface', desc: 'Instant zapping in under 0.3 seconds, integrated 7-day XMLTV EPG, and categorized cinema VOD.', img: '/images/iptv-entertainment-dashboard-w800.webp', tag: 'App Ecosystem' },
+  { title: 'Global Championship Tournaments', desc: 'High-bitrate international feeds covering football derbies, cricket cups, and boxing PPVs worldwide.', img: '/images/stadium-sunset-match-w800.webp', tag: 'Worldwide' },
+  { title: 'Universal Device Ecosystem', desc: 'Complete compatibility across Firestick, Apple TV, Android boxes, Smart TVs, and PCs.', img: '/images/devices-collection-w800.webp', tag: 'All Devices' },
+];
+
+const caseStudies = [
+  {
+    name: 'Michael S.',
+    location: 'Miami, Florida (USA)',
+    badge: '340+ Active Clients',
+    profit: '$8,200 / mo Net Profit',
+    quote: 'I started with a 25-credit pack testing Trex IPTV and Ultra 8K with local sports fans. Within 8 months, word of mouth exploded because the Sunday Ticket and PPVs never freeze. I now order 100-credit packs at wholesale and clear over $8,000 monthly in predictable recurring profit.',
+    avatar: '/images/pexels-andreas-suwardy-2152085739-39131498-w400.webp',
+  },
+  {
+    name: 'David W.',
+    location: 'Manchester, England (UK)',
+    badge: 'Commercial & Expat Reseller',
+    profit: '£5,400 / mo Net Profit',
+    quote: 'Our sports pub was paying astronomical commercial satellite fees every month. After switching to Trex IPTV on Firestick 4K Max with Anti-Freeze 9.8, the 60fps Premier League quality was flawless. I opened a reseller panel to sell subscriptions to our regular pub patrons and it became a massive secondary business.',
+    avatar: '/images/pexels-hao-peng-2148478861-30976004-w400.webp',
+  },
+  {
+    name: 'Karim A.',
+    location: 'Paris, France & North Africa',
+    badge: 'Sub-Reseller Network Master',
+    profit: '€11,200 / mo Net Profit',
+    quote: 'The 5GLive and Crystal IPTV panels give me the best Arabic, French, and international sports coverage on the market. With the sub-reseller feature, I manage 14 downstream agents across Europe who buy credit packs from my master dashboard.',
+    avatar: '/images/pexels-kelly-3812011-w400.webp',
+  },
+  {
+    name: 'Liam O.',
+    location: 'Sydney, New South Wales (Australia)',
+    badge: '185+ Active Subscribers',
+    profit: 'A$4,900 / mo Net Profit',
+    quote: 'Australian ISPs are notorious for throttling streaming during AFL and NRL finals. The local Sydney CDN edge servers and VPN-friendly endpoints on this panel completely bypassed throttling. Customer retention is 85% year-on-year!',
+    avatar: '/images/pexels-anna-nekrashevich-6801642-w400.webp',
+  },
+];
+
+const locations = [
+  { name: 'IPTV USA', icon: 'fa-flag-usa', slug: 'iptv-usa', desc: 'NFL Sunday Ticket, NBA, NHL, MLB, PPV boxing, local US network affiliates (ABC, NBC, CBS, FOX), and 4K cable networks in USD.' },
+  { name: 'UK IPTV', icon: 'fa-landmark-flag', slug: 'iptv-uk', desc: 'Premier League football, Sky Sports, TNT Sports, BBC iPlayer, ITV, catch-up TV and premium UK entertainment channels in GBP.' },
+  { name: 'IPTV Europe', icon: 'fa-earth-europe', slug: 'iptv-europe', desc: 'Champions League, European leagues, multi-language channels (DE, FR, ES, IT, NL) with ultra-low latency European CDN edge nodes.' },
+  { name: 'IPTV Canada', icon: 'fa-maple-leaf', slug: 'iptv-canada', desc: 'NHL Hockey, Canadian regional networks, TSN, Sportsnet, French Canadian RDS/TVA content, and CAD pricing without regional blackouts.' },
+  { name: 'IPTV Australia', icon: 'fa-earth-oceania', slug: 'iptv-australia', desc: 'AFL, NRL, cricket, Optus Sport, Stan Sport, Kayo channels, and local Australian edge servers for bufferless playback.' },
+  { name: 'IPTV Deutschland', icon: 'fa-flag', slug: 'iptv-deutschland', desc: 'Bundesliga, Sky Sport, DAZN, German public & private HD/4K channels with fast anti-freeze streaming in EUR.' },
+  { name: 'IPTV France', icon: 'fa-flag', slug: 'iptv-france', desc: 'Ligue 1, Canal+, beIN Sports France, RMC Sport, French cinema VOD, and Belgian/Swiss regional packages.' },
+  { name: 'IPTV España', icon: 'fa-flag', slug: 'iptv-espana', desc: 'La Liga EA Sports, Movistar+, DAZN LaLiga, Spanish regional autonomic channels, and massive Latin American cinema.' },
+  { name: 'IPTV Italia', icon: 'fa-flag', slug: 'iptv-italia', desc: 'Serie A TIM, Sky Italia, DAZN Italia, Mediaset, Rai HD, and European sports feeds with crystal-clear Italian audio.' },
+  { name: 'IPTV Nederland', icon: 'fa-flag', slug: 'iptv-nederland', desc: 'Eredivisie, Ziggo Sport, Viaplay F1, ESPN NL, Dutch national broadcasts, and European news channels.' },
+  { name: 'IPTV UAE & Middle East', icon: 'fa-mosque', slug: 'iptv-uae', desc: 'beIN Sports MENA 4K, SSC Sports, OSN channels, Shahid VIP releases, and extensive Arabic, Gulf, and North African feeds.' },
+  { name: 'IPTV Scandinavia', icon: 'fa-snowflake', slug: 'iptv-scandinavia', desc: 'Allsvenskan, Eliteserien, Viaplay Nordic, TV2, SVT, NRK, and low-latency Stockholm & Oslo CDN routing.' },
+];
+
+const vsFreeResellers = [
+  { feature: 'Server Infrastructure & Bandwidth', free: 'Overloaded 1 Gbps VPS with 1,000 users sharing one port. Crashes during major football derbies.', us: 'Enterprise Tier-4 data centers with 10–40 Gbps fiber links and dynamic Anti-Freeze 9.8 balancing.' },
+  { feature: 'Resolution & Frame Rate', free: 'Compressed 720p at 25 FPS with washed out colors and 3-minute broadcast delays.', us: 'True 4K UHD and 1080p at 60 FPS in HEVC H.265 with zero latency delay.' },
+  { feature: 'Customer Support & Lifespan', free: 'Anonymous Telegram sellers who disappear after 2 weeks with your payment.', us: '24/7 dedicated human WhatsApp support with under 3 minutes average response time.' },
+  { feature: 'Electronic Program Guide (EPG)', free: 'Broken or missing EPG data requiring constant manual playlist editing.', us: 'Automated 7-day XMLTV EPG with channel logos, show descriptions, and catch-up.' },
+  { feature: 'PPV Events & Sports Feeds', free: 'Blacks out or buffers continuously during UFC main cards or Champions League.', us: 'Redundant triple-backup feeds for every major sporting league and all PPV events included.' },
+  { feature: 'Reseller Control Panel', free: 'No panel access or unreliable cracked portals with expiring balances.', us: 'Official white-label reseller dashboard with non-expiring credits and sub-reseller creation.' },
+];
+
+const glossaryTerms = [
+  { term: 'Xtream Codes API', icon: 'fa-code', def: 'A modern IPTV authentication standard that uses Server URL, Username, and Password instead of cumbersome playlist files. It automatically synchronizes live categories, VOD movies, TV series, and EPG schedules in real time.' },
+  { term: 'M3U / M3U8 Playlist URL', icon: 'fa-list-ul', def: 'A plaintext media playlist file format containing web pointers to individual HLS video chunks. Supported by virtually 100% of video players, media centers, and IPTV client software.' },
+  { term: 'EPG (Electronic Program Guide)', icon: 'fa-calendar-days', def: 'An interactive on-screen TV guide (typically delivered in XMLTV format) showing live schedules, episode descriptions, show times, and catch-up availability across all channels.' },
+  { term: 'Catch-Up TV & Timeshift', icon: 'fa-clock-rotate-left', def: 'A server-side DVR feature enabling viewers to rewind, pause live broadcasts, or watch previously aired television shows up to 7 days in the past without local recording storage.' },
+  { term: 'Anti-Freeze 9.8 Protocol', icon: 'fa-snowflake', def: 'Our automated server routing mechanism that balances incoming traffic bursts across 150+ Tier-1 ISP interconnects during peak sports matches, completely preventing buffering and dropped packets.' },
+  { term: 'Reseller Credits', icon: 'fa-coins', def: 'Prepaid digital currency used in the reseller portal to create and renew client subscriptions. Credits never expire and allow resellers to purchase subscriptions at deep wholesale discounts.' },
+  { term: 'H.265 / HEVC Encoding', icon: 'fa-compress', def: 'High-Efficiency Video Coding that halves the bandwidth required for 4K video compared to older H.264 codecs. Enables buttery smooth 4K 60fps streaming on modest 25 Mbps broadband.' },
+  { term: 'Sub-Reseller Master Feature', icon: 'fa-sitemap', def: 'An administrative reseller tier allowing primary resellers to create secondary reseller accounts, distribute credits, and earn passive recurring profits from their downstream wholesale network.' },
+  { term: 'White-Label Branding', icon: 'fa-palette', def: 'The ability to resell IPTV infrastructure using your own business name, logo, custom DNS domain, and branded client applications without any mention of the upstream server operator.' },
+  { term: 'DPI (Deep Packet Inspection)', icon: 'fa-shield-halved', def: 'A network filtering technique used by certain internet service providers to throttle streaming video packets. Bypassed by our encrypted TLS stream endpoints.' },
+  { term: 'Multi-Room / Connections', icon: 'fa-users', def: 'A subscription feature enabling family members to watch different channels simultaneously on separate screens under a single account.' },
+  { term: 'MAG & Stalker Portal', icon: 'fa-box', def: 'Hardware-based IPTV authentication tying a set-top box MAC address directly to a server portal URL for instant, set-top cable-box-like navigation.' },
+];
+
+const faqs = [
+  { q: 'What is an IPTV Reseller Panel and how does it work?', a: 'An IPTV reseller panel is a centralized web portal provided by a streaming infrastructure operator that allows you to sell IPTV subscriptions under your own brand name. Through the panel, you can generate free test trials, activate monthly or annual subscriptions, manage active lines, renew accounts, and assign M3U links or Xtream Codes logins using a prepaid credit balance.' },
+  { q: 'How much money can I make as an IPTV reseller in 2026?', a: 'Profit margins for IPTV resellers typically range between 70% and 85%. For example, purchasing 12-month credits at wholesale prices ($7.50 to $13 per credit) allows you to retail annual subscriptions for $60 to $90, generating $47 to $77 pure profit per customer. With 100 active recurring clients, resellers often make $4,000 to $7,000 in monthly recurring income.' },
+  { q: 'Can I test the IPTV service before purchasing a reseller panel?', a: `Yes! We provide 24-hour and 36-hour free trials across all our top providers (Trex IPTV, Ultra 8K, 8K IPTV, MegaOTT, 5GLive, etc.) so you can test stream stability, channel lineups, and VOD libraries directly on your device before adding credits.` },
+  { q: 'Which devices and apps are supported by the IPTV reseller panel?', a: 'Our IPTV panels support all major devices and apps, including Amazon Firestick, Android TV boxes, Apple TV, Smart TVs (Samsung Tizen, LG webOS), MAG boxes, Formuler devices, Windows PC, Mac, iPhones, and Android phones. Compatible apps include IPTV Smarters Pro, TiviMate, IBO Player Pro, XCIPTV, and VLC.' },
+  { q: 'How are credits deducted in the reseller panel?', a: 'In standard IPTV panels, 1 credit typically activates 1 full year of subscription for 1 user, or panels operate on flexible monthly ratios (e.g. 0.1 credit = 1 month, 0.25 credit = 3 months, 0.5 credit = 6 months, 1 credit = 12 months). Free trials cost 0 credits and can be generated unlimited times.' },
+  { q: 'How do I receive payments from my customers?', a: 'As an independent reseller, you control your customer payments directly. You can accept payments via PayPal, Credit Cards (Stripe), Bank Transfer, Revolut, Cash App, or Cryptocurrency (Bitcoin/USDT). You only pay for wholesale panel credits and keep 100% of your retail earnings.' },
+  { q: 'What is Anti-Freeze Technology 9.8?', a: 'Anti-Freeze 9.8 is an automated traffic routing protocol built into our streaming cluster. When millions of viewers tune in simultaneously for high-profile football matches or UFC pay-per-views, the system dynamically balances server loads across redundant Tier-1 fiber backbones, preventing buffering, packet drops, and stream crashes.' },
+  { q: 'Do credits in my reseller panel balance expire?', a: 'No! Credits in your reseller dashboard never expire. They stay in your account indefinitely until you use them to activate or renew a customer subscription.' },
+  { q: 'Can I create sub-resellers under my master panel?', a: 'Yes. Resellers who purchase 50 or more credits unlock the Sub-Reseller feature, allowing you to create secondary reseller accounts, sell them credit packages, and build a passive wholesale revenue stream.' },
+  { q: 'Can I customize the panel with my own brand name and DNS?', a: 'Yes. We offer complete white-label branding, allowing you to configure custom DNS server URLs, add your logo to compatible client apps, and operate a fully independent streaming brand.' },
+  { q: 'What internet speed is required for 4K live streaming?', a: 'A steady download speed of 15 Mbps is sufficient for Full HD 1080p channels, while 25 to 40 Mbps is recommended for uncompressed 4K Ultra HD 60 FPS feeds. A stable connection with low jitter is more important than raw speed.' },
+  { q: 'Do my customers need a VPN to watch IPTV?', a: 'No VPN is required because our servers use encrypted endpoints. However, our services are 100% VPN-friendly, which helps customers whose local ISPs deploy peak-time sports throttling.' },
+  { q: 'What is the difference between Trex IPTV, Ultra 8K, and 8K IPTV?', a: 'Trex IPTV is recognized as the ultimate sports authority with 51,000+ channels and redundant feeds for all major global leagues. Ultra 8K IPTV focuses on raw visual fidelity and uncompressed 8K/4K bitrates for large OLED displays. 8K IPTV is a balanced powerhouse with 45,000+ channels and widespread multi-device compatibility.' },
+  { q: 'How quickly is my reseller panel activated after payment?', a: 'Panel activation is virtually instant. Once you connect with our WhatsApp support desk (+212 625 218 443), your reseller portal login credentials, DNS endpoints, and loaded credit balance are issued within 5 to 15 minutes.' },
+  { q: 'Can customers watch on multiple devices at the same time?', a: 'Standard single-line subscriptions allow 1 active stream at a time. However, our reseller panels offer multi-room packages supporting up to 5 concurrent connections under a single user account.' },
+  { q: 'How often are movies and TV series (VOD) updated?', a: 'Our VOD library is updated daily with the latest cinema premieres, Netflix, Amazon Prime, Disney+, Apple TV+, and HBO Max releases with multi-language subtitles and 4K HDR options.' },
+  { q: 'What happens if a channel goes down during a live match?', a: 'Our servers operate automated failover backup feeds (Backup 1, Backup 2, Backup 3). If an primary satellite feed encounters interference, the system switches feeds within milliseconds without interrupting the viewer.' },
+  { q: 'Can I upgrade my credit tier at any time?', a: 'Yes! You can start with a 10 or 25-credit pack and top up with 50, 100, or 250 credits whenever your customer base grows to unlock progressively higher wholesale discount margins.' },
+  { q: 'How does the 7-day Catch-Up TV feature work?', a: 'Catch-Up TV records broadcasts on our server storage for 7 days. Viewers can scroll back through the EPG on their remote and replay matches, news, or shows they missed without using local hard drive space.' },
+  { q: 'Can adult channels (18+) be removed or password-protected?', a: 'Yes. You can disable adult content globally in your reseller panel, or customers can lock the category with a 4-digit parental control PIN directly in their player app.' },
+  { q: 'Are all major sports pay-per-views (PPV) really included?', a: 'Yes. Every UFC numbered pay-per-view, WWE stadium event, DAZN boxing title fight, and major entertainment special is included with zero additional fees across all subscriptions.' },
+  { q: 'Can I use the IPTV subscription on mobile devices while traveling?', a: 'Absolutely. Subscriptions work globally over Wi-Fi, 4G, and 5G cellular networks on iPhones, iPads, Android smartphones, laptops, and travel streaming sticks.' },
+  { q: 'What format do you provide for client activation?', a: 'We provide both Xtream Codes API (Server URL, Username, Password) and standard M3U/M3U8 playlist links, ensuring complete compatibility with every player app on Earth.' },
+  { q: 'What is the refund or replacement guarantee?', a: 'We offer an unconditional 24-hour free trial prior to purchase. In the rare event of service disruption, our WhatsApp VIP support desk provides immediate server feed re-routing or account credits.' },
+];
+
+// Curated internal links by category from the 5,000 pSEO dataset (20 per pillar)
+const topProviderLinks = ALL.filter(p => p.category === 'providers').slice(0, 20);
+const topResellerLinks = ALL.filter(p => p.category === 'reseller').slice(0, 20);
+const topLocationLinks = ALL.filter(p => p.category === 'locations').slice(0, 20);
+const topDeviceLinks = ALL.filter(p => p.category === 'devices').slice(0, 20);
+const topSportLinks = ALL.filter(p => p.category === 'sports').slice(0, 20);
+const priorityAppSlugs = ['iptv-smarters-pro', 'tivimate-iptv-player', 'xciptv-for-windows', 'ibo-player', 'smart-iptv', 'siptv', 'vlc-media-player', 'iptv-smarters', 'smarters-player-lite', 'kodi-addons', 'apple-tv-box-4k'];
+const priorityApps = priorityAppSlugs.map(slug => ALL.find(p => p.slug === slug)).filter(Boolean) as typeof ALL;
+const otherApps = ALL.filter(p => p.category === 'apps' && !priorityAppSlugs.includes(p.slug));
+const topAppLinks = [...priorityApps, ...otherApps].slice(0, 20);
+const topSetupLinks = ALL.filter(p => p.category === 'setup').slice(0, 20);
+const topTrialLinks = ALL.filter(p => p.category === 'trial' || p.category === 'pricing').slice(0, 20);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: `${SITE.name} IPTV Reseller Panel & Subscriptions`,
+    url: SITE.url,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE.url}/?s={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: SITE.url,
+    logo: `${SITE.url}/favicon.svg`,
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '+212-625-218443',
+      contactType: 'customer service',
+      contactOption: 'TollFree',
+      availableLanguage: ['English', 'French', 'Arabic', 'Spanish', 'German', 'Italian', 'Dutch'],
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url,
+    description: 'Premier IPTV provider comparison, 4K streaming reviews, and wholesale reseller panels.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE.url}/#servers-directory`,
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: `${SITE.name} IPTV Reseller Panel & Wholesale Subscriptions`,
+    description: 'Launch your IPTV reseller business in 2026 with 15+ verified providers, 20,000+ movies, 8,000+ live 4K channels, and full white-label panel control.',
+    image: `${SITE.url}/favicon.svg`,
+    brand: { '@type': 'Brand', name: SITE.name },
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '5.00',
+      highPrice: '1875.00',
+      offerCount: '25',
+      availability: 'https://schema.org/InStock',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'How to Launch Your IPTV Reseller Business in 4 Steps',
+    description: 'A step-by-step technical and operational roadmap to launch an independent IPTV reselling business with wholesale panel credits.',
+    step: [
+      {
+        '@type': 'HowToStep',
+        position: 1,
+        name: 'Select Your Primary IPTV Provider Panel',
+        text: 'Review server benchmarks across Trex IPTV, Ultra 8K, 8K IPTV, and 5GLive to pick the best fit for your regional target market.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 2,
+        name: 'Obtain Dedicated Reseller Panel Credentials',
+        text: 'Contact our WhatsApp support desk to configure your private reseller dashboard username, password, and custom DNS domain.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 3,
+        name: 'Load Wholesale Reseller Credits',
+        text: 'Purchase a 10, 25, 50, or 100-credit pack to start creating customer trials and annual active subscriptions.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 4,
+        name: 'Activate Subscriptions & Collect Retail Profits',
+        text: 'Deliver Xtream Codes and M3U links to paying customers, collect payments directly via PayPal, Stripe, or Crypto, and keep up to 85% margins.',
+      },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Top IPTV Providers 2026',
+    itemListElement: providers.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: p.name,
+      description: p.desc,
+      url: `${SITE.url}/${p.slug}/`,
+    })),
+  },
+];
+---
+
+<Base 
+  title={`${SITE.name} | Best IPTV Reseller Panel & 4K Providers ${SITE.year}`} 
+  description={`Launch your IPTV reseller business with ${SITE.name} in ${SITE.year}. Compare 47+ premium servers, unlock wholesale credits & stream 4K live sports.`} 
+  jsonLd={jsonLd}
+>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-background">
+      <div class="gradient-orb gradient-orb-1"></div>
+      <div class="gradient-orb gradient-orb-2"></div>
+      <div class="gradient-orb gradient-orb-3"></div>
+      <div class="hero-grid-pattern"></div>
+    </div>
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="section-badge pulse-badge">
+              <i class="fa-solid fa-crown"></i> #1 IPTV Reseller Hub {SITE.year}
+            </span>
+            <span class="section-badge trust-badge">
+              <i class="fa-solid fa-shield-halved"></i> Trusted by 10,000+ Streamers & Resellers
+            </span>
+          </div>
+          <h1 class="hero-title gradient-text">
+            Launch Your <span class="accent">IPTV Reseller</span> Empire with a Professional Reseller Panel
+          </h1>
+          <p class="hero-description">
+            <strong>{SITE.name}</strong> is the ultimate gateway to explore <strong>47+ verified IPTV servers</strong> (Trex, Forever, Zen 4K, Strong, Iron, Atlas, King365, Orca), unlock powerful reseller panels, and stream seamlessly across the top 10 player apps. Whether you need uncompressed 4K sports, massive 200,000+ VOD libraries, or satellite IKS card sharing, enjoy 99.98% anti-freeze uptime with zero buffering.
+          </p>
+          <div class="hero-actions-hub">
+            <div class="hero-primary-actions">
+              <a href={SITE.buy1YearUrl} class="btn btn-whatsapp btn-xl hero-main-btn" target="_blank" rel="nofollow noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div class="btn-double-label">
+                  <strong>Buy Subscription 1 Year</strong>
+                  <small>Instant WhatsApp Setup • {SITE.phone}</small>
+                </div>
+                <i class="fa-solid fa-arrow-right btn-arrow-icon"></i>
+              </a>
+              <a href="#servers-directory" class="btn btn-primary btn-xl hero-catalog-btn">
+                <i class="fa-solid fa-server"></i>
+                <span>Explore 47 Servers</span>
+              </a>
+            </div>
+            <div class="hero-quick-jumps">
+              <span class="quick-jump-title"><i class="fa-solid fa-compass"></i> Direct Navigation:</span>
+              <div class="quick-jump-chips">
+                <a href="#pricing" class="hero-chip">
+                  <i class="fa-solid fa-gem" style="color: #fbbf24;"></i> Pricing ($39.99 - $179.99)
+                </a>
+                <a href="#apps-hub" class="hero-chip">
+                  <i class="fa-solid fa-play" style="color: #38bdf8;"></i> Top 10 Players & 19 TV Apps
+                </a>
+                <a href="/category/reseller/" class="hero-chip">
+                  <i class="fa-solid fa-store" style="color: #a78bfa;"></i> Reseller Panels
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <i class="fa-solid fa-tv"></i>
+              <strong>51,000+</strong>
+              <span>Live 4K Channels</span>
+            </div>
+            <div class="stat-item">
+              <i class="fa-solid fa-film"></i>
+              <strong>200,000+</strong>
+              <span>VOD Cinema Titles</span>
+            </div>
+            <div class="stat-item">
+              <i class="fa-solid fa-server"></i>
+              <strong>47+</strong>
+              <span>Verified Servers</span>
+            </div>
+            <div class="stat-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              <strong>99.98%</strong>
+              <span>Server SLA Uptime</span>
+            </div>
+            <div class="stat-item">
+              <i class="fa-solid fa-headset"></i>
+              <strong>24/7</strong>
+              <span>VIP WhatsApp Desk</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glass-card premium-card">
+            <div class="hero-card-header">
+              <div class="header-icon-wrap"><i class="fa-solid fa-server"></i></div>
+              <div>
+                <h2>Reseller Panel Benefits</h2>
+                <span class="card-status-pill"><span class="live-dot"></span> Instant Provisioning Under 3 Mins</span>
+              </div>
+            </div>
+            <ul class="feature-list">
+              <li><span class="check-badge"><i class="fa-solid fa-check"></i></span> <span>Sell IPTV subscriptions under your own white-label brand</span></li>
+              <li><span class="check-badge"><i class="fa-solid fa-check"></i></span> <span>Create unlimited free trial accounts for prospective buyers</span></li>
+              <li><span class="check-badge"><i class="fa-solid fa-check"></i></span> <span>Access 47+ premium server clusters from a unified dashboard</span></li>
+              <li><span class="check-badge"><i class="fa-solid fa-check"></i></span> <span>Target USA, UK, Canada, Australia & European markets</span></li>
+              <li><span class="check-badge"><i class="fa-solid fa-check"></i></span> <span>24/7 instant WhatsApp support & credit top-up</span></li>
+              <li><span class="check-badge"><i class="fa-solid fa-check"></i></span> <span>Build recurring monthly revenue with up to 85% profit margins</span></li>
+              <li><span class="check-badge"><i class="fa-solid fa-check"></i></span> <span>White-label DNS, Sub-reseller creation & credit transfers</span></li>
+            </ul>
+            <div class="hero-card-rating">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>4.9/5 Rating from 1,200+ Active Resellers</span>
+            </div>
+            <a href={SITE.orderUrl} class="btn btn-primary full-width" target="_blank" rel="nofollow noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i> Request Reseller Access Now
+            </a>
+          </div>
+          <div class="hero-preview-img-wrap">
+            <img src="/images/iptv-entertainment-dashboard-w800.webp" alt="4K Trex IPTV Reseller Panel & 4K Streaming Dashboard (4ktrexiptv.com)" class="hero-preview-img" width="800" height="450" loading="eager" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Subscription Pricing Plans Section (3, 6, 12 Months & 1-4 Accounts) -->
+  <PricingSection id="pricing" />
+
+  <!-- Live Server Cluster Status Bar -->
+  <section class="server-status-section">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
+        <span style="font-size: 0.88rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); display: flex; align-items: center; gap: 8px;">
+          <span class="status-dot"></span> Live Server Infrastructure & CDN Status ({SITE.year})
+        </span>
+        <span style="font-size: 0.82rem; color: var(--success); font-weight: 600;">
+          <i class="fa-solid fa-circle-check"></i> All 150+ Edge Clusters Operational (99.98% Global SLA)
+        </span>
+      </div>
+      <div class="server-status-grid">
+        {serverClusters.map(c => (
+          <div class="status-card">
+            <div>
+              <div class="status-region"><i class={`fa-solid ${c.flag}`}></i> {c.region}</div>
+              <div class="status-ping">Avg Latency: <strong style="color: var(--secondary-light);">{c.ping}</strong></div>
+            </div>
+            <div class="status-indicator">
+              <span class="status-dot"></span> {c.uptime}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust-bar">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="trust-inner">
+        <span><i class="fa-solid fa-star"></i> IPTV Research Hub {SITE.year}</span>
+        <span><i class="fa-solid fa-shield-halved"></i> Anti-Freeze Tech 9.8</span>
+        <span><i class="fa-solid fa-globe"></i> 12 Global Regional Hubs</span>
+        <span><i class="fa-solid fa-bolt"></i> 99.98% Server SLA Uptime</span>
+        <span><i class="fa-solid fa-headset"></i> 24/7 VIP Reseller Support</span>
+        <span><i class="fa-solid fa-trophy"></i> Independent Comparison Directory</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Channels & Bouquets Showcase Hub -->
+  <section class="section-padding" style="padding: 80px 0; background: var(--bg-secondary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-layer-group"></i> Complete Channel Lineup</span>
+        <h2 class="section-title">Worldwide Live TV Bouquets & On-Demand Library</h2>
+        <p class="section-description">
+          Over 8,000 live television channels and 20,000+ VOD cinema titles categorized by region, genre, and broadcast resolution.
+        </p>
+      </div>
+
+      <div class="bouquet-grid">
+        {channelBouquets.map(b => (
+          <div class="bouquet-card">
+            <div class="card-img-wrap">
+              <img src={b.img} alt={b.title} class="card-img" width="400" height="225" loading="lazy" />
+            </div>
+            <div class="bouquet-header">
+              <div class="bouquet-icon">
+                <i class={`fa-solid ${b.icon}`}></i>
+              </div>
+              <div>
+                <h3 style="font-size: 1.25rem; margin: 0; color: #fff;">{b.title}</h3>
+                <span style="font-size: 0.78rem; font-weight: 700; color: var(--secondary-light);">{b.badge}</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 16px;">{b.desc}</p>
+            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+              {b.channels.map(c => (
+                <li style="font-size: 0.85rem; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
+                  <i class="fa-solid fa-circle-check" style="color: var(--success); font-size: 0.75rem;"></i>
+                  <span>{c}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Providers Showcase Section -->
+  <section class="providers-section" id="providers-showcase">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-tv"></i> Complete Provider Directory {SITE.year}</span>
+        <h2 class="section-title">Compare All Premium IPTV Providers & Reseller Opportunities</h2>
+        <p class="section-description">
+          We test streaming quality, server stability, channel lineups, device compatibility, anti-freeze technology, and reseller margin potential across every major IPTV brand. Choose your ideal partner or offer multiple servers to your customers.
+        </p>
+      </div>
+
+      <div class="provider-grid">
+        {providers.map(p => (
+          <div class={`provider-card ${p.rankClass ? 'featured-provider' : ''}`}>
+            <span class={`provider-rank ${p.rankClass}`}><i class="fa-solid fa-trophy"></i> {p.rank}</span>
+            <span class="provider-badge-premium"><i class="fa-solid fa-fire"></i> {p.badge}</span>
+            <div class="provider-icon-wrap">
+              <i class={`fa-solid ${p.icon} provider-icon`}></i>
+            </div>
+            <h3>{p.name}</h3>
+            <div class="provider-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <span>{p.rating}</span>
+              <small>({p.reviews})</small>
+            </div>
+            <p class="provider-description">{p.desc}</p>
+            <div class="provider-highlights">
+              {p.tags.map(t => (
+                <span class="highlight-tag"><i class="fa-solid fa-check"></i> {t}</span>
+              ))}
+            </div>
+            <ul class="provider-features-list">
+              {p.features.map(f => (
+                <li><i class="fa-solid fa-circle-check"></i> <strong>{f}</strong></li>
+              ))}
+            </ul>
+            <div class="provider-pricing">
+              <div class="price-tag">
+                <span class="price-amount">{p.price}</span>
+                <span class="price-period">/month</span>
+              </div>
+              <span class="price-trial"><i class="fa-solid fa-clock"></i> {p.trial}</span>
+            </div>
+            <div class="provider-actions">
+              <a href={SITE.buy1YearUrl} class="btn btn-primary full-width" target="_blank" rel="nofollow noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i> Buy Subscription 1 Year
+              </a>
+              <a href={`/${p.slug}/`} class="btn btn-secondary full-width">
+                <i class="fa-solid fa-book-open"></i> Read Full {p.name} Review
+              </a>
+              <a href={`/${p.resellerSlug}/`} class="btn btn-outline full-width">
+                <i class="fa-solid fa-store"></i> Become {p.name} Reseller
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Master Directory: All 47 Verified IPTV Servers & Subscriptions -->
+  <ServersMasterHub id="servers-directory" />
+
+  <!-- Master Hub: Top 10 IPTV Players & 19 Smart TV MAC Portal Apps -->
+  <AppsMasterHub id="apps-hub" />
+  <section class="section-padding" style="padding: 80px 0; background: var(--bg-tertiary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-gauge-high"></i> Streaming Performance Benchmark</span>
+        <h2 class="section-title">Internet Speed & Video Codec Matrix for 4K / 8K Playback</h2>
+        <p class="section-description">
+          Review the precise download speed, latency tolerances, and video codecs required for fluid 60 FPS sports and cinema streaming.
+        </p>
+      </div>
+
+      <div class="roi-table-container">
+        <table class="speed-matrix-table">
+          <thead>
+            <tr>
+              <th>Stream Quality</th>
+              <th>Native Resolution</th>
+              <th>Minimum Speed</th>
+              <th>Recommended Speed</th>
+              <th>Target Latency</th>
+              <th>Compression Codec</th>
+              <th>Buffer Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            {speedMatrix.map(s => (
+              <tr>
+                <td><strong style="color: #fff;">{s.quality}</strong></td>
+                <td>{s.res}</td>
+                <td>{s.minSpeed}</td>
+                <td><strong style="color: var(--secondary-light);">{s.recSpeed}</strong></td>
+                <td>{s.ping}</td>
+                <td><span class="badge-high">{s.codec}</span></td>
+                <td><span style="color: var(--success); font-weight: 700;">{s.buffer}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reseller Opportunity & ROI Matrix Section -->
+  <section class="reseller-section">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-badge"><i class="fa-solid fa-briefcase"></i> IPTV Reseller Business Opportunity</span>
+          <h2>Why the IPTV Reseller Model is the Best Digital Business in {SITE.year}</h2>
+          <p>
+            IPTV reselling removes every technical barrier to entry. You don't need expensive server racks, satellite dishes, encoding equipment, or large developer teams. With a professional <strong>IPTV reseller panel</strong>, you gain a ready-to-run dashboard to create trial accounts, activate subscriptions, manage customers, process renewals, and sell IPTV services under your own brand.
+          </p>
+          <p>
+            The demand for IPTV subscriptions in <strong>Europe, USA, Canada, Australia, and the UK</strong> is growing exponentially as consumers cancel overpriced cable contracts. As an IPTV reseller, you tap into predictable, recurring monthly revenue with minimal upfront investment.
+          </p>
+          <div class="icon-list">
+            <div><i class="fa-solid fa-user-plus"></i><span>Create unlimited client accounts</span></div>
+            <div><i class="fa-solid fa-clock"></i><span>Issue 24h & 36h free trials</span></div>
+            <div><i class="fa-solid fa-chart-line"></i><span>Up to 85% recurring profit margins</span></div>
+            <div><i class="fa-solid fa-globe"></i><span>Sell in multiple countries & currencies</span></div>
+            <div><i class="fa-solid fa-paint-brush"></i><span>White-label with your brand & logo</span></div>
+            <div><i class="fa-solid fa-headset"></i><span>24/7 dedicated support for resellers</span></div>
+          </div>
+          <a href="#reseller-pricing" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-tags"></i> View Reseller Credit Pricing
+          </a>
+        </div>
+
+        <div class="glass-card premium-card">
+          <span class="section-badge" style="margin-bottom: 16px;"><i class="fa-solid fa-rocket"></i> Starter Path</span>
+          <h3>Start Small. Scale Fast. Build Recurring Revenue.</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
+            Follow our proven 4-step path used by over 1,200 successful IPTV resellers worldwide:
+          </p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Step 1:</strong> Choose 1 or 2 top IPTV server panels</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Step 2:</strong> Purchase a 10 or 25-credit starter pack</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Step 3:</strong> Send free trials to prospective clients</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Step 4:</strong> Activate paid plans & collect 100% of the retail price</li>
+          </ul>
+          <div style="margin-top: 24px;">
+            <a href={SITE.orderUrl} class="btn btn-primary full-width" target="_blank" rel="nofollow noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i> Chat with Us to Open Your Panel
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reseller ROI & Profit Table -->
+      <div style="margin-top: 60px;">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-solid fa-calculator"></i> Transparent Profit Breakdown</span>
+          <h3 style="font-size: 1.8rem; margin-top: 10px;">IPTV Reseller ROI & Profit Projections {SITE.year}</h3>
+          <p class="section-description">
+            See exactly how much revenue and net profit you generate based on wholesale credit cost vs average consumer retail price ($70 - $85/year).
+          </p>
+        </div>
+
+        <div class="roi-table-container">
+          <table class="roi-table">
+            <thead>
+              <tr>
+                <th>Reseller Tier</th>
+                <th>Credits Loaded</th>
+                <th>Your Cost (Wholesale)</th>
+                <th>Unit Cost / Sub</th>
+                <th>Retail Resale Value</th>
+                <th>Your Net Profit</th>
+                <th>Profit Margin</th>
+              </tr>
+            </thead>
+            <tbody>
+              {roiCalculations.map(r => (
+                <tr>
+                  <td><span class="roi-tier"><i class="fa-solid fa-box"></i> {r.tier}</span></td>
+                  <td><strong>{r.credits}</strong></td>
+                  <td>{r.cost}</td>
+                  <td>{r.unitCost}</td>
+                  <td>{r.retailPrice} / client</td>
+                  <td><span class="roi-profit">{r.profit}</span></td>
+                  <td><span class="roi-percent">{r.margin}</span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reseller Credit Pricing Section -->
+  <section class="section-padding" id="reseller-pricing" style="padding: 80px 0; background: var(--bg-secondary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-tags"></i> Wholesale Credit Packs</span>
+        <h2 class="section-title">IPTV Reseller Credit Packages & Pricing</h2>
+        <p class="section-description">
+          Credits do not expire. Purchase wholesale credit packages and create 1, 3, 6, and 12-month client subscriptions with up to 85% profit margins.
+        </p>
+      </div>
+
+      <div class="credit-grid">
+        {resellerCreditPacks.map(p => (
+          <div class={`credit-card ${p.popular ? 'popular' : ''}`}>
+            <span class="credit-badge">{p.badge}</span>
+            <div class="credit-count">{p.credits}</div>
+            <div class="credit-sub">IPTV Panel Access</div>
+            <div class="credit-price">{p.price}</div>
+            <div class="credit-per">{p.per}</div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px;">{p.desc}</p>
+            <a href={SITE.orderUrl} class="btn btn-primary full-width" target="_blank" rel="nofollow noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i> Buy {p.credits}
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <!-- Payment Trust Bar -->
+      <div class="payment-trust-bar">
+        <div style="font-size: 0.88rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; width: 100%; text-align: center; margin-bottom: 8px;">
+          <i class="fa-solid fa-shield-halved" style="color: var(--success); margin-right: 6px;"></i> 100% Encrypted & Verified Reseller Settlement Methods
+        </div>
+        {paymentMethods.map(m => (
+          <img src={m.img} alt={m.name} class="payment-badge-img" title={m.name} loading="lazy" height="32" />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Device Compatibility Hub -->
+  <section class="section-padding" id="devices-hub" style="padding: 80px 0;">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-display"></i> Universal Hardware Support</span>
+        <h2 class="section-title">Compatible Devices & Hardware Optimization Guides</h2>
+        <p class="section-description">
+          Our streaming infrastructure is engineered to run seamlessly across all major operating systems, streaming sticks, Smart TVs, and mobile devices.
+        </p>
+      </div>
+
+      <div class="device-grid">
+        {devices.map(d => (
+          <a href={`/${d.slug}/`} class="device-card">
+            <div class="card-img-wrap">
+              <img src={d.img} alt={d.name} class="card-img" width="400" height="225" loading="lazy" />
+            </div>
+            <div class="device-icon-wrap">
+              <i class={`fa-solid ${d.icon}`}></i>
+            </div>
+            <h3>{d.name}</h3>
+            <p>{d.desc}</p>
+            <div class="device-meta-list">
+              <div class="device-meta-item">
+                <span class="device-meta-label">Setup Time:</span>
+                <span class="device-meta-val"><i class="fa-solid fa-clock"></i> {d.setupTime}</span>
+              </div>
+              <div class="device-meta-item">
+                <span class="device-meta-label">Difficulty:</span>
+                <span class="device-meta-val">{d.difficulty}</span>
+              </div>
+              <div class="device-meta-item">
+                <span class="device-meta-label">Recommended:</span>
+                <span class="device-meta-val" style="color: var(--secondary-light);">{d.apps}</span>
+              </div>
+            </div>
+            <span style="color: var(--primary-light); font-size: 0.88rem; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">
+              Read Setup Tutorial <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Step-by-Step Setup Tutorials (Detailed Cards) -->
+  <section class="section-padding" style="padding: 80px 0; background: var(--bg-secondary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-wrench"></i> Setup Instructions</span>
+        <h2 class="section-title">Step-by-Step Device Setup Walkthroughs</h2>
+        <p class="section-description">
+          Follow our exact configuration steps to set up your IPTV subscription on Amazon Firestick, Android TV, Apple TV, and Smart TVs in under 5 minutes.
+        </p>
+      </div>
+
+      <div class="tutorial-grid">
+        {detailedTutorials.map(t => (
+          <div class="tutorial-card">
+            <div class="card-img-wrap" style="height: 190px;">
+              <img src={t.img} alt={t.title} class="card-img" width="400" height="200" loading="lazy" />
+            </div>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <i class={`fa-solid ${t.icon}`} style="font-size: 1.4rem; color: var(--primary-light);"></i>
+                <h3 style="font-size: 1.15rem; margin: 0; color: #fff;">{t.title}</h3>
+              </div>
+              <span class="player-badge-pill">{t.badge}</span>
+            </div>
+            <ul class="tutorial-steps-list">
+              {t.steps.map((s, idx) => (
+                <li>
+                  <span class="step-dot">{idx + 1}</span>
+                  <span>{s}</span>
+                </li>
+              ))}
+            </ul>
+            <div class="tutorial-tip">
+              <i class="fa-solid fa-lightbulb" style="color: var(--warning); margin-right: 6px;"></i>
+              {t.tip}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprehensive Supported IPTV Players, Protocols & Portal Apps -->
+  <section class="section-padding" id="apps-hub" style="padding: 85px 0; background: var(--bg-tertiary); position: relative;">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      
+      <!-- Section Header -->
+      <div class="section-header text-center" style="max-width: 860px; margin: 0 auto 48px;">
+        <span class="section-badge"><i class="fa-solid fa-play"></i> Comprehensive Player Directory {SITE.year}</span>
+        <h2 class="section-title" style="font-size: clamp(2rem, 3.6vw, 2.85rem); margin-top: 14px; line-height: 1.25;">
+          The Top 10 IPTV Players & Streaming Protocols Explained
+        </h2>
+        <p class="section-description" style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.75; margin-top: 14px;">
+          Connect your reseller accounts or personal line via Xtream Codes API, M3U URL, or MAC Address. Review our in-depth analysis of the top 10 streaming applications for Firestick, Smart TVs, Android, Apple TV, and PC below.
+        </p>
+      </div>
+
+      <!-- Top 10 In-Depth Player Cards Grid ("Hder 3lihom Wa7da b Wa7da") -->
+      <div class="master-players-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: 28px; margin-bottom: 60px;">
+        {iptvPlayers.map((p, idx) => (
+          <div class="master-player-card" style="background: var(--bg-card); border: 1px solid rgba(255, 255, 255, 0.09); border-radius: var(--radius-2xl); padding: 32px 28px; display: flex; flex-direction: column; transition: all var(--transition-base); box-shadow: var(--shadow-lg); position: relative;">
+            
+            {/* Top Bar with Badge & Rating */}
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; flex-wrap: wrap; gap: 8px;">
+              <span class={`player-badge-pill ${p.badgeClass}`} style="margin-bottom: 0; padding: 5px 12px; font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; border-radius: var(--radius-full); background: rgba(108, 92, 231, 0.15); border: 1px solid rgba(108, 92, 231, 0.4); color: var(--primary-light);">
+                <i class="fa-solid fa-award"></i> {p.badge}
+              </span>
+              <div style="display: inline-flex; align-items: center; gap: 5px; font-size: 0.85rem; font-weight: 700; color: #ffb800; background: rgba(255, 184, 0, 0.1); padding: 3px 10px; border-radius: var(--radius-full);">
+                <i class="fa-solid fa-star"></i> {p.rating}
+                <small style="color: var(--text-muted); font-weight: 500;">({p.reviews})</small>
+              </div>
+            </div>
+
+            {/* Player Head: Logo & Title */}
+            <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 18px;">
+              <div style="width: 58px; height: 58px; border-radius: var(--radius-lg); background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); display: flex; align-items: center; justify-content: center; overflow: hidden; flex-shrink: 0; box-shadow: var(--shadow-sm);">
+                <img src={p.logo} alt={p.name} width="58" height="58" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy" />
+              </div>
+              <div>
+                <h3 style="font-size: 1.35rem; margin: 0 0 4px; color: #ffffff; font-weight: 800;">{p.name}</h3>
+                <div style="font-size: 0.82rem; color: var(--secondary-light); font-weight: 600; display: flex; align-items: center; gap: 6px;">
+                  <i class="fa-solid fa-download"></i> {p.downloaderCode}
+                </div>
+              </div>
+            </div>
+
+            {/* Target Devices & Protocols Pills */}
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px;">
+              {p.devices.slice(0, 4).map(d => (
+                <span style="font-size: 0.72rem; padding: 2px 8px; border-radius: 6px; background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.08); color: var(--text-secondary);">
+                  <i class="fa-solid fa-display" style="font-size: 0.65rem; margin-right: 4px; color: var(--primary-light);"></i>{d}
+                </span>
+              ))}
+              {p.protocols.map(prot => (
+                <span style="font-size: 0.72rem; padding: 2px 8px; border-radius: 6px; background: rgba(0, 206, 201, 0.08); border: 1px solid rgba(0, 206, 201, 0.2); color: var(--secondary-light); font-weight: 600;">
+                  {prot}
+                </span>
+              ))}
+            </div>
+
+            {/* In-Depth Description / Review ("Hder 3liha") */}
+            <div style="margin-bottom: 18px; font-size: 0.94rem; line-height: 1.7; color: var(--text-secondary);">
+              <p style="margin: 0 0 10px;">{p.deepDive}</p>
+            </div>
+
+            {/* Key Advantages Checklist */}
+            <div style="margin-bottom: 20px; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: var(--radius-md); padding: 14px 16px;">
+              <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-white); margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+                <i class="fa-solid fa-circle-check" style="color: var(--success-light);"></i> Key Advantages:
+              </div>
+              <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 7px;">
+                {p.pros.map(pr => (
+                  <li style="font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: flex-start; gap: 8px; line-height: 1.45;">
+                    <i class="fa-solid fa-check" style="color: var(--success); font-size: 0.8rem; margin-top: 3px; flex-shrink: 0;"></i>
+                    <span>{pr}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Step-by-Step Quick Setup Guide */}
+            <div style="margin-bottom: 20px;">
+              <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary-light); margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+                <i class="fa-solid fa-wrench"></i> Quick 3-Step Setup:
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                {p.setup.map((st, sIdx) => (
+                  <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.84rem; color: var(--text-secondary); line-height: 1.45;">
+                    <span style="width: 20px; height: 20px; border-radius: 50%; background: var(--gradient-primary); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 800; flex-shrink: 0; margin-top: 1px;">
+                      {sIdx + 1}
+                    </span>
+                    <span>{st}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* SEO Keywords Cloud */}
+            <div style="margin-top: auto; padding-top: 16px; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+              <div style="font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 8px;">
+                Related Search Terms:
+              </div>
+              <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 16px;">
+                {p.keywords.map(kw => (
+                  <span style="font-size: 0.72rem; padding: 2px 7px; border-radius: 4px; background: rgba(255, 255, 255, 0.03); color: var(--text-muted); border: 1px solid rgba(255, 255, 255, 0.05);">
+                    #{kw}
+                  </span>
+                ))}
+              </div>
+
+              {/* Action Buttons */}
+              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href={`/${p.slug}/`} class="btn btn-secondary btn-sm" style="flex: 1; min-width: 140px; text-align: center; justify-content: center;">
+                  <i class="fa-solid fa-book-open"></i> Full {p.shortName} Guide
+                </a>
+                <a href={`${SITE.orderUrl}?text=${encodeURIComponent(`Hello, I would like to set up an IPTV line on ${p.name}`)}`} class="btn btn-whatsapp btn-sm" target="_blank" rel="nofollow noopener noreferrer" style="flex: 1; min-width: 140px; text-align: center; justify-content: center;">
+                  <i class="fa-brands fa-whatsapp"></i> Get Setup Code
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Smart TV & Android MAC Portal Players Showcase (19 Apps from Screenshot) -->
+      <div class="glass-card" style="padding: 40px 32px; background: rgba(17, 24, 39, 0.75); border: 1px solid rgba(108, 92, 231, 0.3); border-radius: var(--radius-2xl); margin-bottom: 60px;">
+        <div class="section-header text-center" style="max-width: 780px; margin: 0 auto 32px;">
+          <span class="section-badge"><i class="fa-solid fa-satellite-dish"></i> 100% Portal Compatibility</span>
+          <h3 style="font-size: 1.85rem; margin-top: 10px; color: #ffffff;">
+            Supported Smart TV & Android MAC Portal Applications
+          </h3>
+          <p style="color: var(--text-secondary); font-size: 0.98rem; line-height: 1.7;">
+            Our IPTV service and reseller infrastructure support <strong>100% remote portal activation</strong> across all leading MAC-based applications on Samsung Tizen, LG webOS, Android TV, and Firestick. Simply send your <strong>Device MAC & Key</strong> to our WhatsApp support for instant remote line authorization without entering long M3U URLs.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr)); gap: 16px;">
+          {portalActivationApps.map(app => (
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: var(--radius-lg); padding: 18px 14px; text-align: center; transition: all var(--transition-base); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, rgba(108, 92, 231, 0.2), rgba(0, 206, 201, 0.2)); border: 1px solid rgba(108, 92, 231, 0.35); display: flex; align-items: center; justify-content: center; color: var(--primary-light); font-size: 1.15rem;">
+                <i class={`fa-solid ${app.icon}`}></i>
+              </div>
+              <strong style="color: #ffffff; font-size: 0.92rem; letter-spacing: -0.01em;">{app.name}</strong>
+              <span style="font-size: 0.72rem; color: var(--secondary-light); background: rgba(0, 206, 201, 0.1); border: 1px solid rgba(0, 206, 201, 0.25); padding: 2px 8px; border-radius: var(--radius-full); font-weight: 600;">
+                {app.badge}
+              </span>
+              <span style="font-size: 0.68rem; color: var(--success-light); display: inline-flex; align-items: center; gap: 4px; font-weight: 700;">
+                <i class="fa-solid fa-circle-check" style="font-size: 0.65rem;"></i> MAC Portal Ready
+              </span>
+            </div>
+          ))}
+        </div>
+
+        <div style="margin-top: 32px; text-align: center; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.08); display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <span style="font-size: 0.95rem; color: var(--text-secondary);">
+            Using one of these players on your Smart TV?
+          </span>
+          <a href={`${SITE.orderUrl}?text=${encodeURIComponent('Hello, I would like to activate my IPTV subscription via Device MAC and Key.')}`} class="btn btn-whatsapp btn-md" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Send MAC for Instant Activation ({SITE.phone})
+          </a>
+        </div>
+      </div>
+
+      <!-- Technical Protocol & Feature Comparison Table -->
+      <div style="margin-top: 20px;">
+        <div class="section-header text-center" style="max-width: 760px; margin: 0 auto 32px;">
+          <span class="section-badge"><i class="fa-solid fa-table-list"></i> Side-by-Side Comparison</span>
+          <h3 style="font-size: 1.85rem; margin-top: 10px; color: #ffffff;">
+            IPTV Players Feature & Protocol Matrix {SITE.year}
+          </h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem;">
+            Compare platform coverage, API support, EPG capabilities, and multi-view features across all 10 major players.
+          </p>
+        </div>
+
+        <div class="roi-table-container">
+          <table class="roi-table">
+            <thead>
+              <tr>
+                <th>Media Player</th>
+                <th>Supported Platforms</th>
+                <th>Xtream API</th>
+                <th>M3U8 Playlists</th>
+                <th>EPG TV Guide</th>
+                <th>Multi-Screen</th>
+                <th>DVR Record</th>
+                <th>App Cost</th>
+                <th>Best Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              {playerComparison.map(row => (
+                <tr>
+                  <td>
+                    <strong style="color: #ffffff; display: flex; align-items: center; gap: 8px;">
+                      <i class="fa-solid fa-circle-play" style="color: var(--primary-light);"></i>
+                      {row.name}
+                    </strong>
+                  </td>
+                  <td style="font-size: 0.84rem; color: var(--text-secondary);">{row.platform}</td>
+                  <td>
+                    <span style="color: var(--success-light); font-weight: 700; font-size: 0.85rem;">
+                      <i class="fa-solid fa-check"></i> {row.xtream}
+                    </span>
+                  </td>
+                  <td>
+                    <span style="color: var(--success-light); font-weight: 700; font-size: 0.85rem;">
+                      <i class="fa-solid fa-check"></i> {row.m3u}
+                    </span>
+                  </td>
+                  <td style="font-size: 0.85rem; color: var(--text-secondary);">{row.epg}</td>
+                  <td><span class="roi-profit" style="font-size: 0.8rem;">{row.multi}</span></td>
+                  <td style="font-size: 0.85rem; color: var(--text-muted);">{row.dvr}</td>
+                  <td><span style="font-size: 0.82rem; font-weight: 700; color: var(--secondary-light);">{row.cost}</span></td>
+                  <td><span class="roi-tier" style="font-size: 0.8rem;">{row.bestFor}</span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Worldwide Sports & PPV Streaming Hub -->
+  <section class="section-padding" id="sports-hub" style="padding: 80px 0; background: var(--bg-secondary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-trophy"></i> Live Sports & Pay-Per-View</span>
+        <h2 class="section-title">Every Major League & PPV Event Broadcasted in 4K 60FPS</h2>
+        <p class="section-description">
+          Never miss a live match, championship derby, or world title fight. Dedicated high-bitrate sports feeds backed by Anti-Freeze 9.8 load balancing.
+        </p>
+      </div>
+
+      <div class="sports-hub-grid">
+        {sportsHub.map(s => (
+          <div class="sports-hub-card">
+            <div class="card-img-wrap">
+              <img src={s.img} alt={s.category} class="card-img" width="400" height="225" loading="lazy" />
+            </div>
+            <div class="sports-hub-header">
+              <div class="sports-hub-icon">
+                <i class={`fa-solid ${s.icon}`}></i>
+              </div>
+              <div>
+                <h3>{s.category}</h3>
+                <span style="font-size: 0.8rem; color: var(--success); font-weight: 600;">Full HD & 4K UHD 60FPS</span>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; font-weight: 600;">{s.specs}</p>
+            <div class="sports-leagues-wrap">
+              {s.leagues.map(l => (
+                <span class="league-badge"><i class="fa-solid fa-check" style="color: var(--accent); margin-right: 4px;"></i> {l}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Cinematic 4K Experience & Media Gallery Showcase -->
+  <section class="section-padding" style="padding: 80px 0; background: var(--bg-tertiary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-photo-film"></i> Visual Showcase</span>
+        <h2 class="section-title">Experience Flawless 4K IPTV Across Every Screen</h2>
+        <p class="section-description">
+          From living room OLED home cinemas to stadium-level live sports and multi-screen household setups, explore how our streaming architecture delivers an uncompromising visual experience.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr)); gap: 24px;">
+        {galleryItems.map(g => (
+          <div style="background: var(--bg-card); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.08); transition: transform 0.3s ease, border-color 0.3s ease; display: flex; flex-direction: column;">
+            <div class="card-img-wrap" style="height: 220px; margin-bottom: 0;">
+              <img src={g.img} alt={g.title} class="card-img" width="800" height="450" loading="lazy" />
+              <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.8); color: var(--secondary-light); font-size: 0.75rem; font-weight: 700; padding: 4px 12px; border-radius: 20px; backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.15);">
+                {g.tag}
+              </span>
+            </div>
+            <div style="padding: 22px; flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <h3 style="font-size: 1.2rem; margin: 0 0 8px; color: #fff;">{g.title}</h3>
+                <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">{g.desc}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Geographic Location Hubs (Expanded 12 Global Markets) -->
+  <section class="locations-section">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-location-dot"></i> Global IPTV Markets</span>
+        <h2 class="section-title">Target High-Intent Regional IPTV Markets</h2>
+        <p class="section-description">
+          Location-targeted IPTV channels and local CDN servers ensure zero buffering, full domestic sports coverage, and optimal regional latency.
+        </p>
+      </div>
+
+      <div class="location-grid">
+        {locations.map(loc => (
+          <a href={`/${loc.slug}/`} class="location-card">
+            <i class={`fa-solid ${loc.icon}`}></i>
+            <h3>{loc.name}</h3>
+            <p>{loc.desc}</p>
+            <span class="location-link">Explore {loc.name} <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Enterprise Infrastructure vs Cheap Resellers / Free Playlists Breakdown Table -->
+  <section class="section-padding" style="padding: 80px 0; background: var(--bg-tertiary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-shield-halved"></i> Engineering Transparency</span>
+        <h2 class="section-title">Why Cheap Reseller Panels & Free Playlists Fail</h2>
+        <p class="section-description">
+          Understand the technical differences between unstable budget sellers and our enterprise-grade IPTV streaming infrastructure.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 20px; margin-bottom: 30px;">
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.08);">
+          <div class="card-img-wrap" style="height: 180px; margin-bottom: 0;">
+            <img src="/images/anti-freeze-tech-w400.webp" alt="Anti-Freeze 9.8 Server Routing" class="card-img" width="400" height="200" loading="lazy" />
+          </div>
+          <div style="padding: 16px;">
+            <h3 style="margin: 0 0 6px; font-size: 1.05rem; color: #fff;"><i class="fa-solid fa-snowflake" style="color: var(--primary-light);"></i> Anti-Freeze 9.8 Routing</h3>
+            <p style="margin: 0; font-size: 0.85rem; color: var(--text-secondary);">Automated traffic shedding prevents server overload when 100,000+ viewers tune into Champions League & UFC PPVs.</p>
+          </div>
+        </div>
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.08);">
+          <div class="card-img-wrap" style="height: 180px; margin-bottom: 0;">
+            <img src="/images/server-infra-w400.webp" alt="Tier-4 Global IPTV Servers" class="card-img" width="400" height="200" loading="lazy" />
+          </div>
+          <div style="padding: 16px;">
+            <h3 style="margin: 0 0 6px; font-size: 1.05rem; color: #fff;"><i class="fa-solid fa-server" style="color: var(--secondary-light);"></i> Tier-4 Multi-CDN Backbone</h3>
+            <p style="margin: 0; font-size: 0.85rem; color: var(--text-secondary);">Direct 10-40 Gbps fiber uplinks in Frankfurt, London, Ashburn, Dallas, and Sydney ensure sub-20ms packet transit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="roi-table-container">
+        <table class="speed-matrix-table">
+          <thead>
+            <tr>
+              <th>Evaluation Feature</th>
+              <th>Budget Resellers & Free M3U</th>
+              <th>{SITE.name} Enterprise Infrastructure</th>
+            </tr>
+          </thead>
+          <tbody>
+            {vsFreeResellers.map(v => (
+              <tr>
+                <td><strong style="color: #fff;">{v.feature}</strong></td>
+                <td style="color: var(--danger-light);">{v.free}</td>
+                <td><strong style="color: var(--success-light);">{v.us}</strong></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Table Matrix -->
+  <section class="comparison-section" id="comparison-matrix">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-scale-balanced"></i> Provider Comparison Matrix</span>
+        <h2 class="section-title">What Makes an Outstanding IPTV Provider in {SITE.year}?</h2>
+        <p class="section-description">
+          Review the critical criteria we test when rating IPTV services for both consumers and professional resellers.
+        </p>
+      </div>
+
+      <div class="comparison-table-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Why It Matters for Resellers & Viewers</th>
+              <th>Recommended Leaders</th>
+              <th>Impact Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Stable Reseller Panel</strong></td>
+              <td>Essential for activating accounts, creating trials, and managing renewals without downtime.</td>
+              <td>Trex IPTV, 8K IPTV, Ultra 8K, Crystal</td>
+              <td><span class="badge-critical">Critical</span></td>
+            </tr>
+            <tr>
+              <td><strong>20,000+ Movies & Series (VOD)</strong></td>
+              <td>Large on-demand libraries attract binge-watchers and dramatically increase customer retention.</td>
+              <td>Trex IPTV, Ultra 8K, MegaOTT, 5GLive</td>
+              <td><span class="badge-high">High</span></td>
+            </tr>
+            <tr>
+              <td><strong>8,000+ Live Channels Worldwide</strong></td>
+              <td>Comprehensive sports, news, international, and premium entertainment channels expand your market.</td>
+              <td>Trex IPTV, 8K IPTV, 5GLive, Cyber IPTV</td>
+              <td><span class="badge-high">High</span></td>
+            </tr>
+            <tr>
+              <td><strong>Multi-Device Compatibility</strong></td>
+              <td>Streams seamlessly on Firestick, Android TV, Apple TV, Smart TVs (Samsung/LG), and mobile.</td>
+              <td>All Listed Providers</td>
+              <td><span class="badge-critical">Critical</span></td>
+            </tr>
+            <tr>
+              <td><strong>Anti-Freeze 9.8 Technology</strong></td>
+              <td>Dynamic load-balancing prevents buffering during peak sports events (Premier League, NFL, UFC).</td>
+              <td>Trex IPTV, Ultra 8K, Cyber IPTV</td>
+              <td><span class="badge-critical">Critical</span></td>
+            </tr>
+            <tr>
+              <td><strong>24/7 Instant Support</strong></td>
+              <td>Direct WhatsApp support desk ensures quick troubleshooting and prompt credit top-ups.</td>
+              <td>{SITE.name} Priority Desk ({SITE.phone})</td>
+              <td><span class="badge-critical">Critical</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Steps Section: How to Start in 4 Easy Steps -->
+  <section class="steps-section" style="background: var(--bg-secondary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-shoe-prints"></i> Easy 4-Step Process</span>
+        <h2 class="section-title">How to Launch Your IPTV Business in 4 Steps</h2>
+        <p class="section-description">
+          Get up and running in less than 30 minutes with our guided reseller onboarding.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-number">01</span>
+          <i class="fa-solid fa-hand-pointer"></i>
+          <h3>Choose Provider</h3>
+          <p>Select Trex IPTV, Ultra 8K, 8K IPTV, or 5GLive based on your target audience and regional focus.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">02</span>
+          <i class="fa-solid fa-user-lock"></i>
+          <h3>Get Panel Login</h3>
+          <p>Receive your dedicated reseller dashboard login, username, and password immediately via WhatsApp.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">03</span>
+          <i class="fa-solid fa-coins"></i>
+          <h3>Add Credits</h3>
+          <p>Load credits onto your panel to activate paying customers and generate unlimited free trials.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">04</span>
+          <i class="fa-solid fa-money-bill-trend-up"></i>
+          <h3>Start Selling</h3>
+          <p>Charge your customers directly via PayPal, Card, or Crypto and keep 100% of your retail margin.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Verified Reseller Case Studies & Testimonials (E-E-A-T Authority) -->
+  <section class="section-padding" style="padding: 80px 0;">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-star"></i> Real Reseller Success</span>
+        <h2 class="section-title">Verified Case Studies from Active IPTV Resellers</h2>
+        <p class="section-description">
+          Learn how independent digital entrepreneurs and commercial venues leverage our IPTV panels to generate high recurring monthly income.
+        </p>
+      </div>
+
+      <div class="case-study-grid">
+        {caseStudies.map(c => (
+          <div class="case-study-card">
+            <span class="case-study-badge"><i class="fa-solid fa-circle-check"></i> {c.badge}</span>
+            <div style="font-size: 1.15rem; font-weight: 800; color: var(--success); margin-bottom: 12px;">{c.profit}</div>
+            <p class="case-study-quote">"{c.quote}"</p>
+            <div class="case-study-author">
+              <img src={c.avatar} alt={c.name} class="avatar-img" width="52" height="52" loading="lazy" />
+              <div class="author-info">
+                <h3>{c.name}</h3>
+                <span>{c.location}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete IPTV Glossary of Technical Terms (Rich Snippets SEO) -->
+  <section class="section-padding" style="padding: 80px 0; background: var(--bg-secondary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-spell-check"></i> Industry Knowledge Hub</span>
+        <h2 class="section-title">Glossary of Technical IPTV & Reseller Terminology</h2>
+        <p class="section-description">
+          Demystifying essential streaming architecture, compression formats, and reseller terminology for informed buying decisions.
+        </p>
+      </div>
+
+      <div class="glossary-grid">
+        {glossaryTerms.map(g => (
+          <div class="glossary-card">
+            <div class="glossary-term">
+              <i class={`fa-solid ${g.icon}`}></i> {g.term}
+            </div>
+            <p class="glossary-definition">{g.def}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== DEEP AUTHORITY SEO EDITORIAL ARTICLES ==================== -->
+  <section class="seo-article-extended" style="padding: 80px 0; background: var(--bg-primary);">
+    <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center" style="margin-bottom: 50px;">
+        <span class="section-badge"><i class="fa-solid fa-book-open"></i> In-Depth IPTV Authority Hub</span>
+        <h2 class="section-title">The Complete Technical & Business Guide to IPTV in {SITE.year}</h2>
+        <p class="section-description">
+          Master the technical architecture, bandwidth optimization, reseller economics, and device setup rules that power modern Internet Protocol Television.
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 40px;">
+        <!-- SEO Pillar 1 -->
+        <article class="glass-card" style="padding: 36px;">
+          <h3 style="font-size: 1.6rem; margin-bottom: 16px; color: #ffffff;">
+            <i class="fa-solid fa-microchip" style="color: var(--primary-light); margin-right: 8px;"></i>
+            How Modern IPTV Streaming Works: CDN Caching, H.265 Encoding & Anti-Freeze 9.8
+          </h3>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px;">
+            Unlike traditional cable or satellite broadcasting—which relies on high-frequency microwave uplinks to geostationary orbital satellites—modern IPTV functions through distributed Internet Protocol networks. Raw television feeds from authorized satellite downlinks are ingested by high-capacity video encoders, compressed using advanced <strong>H.265 (HEVC)</strong> and <strong>H.264 (AVC)</strong> codecs, and packetized into adaptive transport streams (MPEG-TS and HLS).
+          </p>
+          <div class="card-img-wrap" style="height: 260px; margin: 24px 0;">
+            <img src="/images/anti-freeze-tech-w800.webp" alt="Anti-Freeze 9.8 Streaming Infrastructure" class="card-img" width="800" height="400" loading="lazy" />
+          </div>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px;">
+            In past years, budget IPTV services frequently suffered from catastrophic server crashes during high-stakes football derbies or pay-per-view boxing events. When 100,000 concurrent viewers attempted to pull data from a single centralized web server, bandwidth choked. <strong>{SITE.name}</strong> solves this through <strong>Anti-Freeze™ 9.8</strong> architecture paired with an enterprise Multi-CDN (Content Delivery Network) array. Edge servers stationed in Frankfurt, London, Amsterdam, New York, Dallas, and Sydney cache live packets locally, reducing round-trip latency below 20 milliseconds and ensuring fluid 60 FPS playback.
+          </p>
+          <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 12px; margin-top: 16px;">
+            <li style="color: var(--text-secondary); font-size: 0.95rem;"><i class="fa-solid fa-circle-check" style="color: var(--success); margin-right: 8px;"></i> Sub-second channel switching times (under 0.4s)</li>
+            <li style="color: var(--text-secondary); font-size: 0.95rem;"><i class="fa-solid fa-circle-check" style="color: var(--success); margin-right: 8px;"></i> Native 60 FPS frame rates for high-speed sports motion</li>
+            <li style="color: var(--text-secondary); font-size: 0.95rem;"><i class="fa-solid fa-circle-check" style="color: var(--success); margin-right: 8px;"></i> Dynamic HLS fallback if connection speed drops</li>
+          </ul>
+        </article>
+
+        <!-- SEO Pillar 2 -->
+        <article class="glass-card" style="padding: 36px;">
+          <h3 style="font-size: 1.6rem; margin-bottom: 16px; color: #ffffff;">
+            <i class="fa-solid fa-chart-line" style="color: var(--secondary-light); margin-right: 8px;"></i>
+            IPTV Reseller Economics: How to Build a $5,000+/Month Recurring Revenue Business
+          </h3>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px;">
+            The global cord-cutting movement has made IPTV reselling one of the most lucrative digital business opportunities in {SITE.year}. Consumers across North America, the United Kingdom, Europe, and Australia are actively seeking alternatives to astronomical $120/month cable bills. As an authorized IPTV reseller, you bridge this gap by providing full 4K channels and vast VOD libraries for $60 to $90 annually—a massive bargain for consumers, yet exceptionally profitable for you.
+          </p>
+          <div class="card-img-wrap" style="height: 260px; margin: 24px 0;">
+            <img src="/images/provider-comparison-w800.webp" alt="IPTV Reseller Business Economics and Profit Margins" class="card-img" width="800" height="400" loading="lazy" />
+          </div>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px;">
+            Consider the mathematics: an investment in a 25-credit reseller pack costs $325 ($13.00 per 1-year credit). When you retail those 25 accounts at $75 each, your gross revenue is $1,875, resulting in <strong>$1,550 pure profit (an 82% margin)</strong>. Reinvesting profits into 100-credit packs lowers your unit cost to $9.00 per credit. Furthermore, with annual renewal rates averaging 75% to 80% on high-stability servers, your customer base compounds exponentially year after year.
+          </p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px; margin-top: 20px;">
+            <div style="padding: 16px; background: rgba(255, 255, 255, 0.04); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.08); text-align: center;">
+              <strong style="display: block; font-size: 1.5rem; color: var(--primary-light);">25 Clients</strong>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">~$1,550 Net Profit</span>
+            </div>
+            <div style="padding: 16px; background: rgba(255, 255, 255, 0.04); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.08); text-align: center;">
+              <strong style="display: block; font-size: 1.5rem; color: var(--secondary-light);">50 Clients</strong>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">~$3,450 Net Profit</span>
+            </div>
+            <div style="padding: 16px; background: rgba(255, 255, 255, 0.04); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.08); text-align: center;">
+              <strong style="display: block; font-size: 1.5rem; color: var(--warning);">100 Clients</strong>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">~$7,100 Net Profit</span>
+            </div>
+            <div style="padding: 16px; background: rgba(255, 255, 255, 0.04); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.08); text-align: center;">
+              <strong style="display: block; font-size: 1.5rem; color: var(--success-light);">250 Clients</strong>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">~$18,750 Net Profit</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- SEO Pillar 3 -->
+        <article class="glass-card" style="padding: 36px;">
+          <h3 style="font-size: 1.6rem; margin-bottom: 16px; color: #ffffff;">
+            <i class="fa-solid fa-tv" style="color: var(--accent); margin-right: 8px;"></i>
+            Hardware & Application Optimization: Firestick, Smart TVs, TiviMate & Smarters
+          </h3>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px;">
+            The streaming device and application you choose directly impact playback stability. For dedicated TV streaming, the <strong>Amazon Fire TV Stick 4K Max</strong> and <strong>Nvidia Shield Pro</strong> represent the premier hardware choices due to their powerful GPU hardware decoders and broad Android APK compatibility.
+          </p>
+          <div class="card-img-wrap" style="height: 260px; margin: 24px 0;">
+            <img src="/images/apps-dashboard-w800.webp" alt="TiviMate Smarters and IBO Player App Ecosystem" class="card-img" width="800" height="400" loading="lazy" />
+          </div>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px;">
+            When configuring client applications, <strong>TiviMate Premium</strong> is widely praised by enthusiasts for its native cable-box EPG interface, multi-view screen splitting (watching 4 sports matches at once), and automated channel backup. For cross-platform ease of use, <strong>IPTV Smarters Pro</strong> and <strong>IBO Player Pro</strong> provide effortless installation on Samsung Tizen and LG webOS smart TVs without requiring external streaming sticks.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXTENSIVE PROGRAMMATIC LINK DIRECTORIES (CRAWL HIGHWAY) ==================== -->
+  <section class="section-padding" style="padding: 80px 0; background: var(--bg-secondary);">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-compass"></i> Streaming Knowledge Base & Directory</span>
+        <h2 class="section-title">Explore Streaming Tutorials, Hardware Guides & Comparisons</h2>
+        <p class="section-description">
+          Browse our comprehensive library of technical tutorials, player configuration guides, hardware walkthroughs, and regional broadcast directories.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px;">
+        <!-- Column 1: Providers & Comparisons -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: var(--primary-light);">
+              <i class="fa-solid fa-satellite-dish"></i> Top Providers
+            </h3>
+            <span class="category-count-badge">2,046 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topProviderLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: var(--primary-light);"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/providers/" style="color: var(--primary-light); font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Provider Hubs &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Column 2: Reseller Programs -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: var(--secondary-light);">
+              <i class="fa-solid fa-store"></i> Reseller Panels
+            </h3>
+            <span class="category-count-badge">143 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topResellerLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: var(--secondary-light);"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/reseller/" style="color: var(--secondary-light); font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Reseller Guides &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Column 3: Regional Hubs -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: var(--accent);">
+              <i class="fa-solid fa-globe"></i> Regional Hubs
+            </h3>
+            <span class="category-count-badge">252 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topLocationLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: var(--accent);"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/locations/" style="color: var(--accent); font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Location Hubs &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Column 4: Devices & Hardware -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: var(--warning);">
+              <i class="fa-solid fa-display"></i> Devices & TV
+            </h3>
+            <span class="category-count-badge">791 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topDeviceLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: var(--warning);"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/devices/" style="color: var(--warning); font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Device Tutorials &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Column 5: Live Sports -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: var(--success-light);">
+              <i class="fa-solid fa-futbol"></i> Sports & PPV
+            </h3>
+            <span class="category-count-badge">503 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topSportLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: var(--success-light);"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/sports/" style="color: var(--success-light); font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Sports Guides &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Column 6: Players & Apps -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: var(--primary-light);">
+              <i class="fa-solid fa-play"></i> Players & Apps
+            </h3>
+            <span class="category-count-badge">619 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topAppLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: var(--primary-light);"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/apps/" style="color: var(--primary-light); font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Player Apps &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Column 7: Setup & Tutorials -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: #a29bfe;">
+              <i class="fa-solid fa-wrench"></i> Setup & Config
+            </h3>
+            <span class="category-count-badge">162 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topSetupLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: #a29bfe;"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/setup/" style="color: #a29bfe; font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Setup Tutorials &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Column 8: Trials & Pricing -->
+        <div class="category-directory-column">
+          <div class="category-directory-header">
+            <h3 style="color: var(--success);">
+              <i class="fa-solid fa-clock"></i> Free Trials & Plans
+            </h3>
+            <span class="category-count-badge">484 Guides</span>
+          </div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+            {topTrialLinks.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} style="color: var(--text-secondary); text-decoration: none; font-size: 0.88rem; display: flex; align-items: center; justify-content: space-between; padding: 4px 0;">
+                  <span>{titleCase(p.keyword)}</span>
+                  <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; color: var(--success);"></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <a href="/category/trial/" style="color: var(--success); font-size: 0.82rem; font-weight: 700; text-decoration: none;">View All Trial Offers &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section with Schema.org FAQPage (24 Questions) -->
+  <section class="section-padding" style="padding: 80px 0;">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-circle-question"></i> Comprehensive FAQ Hub</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-description">
+          Find comprehensive, transparent answers to every question regarding IPTV subscriptions, reseller panels, credits, and device setup.
+        </p>
+      </div>
+
+      <div class="faq-grid">
+        {faqs.map(f => (
+          <div class="faq-item">
+            <h3><i class="fa-solid fa-question-circle"></i> {f.q}</h3>
+            <p>{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- High Converting CTA Banner -->
+  <section class="cta-section">
+    <div class="container" style="max-width: 1320px; margin: 0 auto; padding: 0 24px;">
+      <div class="cta-card">
+        <h2>Ready to Build Recurring Revenue with {SITE.name}?</h2>
+        <p>
+          Connect directly with our senior IPTV support desk on WhatsApp ({SITE.phone}). Get your reseller panel set up with test credits, custom DNS guidance, and priority server routing today.
+        </p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href={SITE.orderUrl} class="btn btn-whatsapp btn-xl" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp ({SITE.phone})
+          </a>
+          <a href={SITE.buy1YearUrl} class="btn btn-secondary btn-xl" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa-solid fa-gem"></i> Buy Subscription 1 Year
+          </a>
+        </div>
+
+        <!-- Official Support Email & Community Channels -->
+        <div style="display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-top: 28px; align-items: center; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+          <span style="font-size: 0.85rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">Official Support Channels:</span>
+          <a href={`mailto:${SITE.supportEmail}`} style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;"><i class="fa-solid fa-envelope" style="color: #ef4444;"></i> {SITE.supportEmail}</a>
+          <a href={SITE.social.discord} target="_blank" rel="nofollow noopener noreferrer" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;"><i class="fa-brands fa-discord" style="color: #818cf8;"></i> Discord Community</a>
+          <a href={SITE.social.instagram} target="_blank" rel="nofollow noopener noreferrer" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;"><i class="fa-brands fa-instagram" style="color: #f472b6;"></i> Instagram (@4ktrexiptv)</a>
+          <a href={SITE.social.facebook} target="_blank" rel="nofollow noopener noreferrer" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;"><i class="fa-brands fa-facebook-f" style="color: #60a5fa;"></i> Facebook</a>
+          <a href={SITE.social.x} target="_blank" rel="nofollow noopener noreferrer" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;"><i class="fa-brands fa-x-twitter" style="color: #fff;"></i> X (@4ktrexiptv)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,1512 @@
+{
+ "_note": "key -> source file (relative to ../public/images), optional dest name, alt text per locale. Run: node pipeline/sync-images.mjs",
+ "hero-home": {
+  "file": "iptv/home/iptv-streaming-erlebnis.webp",
+  "alt": {
+   "en": "Family watching live TV and sport on a large smart TV in a dark living room",
+   "de": "Familie schaut Live-TV und Sport auf einem großen Smart-TV im abgedunkelten Wohnzimmer"
+  }
+ },
+ "home-living": {
+  "file": "iptv/home/iptv-deutschland.webp",
+  "alt": {
+   "en": "Bright modern living room with a wall-mounted smart TV",
+   "de": "Helles modernes Wohnzimmer mit Smart-TV an der Wand"
+  }
+ },
+ "home-smart-tv": {
+  "file": "iptv/home/iptv-smart-tv.webp",
+  "alt": {
+   "en": "Large smart TV showing colourful streaming content",
+   "de": "Großer Smart-TV mit farbigen Streaming-Inhalten"
+  }
+ },
+ "home-streaming": {
+  "file": "iptv/home/iptv-streaming-home.webp",
+  "alt": {
+   "en": "Home cinema room with an IPTV channel guide on screen",
+   "de": "Heimkino-Raum mit IPTV-Senderliste auf dem Bildschirm"
+  }
+ },
+ "devices-collection": {
+  "file": "devices/devices-collection.webp",
+  "alt": {
+   "en": "Smart TV, tablet, phone, laptop and streaming stick on one table",
+   "de": "Smart-TV, Tablet, Smartphone, Laptop und Streaming-Stick auf einem Tisch"
+  }
+ },
+ "devices-multi": {
+  "file": "iptv/devices/iptv-mehrere-geraete.webp",
+  "alt": {
+   "en": "IPTV running on several devices at the same time",
+   "de": "IPTV läuft gleichzeitig auf mehreren Geräten"
+  }
+ },
+ "dev-firestick": {
+  "file": "iptv/devices/hero-fire-stick.webp",
+  "alt": {
+   "en": "Illustration of a streaming stick with remote",
+   "de": "Illustration eines Streaming-Sticks mit Fernbedienung"
+  },
+  "fit": "contain"
+ },
+ "dev-androidtv": {
+  "file": "iptv/devices/hero-android-tv.webp",
+  "alt": {
+   "en": "Illustration of a smart TV with a set-top box",
+   "de": "Illustration eines Smart-TVs mit TV-Box"
+  },
+  "fit": "contain"
+ },
+ "dev-appletv": {
+  "file": "iptv/devices/hero-apple-tv.webp",
+  "alt": {
+   "en": "Illustration of a streaming box with remote",
+   "de": "Illustration einer Streaming-Box mit Fernbedienung"
+  },
+  "fit": "contain"
+ },
+ "dev-lg": {
+  "file": "iptv/devices/hero-lg-tv.webp",
+  "alt": {
+   "en": "Illustration of a smart TV interface",
+   "de": "Illustration einer Smart-TV-Oberfläche"
+  },
+  "fit": "contain"
+ },
+ "dev-samsung": {
+  "file": "iptv/devices/hero-samsung-tv.webp",
+  "alt": {
+   "en": "Illustration of a smart TV with app tiles",
+   "de": "Illustration eines Smart-TVs mit App-Kacheln"
+  },
+  "fit": "contain"
+ },
+ "dev-mag": {
+  "file": "iptv/devices/hero-mag-box.webp",
+  "alt": {
+   "en": "Illustration of an IPTV set-top box with remote",
+   "de": "Illustration einer IPTV-Set-Top-Box mit Fernbedienung"
+  },
+  "fit": "contain"
+ },
+ "dev-windows": {
+  "file": "iptv/devices/hero-windows-mac.webp",
+  "alt": {
+   "en": "Illustration of a laptop with app tiles",
+   "de": "Illustration eines Laptops mit App-Kacheln"
+  },
+  "fit": "contain"
+ },
+ "dev-phone": {
+  "file": "iptv/devices/hero-android-handy.webp",
+  "alt": {
+   "en": "Illustration of a phone and tablet showing app tiles",
+   "de": "Illustration von Smartphone und Tablet mit App-Kacheln"
+  },
+  "fit": "contain"
+ },
+ "photo-firestick": {
+  "file": "iptv/devices/iptv-fire-stick.webp",
+  "alt": {
+   "en": "Streaming stick plugged into the back of a TV",
+   "de": "Streaming-Stick am Fernseher angeschlossen"
+  }
+ },
+ "photo-androidtv": {
+  "file": "iptv/devices/iptv-android-tv.webp",
+  "alt": {
+   "en": "Remote control pointed at a smart TV home screen",
+   "de": "Fernbedienung vor dem Startbildschirm eines Smart-TVs"
+  }
+ },
+ "photo-appletv": {
+  "file": "iptv/devices/iptv-apple-tv.webp",
+  "alt": {
+   "en": "Streaming box and remote on a white shelf below a TV",
+   "de": "Streaming-Box und Fernbedienung auf einem weißen Regal unter dem Fernseher"
+  }
+ },
+ "photo-phone": {
+  "file": "iptv/devices/iptv-android-handy.webp",
+  "alt": {
+   "en": "Hand holding a phone with a streaming app",
+   "de": "Hand mit Smartphone und Streaming-App"
+  }
+ },
+ "photo-ipad": {
+  "file": "iptv/devices/iptv-iphone-ipad.webp",
+  "alt": {
+   "en": "TV, tablet and phone showing the same streaming app",
+   "de": "Fernseher, Tablet und Smartphone mit derselben Streaming-App"
+  }
+ },
+ "photo-lg": {
+  "file": "iptv/devices/iptv-lg-tv-einrichtung.webp",
+  "alt": {
+   "en": "Wall-mounted TV in a bright living room",
+   "de": "Wandmontierter Fernseher in einem hellen Wohnzimmer"
+  }
+ },
+ "photo-samsung": {
+  "file": "iptv/devices/iptv-samsung-tv-einrichtung.webp",
+  "alt": {
+   "en": "Large TV with a colourful home screen above a media console",
+   "de": "Großer Fernseher mit farbigem Startbildschirm über einem Sideboard"
+  }
+ },
+ "photo-windows": {
+  "file": "iptv/devices/iptv-windows-mac.webp",
+  "alt": {
+   "en": "Laptop, tablet and phone on a wooden table in front of a TV",
+   "de": "Laptop, Tablet und Smartphone auf einem Holztisch vor dem Fernseher"
+  }
+ },
+ "setup-install": {
+  "file": "iptv/setup/iptv-installieren.webp",
+  "alt": {
+   "en": "TV with a Wi-Fi signal icon during installation",
+   "de": "Fernseher mit WLAN-Symbol bei der Installation"
+  }
+ },
+ "setup-steps": {
+  "file": "iptv/setup/iptv-einrichten.webp",
+  "alt": {
+   "en": "Three setup steps: configure, connect, play",
+   "de": "Drei Einrichtungsschritte: konfigurieren, verbinden, abspielen"
+  }
+ },
+ "setup-epg": {
+  "file": "iptv/setup/iptv-epg.webp",
+  "alt": {
+   "en": "Programme guide grid with a highlighted channel",
+   "de": "Programmführer-Raster mit markiertem Sender"
+  }
+ },
+ "setup-network": {
+  "file": "iptv/setup/iptv-heimnetzwerk.webp",
+  "alt": {
+   "en": "Router connected to TV, laptop, phone and tablet",
+   "de": "Router verbunden mit Fernseher, Laptop, Smartphone und Tablet"
+  }
+ },
+ "setup-m3u": {
+  "file": "iptv/setup/iptv-m3u.webp",
+  "alt": {
+   "en": "Playlist rows with one selected stream",
+   "de": "Playlist-Zeilen mit einem ausgewählten Stream"
+  }
+ },
+ "guide-4k": {
+  "file": "iptv/guides/iptv-4k.webp",
+  "alt": {
+   "en": "4K TV with a colourful picture in a dark room",
+   "de": "4K-Fernseher mit farbigem Bild im dunklen Raum"
+  }
+ },
+ "guide-howto": {
+  "file": "iptv/guides/iptv-anleitung.webp",
+  "alt": {
+   "en": "Checklist card illustration",
+   "de": "Illustration einer Checkliste"
+  }
+ },
+ "guide-privacy": {
+  "file": "iptv/guides/iptv-datenschutz.webp",
+  "alt": {
+   "en": "Padlock over a circuit pattern",
+   "de": "Vorhängeschloss über einem Schaltkreis-Muster"
+  }
+ },
+ "guide-legal": {
+  "file": "iptv/guides/iptv-legal-deutschland.webp",
+  "alt": {
+   "en": "Scales of justice illustration",
+   "de": "Illustration einer Waage der Gerechtigkeit"
+  }
+ },
+ "guide-channels": {
+  "file": "iptv/guides/iptv-sender.webp",
+  "alt": {
+   "en": "Hexagon pattern of play buttons representing channels",
+   "de": "Sechseck-Muster aus Play-Symbolen als Sinnbild für Sender"
+  }
+ },
+ "guide-security": {
+  "file": "iptv/guides/iptv-sicherheit.webp",
+  "alt": {
+   "en": "Shield with a padlock",
+   "de": "Schild mit Vorhängeschloss"
+  }
+ },
+ "guide-tvguide": {
+  "file": "iptv/guides/iptv-tv-guide.webp",
+  "alt": {
+   "en": "TV guide grid with a selected programme",
+   "de": "Programmführer-Raster mit ausgewählter Sendung"
+  }
+ },
+ "sport-bundesliga": {
+  "file": "iptv/sports/iptv-bundesliga.webp",
+  "alt": {
+   "en": "Football stadium shown on a TV in a dark room",
+   "de": "Fußballstadion auf dem Fernseher im abgedunkelten Raum"
+  }
+ },
+ "sport-football": {
+  "file": "iptv/sports/iptv-fussball.webp",
+  "alt": {
+   "en": "Football match on a wall-mounted TV",
+   "de": "Fußballspiel auf einem wandmontierten Fernseher"
+  }
+ },
+ "sport-generic": {
+  "file": "iptv/sports/iptv-sport.webp",
+  "alt": {
+   "en": "Live football match on a large TV in a home cinema",
+   "de": "Live-Fußballspiel auf einem großen Fernseher im Heimkino"
+  }
+ },
+ "sport-nfl": {
+  "file": "packimages2/lucid-origin_American_football_stadium_at_night_quarterback_about_to_throw_linemen_in_motion_-0.webp",
+  "dest": "sport-nfl.webp",
+  "alt": {
+   "en": "American football quarterback about to throw under stadium lights",
+   "de": "American-Football-Quarterback kurz vor dem Wurf unter Flutlicht"
+  }
+ },
+ "sport-nba": {
+  "file": "packimages2/lucid-origin_Basketball_arena_a_player_in_generic_plain_jersey_dunking_dramatic_spotlights_a_-0.webp",
+  "dest": "sport-nba.webp",
+  "alt": {
+   "en": "Basketball player dunking in an arena with spotlights",
+   "de": "Basketballspieler beim Dunking in einer Arena mit Scheinwerfern"
+  }
+ },
+ "sport-boxing": {
+  "file": "packimages2/lucid-origin_Fighter_in_a_boxing_ring_seen_from_behind_glove_raised_arena_lights_and_smoke_cr-0.webp",
+  "dest": "sport-boxing.webp",
+  "alt": {
+   "en": "Boxer with raised glove in a ring under arena lights",
+   "de": "Boxer mit erhobenem Handschuh im Ring unter Hallenlicht"
+  }
+ },
+ "sport-f1": {
+  "file": "packimages2/lucid-origin_Formula-style_open-wheel_racing_car_at_night_on_a_city_circuit_motion_blur_neon_-0.webp",
+  "dest": "sport-f1.webp",
+  "alt": {
+   "en": "Open-wheel racing car at night with motion blur",
+   "de": "Formelwagen bei Nacht mit Bewegungsunschärfe"
+  }
+ },
+ "sport-baseball": {
+  "file": "packimages2/Gemini_Generated_Image_d1j3efd1j3efd1j3.webp",
+  "dest": "sport-baseball.webp",
+  "alt": {
+   "en": "Baseball game in a full stadium at sunset",
+   "de": "Baseballspiel in einem vollen Stadion bei Sonnenuntergang"
+  }
+ },
+ "sport-striker": {
+  "file": "packimages2/soccer-striker.webp",
+  "alt": {
+   "en": "Footballer striking the ball under floodlights",
+   "de": "Fußballer schießt den Ball unter Flutlicht"
+  }
+ },
+ "sport-stadium": {
+  "file": "packimages2/soccer-stadium.webp",
+  "alt": {
+   "en": "Football stadium under floodlights at night",
+   "de": "Fußballstadion bei Nacht unter Flutlicht"
+  }
+ },
+ "sport-living-us": {
+  "file": "packimages2/lucid-origin_Photorealistic_American_living_room_in_the_evening_a_group_of_friends_cheering_i-0.webp",
+  "dest": "sport-living-us.webp",
+  "alt": {
+   "en": "Friends cheering in front of a TV showing a game",
+   "de": "Freunde jubeln vor einem Fernseher mit Spielübertragung"
+  }
+ },
+ "sport-living-uk": {
+  "file": "packimages2/lucid-origin_Photorealistic_cozy_British_living_room_rainy_evening_visible_through_the_window-0.webp",
+  "dest": "sport-living-uk.webp",
+  "alt": {
+   "en": "Cosy living room on a rainy evening with a match on TV",
+   "de": "Gemütliches Wohnzimmer an einem Regenabend mit Spiel im Fernsehen"
+  }
+ },
+ "biz-providers": {
+  "file": "iptv/business/iptv-anbieter.webp",
+  "alt": {
+   "en": "Membership card with a shield on a dark screen",
+   "de": "Mitgliedskarte mit Schild auf einem dunklen Bildschirm"
+  }
+ },
+ "biz-trial": {
+  "file": "iptv/business/iptv-kostenlos-testen.webp",
+  "alt": {
+   "en": "Play button inside a circular glow",
+   "de": "Play-Symbol in einem leuchtenden Kreis"
+  }
+ },
+ "biz-pricing": {
+  "file": "iptv/business/iptv-preise.webp",
+  "alt": {
+   "en": "Three plan columns of increasing height",
+   "de": "Drei Tarifsäulen in aufsteigender Höhe"
+  }
+ },
+ "biz-support": {
+  "file": "iptv/business/iptv-support.webp",
+  "alt": {
+   "en": "Support agent with a headset at a workstation",
+   "de": "Support-Mitarbeiterin mit Headset am Arbeitsplatz"
+  }
+ },
+ "biz-compare": {
+  "file": "iptv/business/iptv-vergleich.webp",
+  "alt": {
+   "en": "Two devices side by side on a stage",
+   "de": "Zwei Geräte nebeneinander auf einer Bühne"
+  }
+ },
+ "biz-whatsapp": {
+  "file": "iptv/business/iptv-whatsapp-support.webp",
+  "alt": {
+   "en": "Chat bubbles illustrating messenger support",
+   "de": "Sprechblasen als Sinnbild für Messenger-Support"
+  }
+ },
+ "ts-nopicture": {
+  "file": "iptv/troubleshooting/iptv-kein-bild.webp",
+  "alt": {
+   "en": "Screen with a blocked-signal icon",
+   "de": "Bildschirm mit Kein-Signal-Symbol"
+  }
+ },
+ "ts-problems": {
+  "file": "iptv/troubleshooting/iptv-probleme.webp",
+  "alt": {
+   "en": "Warning triangle icon",
+   "de": "Warndreieck-Symbol"
+  }
+ },
+ "ts-connection": {
+  "file": "iptv/troubleshooting/iptv-verbindung.webp",
+  "alt": {
+   "en": "Wi-Fi signal icon",
+   "de": "WLAN-Signal-Symbol"
+  }
+ },
+ "infra-server": {
+  "file": "server-infra.webp",
+  "alt": {
+   "en": "Rows of illuminated server racks",
+   "de": "Reihen beleuchteter Server-Racks"
+  }
+ },
+ "infra-zerobuffer": {
+  "file": "zero-buffer.webp",
+  "alt": {
+   "en": "Streams of light representing fast data flow",
+   "de": "Lichtstreifen als Sinnbild für schnellen Datenfluss"
+  }
+ },
+ "infra-cloud": {
+  "file": "iptv-cloud-streaming.webp",
+  "alt": {
+   "en": "Cloud above a grid of servers",
+   "de": "Wolke über einem Server-Raster"
+  }
+ },
+ "infra-4k": {
+  "file": "anti-freeze-tech.webp",
+  "alt": {
+   "en": "4K chip at the centre of a circuit diagram",
+   "de": "4K-Chip im Zentrum eines Schaltplans"
+  }
+ },
+ "infra-vpn": {
+  "file": "vpn-shield.webp",
+  "alt": {
+   "en": "Shield with a padlock in a tunnel of light",
+   "de": "Schild mit Vorhängeschloss in einem Lichttunnel"
+  }
+ },
+ "ui-apps": {
+  "file": "apps-dashboard.webp",
+  "alt": {
+   "en": "Streaming app dashboard on a TV in a dark living room",
+   "de": "Streaming-App-Übersicht auf dem Fernseher im dunklen Wohnzimmer"
+  }
+ },
+ "ui-vod": {
+  "file": "vod-dashboard.webp",
+  "alt": {
+   "en": "Movie and series library on a large TV",
+   "de": "Film- und Serienbibliothek auf einem großen Fernseher"
+  }
+ },
+ "ui-cinema": {
+  "file": "home-cinema.webp",
+  "alt": {
+   "en": "Home cinema room showing a film",
+   "de": "Heimkino-Raum mit laufendem Film"
+  }
+ },
+ "ui-family": {
+  "file": "family-tv.webp",
+  "alt": {
+   "en": "Family on a sofa watching TV",
+   "de": "Familie auf dem Sofa vor dem Fernseher"
+  }
+ },
+ "support-team": {
+  "file": "support-team.webp",
+  "alt": {
+   "en": "Support agent with a headset at a desk",
+   "de": "Support-Mitarbeiterin mit Headset am Schreibtisch"
+  }
+ },
+ "og-base": {
+  "file": "iptv/social/4kdeutsch-streaming.webp",
+  "alt": {
+   "en": "Dark living room with a TV showing a streaming guide",
+   "de": "Dunkles Wohnzimmer mit Fernseher und Streaming-Übersicht"
+  }
+ },
+ "prod-firestick": {
+  "file": "firestick.webp",
+  "alt": {
+   "en": "Amazon Fire TV Stick with remote",
+   "de": "Amazon Fire TV Stick mit Fernbedienung"
+  }
+ },
+ "prod-firecube": {
+  "file": "devices/products/fire-tv-cube.webp",
+  "dest": "prod-firecube.webp",
+  "alt": {
+   "en": "Amazon Fire TV Cube",
+   "de": "Amazon Fire TV Cube"
+  }
+ },
+ "prod-appletv": {
+  "file": "appletv.webp",
+  "alt": {
+   "en": "Apple TV box with remote",
+   "de": "Apple-TV-Box mit Fernbedienung"
+  }
+ },
+ "prod-shield": {
+  "file": "devices/products/nvidia-shield.webp",
+  "dest": "prod-shield.webp",
+  "alt": {
+   "en": "NVIDIA Shield TV with remote",
+   "de": "NVIDIA Shield TV mit Fernbedienung"
+  }
+ },
+ "prod-androidbox": {
+  "file": "devices/products/android-tv-box.webp",
+  "dest": "prod-androidbox.webp",
+  "alt": {
+   "en": "Android TV box with remote",
+   "de": "Android-TV-Box mit Fernbedienung"
+  }
+ },
+ "prod-formuler": {
+  "file": "devices/products/formuler-box.webp",
+  "dest": "prod-formuler.webp",
+  "alt": {
+   "en": "Formuler IPTV box",
+   "de": "Formuler-IPTV-Box"
+  }
+ },
+ "prod-mag": {
+  "file": "mag.webp",
+  "alt": {
+   "en": "MAG IPTV set-top box",
+   "de": "MAG-IPTV-Set-Top-Box"
+  }
+ },
+ "prod-roku": {
+  "file": "roku.webp",
+  "alt": {
+   "en": "Roku streaming stick with remote",
+   "de": "Roku-Streaming-Stick mit Fernbedienung"
+  }
+ },
+ "prod-chromecast": {
+  "file": "chromecast.webp",
+  "alt": {
+   "en": "Cast icon",
+   "de": "Cast-Symbol"
+  }
+ },
+ "prod-samsung": {
+  "file": "samsungsmarttv.webp",
+  "alt": {
+   "en": "Samsung smart TV",
+   "de": "Samsung Smart-TV"
+  }
+ },
+ "prod-lg": {
+  "file": "LG TV (webOS).webp",
+  "dest": "prod-lg-webos.webp",
+  "alt": {
+   "en": "LG webOS smart TV",
+   "de": "LG webOS Smart-TV"
+  }
+ },
+ "prod-hisense": {
+  "file": "Hisense TV.webp",
+  "dest": "prod-hisense.webp",
+  "alt": {
+   "en": "Hisense smart TV",
+   "de": "Hisense Smart-TV"
+  }
+ },
+ "prod-tcl": {
+  "file": "TCL TV.webp",
+  "dest": "prod-tcl.webp",
+  "alt": {
+   "en": "TCL smart TV",
+   "de": "TCL Smart-TV"
+  }
+ },
+ "prod-sony": {
+  "file": "Sony TV (Google TV).webp",
+  "dest": "prod-sony.webp",
+  "alt": {
+   "en": "Sony Google TV",
+   "de": "Sony Google TV"
+  }
+ },
+ "prod-othertv": {
+  "file": "other Smart TV.webp",
+  "dest": "prod-othertv.webp",
+  "alt": {
+   "en": "Other smart TV models",
+   "de": "Weitere Smart-TV-Modelle"
+  }
+ },
+ "prod-ipad": {
+  "file": "iPad.webp",
+  "dest": "prod-ipad.webp",
+  "alt": {
+   "en": "iPad tablets",
+   "de": "iPad-Tablets"
+  }
+ },
+ "prod-iphone": {
+  "file": "iphone17.webp",
+  "alt": {
+   "en": "iPhone models",
+   "de": "iPhone-Modelle"
+  }
+ },
+ "prod-android-phones": {
+  "file": "androidphones.webp",
+  "alt": {
+   "en": "Android phones",
+   "de": "Android-Smartphones"
+  }
+ },
+ "prod-firetablet": {
+  "file": "Fire Tablet.webp",
+  "dest": "prod-firetablet.webp",
+  "alt": {
+   "en": "Fire tablet",
+   "de": "Fire-Tablet"
+  }
+ },
+ "prod-windows": {
+  "file": "windowspc.webp",
+  "alt": {
+   "en": "Windows laptop",
+   "de": "Windows-Laptop"
+  }
+ },
+ "prod-mac": {
+  "file": "macos.webp",
+  "alt": {
+   "en": "MacBook",
+   "de": "MacBook"
+  }
+ },
+ "prod-playstation": {
+  "file": "PlayStation.webp",
+  "alt": {
+   "en": "PlayStation console",
+   "de": "PlayStation-Konsole"
+  }
+ },
+ "prod-xbox": {
+  "file": "Xbox.webp",
+  "alt": {
+   "en": "Xbox console",
+   "de": "Xbox-Konsole"
+  }
+ },
+ "logo-tivimate": {
+  "file": "Tivimate-app-logo.webp",
+  "alt": {
+   "en": "TiviMate logo",
+   "de": "TiviMate-Logo"
+  }
+ },
+ "logo-ibo": {
+  "file": "Ibo-Player-Pro-app-logo.webp",
+  "alt": {
+   "en": "IBO Player Pro logo",
+   "de": "IBO-Player-Pro-Logo"
+  }
+ },
+ "logo-smartiptv": {
+  "file": "Smart-IPTV-app-logo.webp",
+  "alt": {
+   "en": "Smart IPTV logo",
+   "de": "Smart-IPTV-Logo"
+  }
+ },
+ "logo-smartstb": {
+  "file": "Smart-STB-app-logo.webp",
+  "alt": {
+   "en": "Smart STB logo",
+   "de": "Smart-STB-Logo"
+  }
+ },
+ "logo-hotplayer": {
+  "file": "Hot-Player-app-logo.webp",
+  "alt": {
+   "en": "Hot Player logo",
+   "de": "Hot-Player-Logo"
+  }
+ },
+ "pay-visa": {
+  "file": "visa-logo.webp",
+  "alt": {
+   "en": "Visa",
+   "de": "Visa"
+  }
+ },
+ "pay-mastercard": {
+  "file": "mastercard-logo.webp",
+  "alt": {
+   "en": "Mastercard",
+   "de": "Mastercard"
+  }
+ },
+ "pay-paypal": {
+  "file": "paypal-logo.webp",
+  "alt": {
+   "en": "PayPal",
+   "de": "PayPal"
+  }
+ },
+ "pay-applepay": {
+  "file": "apple-pay-logo.webp",
+  "alt": {
+   "en": "Apple Pay",
+   "de": "Apple Pay"
+  }
+ },
+ "pay-googlepay": {
+  "file": "google-pay-logo.webp",
+  "alt": {
+   "en": "Google Pay",
+   "de": "Google Pay"
+  }
+ },
+ "pay-crypto": {
+  "file": "crypto-logo.webp",
+  "alt": {
+   "en": "Bitcoin",
+   "de": "Bitcoin"
+  }
+ },
+ "au-nrl": {
+  "file": "5403.webp",
+  "dest": "au-nrl.webp",
+  "alt": {
+   "en": "NRL players in team kits",
+   "de": "NRL-Spieler in Teamtrikots"
+  }
+ },
+ "au-cricket": {
+  "file": "cricket-ashes.webp",
+  "dest": "au-cricket.webp",
+  "alt": {
+   "en": "Cricket match with fielders crouching behind the wicket",
+   "de": "Cricket-Spiel mit Feldspielern hinter dem Wicket"
+  }
+ },
+ "au-afl": {
+  "file": "playing-rules-scaled-1.webp",
+  "alt": {
+   "en": "AFL players jumping for a mark",
+   "de": "AFL-Spieler im Sprung um den Ball"
+  }
+ },
+ "au-nbl": {
+  "file": "nbl-basketball.webp",
+  "alt": {
+   "en": "Basketball player at the hoop",
+   "de": "Basketballspieler am Korb"
+  }
+ },
+ "au-f1": {
+  "file": "formula-1-aus.webp",
+  "alt": {
+   "en": "Formula 1 car on track",
+   "de": "Formel-1-Wagen auf der Strecke"
+  }
+ },
+ "au-stadium": {
+  "file": "afl-nrl-stadium.webp",
+  "alt": {
+   "en": "Football stadium under floodlights",
+   "de": "Fußballstadion unter Flutlicht"
+  }
+ },
+ "sport-ufc": {
+  "file": "ufc-boxing-main-event.webp",
+  "alt": {
+   "en": "Fighter in the ring under arena lights",
+   "de": "Kämpfer im Ring unter Hallenlicht"
+  }
+ },
+ "sport-ufc-poster": {
+  "file": "photo_2025-08-23_12-37-32_cleanup.webp",
+  "alt": {
+   "en": "Fight night poster collage",
+   "de": "Poster-Collage eines Kampfabends"
+  }
+ },
+ "sport-premier": {
+  "file": "premier-league-soccer.webp",
+  "alt": {
+   "en": "Football match on a TV in a green-lit room",
+   "de": "Fußballspiel auf dem Fernseher im grün beleuchteten Raum"
+  }
+ },
+ "sport-cricket-alt": {
+  "file": "cricket-iptv-australia-sports.webp",
+  "dest": "sport-cricket-alt.webp",
+  "alt": {
+   "en": "Cricket match in progress",
+   "de": "Laufendes Cricket-Spiel"
+  }
+ },
+ "gen-trial": {
+  "file": "packimages2/Gemini_Generated_Image_932c5932c5932c59.webp",
+  "dest": "gen-trial.webp",
+  "alt": {
+   "en": "Play button with a clock and gift ribbon",
+   "de": "Play-Symbol mit Uhr und Geschenkband"
+  }
+ },
+ "gen-pay": {
+  "file": "packimages2/Gemini_Generated_Image_68n0o968n0o968n0.webp",
+  "dest": "gen-pay.webp",
+  "alt": {
+   "en": "Phone with shield protecting card payments",
+   "de": "Smartphone mit Schutzschild für sichere Zahlung"
+  }
+ },
+ "gen-sport-devices": {
+  "file": "packimages2/Gemini_Generated_Image_9gszvc9gszvc9gsz.webp",
+  "dest": "gen-sport-devices.webp",
+  "alt": {
+   "en": "Sport on a TV, tablet and phone",
+   "de": "Sport auf Fernseher, Tablet und Smartphone"
+  }
+ },
+ "gen-stick": {
+  "file": "packimages2/Gemini_Generated_Image_9kcsd19kcsd19kcs.webp",
+  "dest": "gen-stick.webp",
+  "alt": {
+   "en": "Streaming stick beside a TV",
+   "de": "Streaming-Stick neben dem Fernseher"
+  }
+ },
+ "gen-support": {
+  "file": "packimages2/Gemini_Generated_Image_ajzn75ajzn75ajzn.webp",
+  "dest": "gen-support.webp",
+  "alt": {
+   "en": "Support agent with a headset in a bright office",
+   "de": "Support-Mitarbeiterin mit Headset im hellen Büro"
+  }
+ },
+ "gen-dashboard": {
+  "file": "packimages2/Gemini_Generated_Image_cavt4dcavt4dcavt.webp",
+  "dest": "gen-dashboard.webp",
+  "alt": {
+   "en": "TV showing a channel and movie dashboard",
+   "de": "Fernseher mit Sender- und Film-Übersicht"
+  }
+ },
+ "gen-box": {
+  "file": "packimages2/Gemini_Generated_Image_razn6trazn6trazn.webp",
+  "dest": "gen-box.webp",
+  "alt": {
+   "en": "Streaming box and remote on a dark surface",
+   "de": "Streaming-Box und Fernbedienung auf dunklem Untergrund"
+  }
+ },
+ "gen-wall-tv": {
+  "file": "packimages2/Gemini_Generated_Image_t9inzdt9inzdt9in.webp",
+  "dest": "gen-wall-tv.webp",
+  "alt": {
+   "en": "Colourful TV on a living-room wall",
+   "de": "Farbiger Fernseher an der Wohnzimmerwand"
+  }
+ },
+ "gen-laptop": {
+  "file": "packimages2/Gemini_Generated_Image_vqwd0ovqwd0ovqwd.webp",
+  "dest": "gen-laptop.webp",
+  "alt": {
+   "en": "Laptop with a dashboard on a desk",
+   "de": "Laptop mit Dashboard auf dem Schreibtisch"
+  }
+ },
+ "gen-trial-neon": {
+  "file": "packimages2/Streaming 24_7 en lumière néon.webp",
+  "dest": "gen-trial-neon.webp",
+  "alt": {
+   "en": "Streaming interface with clock and ribbon",
+   "de": "Streaming-Oberfläche mit Uhr und Schleife"
+  }
+ },
+ "gen-friends": {
+  "file": "packimages2/friends-cheering.webp",
+  "dest": "gen-friends.webp",
+  "alt": {
+   "en": "Friends cheering in front of a TV",
+   "de": "Freunde jubeln vor dem Fernseher"
+  }
+ },
+ "gen-tv-cinema": {
+  "file": "packimages2/lucid-origin_Photorealistic_wide_shot_of_a_modern_living_room_at_night_with_a_large_65-inch_4-0.webp",
+  "dest": "gen-tv-cinema.webp",
+  "alt": {
+   "en": "Large TV in a dark living room",
+   "de": "Großer Fernseher im dunklen Wohnzimmer"
+  }
+ },
+ "scene-premium": {
+  "file": "iptv-premium-abo.webp",
+  "alt": {
+   "en": "Membership card with shield on a dark screen",
+   "de": "Mitgliedskarte mit Schild auf dunklem Bildschirm"
+  }
+ },
+ "scene-multi": {
+  "file": "iptv-multi-geraete.webp",
+  "alt": {
+   "en": "Several devices streaming at once",
+   "de": "Mehrere Geräte streamen gleichzeitig"
+  }
+ },
+ "scene-family": {
+  "file": "iptv-familie-fernsehen.webp",
+  "alt": {
+   "en": "Family on a sofa in front of a green-lit TV wall",
+   "de": "Familie auf dem Sofa vor einer grün beleuchteten TV-Wand"
+  }
+ },
+ "scene-heimkino": {
+  "file": "iptv-heimkino.webp",
+  "alt": {
+   "en": "Home cinema with a film on screen",
+   "de": "Heimkino mit Film auf dem Bildschirm"
+  }
+ },
+ "scene-live": {
+  "file": "iptv-live-tv-wohnzimmer.webp",
+  "alt": {
+   "en": "Live TV dashboard in a dark living room",
+   "de": "Live-TV-Übersicht im dunklen Wohnzimmer"
+  }
+ },
+ "scene-ipad": {
+  "file": "iptv-ipad-pro.webp",
+  "alt": {
+   "en": "Tablet with a streaming app",
+   "de": "Tablet mit Streaming-App"
+  }
+ },
+ "scene-iphone": {
+  "file": "iptv-iphone.webp",
+  "alt": {
+   "en": "Phone with a streaming app on a dark desk",
+   "de": "Smartphone mit Streaming-App auf dunklem Schreibtisch"
+  }
+ },
+ "scene-macbook": {
+  "file": "iptv-macbook-pro.webp",
+  "alt": {
+   "en": "Laptop with a streaming dashboard",
+   "de": "Laptop mit Streaming-Übersicht"
+  }
+ },
+ "scene-4k": {
+  "file": "iptv-4k-qualitaet.webp",
+  "alt": {
+   "en": "Colourful 4K TV in a green-lit room",
+   "de": "Farbiger 4K-Fernseher im grün beleuchteten Raum"
+  }
+ },
+ "scene-tech": {
+  "file": "iptv-streaming-technologie.webp",
+  "alt": {
+   "en": "4K chip on a circuit diagram",
+   "de": "4K-Chip auf einem Schaltplan"
+  }
+ },
+ "scene-nobuffer": {
+  "file": "iptv-ohne-buffering-illustration.webp",
+  "alt": {
+   "en": "Light streaks representing fast streaming",
+   "de": "Lichtstreifen als Sinnbild für schnelles Streaming"
+  }
+ },
+ "scene-server": {
+  "file": "iptv-server-infrastruktur.webp",
+  "alt": {
+   "en": "Row of lit server racks",
+   "de": "Reihe beleuchteter Server-Racks"
+  }
+ },
+ "scene-install": {
+  "file": "iptv-installation-anleitung.webp",
+  "alt": {
+   "en": "TV with a router and Wi-Fi icon",
+   "de": "Fernseher mit Router und WLAN-Symbol"
+  }
+ },
+ "scene-background": {
+  "file": "iptv-hintergrund-abstrakt.webp",
+  "alt": {
+   "en": "Abstract green wave background",
+   "de": "Abstrakter grüner Wellenhintergrund"
+  }
+ },
+ "scene-tech-bg": {
+  "file": "iptv-tech-hintergrund.webp",
+  "alt": {
+   "en": "Abstract green wave",
+   "de": "Abstrakte grüne Welle"
+  }
+ },
+ "scene-support": {
+  "file": "iptv-support-team.webp",
+  "alt": {
+   "en": "Support agent with a headset",
+   "de": "Support-Mitarbeiterin mit Headset"
+  }
+ },
+ "scene-entertainment": {
+  "file": "iptv-entertainment-dashboard.webp",
+  "alt": {
+   "en": "Entertainment dashboard on a wall-mounted screen",
+   "de": "Unterhaltungs-Übersicht auf einem Wandbildschirm"
+  }
+ },
+ "scene-securepay": {
+  "file": "iptv-sichere-zahlung.webp",
+  "alt": {
+   "en": "Padlock on a circuit pattern",
+   "de": "Schloss auf einem Schaltkreis-Muster"
+  }
+ },
+ "scene-editorial": {
+  "file": "iptv-streaming-editorial.webp",
+  "alt": {
+   "en": "Streaming tips illustration",
+   "de": "Illustration mit Streaming-Tipps"
+  }
+ },
+ "scene-howitworks": {
+  "file": "wie-funktioniert-iptv.webp",
+  "alt": {
+   "en": "Diagram of how IPTV delivers channels to devices",
+   "de": "Schaubild: So liefert IPTV Sender auf Geräte"
+  }
+ },
+ "avatar-1": {
+  "file": "revriw/avatars/avatar-1.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-2": {
+  "file": "revriw/avatars/avatar-2.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-3": {
+  "file": "revriw/avatars/avatar-3.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-4": {
+  "file": "revriw/avatars/avatar-4.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-5": {
+  "file": "revriw/avatars/avatar-5.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-6": {
+  "file": "revriw/avatars/avatar-6.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-7": {
+  "file": "revriw/avatars/avatar-7.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-8": {
+  "file": "revriw/avatars/avatar-8.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "avatar-9": {
+  "file": "revriw/avatars/avatar-9.webp",
+  "alt": {
+   "en": "Customer profile photo",
+   "de": "Kundenprofilbild"
+  }
+ },
+ "rev-photo-anna": {
+  "file": "revriw/pexels-anna-nekrashevich-6801642.webp",
+  "alt": {
+   "en": "Satisfied streaming user at home",
+   "de": "Zufriedene Streaming-Nutzerin zu Hause"
+  }
+ },
+ "rev-photo-helena": {
+  "file": "revriw/pexels-helenalopes-27086758.webp",
+  "alt": {
+   "en": "Happy sports streaming subscriber",
+   "de": "Begeisterter Sport-Streaming-Abonnent"
+  }
+ },
+ "rev-photo-kelly": {
+  "file": "revriw/pexels-kelly-3812011.webp",
+  "alt": {
+   "en": "Family TV streaming review",
+   "de": "Familie beim gemeinsamen Fernsehabend"
+  }
+ },
+ "rev-photo-pixabay": {
+  "file": "revriw/pexels-pixabay-262391.webp",
+  "alt": {
+   "en": "Ultra HD streaming setup review",
+   "de": "Ultra HD Streaming Bewertung"
+  }
+ },
+ "rev-photo-haopeng": {
+  "file": "revriw/pexels-hao-peng-2148478861-30976004.webp",
+  "alt": {
+   "en": "Smart TV streaming customer",
+   "de": "Smart TV Streaming Kunde"
+  }
+ },
+ "rev-photo-andreas": {
+  "file": "revriw/pexels-andreas-suwardy-2152085739-39131498.webp",
+  "alt": {
+   "en": "Customer enjoying 4K live sports",
+   "de": "Kunde genießt 4K Live-Sport"
+  }
+ },
+ "pay-safe-banner": {
+  "file": "safe-payment.webp",
+  "alt": {
+   "en": "Secure encrypted checkout and payment methods",
+   "de": "Sichere verschlüsselte Zahlungsmethoden"
+  }
+ },
+ "pay-visa-logo": {
+  "file": "Visa_Inc._logo_(2005–2014).svg.webp",
+  "dest": "pay-visa-badge.webp",
+  "alt": {
+   "en": "Visa payment accepted",
+   "de": "Visa Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "pay-mastercard-logo": {
+  "file": "Mastercard-logo.svg.webp",
+  "dest": "pay-mastercard-badge.webp",
+  "alt": {
+   "en": "Mastercard payment accepted",
+   "de": "Mastercard Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "pay-paypal-logo": {
+  "file": "Paypal_2014_logo.webp",
+  "dest": "pay-paypal-badge.webp",
+  "alt": {
+   "en": "PayPal payment accepted",
+   "de": "PayPal Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "pay-applepay-logo": {
+  "file": "Apple_Pay_logo.svg.webp",
+  "dest": "pay-applepay-badge.webp",
+  "alt": {
+   "en": "Apple Pay accepted",
+   "de": "Apple Pay Zahlung akzeptiert"
+  },
+  "fit": "contain"
+ },
+ "scene-family-tv": {
+  "file": "home/family-watching-tv.webp",
+  "alt": {
+   "en": "Family enjoying live channels and movies together",
+   "de": "Familie genießt Live-Sender und Filme gemeinsam"
+  }
+ },
+ "scene-living-hero": {
+  "file": "home/living-room-hero.webp",
+  "alt": {
+   "en": "Modern ambient living room with 4K IPTV stream",
+   "de": "Modernes Wohnzimmer mit 4K IPTV Stream"
+  }
+ },
+ "scene-smart-living": {
+  "file": "home/smart-tv-living-room.webp",
+  "alt": {
+   "en": "Smart TV streaming sports and entertainment",
+   "de": "Smart-TV mit Live-Sport und Unterhaltung"
+  }
+ },
+ "scene-stream-remote": {
+  "file": "home/streaming-device-remote.webp",
+  "alt": {
+   "en": "Streaming remote control for instant channel zapping",
+   "de": "Fernbedienung für schnelles Umschalten"
+  }
+ },
+ "scene-screen-trio": {
+  "file": "home/tv-phone-tablet.webp",
+  "alt": {
+   "en": "Simultaneous streaming on TV, tablet and smartphone",
+   "de": "Paralleles Streaming auf TV, Tablet und Smartphone"
+  }
+ },
+ "scene-living-room": {
+  "file": "living-room-tv.webp",
+  "alt": {
+   "en": "Sleek living room television entertainment hub",
+   "de": "Modernes Fernseher-Unterhaltungssystem im Wohnzimmer"
+  }
+ },
+ "scene-frameless-tv": {
+  "file": "devices/frameless-smart-tv.webp",
+  "alt": {
+   "en": "Frameless 4K Smart TV with ultra-vivid colors",
+   "de": "Rahmenloser 4K Smart TV mit brillanten Farben"
+  }
+ },
+ "scene-smart-remote": {
+  "file": "devices/smart-tv-remote.webp",
+  "alt": {
+   "en": "User switching channels on modern smart TV",
+   "de": "Benutzer wechselt Sender auf modernem Smart-TV"
+  }
+ },
+ "scene-wall-tv": {
+  "file": "devices/smart-tv-wall.webp",
+  "alt": {
+   "en": "Wall-mounted OLED television running live IPTV",
+   "de": "Wandmontierter OLED-Fernseher mit Live-IPTV"
+  }
+ },
+ "scene-phone-stream": {
+  "file": "devices/smartphone-in-hand.webp",
+  "alt": {
+   "en": "Streaming live football match on mobile phone",
+   "de": "Live-Fußballspiel auf dem Smartphone streamen"
+  }
+ },
+ "scene-stick-screen": {
+  "file": "devices/streaming-stick-tv.webp",
+  "alt": {
+   "en": "Streaming stick connected to TV HDMI port",
+   "de": "Streaming-Stick am HDMI-Anschluss des Fernsehers"
+  }
+ },
+ "scene-multi-trio": {
+  "file": "devices/tv-tablet-phone.webp",
+  "alt": {
+   "en": "Multi-screen streaming across household devices",
+   "de": "Multi-Screen-Streaming auf allen Geräten"
+  }
+ },
+ "prod-fire-tablet": {
+  "file": "devices/products/fire-tablet.webp",
+  "dest": "prod-fire-tablet.webp",
+  "alt": {
+   "en": "Amazon Fire Tablet compatibility",
+   "de": "Amazon Fire Tablet Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-ipad-device": {
+  "file": "devices/products/ipad.webp",
+  "dest": "prod-ipad-device.webp",
+  "alt": {
+   "en": "Apple iPad tablet compatibility",
+   "de": "Apple iPad Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-iphone-device": {
+  "file": "devices/products/iphone.webp",
+  "dest": "prod-iphone-device.webp",
+  "alt": {
+   "en": "Apple iPhone mobile compatibility",
+   "de": "Apple iPhone Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-smart-tv-device": {
+  "file": "devices/products/smart-tv.webp",
+  "dest": "prod-smart-tv-device.webp",
+  "alt": {
+   "en": "Smart TV compatibility",
+   "de": "Smart-TV Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "prod-win-laptop": {
+  "file": "devices/products/windows-laptop.webp",
+  "dest": "prod-win-laptop.webp",
+  "alt": {
+   "en": "Windows laptop & PC compatibility",
+   "de": "Windows Laptop & PC Kompatibilität"
+  },
+  "fit": "contain"
+ },
+ "ui-beste-apps": {
+  "file": "beste-iptv-apps-dashboard.webp",
+  "alt": {
+   "en": "Top rated IPTV player apps dashboard comparison",
+   "de": "Beste IPTV Player-Apps Dashboard Übersicht"
+  }
+ },
+ "ui-google-dashboard": {
+  "file": "google-tv-dashboard.webp",
+  "alt": {
+   "en": "Google TV and Android TV home interface",
+   "de": "Google TV und Android TV Benutzeroberfläche"
+  }
+ },
+ "ui-iptv-apps-hub": {
+  "file": "iptv/apps/iptv-apps.webp",
+  "alt": {
+   "en": "Modern IPTV media player apps selection",
+   "de": "Moderne IPTV Media Player Apps Auswahl"
+  }
+ },
+ "ui-google-iptv": {
+  "file": "iptv-google-tv-dashboard.webp",
+  "alt": {
+   "en": "Google TV IPTV channel navigation guide",
+   "de": "Google TV IPTV Sendenavigation und EPG"
+  }
+ },
+ "ui-samsung-apps": {
+  "file": "iptv-samsung-app-store.webp",
+  "alt": {
+   "en": "Samsung Tizen App Store IPTV player search",
+   "de": "Samsung Tizen App Store IPTV Player Suche"
+  }
+ },
+ "sport-bundesliga-stadium": {
+  "file": "bundesliga-stadion.webp",
+  "alt": {
+   "en": "Packed Bundesliga football stadium under floodlights",
+   "de": "Ausverkauftes Bundesliga-Stadion unter Flutlicht"
+  }
+ },
+ "sport-fussball-live": {
+  "file": "fussball-streaming.webp",
+  "alt": {
+   "en": "Live European football streaming action in 4K",
+   "de": "Live-Fußball Streaming Übertragung in 4K"
+  }
+ },
+ "sport-cricket-aus": {
+  "file": "packimages2/cricket-iptv-australia-sports.webp",
+  "alt": {
+   "en": "Live international cricket match streaming",
+   "de": "Live Cricket-Match Übertragung"
+  }
+ },
+ "sport-sunset-stadium": {
+  "file": "packimages2/Lancer au coucher du soleil au stade.webp",
+  "alt": {
+   "en": "Sunset stadium match atmosphere",
+   "de": "Stadionatmosphäre bei Sonnenuntergang"
+  },
+  "dest": "stadium-sunset-match.webp"
+ },
+ "sport-stadium-night": {
+  "file": "packimages2/lucid-origin_Dramatic_wide_night_photo_of_a_packed_football_stadium_floodlights_green_pitch_p-0.webp",
+  "alt": {
+   "en": "Dramatic wide angle football arena at night",
+   "de": "Dramatische Nachtaufnahme einer Fußballarena"
+  }
+ },
+ "sport-football-strike": {
+  "file": "packimages2/lucid-origin_Epic_night_football_scene_from_low_angle_a_player_striking_the_ball_under_bright-0.webp",
+  "alt": {
+   "en": "Epic low angle football strike under stadium lights",
+   "de": "Epischer Torschuss unter Flutlicht"
+  }
+ },
+ "sport-playing-rules": {
+  "file": "packimages2/playing-rules-scaled-1.webp",
+  "alt": {
+   "en": "Live professional sports broadcast rules",
+   "de": "Professionelle Live-Sportübertragung"
+  }
+ },
+ "sport-iptv-streaming": {
+  "file": "iptv-sport-streaming.webp",
+  "alt": {
+   "en": "High bitrate buffer-free sports streaming",
+   "de": "Ruckelfreies Sport-Streaming mit hoher Bitrate"
+  }
+ },
+ "setup-androidtv-guide": {
+  "file": "iptv-android-tv-setup.webp",
+  "alt": {
+   "en": "Android TV IPTV setup and installation steps",
+   "de": "Android TV IPTV Einrichtung und Installation"
+  }
+ },
+ "setup-appletv-guide": {
+  "file": "iptv-apple-tv-4k.webp",
+  "alt": {
+   "en": "Apple TV 4K IPTV player configuration guide",
+   "de": "Apple TV 4K IPTV Player Konfigurationsanleitung"
+  }
+ },
+ "setup-firestick-guide": {
+  "file": "iptv-fire-tv-stick.webp",
+  "alt": {
+   "en": "Amazon Fire TV Stick IPTV step-by-step setup",
+   "de": "Amazon Fire TV Stick IPTV Schritt-für-Schritt Anleitung"
+  }
+ },
+ "setup-lgtv-guide": {
+  "file": "iptv-lg-smart-tv.webp",
+  "alt": {
+   "en": "LG Smart TV webOS IPTV setup tutorial",
+   "de": "LG Smart TV webOS IPTV Einrichtungsanleitung"
+  }
+ },
+ "setup-samsung-guide": {
+  "file": "iptv-samsung-tv-setup.webp",
+  "alt": {
+   "en": "Samsung Smart TV Tizen IPTV configuration",
+   "de": "Samsung Smart TV Tizen IPTV Konfiguration"
+  }
+ },
+ "setup-winpc-guide": {
+  "file": "iptv-windows-pc.webp",
+  "alt": {
+   "en": "Windows PC & Mac IPTV VLC and player setup",
+   "de": "Windows PC & Mac IPTV VLC und Player Einrichtung"
+  }
+ },
+ "guide-de-hero": {
+  "file": "iptv-deutschland-hero.webp",
+  "alt": {
+   "en": "Premium IPTV streaming in Germany and Europe",
+   "de": "Premium IPTV Streaming in Deutschland und Europa"
+  }
+ },
+ "guide-de-ratgeber": {
+  "file": "iptv/blog/iptv-ratgeber.webp",
+  "alt": {
+   "en": "Complete IPTV buyer and setup guide",
+   "de": "Vollständiger IPTV Ratgeber und Kaufberater"
+  }
+ },
+ "info-cable-iptv": {
+  "file": "cable-vs-iptv.webp",
+  "alt": {
+   "en": "Traditional cable television vs modern IPTV comparison",
+   "de": "Traditionelles Kabelfernsehen im Vergleich zu modernem IPTV"
+  }
+ },
+ "info-anbieter-2026": {
+  "file": "iptv-anbieter-vergleich-2026.webp",
+  "alt": {
+   "en": "2026 IPTV provider comparison criteria and benchmark",
+   "de": "IPTV Anbieter Vergleich 2026 Testkriterien"
+  }
+ },
+ "info-vergleich-editorial": {
+  "file": "iptv-vergleich-editorial.webp",
+  "alt": {
+   "en": "Editorial review and comparison of IPTV services",
+   "de": "Redaktioneller Test und Vergleich von IPTV-Diensten"
+  }
+ },
+ "infra-vpn-guard": {
+  "file": "iptv-vpn-schutz.webp",
+  "alt": {
+   "en": "VPN protection and ISP throttling bypass",
+   "de": "VPN-Schutz und Umgehung von ISP-Drosselung"
+  }
+ },
+ "info-kabel-vs-iptv": {
+  "file": "iptv-vs-kabel-infografik.webp",
+  "alt": {
+   "en": "Cable vs IPTV cost and features infographic",
+   "de": "Kabel vs IPTV Kosten und Funktionsvergleich Infografik"
+  }
+ },
+ "info-provider-compare": {
+  "file": "provider-comparison.webp",
+  "alt": {
+   "en": "Direct comparison between IPTV providers and plans",
+   "de": "Direkter Vergleich zwischen IPTV Anbietern und Tarifen"
+  }
+ },
+ "guide-quality-4k-uhd": {
+  "file": "quality-4k.webp",
+  "alt": {
+   "en": "True 4K UHD 60fps streaming resolution comparison",
+   "de": "Echte 4K UHD 60fps Streaming Auflösung im Vergleich"
+  }
+ }
+}
