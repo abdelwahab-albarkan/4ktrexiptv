@@ -10,6 +10,7 @@ Disallow: /api/
 
 # Primary XML Sitemap Index
 Sitemap: ${SITE.url}/sitemap-index.xml
+Sitemap: ${SITE.url}/sitemap.xml
 Host: ${host}
 `;
 

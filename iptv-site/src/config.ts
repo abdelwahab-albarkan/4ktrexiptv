@@ -9,7 +9,7 @@ const COMMON = {
   orderUrl: `https://wa.me/${WHATSAPP}`,
   trialUrl: `https://wa.me/${WHATSAPP}?text=Hello%2C%20I%20would%20like%20to%20buy%20a%201-year%20subscription`,
   buy1YearUrl: `https://wa.me/${WHATSAPP}?text=Hello%2C%20I%20would%20like%20to%20buy%20a%201-year%20subscription`,
-  supportEmail: 'contact@4ktrexiptv.com',
+  supportEmail: 'support@streamb4.com',
   phone: '+212 625 218 443',
   social: {
     facebook: 'https://web.facebook.com/profile.php?id=61591545360371&_rdc=1&_rdr#',

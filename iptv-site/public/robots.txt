@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /*?*
+Disallow: /api/
 
+# Primary XML Sitemap Index
 Sitemap: https://4ktrexiptv.com/sitemap-index.xml
+Sitemap: https://4ktrexiptv.com/sitemap.xml
+Host: 4ktrexiptv.com

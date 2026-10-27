@@ -50,7 +50,11 @@ const org = {
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
-  {noindex && <meta name="robots" content="noindex,follow" />}
+  {noindex ? (
+    <meta name="robots" content="noindex, follow" />
+  ) : (
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  )}
   {hreflangs.map(h => (
     <link rel="alternate" hreflang={h.lang} href={h.href} />
   ))}
